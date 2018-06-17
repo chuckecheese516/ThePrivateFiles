@@ -506,6 +506,7 @@
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingQueue" /> -->
 			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
+			<window name="windowToolsCarpentryBench"/>
 			<window name="windowOutput2" />
 			<window name="windowNonPagingHeader" />
 		</window_group>

@@ -7750,5 +7750,23 @@
 		<property name="SleeperSmellWakeThreshold" value="40,100" />
 		<property name="NoiseAlertThreshold" value="30" />
 		<property name="SmellAlertThreshold" value="40" />	
-		</entity_class>		
+		</entity_class>	
+	<entity_class name="banditPrisoner01Head" extends="npcSDXMaleMeleeBanditTemplate">
+		<property name="Mesh" value="#RHBandits?banditPrisoner01Head" />
+		<property name="MaxHealth" value="585" />
+		<property name="AnimationIdle" value="Idle" />
+		<property name="AnimationSecondIdle" value="Idle2" />
+		<property name="AnimationMainAttack" value="Attack1" />
+		<property name="AnimationSecondAttack" value="Attack2" />
+		<property name="AnimationPain" value="Damage1" />
+		<property name="AnimationJump" value="Jump" />
+		<property name="AnimationDeath" value="Death" />
+		<property name="AnimationRun" value="Run" />
+		<property name="AnimationWalk" value="Walk" />
+		<property name="AnimationSpecialAttack" value="Attack3" />
+		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
+		<property name="ExperienceGain" value="355" />
+		<property name="HandItem" value="handBandit" />
+		<property name="TimeStayAfterDeath" value="6" />
+	</entity_class>		
 </entity_classes>

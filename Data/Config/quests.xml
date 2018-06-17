@@ -35,6 +35,7 @@
 	<!-- Basic Survival 4 - Acquiring Sticks and Wood /> -->
 	<quest id="quest_BasicSurvival4" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival4" subtitle="Acquiring Wood" subtitle_key="quest_BasicSurvival4_subtitle" description_key="quest_BasicSurvival4_description" 	icon="ui_game_symbol_hammer" category_key="quest" offer_key="quest_BasicSurvival_offer">
 		<objective type="FetchKeep" id="uncutwoodLog" value="30"/>
+		<objective type="BlockPlace" id="woodLog" value="3"/>
 		<objective type="Craft" id="wood" value="20"/>
 		<objective type="Craft" id="stick" value="10"/>
 		<reward type="Item" id="clubWood" value="150"/>
@@ -49,8 +50,13 @@
 		<reward type="Quest" id="quest_BasicSurvival6"/>
 		<reward type="Quest" id="quest_stonegrinder1"/>
 	</quest>
-	<!-- Basic Survival 6 - Craft Bow & Arrows /> -->
-	<quest id="quest_BasicSurvival6" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival6" subtitle_key="quest_BasicSurvival6_subtitle" description_key="quest_BasicSurvival6_description" icon="ui_game_symbol_archery" category_key="quest" difficulty="veryeasy">
+	<!-- Basic Survival 6 - Acquiring Stone /> -->
+	<quest id="quest_BasicSurvival6" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival6" subtitle="quest_BasicSurvival6" subtitle_key="quest_BasicSurvival6_subtitle" description_key="quest_BasicSurvival6_description" 	icon="ui_game_symbol_hammer" category_key="quest" offer_key="quest_BasicSurvival_offer">
+		<objective type="FetchKeep" id="rockSmall" value="15"/>
+		<reward type="Quest" id="quest_BasicSurvival7"/>
+	</quest>
+	<!-- Basic Survival 7 - Craft Bow & Arrows /> -->
+	<quest id="quest_BasicSurvival7" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival7" subtitle_key="quest_BasicSurvival7_subtitle" description_key="quest_BasicSurvival7_description" icon="ui_game_symbol_archery" category_key="quest" difficulty="veryeasy">
 		<objective type="FetchKeep" id="wood" value="10"/>
 		<objective type="FetchKeep" id="yuccaFibers" value="3"/>
 		<objective type="FetchKeep" id="feather" value="6"/>
@@ -59,11 +65,11 @@
 		<objective type="Craft" id="woodenBow" value="1"/>
 		<objective type="Craft" id="stoneArrowHead" value="6"/>
 		<objective type="Craft" id="arrow" value="6"/>
-		<reward type="Quest" id="quest_BasicSurvival7"/>
+		<reward type="Quest" id="quest_BasicSurvival8"/>
 		<reward type="Quest" id="quest_ammotable1"/>
 	</quest>
-	<!-- Basic Survival 7 - Start a Base /> -->
-	<quest id="quest_BasicSurvival7" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival7" subtitle_key="quest_BasicSurvival7_subtitle" description_key="quest_BasicSurvival7_description" icon="ui_game_symbol_map_house" category_key="quest" difficulty="veryeasy">
+	<!-- Basic Survival 8 - Start a Base /> -->
+	<quest id="quest_BasicSurvival8" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival8" subtitle_key="quest_BasicSurvival8_subtitle" description_key="quest_BasicSurvival8_description" icon="ui_game_symbol_map_house" category_key="quest" difficulty="veryeasy">
 		<objective type="FetchKeep" id="wood" value="6"/>
 		<objective type="FetchKeep" id="ironFragment" value="2"/>
 		<objective type="Craft" id="scrapIron" value="3"/>
@@ -71,52 +77,60 @@
 		<objective type="Craft" id="woodFrameBlock" value="3"/>
 		<objective type="BlockPlace" id="woodFrameBlock" value="3"/>
 		<objective type="BlockUpgrade" id="woodFrameBlock" value="3"/>
-		<reward type="Quest" id="quest_BasicSurvival8"/>
+		<reward type="Quest" id="quest_BasicSurvival9"/>
 		<reward type="Quest" id="quest_stationtools1"/>
 	</quest>
-	<!-- Basic Survival 8 - Build a Campfire /> -->
-	<quest id="quest_BasicSurvival8" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival8" subtitle_key="quest_BasicSurvival8_subtitle" description_key="quest_BasicSurvival8_description" icon="ui_game_symbol_campfire" category_key="quest" difficulty="veryeasy">
+	<!-- Basic Survival 9 - Build a Campfire /> -->
+	<quest id="quest_BasicSurvival9" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival9" subtitle_key="quest_BasicSurvival9_subtitle" description_key="quest_BasicSurvival9_description" icon="ui_game_symbol_campfire" category_key="quest" difficulty="veryeasy">
 		<objective type="FetchKeep" id="rockSmall" value="8"/>
 		<objective type="FetchKeep" id="coal" value="3"/>
 		<objective type="Craft" id="campfire" value="1"/>
 		<objective type="BlockPlace" id="campfire" value="1"/>
 		<reward type="Item" id="paper" value="16"/>
 		<reward type="Item" id="ductTape" value="1"/>
-		<reward type="Quest" id="quest_BasicSurvival9"/>
+		<reward type="Quest" id="quest_BasicSurvival10"/>
 		<reward type="Quest" id="quest_advancedCampfire"/>
 	</quest>
-	<!-- Basic Survival 9 - Create Storage /> -->
-	<quest id="quest_BasicSurvival9" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival9" subtitle_key="quest_BasicSurvival9_subtitle" description_key="quest_BasicSurvival9_description" icon="ui_game_symbol_map_house" category_key="quest" difficulty="veryeasy">
+	<!-- Basic Survival 10 - Create Storage /> -->
+	<quest id="quest_BasicSurvival10" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival10" subtitle_key="quest_BasicSurvival10_subtitle" description_key="quest_BasicSurvival10_description" icon="ui_game_symbol_map_house" category_key="quest" difficulty="veryeasy">
 		<objective type="FetchKeep" id="paper" value="16"/>
 		<objective type="FetchKeep" id="ductTape" value="1"/>
 		<objective type="Craft" id="cntCardboardBoxStorage" value="1"/>
 		<objective type="BlockPlace" id="cntCardboardBoxStorage" value="1"/>
 		<reward type="Item" id="flashlight02" value="200"/>
-		<reward type="Quest" id="quest_BasicSurvival10"/>
+		<reward type="Quest" id="quest_BasicSurvival11"/>
 	</quest>
-	<!-- Basic Survival 10 - Craft a Spear /> -->
-	<quest id="quest_BasicSurvival10" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival10" subtitle_key="quest_BasicSurvival10_subtitle" description_key="quest_BasicSurvival10_description" icon="ui_game_symbol_knife" category_key="quest" difficulty="veryeasy">
+	<!-- Basic Survival 11 - Craft a Spear /> -->
+	<quest id="quest_BasicSurvival11" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival11" subtitle_key="quest_BasicSurvival11_subtitle" description_key="quest_BasicSurvival11_description" icon="ui_game_symbol_knife" category_key="quest" difficulty="veryeasy">
 		<objective type="FetchKeep" id="wood" value="5"/>
 		<objective type="FetchKeep" id="rockSmall" value="3"/>
 		<objective type="FetchKeep" id="yuccaFibers" value="1"/>
 		<objective type="FetchKeep" id="stick" value="15"/>
 		<objective type="FetchKeep" id="stoneArrowHead" value="4"/>
 		<objective type="Craft" id="woodtippedSpear" value="1"/>
-		<reward type="Quest" id="quest_BasicSurvival11"/>
+		<reward type="Quest" id="quest_BasicSurvival12"/>
 		<reward type="Quest" id="quest_jaxhatesyou"/>
 	</quest>
-	<!-- Basic Survival 11 - Craft a Stone Shovel /> -->
-	<quest id="quest_BasicSurvival11" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival11" subtitle_key="quest_BasicSurvival11_subtitle" description_key="quest_BasicSurvival11_description" icon="ui_game_symbol_hammer" category_key="quest" difficulty="veryeasy">
+	<!-- Basic Survival 12 - Craft a Stone Shovel /> -->
+	<quest id="quest_BasicSurvival12" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival12" subtitle_key="quest_BasicSurvival12_subtitle" description_key="quest_BasicSurvival12_description" icon="ui_game_symbol_hammer" category_key="quest" difficulty="veryeasy">
 		<objective type="FetchKeep" id="yuccaFibers" value="3"/>
 		<objective type="FetchKeep" id="wood" value="3"/>
 		<objective type="FetchKeep" id="rockSmall" value="5"/>
 		<objective type="Craft" id="stoneShovel" value="1"/>
+		<reward type="Quest" id="quest_BasicSurvival13"/>
+	</quest>
+	<!-- Basic Survival 13 - Pick A Lock /> -->
+	<quest id="quest_BasicSurvival13" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival13" subtitle_key="quest_BasicSurvival13_subtitle" description_key="quest_BasicSurvival13_description" icon="ui_game_symbol_knife" category_key="quest" difficulty="veryeasy">
+		<objective type="FetchKeep" id="scrapIron" value="17"/>
+		<objective type="FetchKeep" id="cloth" value="5"/>
+		<objective type="Craft" id="CZLockPickKit01" value="1"/>
+		<objective type="Craft" id="CZlockpick01" value="1"/>
+		<objective type="BlockUpgrade" id="unlckResDoor" value="1"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="ShowTip" value="skillPointTip" stage="aftercomplete"/>
 		<reward type="Quest" id="quest_AdvancedSurvival1"/>
 	</quest>
-
 	<!-- Advanced Survival 1 - Kill an Animal and Craft a Bone Shiv /> -->
 	<quest id="quest_AdvancedSurvival1" group_name_key="quest_AdvancedSurvival" name_key="quest_AdvancedSurvival1" subtitle_key="quest_AdvancedSurvival1_subtitle"  description_key="quest_AdvancedSurvival1_description" icon="ui_game_symbol_hammer" category_key="quest" difficulty="medium">
 		<objective type="AnimalKill" value="3"/>
@@ -248,6 +262,8 @@
 		<objective type="FetchKeep" id="clawHammer" value="1"/>
 		<objective type="Craft" id="advancedWorkbench" value="1"/>
 		<objective type="BlockPlace" id="advancedWorkbench" value="1"/>
+		<reward type="Item" id="wrench" value="150"/>
+		<reward type="Item" id="clawHammer" value="150"/>
 		<reward type="Exp" value="1000"/>
 	</quest>
 	<!-- The Road to Concrete 1 - Craft a Stone Grinder /> -->
@@ -281,7 +297,7 @@
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_stonegrinder4"/>
 	</quest>
-	<!-- The Road to Concrete 2 - Craft Concrete Mix /> -->
+	<!-- The Road to Concrete 4 - Craft Concrete Mix /> -->
 	<quest id="quest_stonegrinder4" group_name_key="quest_stonegrinder" name_key="quest_stonegrinder4" subtitle_key="quest_stonegrinder4_subtitle"  description_key="quest_stonegrinder4_description" 	icon="ui_game_symbol_hammer" category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="cement" value="500"/>
 		<objective type="FetchKeep" id="bucketWater" value="1"/>
@@ -345,6 +361,7 @@
 		<objective type="FetchKeep" id="wood" value="10000"/>
 		<objective type="FetchKeep" id="clayLump" value="10000"/>
 		<objective type="FetchKeep" id="yuccaFibers" value="10000"/>
+		<reward type="Item" id="stoneHammer" value="150"/>
 		<reward type="Exp" value="5000"/>
 		<reward type="Item" id="Twine" value="25"/>
 	</quest>
@@ -374,7 +391,7 @@
 		<objective type="FetchKeep" id="cookingGrill" value="1"/>
 		<objective type="FetchKeep" id="blacksmithHammer" value="1"/>
 		<objective type="FetchKeep" id="pan" value="1"/>
-		<objective type="FetchKeep" id="forgeCrucible" value="1"/>
+		<objective type="FetchKeep" id="saw" value="1"/>
 		<objective type="FetchKeep" id="blankMold" value="1"/>
 		<reward type="Quest" id="quest_stationtools2"/>
 	</quest>
@@ -387,8 +404,8 @@
 		<objective type="FetchKeep" id="weldingTorch" value="1"/>
 		<objective type="FetchKeep" id="inkPen" value="1"/>
 		<objective type="FetchKeep" id="beaker" value="1"/>
-		<objective type="FetchKeep" id="clawHammer" value="1"/>
-		<objective type="FetchKeep" id="wrench" value="1"/>
+		<objective type="FetchKeep" id="trowel" value="1"/>
+		<objective type="FetchKeep" id="socket" value="1"/>
 		<reward type="Item" id="classSelectionReward" value="1"/>
 	</quest>
 	<quest id="challenge_theClassics" 	group_name_key="quest_wftc"	name_key="challenge_theClassics" 	offer_key="challenge_theClassics_offer"  subtitle_key="Hunt Down the Originals" 	description_key="challenge_theClassics_description"  	icon="ui_game_symbol_zombie" 	repeatable="true" 	category_key="quest" 	difficulty="hard">
@@ -799,28 +816,28 @@
 	</quest>
 	<!--Bladed Weapons-->
 	<quest id="quest_WeaponBlade01" group_name_key="quest_WeaponBlade" name_key="quest_WeaponBlade01" subtitle_key="quest_WeaponBlade01_subtitle" description_key="quest_WeaponBlade01_description" icon="ui_game_symbol_knife"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="25"/>
+		<objective type="ZombieKill" value="50"/>
 		<requirement type="Holding" id="woodtippedSpear"/>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_WeaponBlade02"/>
 	</quest>
 	<quest id="quest_WeaponBlade02" group_name_key="quest_WeaponBlade" name_key="quest_WeaponBlade02" subtitle_key="quest_WeaponBlade02_subtitle" description_key="quest_WeaponBlade02_description" icon="ui_game_symbol_knife"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="25"/>
+		<objective type="ZombieKill" value="50"/>
 		<requirement type="Holding" id="huntingKnife"/>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_WeaponBlade03"/>
 	</quest>
 	<quest id="quest_WeaponBlade03" group_name_key="quest_WeaponBlade" name_key="quest_WeaponBlade03" subtitle_key="quest_WeaponBlade03_subtitle" description_key="quest_WeaponBlade03_description" icon="ui_game_symbol_knife"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<requirement type="Holding" id="ironTippedSpear"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_WeaponBlade04"/>
 	</quest>
 	<quest id="quest_WeaponBlade04" group_name_key="quest_WeaponBlade" name_key="quest_WeaponBlade04" subtitle_key="quest_WeaponBlade04_subtitle" description_key="quest_WeaponBlade04_description" icon="ui_game_symbol_knife"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<requirement type="Group"  id="requirementGroupkukri" value="OR">
 			<requirement type="Holding" id="kukri"/>
 			<requirement type="Holding" id="kukriRed"/>
@@ -835,133 +852,133 @@
 		<reward type="Quest" id="quest_WeaponBlade05"/>
 	</quest>
 	<quest id="quest_WeaponBlade05" group_name_key="quest_WeaponBlade" name_key="quest_WeaponBlade05" subtitle_key="quest_WeaponBlade05_subtitle" description_key="quest_WeaponBlade05_description" icon="ui_game_symbol_knife"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<requirement type="Holding" id="steelTippedSpear"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_WeaponBlade06"/>
 	</quest>
 	<quest id="quest_WeaponBlade06" group_name_key="quest_WeaponBlade" name_key="quest_WeaponBlade06" subtitle_key="quest_WeaponBlade06_subtitle" description_key="quest_WeaponBlade06_description" icon="ui_game_symbol_knife"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<requirement type="Holding" id="Pitchfork"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_WeaponBlade07"/>
 	</quest>
 	<quest id="quest_WeaponBlade07" group_name_key="quest_WeaponBlade" name_key="quest_WeaponBlade07" subtitle_key="quest_WeaponBlade07_subtitle" description_key="quest_WeaponBlade07_description" icon="ui_game_symbol_knife"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="machete"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_WeaponBlade08"/>
 	</quest>
 	<quest id="quest_WeaponBlade08" group_name_key="quest_WeaponBlade" name_key="quest_WeaponBlade08" subtitle_key="quest_WeaponBlade08_subtitle" description_key="quest_WeaponBlade08_description" icon="ui_game_symbol_knife"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="battleAxe"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_WeaponBlade09"/>
 	</quest>
 	<quest id="quest_WeaponBlade09" group_name_key="quest_WeaponBlade" name_key="quest_WeaponBlade09" subtitle_key="quest_WeaponBlade09_subtitle" description_key="quest_WeaponBlade09_description" icon="ui_game_symbol_knife"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="broadsword"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_WeaponBlade10"/>
 	</quest>
 	<quest id="quest_WeaponBlade10" group_name_key="quest_WeaponBlade" name_key="quest_WeaponBlade10" subtitle_key="quest_WeaponBlade10_subtitle" description_key="quest_WeaponBlade10_description" icon="ui_game_symbol_knife"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="150"/>
+		<objective type="ZombieKill" value="300"/>
 		<requirement type="Holding" id="katanamichonne"/>
 		<reward type="SkillPoints" value="10"/>
 		<reward type="Exp" value="1500"/>
 	</quest>
 	<!--Blunt Weapons-->
 	<quest id="quest_WeaponBlunt01" group_name_key="quest_WeaponBlunt" name_key="quest_WeaponBlunt01" subtitle_key="quest_WeaponBlunt01_subtitle" description_key="quest_WeaponBlunt01_description" icon="ui_game_symbol_club"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="25"/>
+		<objective type="ZombieKill" value="50"/>
 		<requirement type="Holding" id="clubWood"/>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_WeaponBlunt02"/>
 	</quest>
 	<quest id="quest_WeaponBlunt02" group_name_key="quest_WeaponBlunt" name_key="quest_WeaponBlunt02" subtitle_key="quest_WeaponBlunt02_subtitle" description_key="quest_WeaponBlunt02_description" icon="ui_game_symbol_club"  category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="25"/>
+		<objective type="ZombieKill" value="50"/>
 		<requirement type="Holding" id="clubIron"/>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_WeaponBlunt03"/>
 	</quest>
 	<quest id="quest_WeaponBlunt03" group_name_key="quest_WeaponBlunt" name_key="quest_WeaponBlunt03" subtitle_key="quest_WeaponBlunt03_subtitle" description_key="quest_WeaponBlunt03_description" icon="ui_game_symbol_club"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<requirement type="Holding" id="clubBarbed"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_WeaponBlunt04"/>
 	</quest>
 	<quest id="quest_WeaponBlunt04" group_name_key="quest_WeaponBlunt" name_key="quest_WeaponBlunt04" subtitle_key="quest_WeaponBlunt04_subtitle" description_key="quest_WeaponBlunt04_description" icon="ui_game_symbol_club"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<requirement type="Holding" id="clubSpiked"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_WeaponBlunt05"/>
 	</quest>
 	<quest id="quest_WeaponBlunt05" group_name_key="quest_WeaponBlunt" name_key="quest_WeaponBlunt05" subtitle_key="quest_WeaponBlunt05_subtitle" description_key="quest_WeaponBlunt05_description" icon="ui_game_symbol_club"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<requirement type="Holding" id="sledgehammer"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_WeaponBlunt06"/>
 	</quest>
 	<quest id="quest_WeaponBlunt06" group_name_key="quest_WeaponBlunt" name_key="quest_WeaponBlunt06" subtitle_key="quest_WeaponBlunt06_subtitle" description_key="quest_WeaponBlunt06_description" icon="ui_game_symbol_club"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<requirement type="Holding" id="batWood"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_WeaponBlunt07"/>
 	</quest>
 	<quest id="quest_WeaponBlunt07" group_name_key="quest_WeaponBlunt" name_key="quest_WeaponBlunt07" subtitle_key="quest_WeaponBlunt07_subtitle" description_key="quest_WeaponBlunt07_description" icon="ui_game_symbol_club"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<requirement type="Holding" id="metalPipe"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_WeaponBlunt08"/>
 	</quest>
 	<quest id="quest_WeaponBlunt08" group_name_key="quest_WeaponBlunt" name_key="quest_WeaponBlunt08" subtitle_key="quest_WeaponBlunt08_subtitle" description_key="quest_WeaponBlunt08_description" icon="ui_game_symbol_club"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<requirement type="Holding" id="lugWrench"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_WeaponBlunt09"/>
 	</quest>
 	<quest id="quest_WeaponBlunt09" group_name_key="quest_WeaponBlunt" name_key="quest_WeaponBlunt09" subtitle_key="quest_WeaponBlunt09_subtitle" description_key="quest_WeaponBlunt09_description" icon="ui_game_symbol_club"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="shockingClub"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_WeaponBlunt10"/>
 	</quest>
 	<quest id="quest_WeaponBlunt10" group_name_key="quest_WeaponBlunt" name_key="quest_WeaponBlunt10" subtitle_key="quest_WeaponBlunt10_subtitle" description_key="quest_WeaponBlunt10_description" icon="ui_game_symbol_club"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="electricSledgehammer"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_WeaponBlunt11"/>
 	</quest>
 	<quest id="quest_WeaponBlunt11" group_name_key="quest_WeaponBlunt" name_key="quest_WeaponBlunt11" subtitle_key="quest_WeaponBlunt11_subtitle" description_key="quest_WeaponBlunt11_description" icon="ui_game_symbol_club"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="electricClubSpiked"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_WeaponBlunt12"/>
 	</quest>
 	<quest id="quest_WeaponBlunt12" group_name_key="quest_WeaponBlunt" name_key="quest_WeaponBlunt12" subtitle_key="quest_WeaponBlunt12_subtitle" description_key="quest_WeaponBlunt12_description" icon="ui_game_symbol_club"  category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="150"/>
+		<objective type="ZombieKill" value="300"/>
 		<requirement type="Holding" id="lucille"/>
 		<reward type="Exp" value="1500"/>
 		<reward type="SkillPoints" value="10"/>
 	</quest>
 	<!--Bow Weapons-->
 	<quest id="quest_WeaponBows01" group_name_key="quest_WeaponBows" name_key="quest_WeaponBows01" subtitle_key="quest_WeaponBows01_subtitle" description_key="quest_WeaponBows01_description" icon="ui_game_symbol_archery"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="25"/>
+		<objective type="ZombieKill" value="50"/>
 		<requirement type="Holding" id="woodenBow"/>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="500"/>
@@ -977,7 +994,7 @@
 		<reward type="Quest" id="quest_WeaponBows03"/>
 	</quest>
 	<quest id="quest_WeaponBows03" group_name_key="quest_WeaponBows" name_key="quest_WeaponBows03" subtitle_key="quest_WeaponBows03_subtitle" description_key="quest_WeaponBows03_description" icon="ui_game_symbol_archery"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<requirement type="Holding" id="ironBow"/>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="500"/>
@@ -995,7 +1012,7 @@
 		<reward type="Quest" id="quest_WeaponBows05"/>
 	</quest>
 	<quest id="quest_WeaponBows05" group_name_key="quest_WeaponBows" name_key="quest_WeaponBows05" subtitle_key="quest_WeaponBows05_subtitle" description_key="quest_WeaponBows05_description" icon="ui_game_symbol_archery"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="crossbow"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="500"/>
@@ -1013,7 +1030,7 @@
 		<reward type="Quest" id="quest_WeaponBows07"/>
 	</quest>
 	<quest id="quest_WeaponBows07" group_name_key="quest_WeaponBows" name_key="quest_WeaponBows07" subtitle_key="quest_WeaponBows07_subtitle" description_key="quest_WeaponBows07_description" icon="ui_game_symbol_archery"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="ironCrossbow"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="500"/>
@@ -1026,7 +1043,7 @@
 		<reward type="Quest" id="quest_WeaponBows09"/>
 	</quest>
 	<quest id="quest_WeaponBows09" group_name_key="quest_WeaponBows" name_key="quest_WeaponBows09" subtitle_key="quest_WeaponBows09_subtitle" description_key="quest_WeaponBows09_description" icon="ui_game_symbol_archery"  category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="compoundBow"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
@@ -1042,14 +1059,14 @@
 		<reward type="Quest" id="quest_WeaponBows11"/>
 	</quest>
 	<quest id="quest_WeaponBows11" group_name_key="quest_WeaponBows" name_key="quest_WeaponBows11" subtitle_key="quest_WeaponBows11_subtitle" description_key="quest_WeaponBows11_description" icon="ui_game_symbol_archery"  category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="150"/>
+		<objective type="ZombieKill" value="300"/>
 		<requirement type="Holding" id="crossbowRepeater"/>
 		<reward type="SkillPoints" value="10"/>
 		<reward type="Exp" value="1500"/>
 	</quest>
 	<!--Handguns-->
 	<quest id="quest_HandgunExpert01" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert01" subtitle_key="quest_HandgunExpert01_subtitle" description_key="quest_HandgunExpert01_description" icon="ui_game_symbol_pistol"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="25"/>
+		<objective type="ZombieKill" value="50"/>
 		<requirement type="Group"  id="requirementGroupPistol" value="OR">
 			<requirement type="Holding" id="gunPistol"/>
 			<requirement type="Holding" id="PistolExtendedMag"/>
@@ -1069,7 +1086,7 @@
 		<reward type="Quest" id="quest_HandgunExpert03"/>
 	</quest>
 	<quest id="quest_HandgunExpert03" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert03" subtitle_key="quest_HandgunExpert03_subtitle" description_key="quest_HandgunExpert03_description" icon="ui_game_symbol_pistol"  category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<requirement type="Holding" id="gun44Magnum"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
@@ -1082,7 +1099,7 @@
 		<reward type="Quest" id="quest_HandgunExpert05"/>
 	</quest>
 	<quest id="quest_HandgunExpert05" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert05" subtitle_key="quest_HandgunExpert05_subtitle" description_key="quest_HandgunExpert05_description" icon="ui_game_symbol_pistol"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="fiveseveN"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1500"/>
@@ -1095,7 +1112,7 @@
 		<reward type="Quest" id="quest_HandgunExpert07"/>
 	</quest>
 	<quest id="quest_HandgunExpert07" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert07" subtitle_key="quest_HandgunExpert07_subtitle" description_key="quest_HandgunExpert07_description" icon="ui_game_symbol_pistol"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="mP443Rook"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1500"/>
@@ -1108,7 +1125,7 @@
 		<reward type="Quest" id="quest_HandgunExpert09"/>
 	</quest>
 	<quest id="quest_HandgunExpert09" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert09" subtitle_key="quest_HandgunExpert09_subtitle" description_key="quest_HandgunExpert09_description" icon="ui_game_symbol_pistol"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="150"/>
+		<objective type="ZombieKill" value="300"/>
 		<requirement type="Holding" id="DesertEagle"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1500"/>
@@ -1121,14 +1138,14 @@
 		<reward type="Quest" id="quest_HandgunExpert11"/>
 	</quest>
 	<quest id="quest_HandgunExpert11" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert11" subtitle_key="quest_HandgunExpert11_subtitle" description_key="quest_HandgunExpert11_description" icon="ui_game_symbol_pistol"  category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="150"/>
+		<objective type="ZombieKill" value="300"/>
 		<requirement type="Holding" id="coltPython"/>
 		<reward type="SkillPoints" value="10"/>
 		<reward type="Exp" value="1500"/>
 	</quest>
 	<!--Rifles-->
 	<quest id="quest_RiflesExpert01" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert01" subtitle_key="quest_RiflesExpert01_subtitle" description_key="quest_RiflesExpert01_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<requirement type="Group"  id="requirementGroupMP5" value="OR">
 			<requirement type="Holding" id="gunMP5"/>
 			<requirement type="Holding" id="gunMP5Ext"/>
@@ -1146,7 +1163,7 @@
 		<reward type="Quest" id="quest_RiflesExpert03"/>
 	</quest>
 	<quest id="quest_RiflesExpert03" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert03" subtitle_key="quest_RiflesExpert03_subtitle" description_key="quest_RiflesExpert03_description" icon="ui_game_symbol_famas"  category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="gunHuntingRifle"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
@@ -1159,7 +1176,7 @@
 		<reward type="Quest" id="quest_RiflesExpert05"/>
 	</quest>
 	<quest id="quest_RiflesExpert05" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert05" subtitle_key="quest_RiflesExpert05_subtitle" description_key="quest_RiflesExpert05_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<requirement type="Group"  id="requirementGroupAK47" value="OR">
 			<requirement type="Holding" id="gunAK47"/>
 			<requirement type="Holding" id="AK47ExtendedMag"/>
@@ -1177,7 +1194,7 @@
 		<reward type="Quest" id="quest_RiflesExpert07"/>
 	</quest>
 	<quest id="quest_RiflesExpert07" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert07" subtitle_key="quest_RiflesExpert07_subtitle" description_key="quest_RiflesExpert07_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Group"  id="requirementGroupSniperRifle" value="OR">
 			<requirement type="Holding" id="gunSniperRifle"/>
 			<requirement type="Holding" id="SniperRifleSilenced"/>
@@ -1193,7 +1210,7 @@
 		<reward type="Quest" id="quest_RiflesExpert09"/>
 	</quest>
 	<quest id="quest_RiflesExpert09" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert09" subtitle_key="quest_RiflesExpert09_subtitle" description_key="quest_RiflesExpert09_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Group"  id="requirementGroupBoltRifle" value="OR">
 			<requirement type="Holding" id="gunBoltRifle"/>
 			<requirement type="Holding" id="gunBoltRifleScoped"/>
@@ -1209,7 +1226,7 @@
 		<reward type="Quest" id="quest_RiflesExpert11"/>
 	</quest>
 	<quest id="quest_RiflesExpert11" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert11" subtitle_key="quest_RiflesExpert11_subtitle" description_key="quest_RiflesExpert11_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Group"  id="requirementGroupFAMAS" value="OR">
 			<requirement type="Holding" id="FAMAS"/>
 			<requirement type="Holding" id="FAMASExtendedMag"/>
@@ -1225,7 +1242,7 @@
 		<reward type="Quest" id="quest_RiflesExpert13"/>
 	</quest>
 	<quest id="quest_RiflesExpert13" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert13" subtitle_key="quest_RiflesExpert13_subtitle" description_key="quest_RiflesExpert13_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="150"/>
+		<objective type="ZombieKill" value="300"/>
 		<requirement type="Holding" id="hKG3"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
@@ -1238,7 +1255,7 @@
 		<reward type="Quest" id="quest_RiflesExpert15"/>
 	</quest>
 	<quest id="quest_RiflesExpert15" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert15" subtitle_key="quest_RiflesExpert15_subtitle" description_key="quest_RiflesExpert15_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="150"/>
+		<objective type="ZombieKill" value="300"/>
 		<requirement type="Group"  id="requirementGroupM25SniperRifle" value="OR">
 			<requirement type="Holding" id="M25SniperRifle"/>
 			<requirement type="Holding" id="M25SniperRifleExtendedMagazine"/>
@@ -1254,7 +1271,7 @@
 		<reward type="Quest" id="quest_RiflesExpert17"/>
 	</quest>
 	<quest id="quest_RiflesExpert17" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert17" subtitle_key="quest_RiflesExpert17_subtitle" description_key="quest_RiflesExpert17_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="150"/>
+		<objective type="ZombieKill" value="300"/>
 		<requirement type="Holding" id="iMIGalil"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1500"/>
@@ -1274,7 +1291,7 @@
 	</quest>
 	<!--Shotguns-->
 	<quest id="quest_ShotgunExpert01" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert01" subtitle_key="quest_ShotgunExpert01_subtitle" description_key="quest_ShotgunExpert01_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="25"/>
+		<objective type="ZombieKill" value="50"/>
 		<requirement type="Holding" id="gunSawedOffPumpShotgun"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
@@ -1289,7 +1306,7 @@
 		<reward type="Quest" id="quest_ShotgunExpert03"/>
 	</quest>
 	<quest id="quest_ShotgunExpert03" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert03" subtitle_key="quest_ShotgunExpert03_subtitle" description_key="quest_ShotgunExpert03_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<requirement type="Holding" id="gunPumpShotgun"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
@@ -1302,7 +1319,7 @@
 		<reward type="Quest" id="quest_ShotgunExpert05"/>
 	</quest>
 	<quest id="quest_ShotgunExpert05" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert05" subtitle_key="quest_ShotgunExpert05_subtitle" description_key="quest_ShotgunExpert05_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="benelliM3Super90"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
@@ -1315,7 +1332,7 @@
 		<reward type="Quest" id="quest_ShotgunExpert07"/>
 	</quest>
 	<quest id="quest_ShotgunExpert07" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert07" subtitle_key="quest_ShotgunExpert07_subtitle" description_key="quest_ShotgunExpert07_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="150"/>
+		<objective type="ZombieKill" value="300"/>
 		<requirement type="Holding" id="DoubleBarrel"/>
 		<reward type="SkillPoints" value="10"/>
 		<reward type="Exp" value="1500"/>
@@ -1330,14 +1347,14 @@
 		<reward type="Quest" id="quest_ShotgunExpert09"/>
 	</quest>
 	<quest id="quest_ShotgunExpert09" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert09" subtitle_key="quest_ShotgunExpert09_subtitle" description_key="quest_ShotgunExpert09_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="reggieSpecial"/>
 		<reward type="SkillPoints" value="15"/>
 		<reward type="Exp" value="2000"/>
 	</quest>
 	<!--Medical-->
 	<quest id="quest_MedicClass01" group_name_key="quest_MedicClass" name_key="quest_MedicClass01" subtitle_key="quest_MedicClass01_subtitle" description_key="quest_MedicClass01_description" icon="ui_game_symbol_medical"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="25"/>
+		<objective type="ZombieKill" value="50"/>
 		<requirement type="Holding" id="scalpel"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
@@ -1479,7 +1496,7 @@
 	</quest>
 	<!--Farmer-->
 	<quest id="quest_FarmerClass01" group_name_key="quest_FarmerClass" name_key="quest_FarmerClass01" subtitle_key="quest_FarmerClass01_subtitle" description_key="quest_FarmerClass01_description" icon="ui_game_symbol_Farming"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="15"/>
+		<objective type="ZombieKill" value="25"/>
 		<requirement type="Holding" id="blunderbuss"/>
 		<reward type="Item" id="hoeIron" value="200"/>
 		<reward type="SkillPoints" value="3"/>
@@ -1487,7 +1504,7 @@
 		<reward type="Quest" id="quest_FarmerClass02"/>
 	</quest>
 	<quest id="quest_FarmerClass02" group_name_key="quest_FarmerClass" name_key="quest_FarmerClass02" subtitle_key="quest_FarmerClass02_subtitle" description_key="quest_FarmerClass02_description" icon="ui_game_symbol_Farming"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="25"/>
+		<objective type="ZombieKill" value="50"/>
 		<requirement type="Holding" id="Pitchfork"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
@@ -1622,7 +1639,7 @@
 		<reward type="Quest" id="quest_SurvivalClass03"/>
 	</quest>
 	<quest id="quest_SurvivalClass03" group_name_key="quest_SurvivalClass" name_key="quest_SurvivalClass03" subtitle_key="quest_SurvivalClass03_subtitle" description_key="quest_SurvivalClass03_description" icon="ui_game_symbol_thesurvivor"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="15"/>
+		<objective type="ZombieKill" value="50"/>
 		<requirement type="Holding" id="woodenBow"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="500"/>
@@ -1687,7 +1704,7 @@
 		<reward type="Quest" id="quest_ExplosivesExpert02"/>
 	</quest>
 	<quest id="quest_ExplosivesExpert02" group_name_key="quest_ExplosivesExpert" name_key="quest_ExplosivesExpert02" subtitle_key="quest_ExplosivesExpert02_subtitle" description_key="quest_ExplosivesExpert02_description" icon="ui_game_symbol_zombie"  	repeatable="true" category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="gunRocketLauncher"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
@@ -1848,43 +1865,50 @@
 		<reward type="Exp" value="1000"/>
 	</quest>
 	<!-- Cooking -->
-	<quest id="quest_CookingClass01" group_name_key="quest_CookingClass" name_key="quest_CookingClass01" subtitle_key="quest_CookingClass01_subtitle" description_key="quest_CookingClass01_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
-		<objective type="FetchKeep" id="bottledWater" value="5"/>
+	<quest id="quest_CookingClass01" group_name_key="quest_CookingClass" name_key="quest_CookingClass01" subtitle_key="quest_CookingClass01_subtitle" description_key="quest_CookingClass01_description" icon="ui_game_symbol_Farming"   category_key="quest" difficulty="medium">
+		<objective type="ZombieKill" value="25"/>
+		<requirement type="Holding" id="meatCleaver"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_CookingClass02"/>
 	</quest>
-	<quest id="quest_CookingClass02" group_name_key="quest_CookingClass" name_key="quest_CookingClass02" subtitle_key="quest_CookingClass02_subtitle" description_key="quest_CookingClass02description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
-		<objective type="FetchKeep" id="goldenRodTea" value="5"/>
-		<objective type="FetchKeep" id="redTea" value="5"/>
-		<reward type="Exp" value="500"/>
+	<quest id="quest_CookingClass02" group_name_key="quest_CookingClass" name_key="quest_CookingClass02" subtitle_key="quest_CookingClass02_subtitle" description_key="quest_CookingClass02_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
+		<objective type="FetchKeep" id="bottledWater" value="5"/>
+		<reward type="Exp" value="300"/>
 		<reward type="Quest" id="quest_CookingClass03"/>
 	</quest>
 	<quest id="quest_CookingClass03" group_name_key="quest_CookingClass" name_key="quest_CookingClass03" subtitle_key="quest_CookingClass03_subtitle" description_key="quest_CookingClass03_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
-		<objective type="FetchKeep" id="eggboiled" value="5"/>
-		<reward type="Exp" value="500"/>
+		<objective type="FetchKeep" id="goldenRodTea" value="5"/>
+		<objective type="FetchKeep" id="redTea" value="5"/>
+		<reward type="Exp" value="300"/>
 		<reward type="Quest" id="quest_CookingClass04"/>
 	</quest>
 	<quest id="quest_CookingClass04" group_name_key="quest_CookingClass" name_key="quest_CookingClass04" subtitle_key="quest_CookingClass04_subtitle" description_key="quest_CookingClass04_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
-		<objective type="FetchKeep" id="cornOnTheCob" value="5"/>
+		<objective type="FetchKeep" id="eggboiled" value="5"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_CookingClass05"/>
 	</quest>
 	<quest id="quest_CookingClass05" group_name_key="quest_CookingClass" name_key="quest_CookingClass05" subtitle_key="quest_CookingClass05_subtitle" description_key="quest_CookingClass05_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
-		<objective type="FetchKeep" id="baconAndEggs" value="5"/>
+		<objective type="FetchKeep" id="cornOnTheCob" value="5"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_CookingClass06"/>
+		<reward type="Item" id="butcherKnife" value="150"/>
 	</quest>
 	<quest id="quest_CookingClass06" group_name_key="quest_CookingClass" name_key="quest_CookingClass06" subtitle_key="quest_CookingClass06_subtitle" description_key="quest_CookingClass06_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
-		<objective type="FetchKeep" id="bakedPotato" value="5"/>
+		<objective type="FetchKeep" id="baconAndEggs" value="5"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_CookingClass07"/>
 	</quest>
 	<quest id="quest_CookingClass07" group_name_key="quest_CookingClass" name_key="quest_CookingClass07" subtitle_key="quest_CookingClass07_subtitle" description_key="quest_CookingClass07_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
-		<objective type="FetchKeep" id="vegetableStew" value="5"/>
+		<objective type="FetchKeep" id="bakedPotato" value="5"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_CookingClass08"/>
 	</quest>
 	<quest id="quest_CookingClass08" group_name_key="quest_CookingClass" name_key="quest_CookingClass08" subtitle_key="quest_CookingClass08_subtitle" description_key="quest_CookingClass08_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
+		<objective type="FetchKeep" id="vegetableStew" value="5"/>
+		<reward type="Exp" value="500"/>
+		<reward type="Quest" id="quest_CookingClass09"/>
+	</quest>
+	<quest id="quest_CookingClass09" group_name_key="quest_CookingClass" name_key="quest_CookingClass09" subtitle_key="quest_CookingClass09_subtitle" description_key="quest_CookingClass09_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="charredredMeat" value="5"/>
 		<objective type="FetchKeep" id="charredwhiteMeat" value="5"/>
 		<objective type="FetchKeep" id="boiledMeat" value="5"/>
@@ -1895,27 +1919,27 @@
 		<reward type="Quest" id="quest_ZombieSlayer02"/>
 	</quest>
 	<quest id="quest_ZombieSlayer02" group_name_key="quest_ZombieSlayer" name_key="quest_ZombieSlayer02" subtitle_key="quest_ZombieSlayer02_subtitle" description_key="quest_ZombieSlayer02_description" icon="ui_game_symbol_zombie"  	offer_key="quest_ZombieSlayer02_description"   repeatable="true" category_key="quest" difficulty="easy">
-		<objective type="ZombieKill" value="15"/>
+		<objective type="ZombieKill" value="50"/>
 		<reward type="SkillPoints" value="1"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_ZombieSlayer03"/>
 	</quest>
 	<quest id="quest_ZombieSlayer03" group_name_key="quest_ZombieSlayer" name_key="quest_ZombieSlayer03" subtitle_key="quest_ZombieSlayer03_subtitle" description_key="quest_ZombieSlayer03_description"   offer_key="quest_ZombieSlayer03_description"   icon="ui_game_symbol_zombie"  	repeatable="true" category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="50"/>
+		<objective type="ZombieKill" value="100"/>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_ZombieSlayer04"/>
 	</quest>
 	<quest id="quest_ZombieSlayer04" group_name_key="quest_ZombieSlayer" name_key="quest_ZombieSlayer04" subtitle_key="quest_ZombieSlayer04_subtitle" description_key="quest_ZombieSlayer04_description" offer_key="quest_ZombieSlayer04_description"  icon="ui_game_symbol_zombie"  	repeatable="true" category_key="quest" difficulty="hard">
-		<objective type="ZombieKill" value="100"/>
+		<objective type="ZombieKill" value="500"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_ZombieSlayer05"/>
 	</quest>
 	<quest id="quest_ZombieSlayer05" group_name_key="quest_ZombieSlayer" name_key="quest_ZombieSlayer05" subtitle_key="quest_ZombieSlayer05_subtitle" description_key="quest_ZombieSlayer05_description" offer_key="quest_ZombieSlayer05_description"   icon="ui_game_symbol_zombie"  	repeatable="true" category_key="quest" difficulty="hard">
-		<objective type="ZombieKill" value="250"/>
+		<objective type="ZombieKill" value="1000"/>
 		<reward type="SkillPoints" value="10"/>
-		<reward type="Exp" value="2000"/>
+		<reward type="Exp" value="5000"/>
 	</quest>
 	<!-- Ammo Dismantling -->
 	<quest id="9mmDismantle" name_key="9mmDismantle" subtitle_key="9mmDismantle_subtitle" description_key="Dismantle_description" icon="misc_crafting"  repeatable="true" category_key="challenge" offer_key="Dismantle_offer" difficulty="easy">
@@ -2207,11 +2231,10 @@
 		<reward type="Skill" id="SurvivorClass" value="1"/>
 		<reward type="Skill" id="Survival Skills" value="1"/>
 		<reward type="Skill" id="Construction Tools" value="15"/>
-		<reward type="Item" id="clawHammer" value="250"/>
-		<reward type="Item" id="woodenBow" value="300"/>
-		<reward type="Item" id="ironArrow" value="250"/>
+		<reward type="Item" id="clawHammer" value="150"/>
+		<reward type="Item" id="newMachete" value="200"/>
 		<reward type="Item" id="firstAidKit" value="1"/>
-		<reward type="Item" id="animalTrapEmpty" value="1"/>
+		<reward type="Item" id="animalTrapEmpty" value="5"/>
 		<reward type="Item" id="antibiotics" value="1"/>
 		<reward type="Item" id="fishingRodSchematic" value="1"/>
 		<reward type="Quest" id="quest_SurvivalClass01"/>
@@ -2278,7 +2301,7 @@
 		<reward type="Skill" id="CookingClass" value="1"/>
 		<reward type="Skill" id="Cooking Skills" value="1"/>
 		<reward type="Skill" id="Advanced Cooking" value="1"/>
-		<reward type="Item" id="butcherKnife" value="300"/>
+		<reward type="Item" id="meatCleaver" value="300"/>
 		<reward type="Item" id="cookingpot" value="1"/>
 		<reward type="Item" id="emptyJar" value="50"/>
 		<reward type="Item" id="bowl" value="50"/>

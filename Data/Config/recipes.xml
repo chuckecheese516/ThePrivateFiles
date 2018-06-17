@@ -96,12 +96,7 @@
 		<ingredient name="partsAuger_parts" count="1"/>
 		<ingredient name="partsAuger_blade" count="1"/>
 	</recipe>
-	<recipe name="grassCutter" count="1" craft_area="assembly">
-		<ingredient name="partsHandlebars" count="1"/>
-		<ingredient name="smallEngine" count="1"/>
-		<ingredient name="partsCutter_parts" count="1"/>
-		<ingredient name="partsCutter_blade" count="1"/>
-	</recipe>
+
 	<recipe name="bandage" count="1">
 		<ingredient name="cloth" count="2"/>
 	</recipe>
@@ -179,7 +174,6 @@
 	<recipe name="clubWood" count="1">
 		<ingredient name="wood" count="6"/>
 	</recipe>
-
 	<recipe name="cobblestones" count="1">
 		<ingredient name="clayLump" count="1"/>
 		<ingredient name="rockSmall" count="1"/>
@@ -286,11 +280,9 @@
 		<ingredient name="screws" count="4"/>
 		<ingredient name="doorHinge" count="2"/>
 	</recipe>
-
 	<recipe name="scrapIronLogSpike4" count="1">
 		<ingredient name="scrapIron" count="40"/>
 	</recipe>
-
 	<recipe name="secureDoorWooden" count="1">
 		<ingredient name="wood" count="4"/>
 		<ingredient name="scrapIronNails" count="2"/>
@@ -346,7 +338,6 @@
 		<ingredient name="dirtFragment" count="3"/>
 		<ingredient name="clayLump" count="5"/>
 	</recipe>
-
 	<recipe name="woodFrameBlock" count="1">
 		<ingredient name="wood" count="2"/>
 		<ingredient name="scrapIronNails" count="2"/>
@@ -359,7 +350,6 @@
 		<ingredient name="wood" count="2"/>
 		<ingredient name="scrapIronNails" count="2"/>
 	</recipe>
-	
 	<recipe name="woodFramePillar50" count="1">
 		<ingredient name="wood" count="2"/>
 		<ingredient name="scrapIronNails" count="2"/>
@@ -375,7 +365,7 @@
 	<recipe name="woodFramePlate" count="1">
 		<ingredient name="wood" count="2"/>
 		<ingredient name="scrapIronNails" count="2"/>
-	</recipe>	
+	</recipe>
 	<recipe name="woodFrameRamp" count="1">
 		<ingredient name="wood" count="2"/>
 		<ingredient name="scrapIronNails" count="2"/>
@@ -398,7 +388,7 @@
 	<recipe name="woodSupportFrame" count="1">
 		<ingredient name="wood" count="2"/>
 		<ingredient name="scrapIronNails" count="2"/>
-	</recipe>	
+	</recipe>
 	<recipe name="woodFrameWedgeIncline" count="1">
 		<ingredient name="wood" count="2"/>
 		<ingredient name="scrapIronNails" count="2"/>
@@ -411,17 +401,14 @@
 		<ingredient name="wood" count="2"/>
 		<ingredient name="scrapIronNails" count="2"/>
 	</recipe>
-
 	<recipe name="woodFrameWedgeTipCNRFullBottom" count="1">
 		<ingredient name="wood" count="2"/>
 		<ingredient name="scrapIronNails" count="2"/>
 	</recipe>
-
 	<recipe name="woodFrameWedgeCNRInsideBottom" count="1">
 		<ingredient name="wood" count="2"/>
 		<ingredient name="scrapIronNails" count="2"/>
 	</recipe>
-
 	<recipe name="woodFrameWedgeCNRInsideTop" count="1">
 		<ingredient name="wood" count="2"/>
 		<ingredient name="scrapIronNails" count="2"/>
@@ -450,12 +437,10 @@
 		<ingredient name="wood" count="2"/>
 		<ingredient name="scrapIronNails" count="2"/>
 	</recipe>
-
 	<recipe name="woodFrameArch" count="1">
 		<ingredient name="wood" count="2"/>
 		<ingredient name="scrapIronNails" count="2"/>
 	</recipe>
-
 	<recipe name="woodFrameWedgeStairs" count="1">
 		<ingredient name="wood" count="2"/>
 		<ingredient name="scrapIronNails" count="2"/>
@@ -500,11 +485,9 @@
 		<ingredient name="rottingHarvest" count="5"/>
 		<ingredient name="yuccaFibers" count="20"/>
 	</recipe>
-
 	<recipe name="barricade" count="1">
 		<ingredient name="wood" count="5"/>
 	</recipe>
-
 	<recipe name="cntSecureStorageChest" count="1">
 		<ingredient name="wood" count="10"/>
 	</recipe>
@@ -591,7 +574,6 @@
 		<ingredient name="wood" count="2"/>
 		<ingredient name="scrapIronNails" count="2"/>
 	</recipe>
-
 	<!-- QoLaFIM A16.3 - new recipe -->
 	<recipe name="survivorKey" count="1">
 		<ingredient name="forgedIron" count="5"/>
@@ -925,6 +907,10 @@
 		<ingredient name="paper" count="16"/>
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
+	<recipe name="sunblocker" count="5">
+		<ingredient name="aloeCream" count="5"/>
+		<ingredient name="vegetableOil" count="1"/>
+	</recipe>
 	<recipe name="scrapIronNails" count="2">
 		<ingredient name="scrapIron" count="1"/>
 	</recipe>
@@ -1154,6 +1140,14 @@
 		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="wood" count="5"/>
 	</recipe>
+	<recipe name="newMachete" count="1">
+		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="wood" count="5"/>
+	</recipe>
+	<recipe name="meatCleaver" count="1">
+		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="wood" count="5"/>
+	</recipe>
 	<recipe name="scalpel" count="1">
 		<ingredient name="forgedIron" count="10"/>
 	</recipe>
@@ -1183,22 +1177,41 @@
 		<ingredient name="wood" count="1"/>
 	</recipe>
 	<recipe name="CZLockPickKit01" count="1" scrapable="false">
-		<ingredient name="scrapIron" count="2" />
-		<ingredient name="forgedIron" count="3" />
+		<ingredient name="scrapIron" count="5" />
 		<ingredient name="cloth" count="5" />
 	</recipe>
 	<recipe name="CZLockPickKit02" count="1" scrapable="false">
 		<ingredient name="forgedIron" count="5" />
 		<ingredient name="cloth" count="5" />
+		<ingredient name="oil" count="1" />
+		<ingredient name="leather" count="5" />
 	</recipe>
-	<recipe name="CZlockpick" count="1" scrapable="false">
+	<recipe name="CZLockPickKit03" count="1"  craft_area="advancedWorkbench" scrapable="false">
+		<ingredient name="forgedSteel" count="5" />
+		<ingredient name="cloth" count="5" />
+		<ingredient name="oil" count="1" />
+		<ingredient name="leather" count="5" />
+	</recipe>
+	<recipe name="CZLockPickKit04" count="1"  craft_area="advancedWorkbench" scrapable="false">
+		<ingredient name="forgedSteel" count="10" />
+		<ingredient name="cloth" count="5" />
+		<ingredient name="oil" count="1" />
+		<ingredient name="leather" count="5" />
+	</recipe>
+	<recipe name="CZlockpick01" count="1" scrapable="false">
 		<ingredient name="scrapIron" count="12" />
 	</recipe>
-	<recipe name="CZlockpick" count="1" scrapable="false">
-		<ingredient name="forgedIron" count="1" />
+	<recipe name="CZlockpick02" count="1" scrapable="false">
+		<ingredient name="forgedIron" count="3" />
 	</recipe>
-	<recipe name="CZdrillbit" count="1" scrapable="false">
-		<ingredient name="forgedSteel" count="1" />
+	<recipe name="CZlockpick03" count="1" scrapable="false">
+		<ingredient name="forgedSteel" count="3" />
+	</recipe>
+	<recipe name="CZlockpick04" count="1" scrapable="false">
+		<ingredient name="forgedSteel" count="5" />
+	</recipe>
+	<recipe name="CZdrillbit" count="1"  craft_area="advancedWorkbench" scrapable="false">
+		<ingredient name="forgedSteel" count="10" />
 	</recipe>
 	<recipe name="flameThrower" count="1" craft_area="assembly">
 		<ingredient name="flashlight02" count="0"/>
@@ -3601,7 +3614,6 @@
 		<ingredient name="wood" count="10"/>
 		<ingredient name="scrapPlastics" count="20"/>
 	</recipe>
-
 	<recipe name="JunctionBox" count="1" craft_area="advancedWorkbench">
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
@@ -3656,37 +3668,37 @@
 	<recipe name="clawHammer" count="1" craft_area="advancedWorkbench">
 		<ingredient name="toolHeadHammer" count="1"/>
 		<ingredient name="leather" count="1"/>
-		<ingredient name="wood" count="6"/>
+		<ingredient name="handle" count="1"/>
 		<ingredient name="glue" count="2"/>
 	</recipe>
 	<recipe name="fireaxeIron" count="1" craft_area="advancedWorkbench">
 		<ingredient name="toolHeadIronAxe" count="1"/>
 		<ingredient name="leather" count="1"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="handle" count="1"/>
 		<ingredient name="glue" count="2"/>
 	</recipe>
 	<recipe name="fireaxeSteel" count="1" craft_area="advancedWorkbench">
 		<ingredient name="toolHeadSteelAxe" count="1"/>
 		<ingredient name="leather" count="1"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="handle" count="1"/>
 		<ingredient name="glue" count="2"/>
 	</recipe>
 	<recipe name="battleAxe" count="1" craft_area="advancedWorkbench">
 		<ingredient name="toolHeadSteelAxe" count="1"/>
-		<ingredient name="wood" count="40"/>
+		<ingredient name="handle" count="1"/>
 		<ingredient name="leather" count="5"/>
 		<ingredient name="glue" count="2"/>
 	</recipe>
 	<recipe name="hoeIron" count="1" craft_area="advancedWorkbench">
 		<ingredient name="toolHeadIronHoe" count="1"/>
 		<ingredient name="leather" count="1"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="handle" count="1"/>
 		<ingredient name="glue" count="2"/>
 	</recipe>
 	<recipe name="hoeSteel" count="1" craft_area="advancedWorkbench">
 		<ingredient name="toolHeadSteelHoe" count="1"/>
 		<ingredient name="leather" count="1"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="handle" count="1"/>
 		<ingredient name="glue" count="2"/>
 	</recipe>
 	<recipe name="huntingKnife" count="1" craft_area="advancedWorkbench">
@@ -3704,31 +3716,31 @@
 	<recipe name="pickaxeIron" count="1" craft_area="advancedWorkbench">
 		<ingredient name="toolHeadIronPickaxe" count="1"/>
 		<ingredient name="leather" count="1"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="handle" count="1"/>
 		<ingredient name="glue" count="2"/>
 	</recipe>
 	<recipe name="pickaxeSteel" count="1" craft_area="advancedWorkbench">
 		<ingredient name="toolHeadSteelPickaxe" count="1"/>
 		<ingredient name="leather" count="1"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="handle" count="1"/>
 		<ingredient name="glue" count="2"/>
 	</recipe>
 	<recipe name="shovelIron" count="1" craft_area="advancedWorkbench">
 		<ingredient name="toolHeadIronShovel" count="1"/>
 		<ingredient name="leather" count="1"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="handle" count="1"/>
 		<ingredient name="glue" count="2"/>
 	</recipe>
 	<recipe name="shovelSteel" count="1" craft_area="advancedWorkbench">
 		<ingredient name="toolHeadSteelShovel" count="1"/>
 		<ingredient name="leather" count="1"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="handle" count="1"/>
 		<ingredient name="glue" count="2"/>
 	</recipe>
 	<recipe name="sledgehammer" count="1" craft_area="advancedWorkbench">
 		<ingredient name="toolHeadSledgehammer" count="1"/>
 		<ingredient name="leather" count="1"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="handle" count="1"/>
 		<ingredient name="glue" count="2"/>
 	</recipe>
 	<recipe name="shoppingBasketItem" count="1" craft_area="advancedWorkbench">
@@ -3958,41 +3970,30 @@
 		<ingredient name="Twine" count="10"/>
 		<ingredient name="mechanicalParts" count="5"/>
 	</recipe>
-
-	<recipe name="rebarFrameBlock" count="1" craft_area="advancedWorkbench">
-		<ingredient name="rebar" count="2"/>
-		<ingredient name="screws" count="2"/>
-	</recipe>
-
-	<recipe name="smallEngine" count="1" craft_area="advancedWorkbench">
+	<recipe name="smallEngine" count="1" craft_area="advancedWorkbench" craft_tool="socket">
 		<ingredient name="car_parts" count="75"/>
 		<ingredient name="radiator" count="1"/>
 		<ingredient name="mechanicalParts" count="5"/>
 		<ingredient name="shortMetalPipe" count="4"/>
 	</recipe>
-	<recipe name="HDSmallEngine" count="1" craft_area="advancedWorkbench">
-		<ingredient name="car_parts" count="250"/>
-		<ingredient name="radiator" count="1"/>
-		<ingredient name="mechanicalParts" count="15"/>
-		<ingredient name="shortMetalPipe" count="4"/>
-	</recipe>
-	<recipe name="ECOSmallEngine" count="1" craft_area="advancedWorkbench">
+
+	<recipe name="ECOSmallEngine" count="1" craft_area="advancedWorkbench" craft_tool="socket">
 		<ingredient name="car_parts" count="150"/>
 		<ingredient name="radiator" count="1"/>
 		<ingredient name="mechanicalParts" count="10"/>
 		<ingredient name="shortMetalPipe" count="4"/>
 	</recipe>
-	<recipe name="carBattery" count="1" craft_area="advancedWorkbench">
+	<recipe name="carBattery" count="1" craft_area="advancedWorkbench" craft_tool="socket">
 		<ingredient name="car_parts" count="150"/>
 		<ingredient name="electricParts" count="10"/>
 		<ingredient name="electricCharge" count="5"/>
 	</recipe>
-	<recipe name="HDBattery" count="1" craft_area="advancedWorkbench">
+	<recipe name="HDBattery" count="1" craft_area="advancedWorkbench" craft_tool="socket">
 		<ingredient name="car_parts" count="500"/>
 		<ingredient name="electricParts" count="10"/>
 		<ingredient name="electricCharge" count="10"/>
 	</recipe>
-	<recipe name="ECOBattery" count="1" craft_area="advancedWorkbench">
+	<recipe name="ECOBattery" count="1" craft_area="advancedWorkbench" craft_tool="socket">
 		<ingredient name="car_parts" count="250"/>
 		<ingredient name="electricParts" count="10"/>
 		<ingredient name="electricCharge" count="7"/>
@@ -4047,19 +4048,6 @@
 		<ingredient name="motionsensor" count="2" />
 		<ingredient name="forgedIron" count="80" />
 		<ingredient name="glassBulletproofBlock" count="20" />
-	</recipe>
-	<recipe name="CZLockPickKit03" count="1" craft_area="advancedWorkbench"  scrapable="false">
-		<ingredient name="forgedIron" count="2" />
-		<ingredient name="forgedSteel" count="3" />
-		<ingredient name="leather" count="5" />
-	</recipe>
-	<recipe name="CZLockPickKit04" count="1" craft_area="advancedWorkbench" scrapable="false">
-		<ingredient name="forgedSteel" count="5" />
-		<ingredient name="leather" count="5" />
-	</recipe>
-	<recipe name="CZdrillbit" count="1" craft_area="advancedWorkbench" scrapable="false">
-		<ingredient name="forgedIron" count="3" />
-		<ingredient name="coal" count="5" />
 	</recipe>
 	<recipe name="stoneGrinder" count="1" craft_area="advancedWorkbench">
 		<ingredient name="rockSmall" count="50"/>
@@ -4254,6 +4242,26 @@
 		<ingredient name="motionsensor" count="1"/>
 		<ingredient name="crossbowRepeater" count="1"/>
 		<ingredient name="mechanicalParts" count="6"/>
+	</recipe>
+	<recipe name="bikeEngine" count="1" craft_area="advancedWorkbench" craft_tool="socket">
+		<ingredient name="engineBlock" count="1" />
+		<ingredient name="cylinderHead" count="2" />
+		<ingredient name="oilPan" count="1" />
+		<ingredient name="oilPump" count="1" />
+		<ingredient name="engineParts" count="1" />
+	</recipe>
+	<recipe name="ECObikeEngine" count="1" craft_area="advancedWorkbench" craft_tool="socket">
+		<ingredient name="engineBlock" count="1" />
+		<ingredient name="cylinderHead" count="4" />
+		<ingredient name="oilPan" count="1" />
+		<ingredient name="oilPump" count="1" />
+		<ingredient name="engineParts" count="2" />
+	</recipe>
+	<recipe name="engineParts" count="1" craft_area="advancedWorkbench" craft_tool="socket">
+		<ingredient name="crankShaft" count="1" />
+		<ingredient name="piston" count="8" />
+		<ingredient name="sparkPlug" count="8" />
+		<ingredient name="nutsAndBolts" count="50" />
 	</recipe>
 	<!-- DRYING RACK	 -->
 	<recipe name="dryingRack" count="1" craft_time="60">
@@ -4800,13 +4808,24 @@
 		<ingredient name="goldenrodPlant" count="5"/>
 		<ingredient name="bottledRiverWater" count="1"/>
 	</recipe>
+	<recipe name="redMeat" count="2" craft_area="chemistryStation">
+		<ingredient name="infectedwhiteMeat" count="10"/>
+		<ingredient name="PurifiedWater" count="1"/>
+		<ingredient name="medicalPowder" count="1"/>
+		<ingredient name="salt" count="5"/>
+	</recipe>
+	<recipe name="whiteMeat" count="2" craft_area="chemistryStation">
+		<ingredient name="infectedredMeat" count="1"/>
+		<ingredient name="PurifiedWater" count="1"/>
+		<ingredient name="medicalPowder" count="1"/>
+		<ingredient name="salt" count="5"/>
+	</recipe>
 	<!-- CEMENT MIXER -->
 	<recipe name="stone" count="1" craft_area="cementMixer">
 		<ingredient name="crushedSand" count="10"/>
 		<ingredient name="rockSmall" count="18"/>
 		<ingredient name="cement" count="4"/>
 	</recipe>
-
 	<recipe name="graveStone01" count="1" craft_area="cementMixer" craft_tool="trowel">
 		<ingredient name="rebarFrameBlock" count="1"/>
 		<ingredient name="concreteMix" count="10"/>
@@ -5883,7 +5902,6 @@
 		<ingredient name="potato" count="5"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-
 	<!-- STONE GRINDER -->
 	<recipe name="crushedSand" count="5" craft_area="stoneGrinder">
 		<ingredient name="rockSmall" count="25"/>
@@ -5916,18 +5934,17 @@
 		<ingredient name="oilShale" count="50"/>
 	</recipe>
 	<!-- CARPENTER BENCH -->
-	<recipe name="wood" count="3" craft_area="carpentryStation">
+	<recipe name="wood" count="3" craft_area="carpentryStation" craft_tool="saw">
 		<ingredient name="uncutwoodLog" count="1"/>
 	</recipe>
-	<recipe name="stick" count="6" craft_area="carpentryStation">
+	<recipe name="stick" count="6" craft_area="carpentryStation" craft_tool="saw">
 		<ingredient name="wood" count="1"/>
 	</recipe>
 	<recipe name="polishedWood" count="1" craft_area="carpentryStation">
 		<ingredient name="wood" count="1"/>
 	</recipe>
-	<recipe name="woodArrowSlitHalf" count="1" craft_area="carpentryStation">
-		<ingredient name="wood" count="4"/>
-		<ingredient name="scrapIronNails" count="4"/>
+	<recipe name="handle" count="1" craft_area="carpentryStation" craft_tool="saw">
+		<ingredient name="polishedWood" count="5"/>
 	</recipe>
 	<recipe name="woodHatch1_v1" count="1" craft_area="carpentryStation">
 		<ingredient name="wood" count="4"/>
@@ -5935,11 +5952,11 @@
 		<ingredient name="screws" count="4"/>
 		<ingredient name="doorHinge" count="2"/>
 	</recipe>
-	<recipe name="woodCatwalk" count="1" craft_area="carpentryStation">
+	<recipe name="woodCatwalk" count="1" craft_area="carpentryStation" craft_tool="saw">
 		<ingredient name="wood" count="8"/>
 		<ingredient name="scrapIronNails" count="4"/>
 	</recipe>
-	<recipe name="woodCatwalkRailing" count="1" craft_area="carpentryStation">
+	<recipe name="woodCatwalkRailing" count="1" craft_area="carpentryStation" craft_tool="saw">
 		<ingredient name="wood" count="8"/>
 		<ingredient name="scrapIronNails" count="4"/>
 	</recipe>
@@ -5947,15 +5964,15 @@
 		<ingredient name="wood" count="4"/>
 		<ingredient name="scrapIronNails" count="2"/>
 	</recipe>
-	<recipe name="woodCatwalkRailingCNR" count="1" craft_area="carpentryStation">
+	<recipe name="woodCatwalkRailingCNR" count="1" craft_area="carpentryStation" craft_tool="saw">
 		<ingredient name="wood" count="8"/>
 		<ingredient name="scrapIronNails" count="4"/>
 	</recipe>
-	<recipe name="woodCatwalkWedgeRailing" count="1" craft_area="carpentryStation">
+	<recipe name="woodCatwalkWedgeRailing" count="1" craft_area="carpentryStation" craft_tool="saw">
 		<ingredient name="wood" count="8"/>
 		<ingredient name="scrapIronNails" count="4"/>
 	</recipe>
-	<recipe name="woodCatwalkWedge" count="1" craft_area="carpentryStation">
+	<recipe name="woodCatwalkWedge" count="1" craft_area="carpentryStation" craft_tool="saw">
 		<ingredient name="wood" count="8"/>
 		<ingredient name="scrapIronNails" count="4"/>
 	</recipe>
@@ -5963,7 +5980,7 @@
 		<ingredient name="wood" count="8"/>
 		<ingredient name="scrapIronNails" count="2"/>
 	</recipe>
-	<recipe name="woodStairsBoardRailing" count="1" craft_area="carpentryStation">
+	<recipe name="woodStairsBoardRailing" count="1" craft_area="carpentryStation" craft_tool="saw">
 		<ingredient name="wood" count="8"/>
 		<ingredient name="scrapIronNails" count="2"/>
 	</recipe>
@@ -5974,7 +5991,7 @@
 	<recipe name="woodPlanks" count="20" craft_area="carpentryStation">
 		<ingredient name="woodLog" count="1"/>
 	</recipe>
-	<recipe name="whitePicketFenceSheet" count="1" craft_area="carpentryStation">
+	<recipe name="whitePicketFenceSheet" count="1" craft_area="carpentryStation" craft_tool="saw">
 		<ingredient name="polishedWood" count="3"/>
 		<ingredient name="scrapIronNails" count="4"/>
 	</recipe>
@@ -5982,11 +5999,11 @@
 		<ingredient name="wood" count="4"/>
 		<ingredient name="scrapIronNails" count="4"/>
 	</recipe>
-	<recipe name="woodFenceFarmSheet" count="1" craft_area="carpentryStation">
+	<recipe name="woodFenceFarmSheet" count="1" craft_area="carpentryStation" craft_tool="saw">
 		<ingredient name="polishedWood" count="3"/>
 		<ingredient name="scrapIronNails" count="4"/>
 	</recipe>
-	<recipe name="woodFenceSheet" count="1" craft_area="carpentryStation">
+	<recipe name="woodFenceSheet" count="1" craft_area="carpentryStation" craft_tool="saw">
 		<ingredient name="polishedWood" count="3"/>
 		<ingredient name="scrapIronNails" count="4"/>
 	</recipe>

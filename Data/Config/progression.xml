@@ -205,6 +205,7 @@
 		</perk>
 		<crafting_skill name="Locksmith" exp_to_level="100" icon="misc_crafting" description_key="locksmithDesc" title_key="locksmith" group="Locksmithing">
 			<recipe name="CZLockPickKit02" unlock_level="20" />
+			<recipe name="CZdrillbit" unlock_level="20" />
 			<recipe name="CZLockPickKit03" unlock_level="50" />
 			<recipe name="CZLockPickKit04" unlock_level="80" />
 			<effect name="CraftingTime">
@@ -1848,6 +1849,7 @@
 			<recipe name="chickenCoopEmpty" unlock_level="1"/>
 			<recipe name="chickenFeed" unlock_level="1"/>
 			<recipe name="rainCatcherEmpty" unlock_level="1"/>
+			<recipe name="newMachete" unlock_level="1"/>
 		</perk>
 		<perk name="craftSkillExplosives" max_level="10" skill_point_cost_multiplier="1.21" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="pistol" description_key="craftSkillExplosivesDesc" title_key="craftSkillExplosives" group="firearms" exp_gain_multiplier="0">
 			<requirement skill_level="1" required_skill_name="SurvivorClass" required_skill_level="1"/>
@@ -2242,6 +2244,7 @@
 			<recipe name="mealBreakfast" unlock_level="1"/>
 			<recipe name="butcherKnife" unlock_level="1"/>
 			<recipe name="pan" unlock_level="1"/>
+			<recipe name="meatCleaver" unlock_level="1"/>
 		</perk>
 		<crafting_skill name="Cooking"   icon="ui_game_symbol_hunger" description_key="cookingDesc" title_key="cooking"  max_level="10" skill_point_cost_multiplier="0" skill_point_cost_per_level="3"  exp_to_level="5000000" group="crafting">
 			<effect name="CraftingTime">

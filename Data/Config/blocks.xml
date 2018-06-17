@@ -964,7 +964,7 @@
 		<drop event="Harvest" name="cloth" count="3,7" tool_category="basicDisassemble"/>
 		<drop event="Harvest" name="spring" count="1,2" tool_category="basicDisassemble"/>
 		<drop event="Harvest" name="scrapIron" count="7,28" tool_category="basicDisassemble"/>
-		<drop event="Harvest" name="shortMetalPipe" count="0,2" prob="0.5" tool_category="basicDisassemble'"/>
+		<drop event="Harvest" name="shortMetalPipe" count="0,2" prob="0.5" tool_category="basicDisassemble"/>
 		<drop event="Harvest" name="leatherStrips" count="2,5" prob="0.5" tool_category="basicDisassemble"/>
 		<drop event="Harvest" name="headlight" count="1" prob="0.2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="mechanicalParts" count="0,2" prob="0.1" tool_category="Disassemble"/>
@@ -979,7 +979,27 @@
 		<drop event="Harvest" name="cloth" count="3,7" tool_category="Disassemble"/>
 		<drop event="Harvest" name="spring" count="1,2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapIron" count="7,28" tool_category="Disassemble"/>
-		<drop event="Harvest" name="shortMetalPipe" count="0,2" prob="0.5" tool_category="Disassemble'"/>
+		<drop event="Harvest" name="shortMetalPipe" count="0,2" prob="0.5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="nutsAndBolts" count="1,15" tool_category="Disassemble" />
+		<drop event="Harvest" name="bikeEngine" count="1" prob="0.005" tool_category="Disassemble" />
+		<drop event="Harvest" name="crankShaft" count="1" prob="0.15" tool_category="Disassemble" />
+		<drop event="Harvest" name="engineBlock" count="1" prob="0.15" tool_category="Disassemble" />
+		<drop event="Harvest" name="cylinderHead" count="1" prob="0.15" tool_category="Disassemble" />
+		<drop event="Harvest" name="oilPan" count="1" prob="0.15" tool_category="Disassemble" />
+		<drop event="Harvest" name="engineParts" count="1" prob="0.05" tool_category="Disassemble" />	
+		<drop event="Harvest" name="sparkPlug" count="1,2" prob="0.45" tool_category="Disassemble" />
+		<drop event="Harvest" name="piston" count="1,2" prob="0.45" tool_category="Disassemble" />
+		<drop event="Harvest" name="oilPump" count="1" prob="0.1" tool_category="Disassemble" />	
+		<drop event="Harvest" name="nutsAndBolts" count="1,15" tool_category="Mechanic" />
+		<drop event="Harvest" name="bikeEngine" count="1" prob="0.05" tool_category="Mechanic" />
+		<drop event="Harvest" name="crankShaft" count="1" prob="0.25" tool_category="Mechanic" />
+		<drop event="Harvest" name="engineBlock" count="1" prob="0.25" tool_category="Mechanic" />
+		<drop event="Harvest" name="cylinderHead" count="1" prob="0.25" tool_category="Mechanic" />
+		<drop event="Harvest" name="oilPan" count="1" prob="0.25" tool_category="Mechanic" />
+		<drop event="Harvest" name="engineParts" count="1" prob="0.12" tool_category="Mechanic" />	
+		<drop event="Harvest" name="sparkPlug" count="1,2" prob="0.75" tool_category="Mechanic" />
+		<drop event="Harvest" name="piston" count="1,2" prob="0.75" tool_category="Mechanic" />
+		<drop event="Harvest" name="oilPump" count="1" prob="0.2" tool_category="Mechanic" />	
 		<drop event="Harvest" name="gasCan" count="8,25" prob="0.5" tool_category="Mechanic"/>
 		<drop event="Harvest" name="leatherStrips" count="2,5" prob="0.5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="mechanicalParts" count="1,5" prob="0.1" tool_category="Mechanic"/>
@@ -995,7 +1015,7 @@
 		<drop event="Harvest" name="scrapIron" count="7,30" tool_category="Mechanic"/>
 		<drop event="Harvest" name="shortMetalPipe" count="1,3" prob="0.5" tool_category="Mechanic"/>
 		<drop event="Harvest" name="leatherStrips" count="2,4" prob="0.5" tool_category="Mechanic"/>
-		<drop event="Harvest" name="HDSmallEngine" count="1" prob="0.015" tool_category="Mechanic"/>
+		<drop event="Harvest" name="ECObikeEngine" count="1" prob="0.015" tool_category="Mechanic"/>
 		<drop event="Harvest" name="ECOSmallEngine" count="1" prob="0.015" tool_category="Mechanic"/>
 		<drop event="Harvest" name="HDBattery" count="1" prob="0.015" tool_category="Mechanic"/>
 		<drop event="Harvest" name="ECOBattery" count="1" prob="0.015" tool_category="Mechanic"/>
@@ -5344,7 +5364,7 @@
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="cntStorageChest" />
-			<property name="Item" value="CZlockpick" />
+			<property name="Item" value="CZlockpick01" />
 			<property name="ItemCount" value="1" />
 			<property name="UpgradeHitCount" value="5" />
 		</property>
@@ -7745,7 +7765,7 @@
 		<!-- 		<property class="UpgradeBlock"><property name="ToBlock" value="commercialDoor1_v2"/><property name="Item" value="wood"/><property name="ItemCount" value="4"/><property name="UpgradeHitCount" value="4"/></property> -->
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="unlckCommDoor" />
-			<property name="Item" value="CZlockpick" />
+			<property name="Item" value="CZlockpick01" />
 			<property name="ItemCount" value="1" />
 			<property name="UpgradeHitCount" value="5" />
 		</property>
@@ -7823,7 +7843,7 @@
 		<!-- 		<property class="UpgradeBlock"><property name="ToBlock" value="commercialDoor2_v2"/></property> -->
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="unlckCommDoor2" />
-			<property name="Item" value="CZlockpick" />
+			<property name="Item" value="CZlockpick01" />
 			<property name="ItemCount" value="1" />
 			<property name="UpgradeHitCount" value="5" />
 		</property>
@@ -7848,7 +7868,7 @@
 		<!-- 		<property class="UpgradeBlock"><property name="ToBlock" value="commercialDoor4_v2"/></property> -->
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="unlckCommDoor4" />
-			<property name="Item" value="CZlockpick" />
+			<property name="Item" value="CZlockpick01" />
 			<property name="ItemCount" value="1" />
 			<property name="UpgradeHitCount" value="5" />
 		</property>
@@ -7896,7 +7916,7 @@
 		<!-- 		<property class="UpgradeBlock"><property name="ToBlock" value="houseFrontDoor1_v2"/><property name="Item" value="wood"/><property name="ItemCount" value="4"/><property name="UpgradeHitCount" value="4"/></property> -->
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="unlckResDoor" />
-			<property name="Item" value="CZlockpick" />
+			<property name="Item" value="CZlockpick01" />
 			<property name="ItemCount" value="1" />
 			<property name="UpgradeHitCount" value="5" />
 		</property>
@@ -10296,7 +10316,7 @@
 		<drop event="Harvest" name="cloth" count="3,7" tool_category="Disassemble"/>
 		<drop event="Harvest" name="spring" count="1,2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapIron" count="7,28" tool_category="Disassemble"/>
-		<drop event="Harvest" name="shortMetalPipe" count="0,2" prob="0.5" tool_category="Disassemble'"/>
+		<drop event="Harvest" name="shortMetalPipe" count="0,2" prob="0.5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="gasCan" count="8,25" prob="0.5" tool_category="Mechanic"/>
 		<drop event="Harvest" name="leatherStrips" count="2,5" prob="0.5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="mechanicalParts" count="1,5" prob="0.1" tool_category="Mechanic"/>
@@ -10312,7 +10332,7 @@
 		<drop event="Harvest" name="scrapIron" count="7,30" tool_category="Mechanic"/>
 		<drop event="Harvest" name="shortMetalPipe" count="1,3" prob="0.5" tool_category="Mechanic"/>
 		<drop event="Harvest" name="leatherStrips" count="2,4" prob="0.5" tool_category="Mechanic"/>
-		<drop event="Harvest" name="HDSmallEngine" count="1" prob="0.015" tool_category="Mechanic"/>
+		<drop event="Harvest" name="ECObikeEngine" count="1" prob="0.015" tool_category="Mechanic"/>
 		<drop event="Harvest" name="ECOSmallEngine" count="1" prob="0.015" tool_category="Mechanic"/>
 		<drop event="Harvest" name="HDBattery" count="1" prob="0.015" tool_category="Mechanic"/>
 		<drop event="Harvest" name="ECOBattery" count="1" prob="0.015" tool_category="Mechanic"/>
@@ -10383,7 +10403,7 @@
 		<drop event="Harvest" name="cloth" count="2,5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="spring" count="1,2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapIron" count="8,30" tool_category="Disassemble"/>
-		<drop event="Harvest" name="shortMetalPipe" count="1,2" prob="0.5" tool_category="Disassemble'"/>
+		<drop event="Harvest" name="shortMetalPipe" count="1,2" prob="0.5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="leatherStrips" count="0,5" prob="0.5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="mechanicalParts" count="0,3" prob="0.1" tool_category="Mechanic"/>
 		<drop event="Harvest" name="gasCan" count="3,10" prob="0.5" tool_category="Mechanic"/>
@@ -10399,7 +10419,7 @@
 		<drop event="Harvest" name="scrapIron" count="6,25" tool_category="Mechanic"/>
 		<drop event="Harvest" name="shortMetalPipe" count="0,3" prob="0.5" tool_category="Mechanic"/>
 		<drop event="Harvest" name="leatherStrips" count="0,3" prob="0.5" tool_category="Mechanic"/>
-		<drop event="Harvest" name="HDSmallEngine" count="1" prob="0.005" tool_category="Mechanic"/>
+		<drop event="Harvest" name="ECObikeEngine" count="1" prob="0.005" tool_category="Mechanic"/>
 		<drop event="Harvest" name="ECOSmallEngine" count="1" prob="0.005" tool_category="Mechanic"/>
 		<drop event="Harvest" name="HDBattery" count="1" prob="0.00" tool_category="Mechanic"/>
 		<drop event="Harvest" name="ECOBattery" count="1" prob="0.005" tool_category="Mechanic"/>
@@ -10467,7 +10487,7 @@
 		<drop event="Harvest" name="oil" count="1,3" prob="0.5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="spring" count="1,3" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapIron" count="10,40" tool_category="Disassemble"/>
-		<drop event="Harvest" name="shortMetalPipe" count="1,2" prob="0.5" tool_category="Disassemble'"/>
+		<drop event="Harvest" name="shortMetalPipe" count="1,2" prob="0.5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="mechanicalParts" count="1,3" prob="0.1" tool_category="Mechanic"/>
 		<drop event="Harvest" name="electricParts" count="1,3" prob="0.1" tool_category="Mechanic"/>
 		<drop event="Harvest" name="electronicParts" count="1,3" prob="0.1" tool_category="Mechanic"/>
@@ -17478,7 +17498,7 @@
 		<property name="OutputPerFuel" value="11250"/>
 		<property name="MaxPower" value="12250"/>
 		<property name="OutputPerStack" value="100"/>
-		<property name="SlotItem" value="smallEngine,ECOSmallEngine,HDSmallEngine"/>
+		<property name="SlotItem" value="smallEngine,ECOSmallEngine"/>
 		<property name="Group" value="Science"/>
 		<property name="HeatMapStrength" value="1"/>
 		<property name="HeatMapTime" value="1200"/>
@@ -18328,6 +18348,34 @@
 		<property name="Texture" value="278"/>
 		<property name="CreativeMode" value="Dev"/>
 	</block>
+	<block id="1846" name="cntradSafe02Drilled">
+		<property name="Class" value="SecureLoot"/>
+		<property name="Material" value="Mmetal_safes2"/>
+		<property name="StabilitySupport" value="false"/>
+		<!-- build restriction -->
+		<property name="Mesh" value="models"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="#RHStorage?radSafe02Prefab"/>
+		<property name="CustomIcon" value="cntDeskSafe"/>
+		<property name="Place" value="TowardsPlacerInverted"/>
+		<property name="ImposterExchange" value="imposterCTREighth" param1="18"/>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="LootList" value="232"/>
+		<property name="DescriptionKey" value="cntGunSafeDesc"/>
+		<property class="RepairItems">
+			<property name="forgedIron" value="10"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntradSafe02Insecure" />
+			<property name="Item" value="CZlockpick04" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="5" />
+		</property>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="Group" value="Building"/>
+		<property name="EconomicValue" value="300"/>
+	</block>
 	<block id="1555" name="cntradSafe02">
 		<property name="Class" value="SecureLoot"/>
 		<property name="Material" value="Mmetal_safes2"/>
@@ -18344,6 +18392,12 @@
 		<property name="DescriptionKey" value="cntGunSafeDesc"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="10"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntradSafe02Drilled" />
+			<property name="Item" value="CZdrillbit" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="5" />
 		</property>
 		<property name="DowngradeBlock" value="cntradSafe02Insecure"/>
 		<drop event="Destroy" count="0"/>
@@ -18376,6 +18430,32 @@
 		<drop event="Destroy" name="mechanicalParts" count="1,3" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	</block>
+	<block id="1847" name="cntradSafe01Drilled">
+		<property name="Group" value="Building"/>
+		<property name="Class" value="SecureLoot"/>
+		<property name="CustomIcon" value="cntradSafe01"/>
+		<property name="Material" value="Mmetal_safes2"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="#RHStorage?radSafe01Prefab"/>
+		<property name="Mesh" value="models"/>
+		<property name="MultiBlockDim" value="1,2,1"/>
+		<property name="ImposterExchange" value="imposterBlock" param1="18"/>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="Place" value="TowardsPlacerInverted"/>
+		<property name="LootList" value="232"/>
+		<property class="RepairItems">
+			<property name="forgedIron" value="20"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntradSafe01Insecure" />
+			<property name="Item" value="CZlockpick04" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="5" />
+		</property>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="EconomicValue" value="690"/>
+	</block>	
 	<block id="1647" name="cntradSafe01">
 		<property name="Group" value="Building"/>
 		<property name="Class" value="SecureLoot"/>
@@ -18392,6 +18472,12 @@
 		<property name="DowngradeBlock" value="cntradSafe01Insecure"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="20"/>
+		</property>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntradSafe01Drilled" />
+			<property name="Item" value="CZdrillbit" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="5" />
 		</property>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
@@ -19559,14 +19645,6 @@
 		<property name="Extends" value="WaterBlock-Master"/>
 		<property name="Model" value="#SeaWeed?SeaWeed04Prefab"/>
 	</block>
-	<block id="1846" name="SeaWeed05Prefab">
-		<property name="Extends" value="WaterBlock-Master"/>
-		<property name="Model" value="#SeaWeed?SeaWeed05Prefab"/>
-	</block>
-	<block id="1847" name="SeaWeed06Prefab">
-		<property name="Extends" value="WaterBlock-Master"/>
-		<property name="Model" value="#SeaWeed?SeaWeed06Prefab"/>
-	</block>
 	<block id="1848" name="Halophila">
 		<property name="Extends" value="WaterBlock-Master"/>
 		<property name="Model" value="#Halophila?Halophila_X"/>
@@ -19929,7 +20007,7 @@
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="cntDeskSafeInsecure" />
-			<property name="Item" value="CZlockpick" />
+			<property name="Item" value="CZlockpick02" />
 			<property name="ItemCount" value="1" />
 			<property name="UpgradeHitCount" value="5" />
 		</property>
@@ -19952,7 +20030,7 @@
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="cntWallSafeInsecure" />
-			<property name="Item" value="CZlockpick" />
+			<property name="Item" value="CZlockpick02" />
 			<property name="ItemCount" value="1" />
 			<property name="UpgradeHitCount" value="5" />
 		</property>
@@ -19970,7 +20048,7 @@
 		<property name="Model" value="Entities/LootContainers/gun_safePrefab" />
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="cntGunSafeInsecure" />
-			<property name="Item" value="CZlockpick" />
+			<property name="Item" value="CZlockpick03" />
 			<property name="ItemCount" value="1" />
 			<property name="UpgradeHitCount" value="5" />
 		</property>

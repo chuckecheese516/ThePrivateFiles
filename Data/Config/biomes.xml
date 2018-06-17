@@ -1200,9 +1200,9 @@
 				<decoration type="block" blockname="treeCactus04" prob ="0.0002" rotatemax="3"/>
 				<decoration type="block" blockname="treeCactus05" prob ="0.0002" rotatemax="3"/>
 				<decoration type="block" blockname="treeCactus06" prob ="0.0002" rotatemax="3"/>
-				<decoration type="block" blockname="treePlainsGrassDiagonal" prob ="0.011" rotatemax="3"/>
-				<decoration type="block" blockname="treeBrownGrassDiagonal" prob ="0.011" rotatemax="3"/>
-				<decoration type="block" blockname="plantedWheat3Harvest" prob ="0.00025" rotatemax="3"/>
+				<decoration type="block" blockname="treePlainsGrassDiagonal" prob ="0.031" rotatemax="3"/>
+				<decoration type="block" blockname="treeBrownGrassDiagonal" prob ="0.031" rotatemax="3"/>
+				<decoration type="block" blockname="plantedWheat3Harvest" prob ="0.00055" rotatemax="3"/>
 				<decoration type="block" blockname="Butterflies_01" prob="0.00025" rotatemax="4"/>
 			</decorations>
 			<spectrum name="pine_forest"/>
@@ -1496,8 +1496,7 @@
 						<resource blockname="gravelPlusLead" cluster="1" prob="0.071" rwgGenerationType="all"/>
 						<resource blockname="gravelPlusIron" cluster="1" prob="0.01" rwgGenerationType="all"/>
 						<resource blockname="SeaWeed04Prefab" cluster="1" prob="0.8" rwgGenerationType="all"/>
-						<resource blockname="SeaWeed05Prefab" cluster="1" prob="0.1" rwgGenerationType="all"/>
-						<resource blockname="SeaWeed06Prefab" cluster="2" prob="0.1" rwgGenerationType="all"/>
+						<resource blockname="SeaWeed03Prefab" cluster="1" prob="0.1" rwgGenerationType="all"/>
 						<resource blockname="WaterPlant" cluster="1" prob="0.01" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="5" blockname="dirt">
@@ -1613,8 +1612,6 @@
 					<resource blockname="SeaWeed02Prefab" cluster="0" prob="0.2" rwgGenerationType="all"/>
 					<resource blockname="SeaWeed03Prefab" cluster="1" prob="0.2" rwgGenerationType="all"/>
 					<resource blockname="SeaWeed04Prefab" cluster="0" prob="0.2" rwgGenerationType="all"/>
-					<resource blockname="SeaWeed05Prefab" cluster="2" prob="0.2" rwgGenerationType="all"/>
-					<resource blockname="SeaWeed06Prefab" cluster="1" prob="0.2" rwgGenerationType="all"/>
 					<resource blockname="WaterPlant" cluster="1" prob="0.01" rwgGenerationType="all"/>
 					<resource blockname="Halophila" cluster="0" prob="0.04" rwgGenerationType="all"/>
 					<resource blockname="cntSecureTreasureChest" cluster="2" prob="0.0001" rwgGenerationType="all"/>

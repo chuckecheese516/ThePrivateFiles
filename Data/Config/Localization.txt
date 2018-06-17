@@ -1546,7 +1546,6 @@ clothDesc,items,Item,KgNone,"Cloth is a staple for survival used for clothing, b
 coal,items,Item,KgNone,Lump of Coal,Morceau de charbon,Kohlebrocken,,Trozo de carbón
 coalDesc,items,Item,EnChanged,A great fuel source and a core ingredient for gunpowder.,Un très bon combustible. Peut également servir à fabriquer des torches ou comme composant principal de la poudre à canon.,Eine sehr gutes Brennmaterial und ist eine der wichtigsten Zutaten für die Fertigung von Schießpulver.,,"Una gran fuente de combustible. También se puede usar para fabricar antorchas, así como ingrediente principal para la pólvora."
 cobblestones,items,Item,KgNone,Cobblestone Rocks,Pierres à pavés,Pflastersteine,,Adoquines
-cobblestonesDesc,items,Item,EnChanged,Cobblestone rocks can be used to build surprisingly sturdy flagstone and cobblestone structures.,Les pierres à pavés servent à construire des structures en pavés étonnamment robustes.,Mit Pflastersteinen können erstaunlich stabile Steinplatten- und Pflastersteinstrukturen gebaut werden.,,Los adoquines se pueden usar para construir estructuras de adoquines sorprendentemente robustas.
 concreteMix,items,Item,KgNone,Concrete Mix,Mélange à béton,Betonmischung,,Mezcla de hormigón
 cookingGrill,items,Item,KgNone,Cooking Grill,Grill,Grillrost,,Parrilla
 cookingGrillDesc,items,Item,KgNone,A cooking utensil used in the campfire to unlock recipes. This can only be crafted by the Survivor Class.\n [ Crafted in [eaa1a1]Blacksmiths Forge[-]  ],Un ustensile de cuisine à utiliser sur le feu de camp pour déverrouiller des compositions.,"Ein Kochgerät, mit dem am Lagerfeuer Rezepte freigeschaltet werden. Kann nur von der 'Überlebender'-Klasse hergestellt werden.\n [ Herzustellen im [eaa1a1]verbesserten Schmiedeofen[-] ]",,Un instrumento de cocina que se usa en la fogata para desbloquear recetas.
@@ -1726,7 +1725,7 @@ partsSniperRifle_stock,items,Part,KgNone,Sniper Rifle Stock,Crosse de fusil de p
 partsSniperRifleGroupDesc,items,Part,KgNone,A part of the sniper rifle. Assemble with other parts to create a complete sniper rifle once you've read the schematic.,Une pièce de fusil de précision. À assembler à d'autres pièces pour fabriquer un fusil de précision une fois que vous avez lu le schéma.,"Ein Teil von einem Scharfschützengewehr. Setze es mit den anderen Teilen zu einem Scharfschützengewehr zusammen, wenn du den Bauplan gelesen hast.",,"Una parte de un rifle de francotirador. Una vez que has leído el esquema, ármala con otras partes para crear un rifle de francotirador completo."
 shoppingBasketItem,items,Part,KgNone,Shopping Basket,Panier à provisions,Einkaufskorb,,Cesto de compras
 smallEngine,items,Part,KgNone,Small Engine,Petit moteur,Kleiner Motor,,Motor pequeño
-smallEngineDesc,items,Part,KgNone,A small engine can be used in multiple recipes including augers chainsaws and cement mixers You can craft engines with Car Parts you receive from harvesting cars with a crowbar.\n [ Crafted in [eaa1a1]Advanced Workbench[-]  ],"Une pièce commune aux tronçonneuses, foreuses et mini-motos. Sert à fabriquer ces objets une fois que vous avez lu le schéma.","Ein kleiner Motor wird in vielen Geräten benötigt, z.B. bei einer Kettensäge, einem Erdbohrer oder eines Betonmischers. Du kannst Motoren aus Auto-Teilen herstellen, welche du vom Zerlegen der Autos mit einem Brecheisen bekommen kannst.\n [ Herzustellen in der [eaa1a1]verbesserten Werkbank[-] ]",,"Una parte común de las motosierras, los taladros y las minimotos. Una vez que hayas leído el esquema, úsala para crear estos objetos."
+smallEngineDesc,items,Part,KgNone,A small engine can be used in multiple recipes including augers chainsaws and cement mixers You can craft engines with Car Parts you receive from harvesting cars with a crowbar.\n [ Crafted in [eaa1a1]Advanced Workbench[-] with a Socket. ],"Une pièce commune aux tronçonneuses, foreuses et mini-motos. Sert à fabriquer ces objets une fois que vous avez lu le schéma.","Ein kleiner Motor wird in vielen Geräten benötigt, z.B. bei einer Kettensäge, einem Erdbohrer oder eines Betonmischers. Du kannst Motoren aus Auto-Teilen herstellen, welche du vom Zerlegen der Autos mit einem Brecheisen bekommen kannst.\n [ Herzustellen in der [eaa1a1]verbesserten Werkbank[-] ]",,"Una parte común de las motosierras, los taladros y las minimotos. Una vez que hayas leído el esquema, úsala para crear estos objetos."
 q_basicSurvival,items,Quest Note,KgNone,Basic Survival Quest Note,Note de quête « Les bases de la survie »,Questnotiz – Das 1x1 des Überlebens,,Nota de búsqueda de supervivencia básica
 q_basicSurvivalDesc,items,Quest Note,KgNone,A mysterious note from a stranger. I don't know how I got it.,Un petit mot mystérieux provenant d'un étranger. Je ne sais pas comment je l'ai obtenu.,"Eine geheimnisvolle Notiz von einem Fremden. Ich weiß nicht, woher ich sie habe.",,Una nota misteriosa de un extraño. No sé cómo llegó a mí.
 auger,items,Tool,KgNone,Auger,Foreuse,Erdbohrer,,Taladro
@@ -3869,7 +3868,7 @@ bluePill,items,Medical,New,Blue Pill,,Blaue Pille,,
 bluePillDesc,items,Medical,New,"Dev item, used for testing and prefab building",,"Entwickleritem, wird zum testen benutzt.",,
 redPill,items,Medical,New,Red Pill,,Rote Pille,,
 redPillDesc,items,Medical,New,"Dev item, mostly to test food effects and clear variable counters.",,"Entwickleritem, wird zum testen benutzt.",,
-sunblocker,items,Medical,New,Sunblocker,,Sonnencreme,,
+sunblocker,items,Medical,New,Bill's Sunblocker,,Sonnencreme,,
 sunblockerDesc,items,Medical,New,It rubs the lotion on it's skin. It does this whenerver it's told.,,"Es macht das, wofür es da ist.",,
 partsCompoundBow_body,items,Part,New,Compound Bow Body,,Compoundbogen-Wurfarme,,
 partsCompoundBow_grip,items,Part,New,Compound Bow Grip,,Compoundbogen-Griff,,
@@ -6480,9 +6479,9 @@ steelMinibikeChassisDesc,items,Item,KgNone,Minibike Chassis made from Steel\n [ 
 diamondMinibikeChassis,items,Item,KgNone,Diamond Minibike Chassis,,Minibike-Fahrwerk aus Diamant,,
 diamondMinibikeChassisDesc,items,Item,KgNone,Minibike Chassis made from Diamond\n [ Crafted in [eaa1a1]Blacksmiths Forge[-] with a Blacksmith Hammer. ],Châssis miniature en tungstène,Minibike-Fahrwerk aus Diamant\n [ Herzustellen in der [eaa1a1]Schmiede-Station[-] mit einem Schmiedehammer ],,Chasis Minibike de Tungsteno
 HDSmallEngine,items,Item,KgNone,Heavy Duty Small Engine,,Kleiner Hochleistungsmotor,,
-HDSmallEngineDesc,items,Item,KgNone,A Heavy Duty Engine\n [ Crafted in [eaa1a1]Advanced Workbench[-]  ],Un moteur robuste,Ein Hochleistungs-Motor.\n [ Herzustellen in der [eaa1a1]verbesserten Werkbank[-] ],,Un motor de trabajo pesado
+HDSmallEngineDesc,items,Item,KgNone,A heavy duty engine that can be used tools.\n [ Crafted in [eaa1a1]Advanced Workbench[-] with a Socket. ],Un moteur robuste,Ein Hochleistungs-Motor.\n [ Herzustellen in der [eaa1a1]verbesserten Werkbank[-] ],,Un motor de trabajo pesado
 ECOSmallEngine,items,Item,KgNone,Economic Engine,,Kleiner Öko-Motor,,
-ECOSmallEngineDesc,items,Item,KgNone,An Economic Friendly Engine\n [ Crafted in [eaa1a1]Advanced Workbench[-]  ],Un moteur économique convivial,Ein ökonomischer kleiner Motor\n [ Herzustellen in der [eaa1a1]verbesserten Werkbank[-] ],,Un motor económico amigable
+ECOSmallEngineDesc,items,Item,KgNone,An economic friendly engine that can be used in tools.\n [ Crafted in [eaa1a1]Advanced Workbench[-] with a Socket. ],Un moteur économique convivial,Ein ökonomischer kleiner Motor\n [ Herzustellen in der [eaa1a1]verbesserten Werkbank[-] ],,Un motor económico amigable
 KevlarMinibikeSeat,items,Item,KgNone,Strengthened Minibike Seat,,Verstärkte Minibike-Sitzbank,,
 KevlarMinibikeSeatDesc,items,Item,KgNone,Minibike seat made with Military Fiber\n [ Crafted in [eaa1a1]Advanced Workbench[-]  ],Siège Minibike fabriqué avec Kevlar,Minibike-Sitz aus militärischer Faser hergestellt.\n [ Herzustellen in der [eaa1a1]verbesserten Werkbank[-] ],,Asiento de minibike hecho con Kevlar
 diamondMinibikeSeat,items,Item,KgNone,Diamond Minibike Seat,,Minibike-Sitzbank aus Diamant,,
@@ -7984,27 +7983,35 @@ grassCutterDesc,,,,You can assemble and use a Weed Whacker to cut down grass at 
 CZLockPickKit01,,,,Cheap Lock Pick Kit,,,,
 CZLockPickKit02,,,,Lock Pick Kit,,,,
 CZLockPickKit03,,,,Advanced Lock Pick Kit,,,,
-CZLockPickKit04,,,,Maser Lock Pick Kit,,,,
+CZLockPickKit04,,,,Master Lock Pick Kit,,,,
+CZlockpick,,,,Cheap Lock Pick,,,,
 CZlockpick,,,,Lock Pick,,,,
-locksmithDesc,,,,"Not everyone wants you rummaging through their stuff,  but with this skill, that doesn't matter.",,,,
-unlckCommDoor,,,,Door (unlocked),,,,
-unlckCommDoor2,,,,Door (unlocked),,,,
-unlckCommDoor3,,,,Door (unlocked),,,,
-unlckCommDoor4,,,,Door (unlocked),,,,
-unlckResDoor,,,,Door (unlocked),,,,
-unlckResDoor2,,,,Door (unlocked),,,,
-cheapkitDesc,,,,"A cheap, low quality lock picking kit.",,,,
-regkitDesc,,,, A low end professional lock picking kit.,,,,
-advkitDesc,,,, A professional grade lock picking kit.,,,,
-masterkitDesc,,,,"A master locksmith's lock picking kit.",,,,
-lockpickDesc,,,,Used in combination with a lock pick kit to open locked doors and safes.,,,,
+CZlockpick,,,,Advanced Lock Pick,,,,
+CZlockpick,,,,Master Lock Pick,,,,
+locksmithDesc,,,,"Becoming a Master lockpick will allow you to open doors, safes and chests of all kinds. Use your lock picks to level this skill and become a Master Lock Picker.",,,,
+unlckCommDoor,,,,Door (Unlocked),,,,
+unlckCommDoor2,,,,Door (Unlocked),,,,
+unlckCommDoor3,,,,Door (Unlocked),,,,
+unlckCommDoor4,,,,Door (Unlocked),,,,
+unlckResDoor,,,,Door (Unlocked),,,,
+unlckResDoor2,,,,Door (Unlocked),,,,
+cheapkitDesc,,,,"A cheap, low quality lock picking kit that can help you access doors and chests.",,,,
+regkitDesc,,,, A low end professional lock picking kit that help you open drilled desk and wall safes.,,,,
+advkitDesc,,,, A professional grade lock picking kit that can help you access drilled gun safes.,,,,
+masterkitDesc,,,,"A master locksmith's lock picking kit that can help you access drilled radiation zone safes.",,,,
+lockpick01Desc,,,,This lockpick used in combination with the appropriate lock pick kit to open locked doors and chests.,,,,
+lockpick02Desc,,,,This lockpick used in combination with the appropriate lock pick kit to open locked wall and desk safes.,,,,
+lockpick03Desc,,,,This lockpick used in combination with the appropriate lock pick kit to open locked gun safes.,,,,
+lockpick04Desc,,,,This lockpick used in combination with the appropriate lock pick kit to open locked radiation zone safes.,,,,
 CZDrill,,,,Drill,,,,
 CZdrillbit,,,,Drill Bit,,,,
-cntDeskSafeDrilled,,,,Desk Safe (drilled),,,,
-cntWallSafeDrilled,,,,Wall Safe (drilled),,,,
-cntGunSafeDrilled,,,,Gun Safe (drilled),,,,
-drillDesc,,,,A power drill for accessing combination safe locks.,,,,
-drillbitDesc,,,,a bit for a power drill.,,,,
+cntDeskSafeDrilled,,,,Desk Safe (Drilled),,,,
+cntWallSafeDrilled,,,,Wall Safe (Drilled),,,,
+cntGunSafeDrilled,,,,Gun Safe (Drilled),,,,
+cntradSafe02Drilled,,,,Military Desk Safe (Drilled),,,,
+cntradSafe01Drilled,,,,Military Gun Safe (Drilled),,,,
+drillDesc,,,,A power drill for breaking through combination safe locks. You will need a drill bit for your drill. Once the safe is cracked you need the appropriate lock picking kit to access the contents of the safe.,,,,
+drillbitDesc,,,,A Bit for your Power Drill. Use this to crack open secure safes. An appropriate lockpick kit will be needed to finish the job successfully.,,,,
 cntStorageFarming,,,,Storage Box Farming (Large Storage),,
 cntStorageMining,,,,Storage Box Mining (Large Storage),,
 cntStorageClothes,,,,Storage Box Clothing (Large Storage),,
@@ -8042,7 +8049,7 @@ carpentryStation,,,,Carpenter's Bench,,
 carpentryStationDesc,,,,The carpenter's bench is used to make and shape all kinds of wood working materials.,,
 infectedredMeat,,,,Tainted Red Meat,,
 infectedwhiteMeat,,,,Tainted White Meat,,
-infectedredMeatDesc,,,,This meat is tainted and needs to go through an extensive sterilization process to become useable.,,
+infectedredMeatDesc,,,,"This meat is tainted and needs to go through an extensive sterilization process to become useable. You will need a Chemistry Station and salt, Purified Water and Medical Powder to rid the meat of its diseases.",,
 beehiveEmpty,,,,Bee Hive (Empty),,
 beehiveFull,,,,Bee Hive (Ready),,
 beehiveEmptyDesc,,,,Right click on this bee hive with bees you catch from cutting trees. Wait a few hours and you will be able to harvest honey and wax from it.,,
@@ -8181,3 +8188,25 @@ lemonade,,,,Lemonade,,
 lemonadeDesc,,,,Lemonade can be a refreshing way to beat the heat.,,
 boxerDesc,,,,"So you want to be a tough guy? Think you can take on the world with just your fists? Increase this skill by using your hands on zombies and remember number 1 rule of Fight Club!.",,,,
 theItalianStallionDesc,,,,"Keep those hands up and become the legend you were destined to be by purchasing this perk to increase damage done to those damn walkers.",,,,
+handle,,,,Handle,,
+handleDesc,,,,Handles can be used to make axes, hammers, pickaxes and other weapons and tools when fitted with the proper tool head.,,
+cobblestonesDesc,items,Item,EnChanged,Cobblestone rocks can be used to upgrade your structures to surprisingly sturdy flagstone and cobblestone structures.,Les pierres à pavés servent à construire des structures en pavés étonnamment robustes.,Mit Pflastersteinen können erstaunlich stabile Steinplatten- und Pflastersteinstrukturen gebaut werden.,,Los adoquines se pueden usar para construir estructuras de adoquines sorprendentemente robustas.
+newMachete,,,,Survivors Machete,,
+nutsAndBolts,,,,Nuts and Bolts,,
+bikeEngine,,,,Minibike Engine,,
+crankShaft,,,,Crank Shaft,,
+engineBlock,,,,Engine Block,,
+cylinderHead,,,,Cylinder Head,,
+oilPan,,,,Oil Pan,,
+engineParts,,,,Engine Parts,,
+sparkPlug,,,,Sparkplug,,
+piston,,,,Piston,,
+oilPump,,,,Oil Pump,,
+bikeEngineRecipe,,,,Building An Engine,,
+enginePartsMasterDesc,,,,A part needed in building an engine,,
+bikeEngineDesc,,,,A custom built engine that you can use in your Minibike.\n [ Crafted in [eaa1a1]Advanced Workbench[-] with a Socket. ] ,,
+enginePartsDesc,,,,A collecton of pistons and other items that will help you build your custom engine.\n [ Crafted in [eaa1a1]Advanced Workbench[-] with a Socket. ] ,,
+ECObikeEngine,,,,Upgraded Minibike Engine,,
+ECObikeEngineDesc,,,,"A custom built upgraded engine that you can use in your Minibike that gets better fuel per mile, is faster but is also slightly noiser."\n [ Crafted in [eaa1a1]Advanced Workbench[-] with a Socket. ] ,,
+saw,,,,Hacksaw,,
+sawDesc,,,,This hacksaw can be used to cut logs and wood and make wooden items in the Carpentry Bench.,,
