@@ -96,7 +96,6 @@
 		<ingredient name="partsAuger_parts" count="1"/>
 		<ingredient name="partsAuger_blade" count="1"/>
 	</recipe>
-
 	<recipe name="bandage" count="1">
 		<ingredient name="cloth" count="2"/>
 	</recipe>
@@ -488,7 +487,7 @@
 	<recipe name="barricade" count="1">
 		<ingredient name="wood" count="5"/>
 	</recipe>
-	<recipe name="cntSecureStorageChest" count="1">
+	<recipe name="cntSecureStorageChest1" count="1">
 		<ingredient name="wood" count="10"/>
 	</recipe>
 	<recipe name="cntStorageGeneric" count="1">
@@ -1257,10 +1256,11 @@
 		<ingredient name="doorHinge" count="4"/>
 	</recipe>
 	<recipe name="blacksmithsForge" count="1" craft_time="60" >
-		<ingredient name="forge" count="1"/>
-		<ingredient name="clayLump" count="100"/>
+		<ingredient name="clayLump" count="150"/>
 		<ingredient name="anvil" count="1"/>
 		<ingredient name="forgedIron" count="20"/>
+		<ingredient name="rockSmall" count="50"/>
+		<ingredient name="bellows" count="1"/>
 	</recipe>
 	<recipe name="gunrepairKit" count="1">
 		<ingredient name="oil" count="1"/>
@@ -1308,9 +1308,6 @@
 	</recipe>
 	<recipe name="scrapLead" count="1" craft_area="blacksmithsForge" material_based="true" craft_time="1" craft_exp_gain="0">
 		<ingredient name="unit_lead" count="1"/>
-	</recipe>
-	<recipe name="limestone" count="1" craft_area="blacksmithsForge" material_based="true" craft_time="1" craft_exp_gain="0">
-		<ingredient name="unit_limestone" count="1"/>
 	</recipe>
 	<recipe name="anvil" count="1" craft_area="blacksmithsForge" material_based="true">
 		<ingredient name="unit_iron" count="400"/>
@@ -1468,6 +1465,10 @@
 	</recipe>
 	<recipe name="buckshot" count="1" craft_area="blacksmithsForge"  material_based="true">
 		<ingredient name="unit_lead" count="3"/>
+		<ingredient name="unit_clay" count="1"/>
+	</recipe>
+	<recipe name="HollowTip" count="1" craft_area="blacksmithsForge"  material_based="true" craft_tool="bulletTipMold">
+		<ingredient name="unit_lead" count="1"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
 	<recipe name="bulletTip" count="1" craft_area="blacksmithsForge"  material_based="true" craft_tool="bulletTipMold">
@@ -2226,7 +2227,7 @@
 	<recipe name="woodCross" count="1" craft_area="decoStation">
 		<ingredient name="wood" count="10"/>
 	</recipe>
-	<recipe name="commercialDoor1_v1" count="1"  craft_area="decoStation">
+	<recipe name="unlckCommDoor" count="1"  craft_area="decoStation">
 		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="spring" count="2"/>
 		<ingredient name="screws" count="4"/>
@@ -2238,7 +2239,7 @@
 		<ingredient name="screws" count="4"/>
 		<ingredient name="doorHinge" count="2"/>
 	</recipe>
-	<recipe name="houseFrontDoor1_v1" count="1" craft_area="decoStation">
+	<recipe name="unlckResDoor" count="1" craft_area="decoStation">
 		<ingredient name="polishedWood" count="20"/>
 		<ingredient name="nail" count="8"/>
 		<ingredient name="screws" count="4"/>
@@ -3211,6 +3212,49 @@
 	<recipe name="dismantleShotgunShells30" count="1" craft_time="5"  craft_area="ammunitionTable" craft_tool="calipers">
 		<ingredient name="shotgunShell" count="30"/>
 	</recipe>
+	
+	<recipe name="dismantlestoneArrow" count="1" craft_time="5"  craft_area="ammunitionTable">
+		<ingredient name="arrow" count="10"/>
+	</recipe>
+	<recipe name="dismantlestoneArrow30" count="1" craft_time="5"  craft_area="ammunitionTable">
+		<ingredient name="arrow" count="30"/>
+	</recipe>
+
+	<recipe name="dismantlestoneBolt" count="1" craft_time="5"  craft_area="ammunitionTable">
+		<ingredient name="stonecrossbowBolt" count="10"/>
+	</recipe>
+	<recipe name="dismantlestoneBolt30" count="1" craft_time="5"  craft_area="ammunitionTable">
+		<ingredient name="stonecrossbowBolt" count="30"/>
+	</recipe>
+
+	<recipe name="dismantleironArrow" count="1" craft_time="5"  craft_area="ammunitionTable">
+		<ingredient name="ironArrow" count="10"/>
+	</recipe>
+	<recipe name="dismantleironArrow30" count="1" craft_time="5"  craft_area="ammunitionTable">
+		<ingredient name="ironArrow" count="30"/>
+	</recipe>
+
+	<recipe name="dismantleironBolt" count="1" craft_time="5"  craft_area="ammunitionTable">
+		<ingredient name="ironCrossbowBolt" count="10"/>
+	</recipe>
+	<recipe name="dismantleironBolt30" count="1" craft_time="5"  craft_area="ammunitionTable">
+		<ingredient name="ironCrossbowBolt" count="30"/>
+	</recipe>
+
+	<recipe name="dismantlesteelArrow" count="1" craft_time="5"  craft_area="ammunitionTable">
+		<ingredient name="steelArrow" count="10"/>
+	</recipe>
+	<recipe name="dismantlesteelArrow30" count="1" craft_time="5"  craft_area="ammunitionTable">
+		<ingredient name="steelArrow" count="30"/>
+	</recipe>
+
+	<recipe name="dismantlesteelBolt" count="1" craft_time="5"  craft_area="ammunitionTable">
+		<ingredient name="steelCrossbowBolt" count="10"/>
+	</recipe>
+	<recipe name="dismantlesteelBolt30" count="1" craft_time="5"  craft_area="ammunitionTable">
+		<ingredient name="steelCrossbowBolt" count="30"/>
+	</recipe>
+
 	<recipe name="rocketGrenade" count="1" craft_time="3"  craft_area="ammunitionTable" craft_tool="toolAndDieSet">
 		<ingredient name="diyRocketTip" count="1"/>
 		<ingredient name="diyRocketCasing" count="1"/>
@@ -3263,10 +3307,6 @@
 		<ingredient name="forgedIron" count="25"/>
 		<ingredient name="mechanicalParts" count="10"/>
 		<ingredient name="wood" count="25"/>
-	</recipe>
-	<recipe name="HollowTip" count="1" craft_area="forge" craft_tool="anvil" material_based="true">
-		<ingredient name="unit_lead" count="1"/>
-		<ingredient name="unit_clay" count="1"/>
 	</recipe>
 	<recipe name="44MagBulletHP" count="1" craft_area="ammunitionTable">
 		<ingredient name="HollowTip" count="1" />
@@ -3332,9 +3372,6 @@
 	</recipe>
 	<recipe name="rockSmall" count="1" craft_area="forge" material_based="true" craft_time="1" craft_exp_gain="0">
 		<ingredient name="unit_stone" count="5"/>
-	</recipe>
-	<recipe name="scrapBrass" count="1" craft_area="forge" material_based="true" craft_time="1" craft_exp_gain="0">
-		<ingredient name="unit_brass" count="1"/>
 	</recipe>
 	<recipe name="scrapIron" count="1" craft_area="forge" material_based="true" craft_time="1" craft_exp_gain="0">
 		<ingredient name="unit_iron" count="1"/>
@@ -3408,42 +3445,6 @@
 		<ingredient name="nail" count="5"/>
 		<ingredient name="wood" count="20"/>
 		<ingredient name="Twine" count="5"/>
-	</recipe>
-	<recipe name="brickWedgeIncline" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="brickWedgeTipCNRFullTop" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="brickWedgeTipCNRFullBottom" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="brickWedgeCNRInsideBottom" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="brickWedgeCNRInsideTop" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="brickStairs25CornerCNR" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="brickCTRpole" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="brickCNRRampFiller" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="brickArch" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
 	</recipe>
 	<recipe name="wireTool" count="1" craft_area="advancedWorkbench">
 		<ingredient name="forgedSteel" count="9"/>
@@ -3570,14 +3571,6 @@
 		<ingredient name="mechanicalParts" count="10"/>
 		<ingredient name="rockSmall" count="1200"/>
 		<ingredient name="clayLump" count="900"/>
-	</recipe>
-	<recipe name="brickWedgeStairs" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="brickWedgeTipStairs" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
 	</recipe>
 	<recipe name="ironTippedSpear" count="1" craft_time="10"  craft_area="advancedWorkbench">
 		<ingredient name="ironArrowHead" count="5"/>
@@ -3970,14 +3963,17 @@
 		<ingredient name="Twine" count="10"/>
 		<ingredient name="mechanicalParts" count="5"/>
 	</recipe>
-	<recipe name="smallEngine" count="1" craft_area="advancedWorkbench" craft_tool="socket">
+	<recipe name="rebarFrameBlock" count="1" craft_area="advancedWorkbench">
+		<ingredient name="rebar" count="2"/>
+		<ingredient name="screws" count="2"/>
+	</recipe>
+	<recipe name="smallEngine" count="1" craft_area="advancedWorkbench">
 		<ingredient name="car_parts" count="75"/>
 		<ingredient name="radiator" count="1"/>
 		<ingredient name="mechanicalParts" count="5"/>
 		<ingredient name="shortMetalPipe" count="4"/>
 	</recipe>
-
-	<recipe name="ECOSmallEngine" count="1" craft_area="advancedWorkbench" craft_tool="socket">
+	<recipe name="ECOSmallEngine" count="1" craft_area="advancedWorkbench">
 		<ingredient name="car_parts" count="150"/>
 		<ingredient name="radiator" count="1"/>
 		<ingredient name="mechanicalParts" count="10"/>
@@ -4065,16 +4061,6 @@
 		<ingredient name="Solder" count="15"/>
 		<ingredient name="oil" count="2"/>
 	</recipe>
-	<recipe name="partsCutter_blade" count="1"    craft_area="advancedWorkbench" craft_tool="chisel">
-		<ingredient name="partsCutter_blade" count="1"/>
-		<ingredient name="Solder" count="15"/>
-		<ingredient name="oil" count="2"/>
-	</recipe>
-	<recipe name="partsCutter_parts" count="1"    craft_area="advancedWorkbench" craft_tool="chisel">
-		<ingredient name="partsCutter_parts" count="1"/>
-		<ingredient name="Solder" count="15"/>
-		<ingredient name="oil" count="2"/>
-	</recipe>
 	<recipe name="partsAuger_blade" count="1"    craft_area="advancedWorkbench" craft_tool="chisel">
 		<ingredient name="partsAuger_blade" count="1"/>
 		<ingredient name="Solder" count="15"/>
@@ -4086,34 +4072,6 @@
 		<ingredient name="cookingpot" count="3"/>
 		<ingredient name="shortMetalPipe" count="15"/>
 		<ingredient name="wood" count="40"/>
-	</recipe>
-	<recipe name="brickBlock" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="brickCNRFull" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="brickCNRInside" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="brickCNRRamp" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="brickStairs25" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="brickPlate" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="brickRamp" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="bricks" count="5"/>
-		<ingredient name="concreteMix" count="5"/>
 	</recipe>
 	<recipe name="cementMixer" count="1" craft_area="advancedWorkbench">
 		<ingredient name="forgedIron" count="25"/>
@@ -4242,26 +4200,6 @@
 		<ingredient name="motionsensor" count="1"/>
 		<ingredient name="crossbowRepeater" count="1"/>
 		<ingredient name="mechanicalParts" count="6"/>
-	</recipe>
-	<recipe name="bikeEngine" count="1" craft_area="advancedWorkbench" craft_tool="socket">
-		<ingredient name="engineBlock" count="1" />
-		<ingredient name="cylinderHead" count="2" />
-		<ingredient name="oilPan" count="1" />
-		<ingredient name="oilPump" count="1" />
-		<ingredient name="engineParts" count="1" />
-	</recipe>
-	<recipe name="ECObikeEngine" count="1" craft_area="advancedWorkbench" craft_tool="socket">
-		<ingredient name="engineBlock" count="1" />
-		<ingredient name="cylinderHead" count="4" />
-		<ingredient name="oilPan" count="1" />
-		<ingredient name="oilPump" count="1" />
-		<ingredient name="engineParts" count="2" />
-	</recipe>
-	<recipe name="engineParts" count="1" craft_area="advancedWorkbench" craft_tool="socket">
-		<ingredient name="crankShaft" count="1" />
-		<ingredient name="piston" count="8" />
-		<ingredient name="sparkPlug" count="8" />
-		<ingredient name="nutsAndBolts" count="50" />
 	</recipe>
 	<!-- DRYING RACK	 -->
 	<recipe name="dryingRack" count="1" craft_time="60">
@@ -5174,109 +5112,315 @@
 		<ingredient name="gasCan" count="1"/>
 	</recipe>
 	<!-- RESEARCH DESK -->
+	<recipe name="qc_silenceofthelambs" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_drunkanddisorderly" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_nurseyoubacktohealth" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_copanattitude" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_dogdaysareover" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_itsbitsyspider" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_ladykiller" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_maneater" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_imalumberjackandimokay" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_yournothingspecial" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_killthewabbit" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_nailsomechicks" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_thatlldopig" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_stagparty" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_dontfeedthebears" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_buythefarm" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_cowparty" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_bullparty" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_pigparty" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_buythefarm2" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_smallgame" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_disrepecttheelderly" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_killingfarmers" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_clubkilling" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_disposingoftherotters" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_wolfparty" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_direwolfparty" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_arefreshingdrink" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_brewingsometrouble" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_drowningsorrows" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_hungryman" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_scavengersdelight" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_happymeal" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_sinderpickle" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_walterwhitewouldbeproud" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_bullparty" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
 	<recipe name="Athletics_skill3points" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="25"/>
 	</recipe>
 	<recipe name="Blunt_Weapons_skill3points" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="25"/>
 	</recipe>
 	<recipe name="Bladed_Weapons_skill3points" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="25"/>
 	</recipe>
 	<recipe name="Mining_Tools_skill3points" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="25"/>
 	</recipe>
 	<recipe name="Construction_Tools_skill3points" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="25"/>
 	</recipe>
 	<recipe name="Pistols_skill3points" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="25"/>
 	</recipe>
 	<recipe name="Shotguns_skill3points" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="25"/>
 	</recipe>
 	<recipe name="Rifles_skill3points" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="25"/>
 	</recipe>
 	<recipe name="Archery_skill3points" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="25"/>
 	</recipe>
 	<recipe name="Medicine_skill3points" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="25"/>
 	</recipe>
 	<recipe name="Armor_skill3points" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="25"/>
 	</recipe>
 	<recipe name="ElectricTools_skill3points" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="25"/>
 	</recipe>
 	<recipe name="Barter_skill3points" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="25"/>
 	</recipe>
 	<recipe name="Athletics_skill5points" count="1" craft_time="20" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="150"/>
 		<ingredient name="ink" count="20"/>
+		<ingredient name="paper" count="50"/>
 	</recipe>
 	<recipe name="Blunt_Weapons_skill5points" count="1" craft_time="20" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="150"/>
 		<ingredient name="ink" count="20"/>
+		<ingredient name="paper" count="50"/>
 	</recipe>
 	<recipe name="Bladed_Weapons_skill5points" count="1" craft_time="20" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="150"/>
 		<ingredient name="ink" count="20"/>
+		<ingredient name="paper" count="50"/>
 	</recipe>
 	<recipe name="Mining_Tools_skill5points" count="1" craft_time="20" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="150"/>
 		<ingredient name="ink" count="20"/>
+		<ingredient name="paper" count="50"/>
 	</recipe>
 	<recipe name="Construction_Tools_skill5points" count="1" craft_time="20" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="150"/>
 		<ingredient name="ink" count="20"/>
+		<ingredient name="paper" count="50"/>
 	</recipe>
 	<recipe name="Pistols_skill5points" count="1" craft_time="20" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="150"/>
 		<ingredient name="ink" count="20"/>
+		<ingredient name="paper" count="50"/>
 	</recipe>
 	<recipe name="Shotguns_skill5points" count="1" craft_time="20" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="150"/>
 		<ingredient name="ink" count="20"/>
+		<ingredient name="paper" count="50"/>
 	</recipe>
 	<recipe name="Rifles_skill5points" count="1" craft_time="20" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="150"/>
 		<ingredient name="ink" count="20"/>
+		<ingredient name="paper" count="50"/>
 	</recipe>
 	<recipe name="Archery_skill5points" count="1" craft_time="20" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="150"/>
 		<ingredient name="ink" count="20"/>
+		<ingredient name="paper" count="50"/>
 	</recipe>
 	<recipe name="Medicine_skill5points" count="1" craft_time="20" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="150"/>
 		<ingredient name="ink" count="20"/>
+		<ingredient name="paper" count="50"/>
 	</recipe>
 	<recipe name="Armor_skill5points" count="1" craft_time="20" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="150"/>
 		<ingredient name="ink" count="20"/>
+		<ingredient name="paper" count="50"/>
 	</recipe>
 	<recipe name="ElectricTools_skill5points" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="20"/>
+		<ingredient name="paper" count="50"/>
 	</recipe>
 	<recipe name="Barter_skill5points" count="1" craft_time="20" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="150"/>
 		<ingredient name="ink" count="20"/>
+		<ingredient name="paper" count="50"/>
 	</recipe>
 	<recipe name="rifleKitLocked" craft_time="30"  craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="325"/>
@@ -5906,6 +6050,9 @@
 	<recipe name="crushedSand" count="5" craft_area="stoneGrinder">
 		<ingredient name="rockSmall" count="25"/>
 	</recipe>
+	<recipe name="crushedGravel" count="2" craft_area="stoneGrinder">
+		<ingredient name="gravel" count="1"/>
+	</recipe>
 	<recipe name="sand" count="10" craft_area="stoneGrinder">
 		<ingredient name="crushedSand" count="120"/>
 	</recipe>
@@ -5916,8 +6063,8 @@
 	</recipe>
 	<recipe name="cement" count="10" craft_area="stoneGrinder">
 		<ingredient name="crushedSand" count="80"/>
-		<ingredient name="limestone" count="100"/>
-		<ingredient name="gravel" count="50"/>
+		<ingredient name="limestone" count="80"/>
+		<ingredient name="crushedGravel" count="50"/>
 	</recipe>
 	<recipe name="gravel" count="5" craft_area="stoneGrinder">
 		<ingredient name="crushedSand" count="50"/>

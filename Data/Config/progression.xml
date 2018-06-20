@@ -734,7 +734,7 @@
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 			<recipe name="cntEPSDuffle01" unlock_level="1"/>
 			<recipe name="cntEPSSuitcase" unlock_level="1"/>
-			<recipe name="cntSecureStorageChest" unlock_level="1"/>
+			<recipe name="cntSecureStorageChest1" unlock_level="1"/>
 			<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="20"/>
 			<recipe name="cntStorageCustomSecure" unlock_level="2"/>
 			<recipe name="oldTrunk" unlock_level="2"/>

@@ -986,20 +986,20 @@
 		<drop event="Harvest" name="engineBlock" count="1" prob="0.15" tool_category="Disassemble" />
 		<drop event="Harvest" name="cylinderHead" count="1" prob="0.15" tool_category="Disassemble" />
 		<drop event="Harvest" name="oilPan" count="1" prob="0.15" tool_category="Disassemble" />
-		<drop event="Harvest" name="engineParts" count="1" prob="0.05" tool_category="Disassemble" />	
+		<drop event="Harvest" name="engineParts" count="1" prob="0.05" tool_category="Disassemble" />
 		<drop event="Harvest" name="sparkPlug" count="1,2" prob="0.45" tool_category="Disassemble" />
 		<drop event="Harvest" name="piston" count="1,2" prob="0.45" tool_category="Disassemble" />
-		<drop event="Harvest" name="oilPump" count="1" prob="0.1" tool_category="Disassemble" />	
+		<drop event="Harvest" name="oilPump" count="1" prob="0.1" tool_category="Disassemble" />
 		<drop event="Harvest" name="nutsAndBolts" count="1,15" tool_category="Mechanic" />
 		<drop event="Harvest" name="bikeEngine" count="1" prob="0.05" tool_category="Mechanic" />
 		<drop event="Harvest" name="crankShaft" count="1" prob="0.25" tool_category="Mechanic" />
 		<drop event="Harvest" name="engineBlock" count="1" prob="0.25" tool_category="Mechanic" />
 		<drop event="Harvest" name="cylinderHead" count="1" prob="0.25" tool_category="Mechanic" />
 		<drop event="Harvest" name="oilPan" count="1" prob="0.25" tool_category="Mechanic" />
-		<drop event="Harvest" name="engineParts" count="1" prob="0.12" tool_category="Mechanic" />	
+		<drop event="Harvest" name="engineParts" count="1" prob="0.12" tool_category="Mechanic" />
 		<drop event="Harvest" name="sparkPlug" count="1,2" prob="0.75" tool_category="Mechanic" />
 		<drop event="Harvest" name="piston" count="1,2" prob="0.75" tool_category="Mechanic" />
-		<drop event="Harvest" name="oilPump" count="1" prob="0.2" tool_category="Mechanic" />	
+		<drop event="Harvest" name="oilPump" count="1" prob="0.2" tool_category="Mechanic" />
 		<drop event="Harvest" name="gasCan" count="8,25" prob="0.5" tool_category="Mechanic"/>
 		<drop event="Harvest" name="leatherStrips" count="2,5" prob="0.5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="mechanicalParts" count="1,5" prob="0.1" tool_category="Mechanic"/>
@@ -1153,15 +1153,14 @@
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.Next" value="cropsHarvestableMaster"/>
-		<property name="PlantGrowing.GrowthRate" value="10"/>
-		<!-- <property name="PlantGrowing.GrowthRate" value="360"/> -->
+		<property name="PlantGrowing.GrowthRate" value="360"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.FertileLevel" value="1"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
 		<!--<property name="PlantGrowing.LightLevelGrow" value="8"/> default, light required for growing up<property name="PlantGrowing.LightLevelStay" value="0"/> default, light required for not dieing off<property name="PlantGrowing.GrowOnTop" value="treeSnowyGrassDiagonal"/><property name="PlantGrowing.GrowIfAnythinOnTop" value="false"/><property name="PlantGrowing.IsGrowOnTopEnabled" value="false"/>-->
 		<property name="HarvestOverdamage" value="false"/>
 		<drop event="Destroy" count="0"/>
-		<property name="Group" value="Farming"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<property name="EconomicValue" value="12"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="EconomicBundleSize" value="5"/>
@@ -1188,7 +1187,7 @@
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="DescriptionKey" value="plantsFarmGroupDesc"/>
-		<property name="Group" value="Farming"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 	</block>
 	<block id="121" name="stainlessSteelMaster">
 		<property name="Group" value="Building"/>
@@ -1760,7 +1759,6 @@
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<!-- ****************************  Main Blocks  **************************** -->
-
 	<block id="193" name="rebarFramePillar100">
 		<property name="Extends" value="rebarFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -1785,9 +1783,6 @@
 			<property name="ToBlock" value="pouredRConcreteBlock"/>
 		</property>
 	</block>
-
-
-
 	<block id="210" name="brickBlock">
 		<property name="Extends" value="brickMaster"/>
 		<property class="UpgradeBlock">
@@ -1826,14 +1821,13 @@
 			<property name="ToBlock" value="scrapIronCNRFull"/>
 		</property>
 	</block>
-
 	<block id="220" name="woodBlock">
 		<property name="Extends" value="woodMaster"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="rWoodBlock"/>
 		</property>
 		<property name="DowngradeBlock" value="solidWoodFrameBlock"/>
-	</block>	
+	</block>
 	<block id="240" name="scrapIronFrameRamp">
 		<property name="Extends" value="scrapIronFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -1863,7 +1857,7 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 		<property name="PlantGrowing.Next" value="plantedBlueberry2"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<drop event="Destroy" name="plantedBlueberry1" count="1"/>
 		<property name="DescriptionKey" value="plantsFarmGroupDesc"/>
 	</block>
@@ -1879,8 +1873,6 @@
 		<drop event="Harvest" name="blueberries" count="1" prob="0.5" tool_category="FarmSeed"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="1" tool_category="FarmSeed"/>
 		<drop event="Harvest" name="plantedBlueberry1" count="1" prob="0.7" tool_category="FarmSeed"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 	</block>
 	<block id="259" name="plantedPotato1">
 		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
@@ -1889,7 +1881,7 @@
 		<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 		<property name="Collide" value="melee"/>
 		<property name="PlantGrowing.Next" value="plantedPotato2"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<drop event="Destroy" name="plantedPotato1" count="1"/>
 		<property name="DescriptionKey" value="plantsFarmGroupDesc"/>
 	</block>
@@ -1916,8 +1908,6 @@
 		<drop event="Harvest" name="potato" count="1" prob="0.5" tool_category="FarmSeed"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="1" tool_category="FarmSeed"/>
 		<drop event="Harvest" name="plantedPotato1" count="1" prob="0.7" tool_category="FarmSeed"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 	</block>
 	<block id="262" name="plantedBlueberry2">
 		<property name="Extends" value="cropsGrowingMaster"/>
@@ -2593,7 +2583,7 @@
 		<property name="HandleFace" value="Bottom"/>
 		<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
 		<property name="IsTerrainDecoration" value="true"/>
-		<property name="LootList" value="196"/>
+		<property name="LootList" value="249"/>
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 		</property>
@@ -2944,7 +2934,6 @@
 			<property name="UpgradeHitCount" value="5" />
 		</property>
 	</block>
-
 	<block id="369" name="cntMailBox01">
 		<property name="Extends" value="cntMailbox"/>
 		<property name="Model" value="LootContainers/mailbox01" param1="main_mesh"/>
@@ -3069,8 +3058,6 @@
 		<property name="EconomicValue" value="885"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-
-
 	<block id="384" name="scrapIronSheet">
 		<property name="DescriptionKey" value="scrapIronGroup1Desc"/>
 		<property name="Material" value="Mmetal_medium"/>
@@ -3137,7 +3124,6 @@
 		</property>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-
 	<block id="395" name="glassIndustrialCTRPlate">
 		<property name="Material" value="glass"/>
 		<property name="Shape" value="New"/>
@@ -3165,7 +3151,6 @@
 			<property name="ToBlock" value="scrapIronSheet"/>
 		</property>
 	</block>
-
 	<block id="398" name="lootMPHelper">
 		<property name="Extends" value="lootWastelandHelper"/>
 		<property name="CreativeMode" value="Dev"/>
@@ -3198,7 +3183,6 @@
 			<property name="ToBlock" value="scrapIronCTRPlate"/>
 		</property>
 	</block>
-
 	<block id="407" name="keystoneBlock">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Material" value="Msteel"/>
@@ -3774,7 +3758,7 @@
 		<drop event="Harvest" count="0" tool_category="Disassemble"/>
 		<drop event="Destroy" name="signRoadArrowheadApache" count="1" tool_category="Disassemble"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Signs"/>
+		<property name="Group" value="Signs, Decor/Miscellaneous"/>
 	</block>
 	<block id="471" name="signRoadAZ260eastSpeed65">
 		<property name="Extends" value="signRoadArrowheadApache"/>
@@ -4285,7 +4269,7 @@
 		<property name="EconomicValue" value="250"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<drop event="Destroy" name="plantedHop1" count="1"/>
 	</block>
 	<block id="528" name="plantedHop2">
@@ -4299,8 +4283,6 @@
 	<block id="529" name="plantedHop3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Texture" value="449"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 		<drop event="Harvest" name="hopsFlower" count="1" prob="1" tool_category="Pluck"/>
 		<drop event="Harvest" name="hopsFlower" count="2" prob="1" tool_category="Farm"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="0.7" tool_category="Farm"/>
@@ -4327,7 +4309,7 @@
 		<property name="EconomicValue" value="12"/>
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<property name="PickupJournalEntry" value="farmingTip"/>
 	</block>
 	<block id="531" name="plantedMushroom2">
@@ -4369,7 +4351,7 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 		<property name="PlantGrowing.Next" value="plantedYucca2"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<drop event="Destroy" name="plantedYucca1" count="1"/>
 	</block>
 	<block id="534" name="plantedYucca2">
@@ -4585,7 +4567,7 @@
 		<property class="Workstation">
 			<property name="CraftingAreaRecipes" value="forge"/>
 			<property name="Modules" value="tools,output,fuel,material_input"/>
-			<property name="InputMaterials" value="iron,brass,lead,glass,stone,clay"/>
+			<property name="InputMaterials" value="iron,lead,stone,clay,glass"/>
 		</property>
 		<property class="RepairItems">
 			<property name="rockSmall" value="50"/>
@@ -4599,12 +4581,13 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="TakeDelay" value="15"/>
-		<property name="Group" value="Basics,Science"/>
+		<property name="Group" value="Basics,Stations"/>
 		<property name="DescriptionKey" value="forgeDesc"/>
 		<property name="EconomicValue" value="214"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Categories" value="Basics, Resources"/>
-		<property name="Categories_UI" value="ui_game_symbol_resource, ui_game_symbol_resource"/>
+		<property name="Categories" value="Basics,Resources"/>
+		<property name="Categories_UI" value="ui_game_symbol_resource,ui_game_symbol_resource"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="557" name="cntMunitionsBox">
 		<!-- military ammo -->
@@ -4974,7 +4957,6 @@
 		<property name="Group" value="Tools/Traps"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-
 	<block id="601" name="corrugatedMetalPlate">
 		<property name="Extends" value="corrugatedMetalMaster"/>
 		<property name="Shape" value="New"/>
@@ -5045,7 +5027,6 @@
 		<property name="Model" value="billboard"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-
 	<block id="612" name="burntWoodBlock1">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="Mesh" value="opaque"/>
@@ -5358,7 +5339,7 @@
 		<property name="Model" value="LootContainers/chest01" param1="main_mesh"/>
 		<property name="HandleFace" value="Bottom"/>
 		<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
-		<property name="LootList" value="196"/>
+		<property name="LootList" value="249"/>
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 		</property>
@@ -5493,9 +5474,6 @@
 		<property name="Model" value="Entities/Resources/rock_resource02_broke3Prefab"/>
 		<property name="MultiBlockDim" value="2,2,2"/>
 	</block>
-
-
-
 	<!-- Window02 Prefab Versions -->
 	<block id="655" name="window02Frame">
 		<property name="Material" value="wood_weak"/>
@@ -6003,7 +5981,6 @@
 		<drop event="Destroy" name="stick" count="0"/>
 		<drop event="Destroy" name="scrapIron" count="8"/>
 	</block>
-
 	<block id="713" name="plantedCotton1">
 		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
 		<property name="Texture" value="392"/>
@@ -6016,8 +5993,6 @@
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="plantedCotton3Harvest"/>
 		<property name="Texture" value="363"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 		<drop event="Harvest" name="cottonPlant" count="1" prob="1" tool_category="Pluck"/>
 		<drop event="Harvest" name="cottonPlant" count="2" prob="1" tool_category="Farm"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="0.7" tool_category="Farm"/>
@@ -6141,7 +6116,6 @@
 		<property name="EconomicValue" value="30"/>
 		<!-- disassemble value -->
 	</block>
-
 	<block id="749" name="metalReinforcedWoodDrawBridge">
 		<property name="Class" value="DrawBridge"/>
 		<property name="Material" value="metal"/>
@@ -6211,14 +6185,13 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-
 	<block id="759" name="plantedCoffee1">
 		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
 		<property name="Texture" value="393"/>
 		<property name="DescriptionKey" value="plantSeedDesc"/>
 		<property name="PlantGrowing.Next" value="plantedCoffee2"/>
 		<property name="CraftingIngredientTime" value="5"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<drop event="Destroy" name="plantedCoffee1" count="1"/>
 	</block>
 	<block id="760" name="plantedCoffee2">
@@ -6232,8 +6205,6 @@
 	<block id="761" name="plantedCoffee3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Texture" value="395"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 		<drop event="Harvest" name="coffeeBeans" count="1" prob="1" tool_category="Pluck"/>
 		<drop event="Harvest" name="coffeeBeans" count="2" prob="1" tool_category="Farm"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="0.7" tool_category="Farm"/>
@@ -6248,7 +6219,7 @@
 		<property name="Texture" value="401"/>
 		<property name="DescriptionKey" value="plantSeedDesc"/>
 		<property name="PlantGrowing.Next" value="plantedGoldenrod2"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<drop event="Destroy" name="plantedGoldenrod1" count="1"/>
 	</block>
 	<block id="763" name="plantedGoldenrod2">
@@ -6263,8 +6234,6 @@
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="plantedGoldenrod3Harvest"/>
 		<property name="Texture" value="362"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 		<drop event="Harvest" name="goldenrodPlant" count="1" prob="1" tool_category="Pluck"/>
 		<drop event="Harvest" name="goldenrodPlant" count="2" prob="1" tool_category="Farm"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="0.7" tool_category="Farm"/>
@@ -6307,7 +6276,6 @@
 		<property name="Extends" value="treeGrassMaster" param1="CustomIcon"/>
 		<property name="Texture" value="397,397,399,400,398,398"/>
 	</block>
-
 	<block id="788" name="ladderWood">
 		<property name="Group" value="Building,Basics"/>
 		<property name="Class" value="Ladder"/>
@@ -6568,7 +6536,6 @@
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 	</block>
 	<!-- 1 Free -->
-
 	<block id="837" name="cntCabinetFiller">
 		<property name="Shape" value="New"/>
 		<property name="Model" value="counter"/>
@@ -6643,7 +6610,6 @@
 		<property name="Class" value="Tallgrass"/>
 		<property name="Texture" value="561,562,563,564,565,563"/>
 	</block>
-
 	<block id="852" name="forestFlower">
 		<property name="Extends" value="treeGrassMaster" param1="CustomIcon"/>
 		<property name="Class" value="Tallgrass"/>
@@ -6664,8 +6630,6 @@
 		<drop event="Harvest" name="foodYuccaFruit" count="1" prob="0.5" tool_category="FarmSeed"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="1" tool_category="FarmSeed"/>
 		<drop event="Harvest" name="plantedYucca1" count="1" prob="0.7" tool_category="FarmSeed"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 	</block>
 	<block id="854" name="plantedAloe3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
@@ -6681,8 +6645,6 @@
 		<drop event="Harvest" name="aloePlant" count="1" prob="0.5" tool_category="FarmSeed"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="1" tool_category="FarmSeed"/>
 		<drop event="Harvest" name="plantedAloe1" count="1" prob="0.7" tool_category="FarmSeed"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 		<property name="Group" value="Food/Cooking,Science"/>
 	</block>
 	<block id="855" name="plantedAloe1">
@@ -6732,7 +6694,6 @@
 		<property name="EconomicBundleSize" value="20"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-
 	<block id="863" name="treePlainsTree2">
 		<property name="Extends" value="treeMaster"/>
 		<property name="Model" value="Entities/Trees/White_Oak42Prefab"/>
@@ -6754,7 +6715,7 @@
 		<property name="Texture" value="550"/>
 		<property name="DescriptionKey" value="plantSeedDesc"/>
 		<property name="PlantGrowing.Next" value="plantedChrysanthemum2"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<drop event="Destroy" name="plantedChrysanthemum1" count="1"/>
 	</block>
 	<block id="870" name="plantedChrysanthemum2">
@@ -6836,7 +6797,6 @@
 		<property name="Texture" value="385,446,446,307,307,307"/>
 		<property name="ImposterExchange" value="imposterSheet" param1="123"/>
 	</block>
-
 	<block id="883" name="lootGarageHelper">
 		<property name="Extends" value="lootWastelandHelper" param1="CustomIcon"/>
 		<property name="Texture" value="283,283,280,279,280,279"/>
@@ -6854,8 +6814,6 @@
 		<drop event="Harvest" name="chrysanthemumPlant" count="1" prob="0.5" tool_category="FarmSeed"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="1" tool_category="FarmSeed"/>
 		<drop event="Harvest" name="plantedChrysanthemum1" count="1" prob="0.7" tool_category="FarmSeed"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 	</block>
 	<block id="885" name="treePlant02">
 		<!-- pottedPlant -->
@@ -6888,7 +6846,7 @@
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="DescriptionKey" value="woodSignGroupDesc"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Signs"/>
+		<property name="Group" value="Signs, Decor/Miscellaneous"/>
 	</block>
 	<block id="887" name="playerSignWood1x3">
 		<property name="Extends" value="playerSignWood1x1"/>
@@ -6923,7 +6881,7 @@
 		<property name="ImposterExchange" value="imposterDontBlockSheet" param1="43"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<!-- <property name="OnlySimpleRotations" value="true"/> -->
-		<property name="Group" value="Signs"/>
+		<property name="Group" value="Signs, Decor/Miscellaneous"/>
 	</block>
 	<block id="891" name="signShopTraderJoel1x3Wall">
 		<property name="Extends" value="signShopTraderJoel2x5Wall"/>
@@ -7022,7 +6980,6 @@
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<drop event="Destroy" name="minibikeWheels" count="1" prob="0.3"/>
 	</block>
-
 	<block id="900" name="plantedCorn1">
 		<!-- growing, stage 1, seed -->
 		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
@@ -7037,7 +6994,7 @@
 		<property name="Texture" value="529"/>
 		<property name="Place" value="Door"/>
 		<property name="PlantGrowing.Next" value="plantedCorn2"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<drop event="Destroy" name="plantedCorn1" count="1"/>
 	</block>
 	<block id="901" name="plantedCorn2">
@@ -7115,8 +7072,6 @@
 		<drop event="Destroy" count="0"/>
 		<property name="DropScale" value="2"/>
 	</block>
-
-
 	<block id="914" name="awningCNRFull">
 		<property name="Extends" value="awningMaster"/>
 		<property name="Model" value="ramp_outside_corner"/>
@@ -7177,7 +7132,6 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="gravel" count="1" prob="0.75" stick_chance="1"/>
 	</block>
-
 	<block id="944" name="cntCabinetOldSink">
 		<property name="Class" value="Loot"/>
 		<property name="Shape" value="New"/>
@@ -7282,8 +7236,6 @@
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<!-- 35 Free -->
-
-
 	<block id="994" name="awningRamp">
 		<property name="Extends" value="awningMaster"/>
 		<property name="Model" value="ramp"/>
@@ -7310,8 +7262,6 @@
 		<property name="Model" value="wedge_tip_half"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-
-
 	<block id="1040" name="flagstoneGable">
 		<property name="Material" value="stone"/>
 		<property name="Shape" value="New"/>
@@ -7339,7 +7289,6 @@
 		<property name="Model" value="billboard"/>
 	</block>
 	<!-- 10 Free -->
-
 	<block id="1056" name="cntGreenDrawerInsecure">
 		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="greenDrawer"/>
@@ -7392,7 +7341,6 @@
 		<drop event="Destroy" name="scrapIron" count="1,15"/>
 		<property name="DescriptionKey" value="scrapIronGroupDesc"/>
 	</block>
-
 	<block id="1074" name="cntCabinetOldBottom">
 		<property name="Extends" value="cntCabinetFiller" param1="RepairItems"/>
 		<property name="Texture" value="78,84,79,84,84,84"/>
@@ -7498,8 +7446,6 @@
 		<drop event="Destroy" name="scrapIron" count="1,15"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	</block>
-
-
 	<block id="1100" name="scrapIronFrameWedgeTip">
 		<property name="Extends" value="scrapIronFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -7561,7 +7507,6 @@
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<drop event="Destroy" count="0"/>
 	</block>
-
 	<block id="1118" name="flagstoneArch3m">
 		<property name="Material" value="Mbrick"/>
 		<property name="Shape" value="New"/>
@@ -7618,7 +7563,6 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
 	</block>
-
 	<block id="1132" name="rConcreteCTREighth">
 		<property name="Extends" value="concreteNoUpgradeMaster"/>
 		<property name="Shape" value="New"/>
@@ -7634,8 +7578,6 @@
 		<property name="Model" value="cube_eighth_centered"/>
 		<property name="ImposterExclude" value="true"/>
 	</block>
-
-
 	<block id="1143" name="railingWoodWhiteSheet">
 		<property name="Extends" value="woodWeakNoUpgradeMaster"/>
 		<property name="Shape" value="New"/>
@@ -7686,7 +7628,6 @@
 			<property name="ToBlock" value="solidWoodFrameWedge"/>
 		</property>
 	</block>
-
 	<block id="1158" name="glassBusinessSheet">
 		<property name="Material" value="glass"/>
 		<property name="Shape" value="New"/>
@@ -8441,7 +8382,7 @@
 		<drop event="Harvest" name="scrapPlastics" count="2,6" tool_category="Disassemble"/>
 		<drop event="Destroy" name="scrapIron" count="1,15"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Group" value="Signs"/>
+		<property name="Group" value="Signs, Decor/Miscellaneous"/>
 	</block>
 	<block id="1230" name="signShopGasLit">
 		<property name="Extends" value="signShopGas"/>
@@ -8488,7 +8429,7 @@
 		<drop event="Harvest" name="scrapPlastics" count="2,6" tool_category="Disassemble"/>
 		<drop event="Destroy" name="scrapIron" count="1,15"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Group" value="Signs"/>
+		<property name="Group" value="Signs, Decor/Miscellaneous"/>
 	</block>
 	<block id="1238" name="signShopGunStoreLit">
 		<property name="CustomIcon" value="signShopGunStore"/>
@@ -9024,7 +8965,7 @@
 		<drop event="Harvest" name="scrapPlastics" count="2,6" tool_category="Disassemble"/>
 		<drop event="Destroy" name="scrapIron" count="1,15"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Group" value="Signs"/>
+		<property name="Group" value="Signs, Decor/Miscellaneous"/>
 	</block>
 	<block id="1303" name="signShopBookStoreLit">
 		<property name="CustomIcon" value="signShopBookStore"/>
@@ -9080,7 +9021,7 @@
 		<drop event="Harvest" name="scrapPlastics" count="2,6" tool_category="Disassemble"/>
 		<drop event="Destroy" name="scrapIron" count="1,15"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Group" value="Signs"/>
+		<property name="Group" value="Signs, Decor/Miscellaneous"/>
 	</block>
 	<block id="1311" name="signShopPharmacyLit">
 		<property name="CustomIcon" value="signShopPharmacy"/>
@@ -9136,7 +9077,7 @@
 		<drop event="Harvest" name="scrapPlastics" count="2,6" tool_category="Disassemble"/>
 		<drop event="Destroy" name="scrapIron" count="1,15"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Group" value="Signs"/>
+		<property name="Group" value="Signs, Decor/Miscellaneous"/>
 	</block>
 	<block id="1319" name="signShopToolStoreLit">
 		<property name="CustomIcon" value="signShopToolStore"/>
@@ -9194,7 +9135,7 @@
 		<drop event="Harvest" count="0" tool_category="Disassemble"/>
 		<drop event="Destroy" name="signShopColdBeer" count="1" tool_category="Disassemble"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Signs"/>
+		<property name="Group" value="Signs, Decor/Miscellaneous"/>
 	</block>
 	<block id="1327" name="candleTable">
 		<property name="Extends" value="candleWall"/>
@@ -9202,7 +9143,6 @@
 		<property name="Model" value="Lighting/candleTable" param1="main_mesh"/>
 		<property name="ParticleName" value="candle_flame"/>
 	</block>
-
 	<block id="1330" name="cntShippingCrateWorkingStiffs">
 		<property name="Extends" value="cntShippingCrateShamway"/>
 		<property name="DowngradeBlock" value="cntLootCrateWorkingStiffs"/>
@@ -9370,7 +9310,6 @@
 		<property name="ParticleName" value="candle_flame"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-
 	<block id="1359" name="woodGable">
 		<property name="Extends" value="woodNoUpgradeMaster"/>
 		<property name="Shape" value="New"/>
@@ -9390,7 +9329,7 @@
 		<drop event="Harvest" name="scrapPlastics" count="2,6" tool_category="Disassemble"/>
 		<drop event="Destroy" name="scrapIron" count="1,15"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Group" value="Signs"/>
+		<property name="Group" value="Signs, Decor/Miscellaneous"/>
 	</block>
 	<block id="1361" name="signShopGroceryLit">
 		<property name="CustomIcon" value="signShopGrocery"/>
@@ -9595,8 +9534,6 @@
 		<property name="Extends" value="stalagmite01"/>
 		<property name="Model" value="OutdoorDecor/stalagmite04" param1="main_mesh"/>
 	</block>
-
-
 	<block id="1397" name="newTextureBlock14">
 		<property name="Extends" value="newTextureBlock01"/>
 		<property name="CreativeMode" value="Dev"/>
@@ -11254,7 +11191,7 @@
 		<property name="TakeDelay" value="15"/>
 		<property name="DescriptionKey" value="workbenchDesc"/>
 		<property name="EconomicValue" value="776"/>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Stations"/>
 		<property name="Categories_UI" value="ui_game_symbol_workbench"/>
 		<property name="SellableToTrader" value="false"/>
@@ -11521,7 +11458,6 @@
 			<property name="ToBlock" value="metalStairsBoard"/>
 		</property>
 	</block>
-
 	<!-- n Free -->
 	<block id="1622" name="awningCNRRound">
 		<property name="Extends" value="awningMaster"/>
@@ -11541,7 +11477,6 @@
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<!-- n Free -->
-
 	<!-- n Free -->
 	<block id="1642" name="awningCNRRoundTop">
 		<property name="Extends" value="awningMaster"/>
@@ -11576,7 +11511,6 @@
 		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" prob="0.7"/>
 	</block>
 	<!-- 99 Free -->
-
 	<!-- n Free -->
 	<block id="1678" name="autoTurret">
 		<property name="Class" value="Ranged"/>
@@ -11694,7 +11628,6 @@
 	</block>
 	<!-- 21 Free -->
 	<block id="1800" name="metalSignLetter_a">
-		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="DescriptionKey" value="alphabetLetterSignGroupDesc"/>
 		<property name="Material" value="Mmetal_weak"/>
 		<property name="Shape" value="New"/>
@@ -11711,7 +11644,7 @@
 		<property name="EconomicValue" value="15"/>
 		<property name="EconomicBundleSize" value="2"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Signs"/>
+		<property name="Group" value="Signs, Decor/Miscellaneous"/>
 	</block>
 	<block id="1801" name="metalSignLetter_b">
 		<property name="Extends" value="metalSignLetter_a"/>
@@ -12074,7 +12007,7 @@
 		<drop event="Destroy" name="scrapIron" count="1,5" prob="1"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="TakeDelay" value="-1"/>
-		<property name="Group" value="Signs"/>
+		<property name="Group" value="Signs, Decor/Miscellaneous"/>
 		<property name="EconomicValue" value="150"/>
 		<!-- disassemble value -->
 	</block>
@@ -12220,7 +12153,6 @@
 		<property name="Group" value="Building"/>
 		<property name="DescriptionKey" value="testblockDesc"/>
 	</block>
-
 	<block id="1974" name="concreteDestroyed01">
 		<property name="Group" value="Building"/>
 		<property name="Material" value="Mcobblestone"/>
@@ -12970,7 +12902,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="102"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -12981,7 +12913,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="100"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -12993,7 +12925,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="102"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13004,7 +12936,7 @@
 		<property name="Material" value="woodgMed"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="100"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" name="0" count="1"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13016,7 +12948,7 @@
 		<property name="Material" value="woodgMed"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="106"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13027,8 +12959,7 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="LootList" value="205"/>
-		<property name="Group" value="Storage"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13039,8 +12970,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Material" value="woodgMed"/>
 		<property name="LootList" value="203"/>
-		<property name="Group" value="Storage"/>
-		<property name="Group" value="Decor/Miscellaneous"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="36" name="cntEPSGasPump">
@@ -13052,7 +12982,7 @@
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="Industrial/gas_pump" param1="main_mesh"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13062,7 +12992,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntMunitionsBox"/>
 		<property name="LootList" value="103"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1987" name="cntEPSLockers">
@@ -13073,7 +13003,7 @@
 		<property name="Material" value="metal"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="105"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13084,7 +13014,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Material" value="metal"/>
 		<property name="LootList" value="208"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13094,8 +13024,7 @@
 		<property name="Material" value="MCardboardStorage"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntGarageStorage"/>
-		<property name="Group" value="Decor/Miscellaneous"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="LootList" value="195"/>
 		<property class="RepairItems">
 			<property name="ductTape" value="1"/>
@@ -13110,7 +13039,7 @@
 		<property name="Material" value="metal"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="107"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13122,7 +13051,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="102"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13264,8 +13193,7 @@
 		</property>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="198"/>
-		<property name="Group" value="Decor/Miscellaneous"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" name="cntEPSCooler" count="1"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13277,7 +13205,7 @@
 		<property name="Material" value="woodgMed"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="133"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13289,7 +13217,7 @@
 		<property name="Material" value="woodgMed"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="133"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13300,7 +13228,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="113"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13310,7 +13238,7 @@
 		<property name="CustomIcon" value="cntDesk02"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="LootList" value="113"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
@@ -13322,7 +13250,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="205"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13333,7 +13261,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="115"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13344,7 +13272,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="116"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13355,7 +13283,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="117"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13366,7 +13294,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="117"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13377,7 +13305,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="117"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13389,7 +13317,7 @@
 		<property name="Material" value="woodgMed"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="113"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13400,7 +13328,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="121"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13411,7 +13339,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="121"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13422,7 +13350,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="121"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13434,7 +13362,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="133"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13446,7 +13374,7 @@
 		<property name="Material" value="woodgMed"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="133"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13464,7 +13392,7 @@
 		<property name="Model" value="LootContainers/duffle01" param1="main_mesh"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="LootList" value="201"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 	</block>
 	<block id="1937" name="cntEPSDuffle01">
 		<property name="Extends" value="BackpacksLootMaster"/>
@@ -13487,7 +13415,6 @@
 		<drop event="Destroy" name="cntEPSBackpack02" count="1"/>
 		<property name="LootList" value="197"/>
 	</block>
-
 	<block id="1942" name="cntEPSSportsBag02">
 		<property name="Extends" value="BackpacksLootMaster"/>
 		<property name="CustomIcon" value="cntSportsBag02"/>
@@ -13509,7 +13436,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="133"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13521,7 +13448,7 @@
 		<property name="Material" value="woodgMed"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="202"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13532,7 +13459,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="209"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13544,7 +13471,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="133"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13583,7 +13510,7 @@
 		<drop event="Destroy" name="scrapIron" count="10" prob="1"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="360"/>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Meals,Ingredients,Stews,Drinks,Farming,Medical,Resources"/>
 		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_beer,ui_game_symbol_hand,ui_game_symbol_medical,ui_game_symbol_resource"/>
 		<!-- disassemble value 355 -->
@@ -13619,7 +13546,7 @@
 		<drop event="Destroy" name="scrapIron" count="10" prob="1"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="360"/>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Meals,Ingredients,Stews,Drinks,Farming,Medical,Resources"/>
 		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_beer,ui_game_symbol_hand,ui_game_symbol_medical,ui_game_symbol_resource"/>
 		<!-- disassemble value 355 -->
@@ -13685,7 +13612,7 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="cntEPSFurnaceDrawerInsecure"/>
 		<property name="LootList" value="132"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13720,7 +13647,7 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="cntEPSMorticianDrawerInsecure"/>
 		<property name="LootList" value="131"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13856,6 +13783,7 @@
 			<property name="UpgradeHitCount" value="1"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Classes, Decor/Miscellaneous"/>
 	</block>
 	<block id="1748" name="rifleKit">
 		<property name="Class" value="Loot"/>
@@ -13888,6 +13816,7 @@
 			<property name="UpgradeHitCount" value="1"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Classes, Decor/Miscellaneous"/>
 	</block>
 	<block id="1741" name="handgunKit">
 		<property name="Class" value="Loot"/>
@@ -13920,6 +13849,7 @@
 			<property name="UpgradeHitCount" value="1"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Classes, Decor/Miscellaneous"/>
 	</block>
 	<block id="1743" name="shotgunKit">
 		<property name="Class" value="Loot"/>
@@ -13952,6 +13882,7 @@
 			<property name="UpgradeHitCount" value="1"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Classes, Decor/Miscellaneous"/>
 	</block>
 	<block id="1745" name="survivorKit">
 		<property name="Class" value="Loot"/>
@@ -14080,8 +14011,6 @@
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-
-
 	<block id="1735" name="adminPlains">
 		<property name="Extends" value="dirt"/>
 		<property name="Material" value="MforestGround"/>
@@ -14194,6 +14123,7 @@
 			<property name="UpgradeHitCount" value="1"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Classes, Decor/Miscellaneous"/>
 	</block>
 	<block id="1718" name="bowKit">
 		<property name="Class" value="Loot"/>
@@ -14226,6 +14156,7 @@
 			<property name="UpgradeHitCount" value="1"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Classes, Decor/Miscellaneous"/>
 	</block>
 	<block id="1720" name="bladeKit">
 		<property name="Class" value="Loot"/>
@@ -14258,6 +14189,7 @@
 			<property name="UpgradeHitCount" value="1"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Classes, Decor/Miscellaneous"/>
 	</block>
 	<block id="1722" name="bluntKit">
 		<property name="Class" value="Loot"/>
@@ -14430,7 +14362,7 @@
 		<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 		<property name="Collide" value="melee"/>
 		<property name="PlantGrowing.Next" value="plantedSoy2"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<drop event="Destroy" name="plantedSoy1" count="1"/>
 		<property name="DescriptionKey" value="plantsFarmGroupDesc"/>
 	</block>
@@ -14450,8 +14382,6 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 		<property name="Collide" value="melee"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 		<drop event="Harvest" name="SoyBeans" count="1" prob="1" tool_category="Pluck"/>
 		<drop event="Harvest" name="SoyBeans" count="2" prob="1" tool_category="Farm"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="0.7" tool_category="Farm"/>
@@ -14517,7 +14447,7 @@
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Stations"/>
 		<property name="Categories_UI" value="ui_game_symbol_workbench"/>
 	</block>
@@ -14546,9 +14476,9 @@
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="advancedWorkbenchDesc"/>
 		<property name="TakeDelay" value="15"/>
-		<property name="Group" value="Stations"/>
-		<property name="Categories" value="Tools,Minibike,Weapons,Parts,Tool Heads,Resources,Building,Decor/Miscellaneous,Stations,Doors"/>
-		<property name="Categories_UI" value="ui_game_symbol_tool,ui_game_symbol_minibike,ui_game_symbol_pistol,ui_game_symbol_famasparts,ui_game_symbol_tungstentools,ui_game_symbol_advancedtoolsmithing,ui_game_symbol_resource,ui_game_symbol_construction,ui_game_symbol_comfortablesleeping,ui_game_symbol_workbench,ui_game_symbol_subtract"/>
+		<property name="Group" value="Stations, Science"/>
+		<property name="Categories" value="Tools,Minibike,Weapons,Parts,Tool Heads,Resources,Building,Decor/Miscellaneous,Stations"/>
+		<property name="Categories_UI" value="ui_game_symbol_tool,ui_game_symbol_minibike,ui_game_symbol_pistol,ui_game_symbol_famasparts,ui_game_symbol_tungstentools,ui_game_symbol_advancedtoolsmithing,ui_game_symbol_resource,ui_game_symbol_construction,ui_game_symbol_comfortablesleeping,ui_game_symbol_workbench"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1633" name="advancedCampfire">
@@ -14568,7 +14498,7 @@
 			<property name="wood" value="5"/>
 			<property name="rockSmall" value="5"/>
 		</property>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Meals,Ingredients,Stews,Drinks,Farming,Medical,Resources"/>
 		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_beer,ui_game_symbol_hand,ui_game_symbol_medical,ui_game_symbol_resource"/>
 	</block>
@@ -14594,12 +14524,11 @@
 		<drop event="Destroy" name="scrapPlastics" count="2" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<property name="TakeDelay" value="15"/>
-		<property name="Group" value="Stations"/>
-		<property name="Categories" value="Quests,Skills,Classes,Schematics,Challenges,Treasures"/>
-		<property name="Categories_UI" value="ui_game_symbol_quest,ui_game_symbol_skills,ui_game_symbol_classScholar1,ui_game_symbol_quest_remove,ui_game_symbol_treasure"/>
+		<property name="Group" value="Stations, Science"/>
+		<property name="Categories" value="Quests,Skills,Classes,Schematics,Challenges"/>
+		<property name="Categories_UI" value="ui_game_symbol_quest,ui_game_symbol_skills,ui_game_symbol_classScholar1,ui_game_symbol_quest_remove,ui_game_symbol_electric_max_power"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-	<!-- 	<block id="1627" name="advancedForge"><property name="Extends" value="forge"/><property name="CustomIcon" value="advancedForge"/><property name="Model" value="#RHStations?forgeDwarvenPrefab"/><property name="Mesh" value="models"/><property name="DescriptionKey" value="advancedForgeDesc"/><property name="Shape" value="ModelEntity"/><property name="ImposterDontBlock" value="true"/><property name="Class" value="Forge"/><property name="Place" value="TowardsPlacerInverted"/><property name="ParticleName" value="forge"/><property name="ParticleOffset" value="0,0.4,0.4"/><property name="ActiveRadiusEffects" value="+heatSource(3)"/><property name="RecipeList" value="advancedForge"/><property name="MultiBlockDim" value="2,2,1"/><property name="Stacknumber" value="1"/><property class="Workstation"><property name="CraftingAreaRecipes" value="advancedForge"/><property name="Modules" value="tools,output,fuel,material_input"/><property name="InputMaterials" value="iron,limestone,lead,glass,stone,clay"/></property><property class="RepairItems"><property name="rockSmall" value="50"/><property name="clayLump" value="25"/><property name="shortMetalPipe" value="2"/><property name="forgedIron" value="2"/></property><drop event="Harvest" name="rockSmall" count="100" tool_category="Disassemble"/><drop event="Harvest" name="clayLump" count="50" tool_category="Disassemble"/><drop event="Harvest" name="shortMetalPipe" count="3" tool_category="Disassemble"/><drop event="Destroy" count="0"/><drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/><property name="TakeDelay" value="15"/><property name="Group" value="Science"/><property name="Categories" value="Stations"/><property name="Categories_UI" value="ui_game_symbol_workbench"/><property name="SellableToTrader" value="false"/></block> -->
 	<block id="1682" name="mortarAndPestle">
 		<property name="Class" value="Workstation"/>
 		<property name="RecipeList" value="mortarAndPestle"/>
@@ -14629,7 +14558,7 @@
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="TakeDelay" value="15"/>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Meals,Ingredients,Stews,Drinks,Farming,Medical,Resources"/>
 		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_beer,ui_game_symbol_hand,ui_game_symbol_medical,ui_game_symbol_resource"/>
 	</block>
@@ -14645,7 +14574,6 @@
 		<property name="LootList" value="182"/>
 		<property name="DowngradeBlock" value="Nothing"/>
 	</block>
-
 	<block id="1636" name="MotorbikeUpStandDown">
 		<property name="Extends" value="cntCar03SedanDamage0"/>
 		<property name="Shape" value="ModelEntity"/>
@@ -14910,7 +14838,7 @@
 		<property name="EconomicValue" value="12"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="206"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<!-- Wall and Floor Shelves By JaxTeller718 -->
@@ -14926,7 +14854,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="120"/>
 		<property name="Stacknumber" value="50"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="20"/>
 		</property>
@@ -14943,7 +14871,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="207"/>
 		<property name="Stacknumber" value="50"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="449" name="wallShelf2">
@@ -14956,7 +14884,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="207"/>
 		<property name="Stacknumber" value="50"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="460" name="wallShelf3">
@@ -14969,7 +14897,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="207"/>
 		<property name="Stacknumber" value="50"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="461" name="wallShelf4">
@@ -14983,7 +14911,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="207"/>
 		<property name="Stacknumber" value="50"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="462" name="wallShelf5">
@@ -14996,7 +14924,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="207"/>
 		<property name="Stacknumber" value="50"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<!-- Water Well By JaxTeller718 -->
@@ -15081,8 +15009,6 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#RHPlants?plantedWheat3HarvestPrefab"/>
 		<property name="Collide" value="melee"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 		<drop event="Harvest" name="wheat" count="1" prob="1" tool_category="Pluck"/>
 		<drop event="Harvest" name="wheat" count="2" prob="1" tool_category="Farm"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="0.7" tool_category="Farm"/>
@@ -15256,12 +15182,6 @@
 		<property name="CustomIcon" value="poster24"/>
 		<property name="Shape" value="ModelEntity"/>
 	</block>
-	<block id="1508" name="poster25">
-		<property name="Extends" value="poster1"/>
-		<property name="Model" value="#poster25?poster25Prefab"/>
-		<property name="CustomIcon" value="poster25"/>
-		<property name="Shape" value="ModelEntity"/>
-	</block>
 	<block id="1485" name="poster26">
 		<property name="Extends" value="poster1"/>
 		<property name="Model" value="#poster26?poster26Prefab"/>
@@ -15278,12 +15198,6 @@
 		<property name="Extends" value="poster1"/>
 		<property name="Model" value="#poster29?poster29Prefab"/>
 		<property name="CustomIcon" value="poster29"/>
-		<property name="Shape" value="ModelEntity"/>
-	</block>
-	<block id="1489" name="poster30">
-		<property name="Extends" value="poster1"/>
-		<property name="Model" value="#poster30?poster30Prefab"/>
-		<property name="CustomIcon" value="poster30"/>
 		<property name="Shape" value="ModelEntity"/>
 	</block>
 	<block id="1490" name="poster31">
@@ -15362,12 +15276,6 @@
 		<property name="Extends" value="poster1"/>
 		<property name="Model" value="#poster43?poster43Prefab"/>
 		<property name="CustomIcon" value="poster43"/>
-		<property name="Shape" value="ModelEntity"/>
-	</block>
-	<block id="1476" name="poster44">
-		<property name="Extends" value="poster1"/>
-		<property name="Model" value="#poster44?poster44Prefab"/>
-		<property name="CustomIcon" value="poster44"/>
 		<property name="Shape" value="ModelEntity"/>
 	</block>
 	<block id="1456" name="poster45">
@@ -15712,7 +15620,7 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Stacknumber" value="100"/>
 		<property name="EconomicValue" value="156"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1343" name="oldFridge2">
@@ -15736,7 +15644,7 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Stacknumber" value="100"/>
 		<property name="EconomicValue" value="156"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1344" name="fridgeStainlessSteel">
@@ -15760,7 +15668,7 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Stacknumber" value="100"/>
 		<property name="EconomicValue" value="156"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<!-- Metal Bed By JaxTeller718 -->
@@ -15854,7 +15762,7 @@
 		<property name="LootList" value="120"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="Group" value="Building,Decor/Miscellaneous"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<!-- Night Table By JaxTeller718 -->
@@ -15869,7 +15777,7 @@
 		<property name="LootList" value="120"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="Group" value="Building,Decor/Miscellaneous"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<!-- Wood Dresser By JaxTeller718 -->
@@ -15885,7 +15793,7 @@
 		<property name="LootList" value="120"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="Group" value="Building,Decor/Miscellaneous"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<!-- Old Trunk By JaxTeller718 -->
@@ -15906,7 +15814,7 @@
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="EconomicValue" value="6"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1225" name="oldTrunkInsecure">
@@ -15933,7 +15841,7 @@
 		<property name="MultiBlockDim" value="3,3,1"/>
 		<property name="Stacknumber" value="25"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<!-- Large Bookshelf By JaxTeller718 -->
@@ -15948,7 +15856,7 @@
 		<property name="MultiBlockDim" value="3,3,1"/>
 		<property name="Stacknumber" value="25"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<!-- Bathroom Mirror By JaxTeller718 -->
@@ -15964,7 +15872,7 @@
 		<property name="LootList" value="100"/>
 		<drop event="Destroy" name="brokenGlass" count="1,2"/>
 		<property name="Stacknumber" value="250"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1596" name="ceilingFan">
@@ -16165,7 +16073,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="Material" value="metal"/>
 		<property name="LootList" value="208"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<!-- Food Prep Table By JaxTeller718 -->
@@ -16214,8 +16122,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.Next" value="rainCatcherFull"/>
-		<property name="PlantGrowing.GrowthRate" value="10"/>
-		<!-- <property name="PlantGrowing.GrowthRate" value="420"/> -->
+		<property name="PlantGrowing.GrowthRate" value="420"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -16453,10 +16360,9 @@
 		<!-- disassemble value -->
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property name="Stacknumber" value="50"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-
 	<block id="1021" name="woodCounter01">
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="133"/>
@@ -16475,7 +16381,7 @@
 		<property name="EconomicValue" value="17"/>
 		<property name="EconomicBundleSize" value="20"/>
 		<property name="Stacknumber" value="50"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1022" name="dryerFull">
@@ -16528,7 +16434,6 @@
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-
 	<block id="1011" name="largeStove01">
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#RHAppliances?largeStove01Prefab"/>
@@ -16563,7 +16468,7 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="360"/>
 		<property name="TakeDelay" value="15"/>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Meals,Ingredients,Stews,Drinks,Farming,Medical,Resources"/>
 		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_beer,ui_game_symbol_hand,ui_game_symbol_medical,ui_game_symbol_resource"/>
 		<!-- disassemble value 355 -->
@@ -16603,7 +16508,7 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="360"/>
 		<property name="TakeDelay" value="15"/>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Meals,Ingredients,Stews,Drinks,Farming,Medical,Resources"/>
 		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_beer,ui_game_symbol_hand,ui_game_symbol_medical,ui_game_symbol_resource"/>
 		<!-- disassemble value 355 -->
@@ -16643,7 +16548,7 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="360"/>
 		<property name="TakeDelay" value="15"/>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Meals,Ingredients,Stews,Drinks,Farming,Medical,Resources"/>
 		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_beer,ui_game_symbol_hand,ui_game_symbol_medical,ui_game_symbol_resource"/>
 		<!-- disassemble value 355 -->
@@ -16654,8 +16559,7 @@
 		<property name="CustomIcon" value="appleSeeds"/>
 		<property name="Extends" value="treePlantedMountainPine1m"/>
 		<property name="PlantGrowing.Next" value="plantedAppleTree2"/>
-		<property name="PlantGrowing.GrowthRate" value="10"/>
-		<!-- <property name="PlantGrowing.GrowthRate" value="210"/> -->
+		<property name="PlantGrowing.GrowthRate" value="210"/>
 		<property name="ParticleOnDeath" value="treeGib_sapling"/>
 		<drop event="Destroy" name="plantedAppleTree1" count="1"/>
 	</block>
@@ -16668,8 +16572,7 @@
 		<property name="MultiBlockDim" value="1,5,1"/>
 		<property name="BigDecorationRadius" value="1"/>
 		<property name="PlantGrowing.Next" value="plantedAppleTree3Harvest"/>
-		<property name="PlantGrowing.GrowthRate" value="10"/>
-		<!-- <property name="PlantGrowing.GrowthRate" value="210"/> -->
+		<property name="PlantGrowing.GrowthRate" value="210"/>
 		<property name="ParticleOnDeath" value="treeGib_birch_6m"/>
 		<drop event="Harvest" name="uncutwoodLog" count="20" tool_category="harvestingTools"/>
 		<drop event="Destroy" name="plantedAppleTree1" count="1"/>
@@ -16698,7 +16601,7 @@
 		<property name="Collide" value="melee"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.Next" value="plantedTomato2"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<drop event="Destroy" name="plantedTomato1" count="1"/>
 		<property name="DescriptionKey" value="plantsFarmGroupDesc"/>
 	</block>
@@ -16711,7 +16614,7 @@
 		<property name="Collide" value="melee"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.Next" value="plantedTomato3Harvest"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<drop event="Destroy" name="plantedTomato1" count="1"/>
 		<property name="DescriptionKey" value="plantsFarmGroupDesc"/>
 	</block>
@@ -16721,8 +16624,6 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#tomatoPlant?tomatoPlant2"/>
 		<property name="Collide" value="melee"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 		<drop event="Harvest" name="tomato" count="1" prob="1" tool_category="Pluck"/>
 		<drop event="Harvest" name="tomato" count="2" prob="1" tool_category="Farm"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="0.7" tool_category="Farm"/>
@@ -16738,7 +16639,6 @@
 		<property name="Model" value="font_h"/>
 		<property name="Class" value="Halipad, Mods"/>
 	</block>
-
 	<block id="1632" name="tailorStation">
 		<property name="Extends" value="workbench"/>
 		<property name="Model" value="#RHStations?tailorsStation"/>
@@ -16838,6 +16738,7 @@
 			<property name="UpgradeHitCount" value="1"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Classes, Decor/Miscellaneous"/>
 	</block>
 	<block id="1079" name="farmerKit">
 		<property name="Class" value="Loot"/>
@@ -16870,6 +16771,7 @@
 			<property name="UpgradeHitCount" value="1"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Classes, Decor/Miscellaneous"/>
 	</block>
 	<block id="1081" name="medicalKit">
 		<property name="Class" value="Loot"/>
@@ -16910,7 +16812,7 @@
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="TakeDelay" value="15"/>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Bullets,Archery.Explosives,Resources" />
 		<property name="Categories_UI" value="ui_game_symbol_ammo_crafting,ui_game_symbol_archery,ui_game_symbol_explosion,ui_game_symbol_resource" />
 	</block>
@@ -17133,8 +17035,6 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="#RHPlants?plantedCarrot3HarvestablePrefabtest"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 		<drop event="Harvest" name="carrot" count="1" prob="1" tool_category="Pluck"/>
 		<drop event="Harvest" name="carrot" count="2" prob="1" tool_category="Farm"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="0.7" tool_category="Farm"/>
@@ -17170,8 +17070,6 @@
 		<property name="CustomIcon" value="plantedPotato3Harvest"/>
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="#RHPlants?plantedCucumber3HarvestablePrefabtest"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 		<drop event="Harvest" name="cucumber" count="1" prob="1" tool_category="Pluck"/>
 		<drop event="Harvest" name="cucumber" count="2" prob="1" tool_category="Farm"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="0.7" tool_category="Farm"/>
@@ -17239,7 +17137,7 @@
 		<property name="TakeDelay" value="15"/>
 		<property name="DescriptionKey" value="stoveDesc"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Meals,Ingredients,Stews,Drinks,Farming,Medical,Resources"/>
 		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_beer,ui_game_symbol_hand,ui_game_symbol_medical,ui_game_symbol_resource"/>
 	</block>
@@ -17346,7 +17244,7 @@
 		<drop event="Destroy" name="Twine" count="2" tool_category="Disassemble"/>
 		<property name="TakeDelay" value="15"/>
 		<property name="DescriptionKey" value="decoStationDesc"/>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Resources,Building,Decor/Miscellaneous,Storage,Signs,Decorations,Doors"/>
 		<property name="Categories_UI" value="ui_game_symbol_resource,ui_game_symbol_construction,ui_game_symbol_comfortablesleeping,ui_game_symbol_safe,ui_game_symbol_sign,ui_game_symbol_chair,ui_game_symbol_subtract"/>
 		<property name="SellableToTrader" value="false"/>
@@ -17379,7 +17277,7 @@
 		<property name="MultiBlockDim" value="2,1,1"/>
 		<property name="ImposterExchange" value="imposterPlate" param1="1"/>
 		<property name="LootList" value="203"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" name="stick" count="10,30"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -17393,7 +17291,7 @@
 		<property name="MultiBlockDim" value="2,1,1"/>
 		<property name="ImposterExchange" value="imposterPlate" param1="1"/>
 		<property name="LootList" value="203"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" name="stick" count="10,30"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -17407,7 +17305,7 @@
 		<property name="MultiBlockDim" value="2,1,1"/>
 		<property name="ImposterExchange" value="imposterPlate" param1="1"/>
 		<property name="LootList" value="203"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<drop event="Destroy" name="stick" count="10,30"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -17423,7 +17321,7 @@
 		<property name="Material" value="Mmetal_medium"/>
 		<property name="FuelValue" value="300"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property class="RepairItems">
 			<property name="scrapIron" value="10"/>
 		</property>
@@ -17444,7 +17342,7 @@
 		<property name="Material" value="MmetalCatwalk"/>
 		<property name="FuelValue" value="300"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="10"/>
 		</property>
@@ -17570,7 +17468,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="116"/>
 		<property name="Stacknumber" value="50"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property class="RepairItems">
 			<property name="scrapIron" value="20"/>
 			<property name="mechanicalParts" value="2"/>
@@ -17593,7 +17491,7 @@
 			<property name="wood" value="2"/>
 		</property>
 		<drop event="Destroy" name="stick" count="10"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="957" name="transporter01D0">
@@ -17640,7 +17538,6 @@
 		<property name="DowngradeBlock" value="Nothing"/>
 		<property name="LootList" value="184"/>
 	</block>
-
 	<block id="960" name="SemiTruck02">
 		<!--Free Unity store asset by VIS Games-->
 		<property name="Extends" value="SDXCars"/>
@@ -17663,7 +17560,6 @@
 		<property name="DowngradeBlock" value="Nothing"/>
 		<property name="LootList" value="179"/>
 	</block>
-
 	<block id="969" name="SemiTruck03">
 		<!--Free Unity store asset by VIS Games-->
 		<property name="Extends" value="SDXCars"/>
@@ -17686,7 +17582,6 @@
 		<property name="DowngradeBlock" value="Nothing"/>
 		<property name="LootList" value="179"/>
 	</block>
-
 	<block id="976" name="Interceptor">
 		<property name="Extends" value="SDXCars"/>
 		<property name="LootList" value="181"/>
@@ -17903,7 +17798,7 @@
 		<property name="Collide" value="melee"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.Next" value="plantedOnion2"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<drop event="Destroy" name="plantedOnion1" count="1"/>
 		<property name="DescriptionKey" value="plantedOnion1Desc"/>
 	</block>
@@ -17916,7 +17811,7 @@
 		<property name="Collide" value="melee"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.Next" value="plantedOnion3Harvest"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<drop event="Destroy" name="plantedOnion1" count="1"/>
 		<property name="DescriptionKey" value="plantsFarmGroupDesc"/>
 	</block>
@@ -17925,8 +17820,6 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="CustomIcon" value="plantedPotato3Harvest"/>
 		<property name="Model" value="#RHPlants?plantedOnion3HarvestPrefabtest"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 		<drop event="Harvest" name="onion" count="1" prob="1" tool_category="Pluck"/>
 		<drop event="Harvest" name="onion" count="2" prob="1" tool_category="Farm"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="0.7" tool_category="Farm"/>
@@ -17944,7 +17837,7 @@
 		<property name="Collide" value="melee"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.Next" value="plantedLettuce2"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<drop event="Destroy" name="plantedLettuce1" count="1"/>
 		<property name="DescriptionKey" value="plantedLettuce1Desc"/>
 	</block>
@@ -17957,7 +17850,7 @@
 		<property name="Collide" value="melee"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.Next" value="plantedLettuce3Harvest"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking, Farming"/>
 		<drop event="Destroy" name="plantedLettuce1" count="1"/>
 		<property name="DescriptionKey" value="plantsFarmGroupDesc"/>
 	</block>
@@ -17967,8 +17860,6 @@
 		<property name="CustomIcon" value="plantedPotato3Harvest"/>
 		<property name="Model" value="#RHPlants?plantedLettuce3HarvestablePrefabtest"/>
 		<property name="Collide" value="melee"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 		<drop event="Harvest" name="lettuce" count="1" prob="1" tool_category="Pluck"/>
 		<drop event="Harvest" name="lettuce" count="2" prob="1" tool_category="Farm"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="0.7" tool_category="Farm"/>
@@ -17995,11 +17886,10 @@
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="TakeDelay" value="15"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="DescriptionKey" value="shedDesc"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-
 	<block id="1371" name="christmasTree">
 		<property name="Extends" value="sdxMaster"/>
 		<property name="DescriptionKey" value="christmasTreeDesc"/>
@@ -18035,7 +17925,6 @@
 		<property name="Group" value="Building,Basics"/>
 		<property name="TakeDelay" value="15"/>
 	</block>
-
 	<block id="1831" name="grasstrap">
 		<property name="Class" value="TrapDoor"/>
 		<property name="Material" value="dirt_weak"/>
@@ -18455,7 +18344,7 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="690"/>
-	</block>	
+	</block>
 	<block id="1647" name="cntradSafe01">
 		<property name="Group" value="Building"/>
 		<property name="Class" value="SecureLoot"/>
@@ -18612,8 +18501,6 @@
 		<drop event="Harvest" name="cabbage" count="1" prob="0.5" tool_category="FarmSeed"/>
 		<drop event="Harvest" name="rottingHarvest" count="1"  prob="1" tool_category="FarmSeed"/>
 		<drop event="Harvest" name="plantedCabbage1" count="1" prob="0.7" tool_category="FarmSeed"/>
-		<property name="PlantGrowing.Next" value="rottenHarvest"/>
-		<property name="PlantGrowing.GrowthRate" value="3.0"/>
 	</block>
 	<block id="1834" name="cntCardboardBoxStorage">
 		<property name="DescriptionKey" value="cntCardboardBoxStorageDesc"/>
@@ -18626,7 +18513,7 @@
 		<property name="Mesh" value="models"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="Group" value="Basics"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 		<property name="LootList" value="195"/>
 		<property name="SellableToTrader" value="false"/>
 		<property class="RepairItems">
@@ -18944,7 +18831,7 @@
 		<property name="EconomicValue" value="17"/>
 		<property name="EconomicBundleSize" value="20"/>
 		<property name="Stacknumber" value="50"/>
-		<property name="Group" value="Storage"/>
+		<property name="Group" value="Storage, Decor/Miscellaneous"/>
 	</block>
 	<block id="1459" name="woodCounter03">
 		<property name="Class" value="SecureLoot"/>
@@ -18983,6 +18870,7 @@
 			<property name="UpgradeHitCount" value="1"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Classes, Decor/Miscellaneous"/>
 	</block>
 	<block id="1923" name="averageKit">
 		<property name="Class" value="Loot"/>
@@ -19305,7 +19193,7 @@
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Meals,Ingredients,Stews,Drinks,Farming,Medical,Resources"/>
 		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_beer,ui_game_symbol_hand,ui_game_symbol_medical,ui_game_symbol_resource"/>
 	</block>
@@ -19342,7 +19230,7 @@
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Meals,Ingredients,Stews,Drinks,Farming,Medical,Resources"/>
 		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_beer,ui_game_symbol_hand,ui_game_symbol_medical,ui_game_symbol_resource"/>
 	</block>
@@ -19379,7 +19267,7 @@
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Meals,Ingredients,Stews,Drinks,Farming,Medical,Resources"/>
 		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_beer,ui_game_symbol_hand,ui_game_symbol_medical,ui_game_symbol_resource"/>
 	</block>
@@ -19876,8 +19764,7 @@
 		<property name="CustomIcon" value="appleSeeds"/>
 		<property name="Extends" value="treePlantedMountainPine1m"/>
 		<property name="PlantGrowing.Next" value="plantedBananaTree3Harvest"/>
-		<property name="PlantGrowing.GrowthRate" value="10"/>
-		<!-- <property name="PlantGrowing.GrowthRate" value="720"/> -->
+		<property name="PlantGrowing.GrowthRate" value="720"/>
 		<property name="ParticleOnDeath" value="treeGib_sapling"/>
 		<drop event="Destroy" name="plantedBananaTree1" count="1"/>
 	</block>
@@ -20685,6 +20572,7 @@
 			<property name="UpgradeHitCount" value="1"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Classes, Decor/Miscellaneous"/>
 	</block>
 	<block id="69" name="cookingKit">
 		<property name="Class" value="Loot"/>
@@ -20764,7 +20652,7 @@
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="carpentryStationDesc"/>
 		<property name="TakeDelay" value="15"/>
-		<property name="Group" value="Stations"/>
+		<property name="Group" value="Stations, Science"/>
 		<property name="Categories" value="Stations"/>
 		<property name="Categories_UI" value="ui_game_symbol_workbench"/>
 		<property name="SellableToTrader" value="false"/>
@@ -20879,7 +20767,7 @@
 		<property name="CustomIcon" value="blacksmithsForge"/>
 		<property name="Model" value="#RHStations2?blacksmithsForge"/>
 		<property name="Mesh" value="models"/>
-		<property name="DescriptionKey" value="advancedForgeDesc"/>
+		<property name="DescriptionKey" value="blacksmithsForgeDesc"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Class" value="Forge"/>
@@ -20893,7 +20781,7 @@
 		<property class="Workstation">
 			<property name="CraftingAreaRecipes" value="blacksmithsForge"/>
 			<property name="Modules" value="tools,output,fuel,material_input"/>
-			<property name="InputMaterials" value="iron,brass,lead,carbon,stone,clay,glass"/>
+			<property name="InputMaterials" value="iron,brass,lead,carbon,clay,glass"/>
 		</property>
 		<property class="RepairItems">
 			<property name="rockSmall" value="50"/>
@@ -20907,9 +20795,9 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="TakeDelay" value="15"/>
-		<property name="Group" value="Stations"/>
-		<property name="Categories" value="Stations"/>
-		<property name="Categories_UI" value="ui_game_symbol_workbench"/>
+		<property name="Group" value="Stations, Science"/>
+		<property name="Categories" value="Basics,Tools,Minibike,Tool Heads,Building,Decor/Miscellaneous"/>
+		<property name="Categories_UI" value="ui_game_symbol_resource,ui_game_symbol_tool,ui_game_symbol_minibike,ui_game_symbol_tungstentools,ui_game_symbol_advancedtoolsmithing,ui_game_symbol_construction,ui_game_symbol_comfortablesleeping"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="ItemWeight" value="20" />
 	</block>
@@ -21110,9 +20998,7 @@
 		<property name="Group" value="Tools/Traps,Science"/>
 		<property name="PickupJournalEntry" value="cameraTip"/>
 	</block>
-	
-<!-- WEDGE -->
-
+	<!-- WEDGE -->
 	<block id="150" name="woodFrameWedge">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -21232,7 +21118,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredConcreteWedge"/>
 		</property>
-	</block>	
+	</block>
 	<block id="404" name="pouredConcreteWedge">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
@@ -21280,17 +21166,15 @@
 			<property name="ToBlock" value="stainlessSteelWedge"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcreteWedge"/>
-	</block>	
+	</block>
 	<block id="641" name="stainlessSteelWedge">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="rConcreteWedge"/>
-	</block>	
-	
-<!-- PLATE -->
-
+	</block>
+	<!-- PLATE -->
 	<block id="1739" name="woodFramePlate">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -21302,7 +21186,6 @@
 			<property name="ToBlock" value="woodPlate"/>
 		</property>
 	</block>
-
 	<block id="165" name="rWoodPlate">
 		<property name="Extends" value="rWoodMaster"/>
 		<property name="Shape" value="New"/>
@@ -21342,7 +21225,7 @@
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="scrapIronPlate"/>
 		<property name="Group" value="Building"/>
-	</block>	
+	</block>
 	<block id="596" name="flagstonePlate">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property class="UpgradeBlock">
@@ -21371,14 +21254,14 @@
 			<property name="ToBlock" value="pouredConcretePlate"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="391" name="pouredConcretePlate">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property name="UpgradeRated.ToBlock" value="concretePlate"/>
-	</block>	
+	</block>
 	<block id="783" name="concretePlate">
 		<property name="Extends" value="concreteMaster"/>
 		<property name="CustomIcon" value="rConcretePlate"/>
@@ -21387,7 +21270,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcretePlate"/>
 		</property>
-	</block>	
+	</block>
 	<block id="209" name="pouredRConcretePlate">
 		<property name="Extends" value="pouredRConcreteMaster"/>
 		<property name="CustomIcon" value="pouredConcretePlate"/>
@@ -21395,7 +21278,7 @@
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property name="UpgradeRated.ToBlock" value="rConcretePlate"/>
-	</block>	
+	</block>
 	<block id="169" name="rConcretePlate">
 		<property name="Extends" value="rConcreteMaster"/>
 		<property name="Shape" value="New"/>
@@ -21404,7 +21287,7 @@
 			<property name="ToBlock" value="steelPlate"/>
 		</property>
 		<property name="DowngradeBlock" value="concretePlate"/>
-	</block>	
+	</block>
 	<block id="173" name="steelPlate">
 		<property name="Extends" value="steelMaster"/>
 		<property name="Shape" value="New"/>
@@ -21414,16 +21297,14 @@
 			<property name="ToBlock" value="stainlessSteelPlate"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcretePlate"/>
-	</block>	
+	</block>
 	<block id="654" name="stainlessSteelPlate">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property name="DowngradeBlock" value="rConcretePlate"/>
-	</block>	
-	
-<!-- SUPPORT -->
-
+	</block>
+	<!-- SUPPORT -->
 	<block id="1877" name="woodSupportFrame">
 		<property name="Extends" value="woodMaster"/>
 		<property name="Group" value="Building"/>
@@ -21458,7 +21339,7 @@
 		<drop event="Fall" name="woodDebris" count="1" prob="0.3" stick_chance="1"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="20"/>
-	</block>	
+	</block>
 	<block id="174" name="woodSupport">
 		<property name="Extends" value="woodMaster"/>
 		<property name="Group" value="Building"/>
@@ -21572,7 +21453,7 @@
 			<property name="ToBlock" value="steelSupport"/>
 		</property>
 		<property name="DowngradeBlock" value="concreteSupport"/>
-	</block>	
+	</block>
 	<block id="183" name="steelSupport">
 		<property name="Extends" value="steelMaster"/>
 		<property name="Shape" value="New"/>
@@ -21585,7 +21466,7 @@
 			<property name="ToBlock" value="stainlessSteelSupport"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcreteSupport"/>
-	</block>	
+	</block>
 	<block id="780" name="stainlessSteelSupport">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
@@ -21595,10 +21476,8 @@
 		<property name="ImposterExclude" value="true"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="DowngradeBlock" value="rConcreteSupport"/>
-	</block>	
-	
-<!-- PILLAR 100 -->
-
+	</block>
+	<!-- PILLAR 100 -->
 	<block id="1970" name="woodFramePillar100">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="Shape" value="New"/>
@@ -21668,7 +21547,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="scrapIronPillar100"/>
-	</block>	
+	</block>
 	<block id="664" name="flagstonePillar100">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -21701,7 +21580,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredConcretePillar100"/>
 		</property>
-	</block>	
+	</block>
 	<block id="387" name="pouredConcretePillar100">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
@@ -21754,7 +21633,7 @@
 			<property name="ToBlock" value="stainlessSteelPillar100"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcretePillar100"/>
-	</block>	
+	</block>
 	<block id="790" name="stainlessSteelPillar100">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
@@ -21762,10 +21641,8 @@
 		<property name="UseGlobalUV" value="Local"/>
 		<property name="ImposterExchange" value="imposterDontBlockBlock" param1="77"/>
 		<property name="DowngradeBlock" value="rConcretePillar100"/>
-	</block>	
-	
-<!-- RAMP -->
-
+	</block>
+	<!-- RAMP -->
 	<block id="221" name="woodFrameRamp">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -21787,7 +21664,7 @@
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="woodFrameRamp"/>
 		<property name="CanPickup" value="false"/>
-	</block>	
+	</block>
 	<block id="222" name="woodRamp">
 		<property name="Extends" value="woodMaster"/>
 		<property name="Shape" value="New"/>
@@ -21817,13 +21694,13 @@
 			<property name="ToBlock" value="scrapIronRamp"/>
 		</property>
 		<property name="DowngradeBlock" value="rWoodRamp"/>
-	</block>	
+	</block>
 	<block id="241" name="solidScrapIronFrameRamp">
 		<property name="Extends" value="scrapIronFrameRamp"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="scrapIronFrameRamp"/>
 		<property name="CanPickup" value="false"/>
-	</block>	
+	</block>
 	<block id="242" name="scrapIronRamp">
 		<property name="Extends" value="scrapIronMaster"/>
 		<property name="Shape" value="New"/>
@@ -21847,7 +21724,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="scrapIronRamp"/>
-	</block>	
+	</block>
 	<block id="1001" name="flagstoneRamp">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -21879,7 +21756,7 @@
 			<property name="ToBlock" value="pouredConcreteRamp"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="400" name="pouredConcreteRamp">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
@@ -21916,7 +21793,7 @@
 			<property name="ToBlock" value="steelRamp"/>
 		</property>
 		<property name="DowngradeBlock" value="concreteRamp"/>
-	</block>	
+	</block>
 	<block id="1425" name="steelRamp">
 		<property name="Extends" value="steelMaster"/>
 		<property name="Shape" value="New"/>
@@ -21927,17 +21804,15 @@
 			<property name="ToBlock" value="stainlessSteelRamp"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcreteRamp"/>
-	</block>	
+	</block>
 	<block id="638" name="stainlessSteelRamp">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="rConcreteRamp"/>
-	</block>	
-	
-<!-- WEDGE INCLINE -->
-
+	</block>
+	<!-- WEDGE INCLINE -->
 	<block id="420" name="woodFrameWedgeIncline">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -21949,7 +21824,7 @@
 			<property name="ToBlock" value="woodWedgeIncline"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="632" name="solidWoodFrameWedgeIncline">
 		<property name="Extends" value="woodFrameWedgeIncline"/>
 		<property name="CreativeMode" value="Dev"/>
@@ -22012,7 +21887,7 @@
 			<property name="ToBlock" value="rScrapIronWedgeIncline"/>
 		</property>
 		<property name="DowngradeBlock" value="solidScrapIronFrameWedgeIncline"/>
-	</block>	
+	</block>
 	<block id="666" name="rScrapIronWedgeIncline">
 		<property name="Extends" value="rScrapIronMaster"/>
 		<property name="Shape" value="New"/>
@@ -22026,7 +21901,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="scrapIronWedgeIncline"/>
-	</block>	
+	</block>
 	<block id="1115" name="flagstoneWedgeIncline">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -22036,7 +21911,7 @@
 			<property name="ToBlock" value="cobblestoneWedgeIncline"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="1136" name="cobblestoneWedgeIncline">
 		<property name="Extends" value="cobblestoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -22048,7 +21923,7 @@
 			<property name="ItemCount" value="8"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
-	</block>	
+	</block>
 	<block id="709" name="brickWedgeIncline">
 		<property name="Extends" value="brickMaster"/>
 		<property name="Shape" value="New"/>
@@ -22058,7 +21933,7 @@
 			<property name="ToBlock" value="pouredConcreteWedgeIncline"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="685" name="pouredConcreteWedgeIncline">
 		<property name="Extends" value="pouredConcreteMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -22106,17 +21981,15 @@
 			<property name="ToBlock" value="stainlessSteelWedgeIncline"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcreteWedgeIncline"/>
-	</block>	
+	</block>
 	<block id="707" name="stainlessSteelWedgeIncline">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_incline"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="rConcreteWedgeIncline"/>
-	</block>	
-	
-<!-- HALF -->
-
+	</block>
+	<!-- HALF -->
 	<block id="1369" name="woodFrameHalf">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -22127,7 +22000,7 @@
 			<property name="ToBlock" value="woodHalf"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="1375" name="solidWoodFrameHalf">
 		<property name="Extends" value="woodFrameHalf"/>
 		<property name="CreativeMode" value="Dev"/>
@@ -22151,7 +22024,7 @@
 			<property name="ToBlock" value="rWoodMetalHalf"/>
 		</property>
 		<property name="DowngradeBlock" value="woodHalf"/>
-	</block>	
+	</block>
 	<block id="1400" name="rWoodMetalHalf">
 		<property name="Extends" value="rWoodMetalMaster"/>
 		<property name="Shape" value="New"/>
@@ -22160,7 +22033,7 @@
 			<property name="ToBlock" value="scrapIronHalf"/>
 		</property>
 		<property name="DowngradeBlock" value="rWoodHalf"/>
-	</block>	
+	</block>
 	<block id="1417" name="scrapIronHalf">
 		<property name="Extends" value="scrapIronMaster"/>
 		<property name="Shape" value="New"/>
@@ -22169,13 +22042,13 @@
 			<property name="ToBlock" value="rScrapIronHalf"/>
 		</property>
 		<property name="DowngradeBlock" value="solidScrapIronFrameHalf"/>
-	</block>	
+	</block>
 	<block id="1415" name="solidScrapIronFrameHalf">
 		<property name="Extends" value="scrapIronFrameHalf"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="scrapIronFrameHalf"/>
 		<property name="CanPickup" value="false"/>
-	</block>	
+	</block>
 	<block id="1419" name="rScrapIronHalf">
 		<property name="Extends" value="rScrapIronMaster"/>
 		<property name="Shape" value="New"/>
@@ -22188,7 +22061,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="scrapIronHalf"/>
-	</block>	
+	</block>
 	<block id="1247" name="flagstoneHalf">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -22224,7 +22097,7 @@
 		<property name="Shape" value="New"/>
 		<property name="Model" value="cube_half"/>
 		<property name="UpgradeRated.ToBlock" value="concreteHalf"/>
-	</block>	
+	</block>
 	<block id="775" name="concreteHalf">
 		<property name="Extends" value="concreteMaster"/>
 		<property name="CustomIcon" value="rConcreteHalf"/>
@@ -22233,7 +22106,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcreteHalf"/>
 		</property>
-	</block>	
+	</block>
 	<block id="181" name="pouredRConcreteHalf">
 		<property name="Extends" value="pouredRConcreteMaster"/>
 		<property name="CustomIcon" value="pouredConcreteHalf"/>
@@ -22260,17 +22133,14 @@
 			<property name="ToBlock" value="stainlessSteelHalf"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcreteHalf"/>
-	</block>	
+	</block>
 	<block id="651" name="stainlessSteelHalf">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="cube_half"/>
 		<property name="DowngradeBlock" value="rConcreteHalf"/>
-	</block>	
-	
-<!-- QUARTER -->
-
-
+	</block>
+	<!-- QUARTER -->
 	<block id="1757" name="woodFrameQuarter">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CustomIcon" value="quarterBlock"/>
@@ -22336,7 +22206,7 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-	</block>	
+	</block>
 	<block id="1755" name="flagstoneQuarter">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property name="CustomIcon" value="stonequarterBlock"/>
@@ -22360,7 +22230,7 @@
 			<property name="ItemCount" value="8"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
-	</block>	
+	</block>
 	<block id="968" name="brickQuarter">
 		<property name="Extends" value="brickMaster"/>
 		<property name="CustomIcon" value="stonequarterBlock"/>
@@ -22370,7 +22240,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredConcreteQuarter"/>
 		</property>
-	</block>		
+	</block>
 	<block id="394" name="pouredConcreteQuarter">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
@@ -22378,7 +22248,7 @@
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="cube_quarter"/>
 		<property name="UpgradeRated.ToBlock" value="concreteQuarter"/>
-	</block>	
+	</block>
 	<block id="774" name="concreteQuarter">
 		<property name="Extends" value="concreteMaster"/>
 		<property name="CustomIcon" value="rConcreteQuarter"/>
@@ -22397,7 +22267,7 @@
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="cube_quarter"/>
 		<property name="UpgradeRated.ToBlock" value="rConcreteQuarter"/>
-	</block>	
+	</block>
 	<block id="194" name="rConcreteQuarter">
 		<property name="Extends" value="rConcreteMaster"/>
 		<property name="Shape" value="New"/>
@@ -22425,10 +22295,8 @@
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="cube_quarter"/>
 		<property name="DowngradeBlock" value="rConcreteQuarter"/>
-	</block>	
-	
-<!-- CORNER INSIDE -->
-	
+	</block>
+	<!-- CORNER INSIDE -->
 	<block id="225" name="woodFrameCNRInside">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -22473,7 +22341,7 @@
 			<property name="ToBlock" value="scrapIronCNRInside"/>
 		</property>
 		<property name="DowngradeBlock" value="rWoodCNRInside"/>
-	</block>	
+	</block>
 	<block id="214" name="scrapIronFrameCNRInside">
 		<property name="Extends" value="scrapIronFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -22511,7 +22379,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="scrapIronCNRInside"/>
-	</block>	
+	</block>
 	<block id="598" name="flagstoneCNRInside">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -22520,7 +22388,7 @@
 			<property name="ToBlock" value="cobblestoneCNRInside"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="755" name="cobblestoneCNRInside">
 		<property name="Extends" value="cobblestoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -22531,7 +22399,7 @@
 			<property name="ItemCount" value="8"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
-	</block>	
+	</block>
 	<block id="382" name="brickCNRInside">
 		<property name="Extends" value="brickMaster"/>
 		<property name="Shape" value="New"/>
@@ -22540,14 +22408,14 @@
 			<property name="ToBlock" value="pouredConcreteCNRInside"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="270" name="pouredConcreteCNRInside">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_inside_corner"/>
 		<property name="UpgradeRated.ToBlock" value="concreteCNRInside"/>
-	</block>	
+	</block>
 	<block id="272" name="concreteCNRInside">
 		<property name="Extends" value="concreteMaster"/>
 		<property name="CustomIcon" value="rConcreteCNRInside"/>
@@ -22556,7 +22424,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcreteCNRInside"/>
 		</property>
-	</block>	
+	</block>
 	<block id="1503" name="pouredRConcreteCNRInside">
 		<property name="Extends" value="pouredRConcreteMaster"/>
 		<property name="CustomIcon" value="pouredConcreteCNRInside"/>
@@ -22573,7 +22441,7 @@
 			<property name="ToBlock" value="steelCNRInside"/>
 		</property>
 		<property name="DowngradeBlock" value="concreteCNRInside"/>
-	</block>	
+	</block>
 	<!-- 1 Free -->
 	<block id="1505" name="steelCNRInside">
 		<property name="Extends" value="steelMaster"/>
@@ -22584,16 +22452,14 @@
 			<property name="ToBlock" value="stainlessSteelCNRInside"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcreteCNRInside"/>
-	</block>	
+	</block>
 	<block id="776" name="stainlessSteelCNRInside">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_inside_corner"/>
 		<property name="DowngradeBlock" value="rConcreteCNRInside"/>
-	</block>	
-	
-<!-- CORNER INSIDE BOTTOM -->	
-	
+	</block>
+	<!-- CORNER INSIDE BOTTOM -->
 	<block id="835" name="woodFrameWedgeCNRInsideBottom">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -22605,7 +22471,7 @@
 			<property name="ToBlock" value="woodWedgeCNRInsideBottom"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="843" name="solidWoodFrameWedgeCNRInsideBottom">
 		<property name="Extends" value="woodFrameWedgeCNRInsideBottom"/>
 		<property name="CreativeMode" value="Dev"/>
@@ -22621,7 +22487,7 @@
 			<property name="ToBlock" value="rWoodWedgeCNRInsideBottom"/>
 		</property>
 		<property name="DowngradeBlock" value="solidWoodFrameWedgeCNRInsideBottom"/>
-	</block>	
+	</block>
 	<block id="844" name="rWoodWedgeCNRInsideBottom">
 		<property name="Extends" value="rWoodMaster"/>
 		<property name="Shape" value="New"/>
@@ -22652,7 +22518,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="scrapIronWedgeCNRInsideBottom"/>
 		</property>
-	</block>	
+	</block>
 	<block id="848" name="solidScrapIronFrameWedgeCNRInsideBottom">
 		<property name="Extends" value="scrapIronFrameWedgeCNRInsideBottom"/>
 		<property name="CreativeMode" value="Dev"/>
@@ -22704,7 +22570,7 @@
 			<property name="ItemCount" value="8"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
-	</block>	
+	</block>
 	<block id="910" name="brickWedgeCNRInsideBottom">
 		<property name="Extends" value="brickMaster"/>
 		<property name="Shape" value="New"/>
@@ -22714,7 +22580,7 @@
 			<property name="ToBlock" value="pouredConcreteWedgeCNRInsideBottom"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="851" name="pouredConcreteWedgeCNRInsideBottom">
 		<property name="Extends" value="pouredConcreteMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -22770,10 +22636,7 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="rConcreteWedgeCNRInsideBottom"/>
 	</block>
-
-
-<!-- CORNER WEDGE INSIDE TOP -->
-
+	<!-- CORNER WEDGE INSIDE TOP -->
 	<block id="916" name="woodFrameWedgeCNRInsideTop">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -22801,7 +22664,7 @@
 			<property name="ToBlock" value="rWoodWedgeCNRInsideTop"/>
 		</property>
 		<property name="DowngradeBlock" value="solidWoodFrameWedgeCNRInsideTop"/>
-	</block>	
+	</block>
 	<block id="918" name="rWoodWedgeCNRInsideTop">
 		<property name="Extends" value="rWoodMaster"/>
 		<property name="Shape" value="New"/>
@@ -22884,7 +22747,7 @@
 			<property name="ItemCount" value="8"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
-	</block>	
+	</block>
 	<block id="989" name="brickWedgeCNRInsideTop">
 		<property name="Extends" value="brickMaster"/>
 		<property name="Shape" value="New"/>
@@ -22950,9 +22813,7 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="rConcreteWedgeCNRInsideTop"/>
 	</block>
-
-<!-- WEDGE STAIRS -->
-
+	<!-- WEDGE STAIRS -->
 	<block id="663" name="woodFrameWedgeStairs">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -23001,7 +22862,6 @@
 		</property>
 		<property name="DowngradeBlock" value="rWoodWedgeStairs"/>
 	</block>
-
 	<block id="829" name="scrapIronFrameWedgeStairs">
 		<property name="Extends" value="scrapIronFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -23018,7 +22878,7 @@
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="scrapIronFrameWedgeStairs"/>
 		<property name="CanPickup" value="false"/>
-	</block>		
+	</block>
 	<block id="908" name="scrapIronWedgeStairs">
 		<property name="Extends" value="scrapIronMaster"/>
 		<property name="Shape" value="New"/>
@@ -23052,7 +22912,7 @@
 			<property name="ToBlock" value="cobblestoneWedgeStairs"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="1142" name="cobblestoneWedgeStairs">
 		<property name="Extends" value="cobblestoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -23074,7 +22934,7 @@
 			<property name="ToBlock" value="pouredConcreteWedgeStairs"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="1035" name="pouredConcreteWedgeStairs">
 		<property name="Extends" value="pouredConcreteMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -23091,7 +22951,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcreteWedgeStairs"/>
 		</property>
-	</block>	
+	</block>
 	<block id="1097" name="pouredRConcreteWedgeStairs">
 		<property name="Extends" value="pouredRConcreteMaster"/>
 		<property name="CreativeMode" value="None"/>
@@ -23100,7 +22960,7 @@
 		<property name="Model" value="wedge_stairs"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="UpgradeRated.ToBlock" value="rConcreteWedgeStairs"/>
-	</block>	
+	</block>
 	<block id="1121" name="rConcreteWedgeStairs">
 		<property name="Extends" value="rConcreteMaster"/>
 		<property name="Shape" value="New"/>
@@ -23110,7 +22970,7 @@
 			<property name="ToBlock" value="steelWedgeStairs"/>
 		</property>
 		<property name="DowngradeBlock" value="concreteWedgeStairs"/>
-	</block>	
+	</block>
 	<block id="1129" name="steelWedgeStairs">
 		<property name="Extends" value="steelMaster"/>
 		<property name="Shape" value="New"/>
@@ -23121,18 +22981,15 @@
 			<property name="ToBlock" value="stainlessSteelWedgeStairs"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcreteWedgeStairs"/>
-	</block>	
+	</block>
 	<block id="1140" name="stainlessSteelWedgeStairs">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge_stairs"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="rConcreteWedgeStairs"/>
-	</block>	
-	
-<!-- WEDGE TIP STAIRS -->
-
-
+	</block>
+	<!-- WEDGE TIP STAIRS -->
 	<block id="743" name="woodFrameWedgeTipStairs">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -23231,7 +23088,7 @@
 			<property name="ToBlock" value="cobblestoneWedgeTipStairs"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="1368" name="cobblestoneWedgeTipStairs">
 		<property name="Extends" value="cobblestoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -23243,7 +23100,7 @@
 			<property name="ItemCount" value="8"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
-	</block>	
+	</block>
 	<block id="1358" name="brickWedgeTipStairs">
 		<property name="Extends" value="brickMaster"/>
 		<property name="Shape" value="New"/>
@@ -23253,7 +23110,7 @@
 			<property name="ToBlock" value="pouredConcreteWedgeTipStairs"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="1179" name="pouredConcreteWedgeTipStairs">
 		<property name="Extends" value="pouredConcreteMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -23279,7 +23136,7 @@
 		<property name="Model" value="wedge_tip_stairs"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="UpgradeRated.ToBlock" value="rConcreteWedgeTipStairs"/>
-	</block>	
+	</block>
 	<block id="1334" name="rConcreteWedgeTipStairs">
 		<property name="Extends" value="rConcreteMaster"/>
 		<property name="Shape" value="New"/>
@@ -23289,7 +23146,7 @@
 			<property name="ToBlock" value="steelWedgeTipStairs"/>
 		</property>
 		<property name="DowngradeBlock" value="concreteWedgeTipStairs"/>
-	</block>	
+	</block>
 	<block id="1356" name="steelWedgeTipStairs">
 		<property name="Extends" value="steelMaster"/>
 		<property name="Shape" value="New"/>
@@ -23307,10 +23164,8 @@
 		<property name="Model" value="wedge_tip_stairs"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="rConcreteWedgeTipStairs"/>
-	</block>	
-	
-<!-- WEDGE TIP CORNER FULL BOTTOM -->
-
+	</block>
+	<!-- WEDGE TIP CORNER FULL BOTTOM -->
 	<block id="765" name="woodFrameWedgeTipCNRFullBottom">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -23322,7 +23177,7 @@
 			<property name="ToBlock" value="woodWedgeTipCNRFullBottom"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="779" name="solidWoodFrameWedgeTipCNRFullBottom">
 		<property name="Extends" value="woodFrameWedgeTipCNRFullBottom"/>
 		<property name="CreativeMode" value="Dev"/>
@@ -23348,7 +23203,7 @@
 			<property name="ToBlock" value="rWoodMetalWedgeTipCNRFullBottom"/>
 		</property>
 		<property name="DowngradeBlock" value="woodWedgeTipCNRFullBottom"/>
-	</block>	
+	</block>
 	<block id="786" name="rWoodMetalWedgeTipCNRFullBottom">
 		<property name="Extends" value="rWoodMetalMaster"/>
 		<property name="Shape" value="New"/>
@@ -23369,7 +23224,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="scrapIronWedgeTipCNRFullBottom"/>
 		</property>
-	</block>	
+	</block>
 	<block id="807" name="solidScrapIronFrameWedgeTipCNRFullBottom">
 		<property name="Extends" value="scrapIronFrameWedgeTipCNRFullBottom"/>
 		<property name="CreativeMode" value="Dev"/>
@@ -23431,7 +23286,7 @@
 			<property name="ToBlock" value="pouredConcreteWedgeTipCNRFullBottom"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="810" name="pouredConcreteWedgeTipCNRFullBottom">
 		<property name="Extends" value="pouredConcreteMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -23439,7 +23294,7 @@
 		<property name="Model" value="wedge60_tip_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="UpgradeRated.ToBlock" value="concreteWedgeTipCNRFullBottom"/>
-	</block>	
+	</block>
 	<block id="812" name="concreteWedgeTipCNRFullBottom">
 		<property name="Extends" value="concreteMaster"/>
 		<property name="CustomIcon" value="rConcreteWedgeTipCNRFullBottom"/>
@@ -23468,7 +23323,7 @@
 			<property name="ToBlock" value="steelWedgeTipCNRFullBottom"/>
 		</property>
 		<property name="DowngradeBlock" value="concreteWedgeTipCNRFullBottom"/>
-	</block>	
+	</block>
 	<block id="821" name="steelWedgeTipCNRFullBottom">
 		<property name="Extends" value="steelMaster"/>
 		<property name="Shape" value="New"/>
@@ -23486,10 +23341,8 @@
 		<property name="Model" value="wedge60_tip_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="rConcreteWedgeTipCNRFullBottom"/>
-	</block>	
-	
-<!-- WOOD STAIRS 50 -->
-
+	</block>
+	<!-- WOOD STAIRS 50 -->
 	<block id="833" name="woodStairs50">
 		<property name="Material" value="wood_regular"/>
 		<property name="Shape" value="New"/>
@@ -23543,11 +23396,7 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 	</block>
-
-
-
-<!-- WEDGE TIP CORNER FULL TOP -->
-	
+	<!-- WEDGE TIP CORNER FULL TOP -->
 	<block id="710" name="woodFrameWedgeTipCNRFullTop">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -23575,7 +23424,7 @@
 			<property name="ToBlock" value="rWoodWedgeTipCNRFullTop"/>
 		</property>
 		<property name="DowngradeBlock" value="solidWoodFrameWedgeTipCNRFullTop"/>
-	</block>	
+	</block>
 	<block id="712" name="rWoodWedgeTipCNRFullTop">
 		<property name="Extends" value="rWoodMaster"/>
 		<property name="Shape" value="New"/>
@@ -23585,7 +23434,7 @@
 			<property name="ToBlock" value="rWoodMetalWedgeTipCNRFullTop"/>
 		</property>
 		<property name="DowngradeBlock" value="woodWedgeTipCNRFullTop"/>
-	</block>	
+	</block>
 	<block id="721" name="rWoodMetalWedgeTipCNRFullTop">
 		<property name="Extends" value="rWoodMetalMaster"/>
 		<property name="Shape" value="New"/>
@@ -23596,7 +23445,6 @@
 		</property>
 		<property name="DowngradeBlock" value="rWoodWedgeTipCNRFullTop"/>
 	</block>
-
 	<block id="726" name="scrapIronWedgeTipCNRFullTop">
 		<property name="Extends" value="scrapIronMaster"/>
 		<property name="Shape" value="New"/>
@@ -23689,7 +23537,7 @@
 			<property name="ToBlock" value="steelWedgeTipCNRFullTop"/>
 		</property>
 		<property name="DowngradeBlock" value="concreteWedgeTipCNRFullTop"/>
-	</block>	
+	</block>
 	<block id="734" name="steelWedgeTipCNRFullTop">
 		<property name="Extends" value="steelMaster"/>
 		<property name="Shape" value="New"/>
@@ -23707,10 +23555,8 @@
 		<property name="Model" value="wedge60_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="rConcreteWedgeTipCNRFullTop"/>
-	</block>	
-	
-<!-- CORNER RAMP FILLER -->
-
+	</block>
+	<!-- CORNER RAMP FILLER -->
 	<block id="926" name="woodFrameCNRRampFiller">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -23774,7 +23620,7 @@
 			<property name="ToBlock" value="scrapIronCNRRampFiller"/>
 		</property>
 		<property name="UseGlobalUV" value="Global"/>
-	</block>	
+	</block>
 	<block id="1002" name="solidScrapIronFrameCNRRampFiller">
 		<property name="Extends" value="scrapIronFrameCNRRampFiller"/>
 		<property name="CreativeMode" value="Dev"/>
@@ -23842,7 +23688,7 @@
 		</property>
 		<property name="UseGlobalUV" value="Global"/>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="1005" name="pouredConcreteCNRRampFiller">
 		<property name="Extends" value="pouredConcreteMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -23903,10 +23749,8 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="rConcreteCNRRampFiller"/>
 		<property name="UseGlobalUV" value="Global"/>
-	</block>	
-	
-<!-- ARCH -->
-
+	</block>
+	<!-- ARCH -->
 	<block id="1039" name="woodFrameArch">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -23918,7 +23762,7 @@
 			<property name="ToBlock" value="woodArch"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="1064" name="solidWoodFrameArch">
 		<property name="Extends" value="woodFrameArch"/>
 		<property name="CreativeMode" value="Dev"/>
@@ -23944,7 +23788,7 @@
 			<property name="ToBlock" value="rWoodMetalArch"/>
 		</property>
 		<property name="DowngradeBlock" value="woodArch"/>
-	</block>	
+	</block>
 	<block id="1068" name="rWoodMetalArch">
 		<property name="Extends" value="rWoodMetalMaster"/>
 		<property name="Shape" value="New"/>
@@ -24054,7 +23898,7 @@
 		<property name="Model" value="Arch"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="UpgradeRated.ToBlock" value="rConcreteArch"/>
-	</block>	
+	</block>
 	<block id="1123" name="rConcreteArch">
 		<property name="Extends" value="rConcreteMaster"/>
 		<property name="Shape" value="New"/>
@@ -24075,17 +23919,15 @@
 			<property name="ToBlock" value="stainlessSteelArch"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcreteArch"/>
-	</block>	
+	</block>
 	<block id="1128" name="stainlessSteelArch">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Arch"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="rConcreteArch"/>
-	</block>	
-	
-<!-- CORNER FULL -->
-
+	</block>
+	<!-- CORNER FULL -->
 	<block id="230" name="woodFrameCNRFull">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -24157,7 +23999,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="scrapIronCNRFull"/>
-	</block>	
+	</block>
 	<block id="597" name="flagstoneCNRFull">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -24177,7 +24019,7 @@
 			<property name="ItemCount" value="8"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
-	</block>	
+	</block>
 	<block id="1681" name="brickCNRFull">
 		<property name="Extends" value="brickMaster"/>
 		<property name="Shape" value="New"/>
@@ -24185,14 +24027,14 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredConcreteCNRFull"/>
 		</property>
-	</block>	
+	</block>
 	<block id="269" name="pouredConcreteCNRFull">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_outside_corner"/>
 		<property name="UpgradeRated.ToBlock" value="concreteCNRFull"/>
-	</block>	
+	</block>
 	<block id="781" name="concreteCNRFull">
 		<property name="Extends" value="concreteMaster"/>
 		<property name="CustomIcon" value="rConcreteCNRFull"/>
@@ -24209,7 +24051,7 @@
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_outside_corner"/>
 		<property name="UpgradeRated.ToBlock" value="rConcreteCNRFull"/>
-	</block>	
+	</block>
 	<block id="250" name="rConcreteCNRFull">
 		<property name="Extends" value="rConcreteMaster"/>
 		<property name="Shape" value="New"/>
@@ -24218,7 +24060,7 @@
 			<property name="ToBlock" value="steelCNRFull"/>
 		</property>
 		<property name="DowngradeBlock" value="concreteCNRFull"/>
-	</block>	
+	</block>
 	<block id="256" name="steelCNRFull">
 		<property name="Extends" value="steelMaster"/>
 		<property name="Shape" value="New"/>
@@ -24227,16 +24069,14 @@
 			<property name="ToBlock" value="stainlessSteelCNRFull"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcreteCNRFull"/>
-	</block>	
+	</block>
 	<block id="769" name="stainlessSteelCNRFull">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_outside_corner"/>
 		<property name="DowngradeBlock" value="rConcreteCNRFull"/>
-	</block>	
-	
-<!-- STAIRS 25 CORNER -->
-
+	</block>
+	<!-- STAIRS 25 CORNER -->
 	<block id="992" name="woodFrameStairs25CornerCNR">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -24254,7 +24094,7 @@
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="woodFrameStairs25CornerCNR"/>
 		<property name="CanPickup" value="false"/>
-	</block>	
+	</block>
 	<block id="995" name="woodStairs25CornerCNR">
 		<property name="Extends" value="woodMaster"/>
 		<property name="Shape" value="New"/>
@@ -24265,7 +24105,7 @@
 		</property>
 		<property name="DowngradeBlock" value="solidWoodFrameStairs25CornerCNR"/>
 		<property name="ImposterExchange" value="imposterCNRFull" param1="67"/>
-	</block>	
+	</block>
 	<block id="997" name="rWoodStairs25CornerCNR">
 		<property name="Extends" value="rWoodMaster"/>
 		<property name="Shape" value="New"/>
@@ -24304,7 +24144,7 @@
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="scrapIronFrameStairs25CornerCNR"/>
 		<property name="CanPickup" value="false"/>
-	</block>	
+	</block>
 	<block id="1030" name="scrapIronStairs25CornerCNR">
 		<property name="Extends" value="scrapIronMaster"/>
 		<property name="Shape" value="New"/>
@@ -24315,7 +24155,7 @@
 		</property>
 		<property name="DowngradeBlock" value="solidScrapIronFrameStairs25CornerCNR"/>
 		<property name="ImposterExchange" value="imposterCNRFull" param1="87"/>
-	</block>	
+	</block>
 	<block id="1032" name="rScrapIronStairs25CornerCNR">
 		<property name="Extends" value="rScrapIronMaster"/>
 		<property name="Shape" value="New"/>
@@ -24330,7 +24170,7 @@
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="scrapIronStairs25CornerCNR"/>
 		<property name="ImposterExchange" value="imposterCNRFull" param1="110"/>
-	</block>	
+	</block>
 	<block id="1102" name="flagstoneStairs25CornerCNR">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -24364,7 +24204,7 @@
 		</property>
 		<property name="ImposterExchange" value="imposterCNRFull" param1="1"/>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="1041" name="pouredConcreteStairs25CornerCNR">
 		<property name="Extends" value="pouredConcreteMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -24373,7 +24213,7 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="UpgradeRated.ToBlock" value="concreteStairs25CornerCNR"/>
 		<property name="ImposterExchange" value="imposterCNRFull" param1="2"/>
-	</block>	
+	</block>
 	<block id="1061" name="concreteStairs25CornerCNR">
 		<property name="Extends" value="concreteMaster"/>
 		<property name="CustomIcon" value="rConcreteStairs25CornerCNR"/>
@@ -24394,7 +24234,7 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="UpgradeRated.ToBlock" value="rConcreteStairs25CornerCNR"/>
 		<property name="ImposterExchange" value="imposterCNRFull" param1="2"/>
-	</block>	
+	</block>
 	<block id="1931" name="rConcreteStairs25CornerCNR">
 		<property name="Extends" value="rConcreteMaster"/>
 		<property name="Shape" value="New"/>
@@ -24417,7 +24257,7 @@
 		</property>
 		<property name="DowngradeBlock" value="rConcreteStairs25CornerCNR"/>
 		<property name="ImposterExchange" value="imposterCNRFull" param1="112"/>
-	</block>	
+	</block>
 	<block id="1093" name="stainlessSteelStairs25CornerCNR">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
@@ -24425,14 +24265,12 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="rConcreteStairs25CornerCNR"/>
 		<property name="ImposterExchange" value="imposterCNRFull" param1="77"/>
-	</block>	
-	
-<!-- STAIRS 25 -->
-	
+	</block>
+	<!-- STAIRS 25 -->
 	<block id="950" name="woodFrameStairs25">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="DescriptionKey" value="woodFrameGroupDesc"/>
-		<property name="Texture" value="381"/>		
+		<property name="Texture" value="381"/>
 		<property name="Stairs"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="StairsFilledVerticalUV"/>
@@ -24446,7 +24284,6 @@
 		</property>
 		<property name="SellableToTrader" value="false"/>
 	</block>
-	
 	<block id="237" name="woodStairs25">
 		<property name="Extends" value="woodMaster"/>
 		<property name="DescriptionKey" value="woodFrameGroupDesc"/>
@@ -24506,7 +24343,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="scrapIronStairs25"/>
-	</block>	
+	</block>
 	<block id="1352" name="flagstoneStairs25">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -24518,7 +24355,7 @@
 		</property>
 		<property name="ImposterExchange" value="imposterRamp" param1="63"/>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="836" name="cobblestoneStairs25">
 		<property name="Extends" value="cobblestoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -24533,7 +24370,7 @@
 			<property name="ItemCount" value="8"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
-	</block>	
+	</block>
 	<block id="1157" name="brickStairs25">
 		<property name="Extends" value="brickMaster"/>
 		<property name="Shape" value="New"/>
@@ -24546,7 +24383,7 @@
 			<property name="ToBlock" value="pouredConcreteStairs25"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="401" name="pouredConcreteStairs25">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
@@ -24557,7 +24394,7 @@
 		<property name="Stairs"/>
 		<property name="ImposterExchange" value="imposterRamp" param1="2"/>
 		<property name="UpgradeRated.ToBlock" value="concreteStairs25"/>
-	</block>	
+	</block>
 	<block id="1072" name="concreteStairs25">
 		<property name="Extends" value="concreteMaster"/>
 		<property name="CustomIcon" value="rConcreteStairs25"/>
@@ -24570,7 +24407,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcreteStairs25"/>
 		</property>
-	</block>	
+	</block>
 	<block id="198" name="pouredRConcreteStairs25">
 		<property name="Extends" value="pouredRConcreteMaster"/>
 		<property name="CustomIcon" value="pouredConcreteStairs25"/>
@@ -24596,7 +24433,7 @@
 			<property name="ToBlock" value="steelStairs25"/>
 		</property>
 		<property name="DowngradeBlock" value="concreteStairs25"/>
-	</block>	
+	</block>
 	<block id="1424" name="steelStairs25">
 		<property name="Extends" value="steelMaster"/>
 		<property name="Shape" value="New"/>
@@ -24620,10 +24457,8 @@
 		<property name="Stairs"/>
 		<property name="ImposterExchange" value="imposterRamp" param1="77"/>
 		<property name="DowngradeBlock" value="rConcreteStairs25"/>
-	</block>	
-	
-<!-- FRAME BLOCK -->
-
+	</block>
+	<!-- FRAME BLOCK -->
 	<block id="295" name="woodFrameBlock">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -24640,8 +24475,7 @@
 			<property name="ToBlock" value="woodBlock"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
-
+	</block>
 	<block id="375" name="solidWoodFrameBlock">
 		<property name="Extends" value="woodFrameBlock"/>
 		<property name="CreativeMode" value="Dev"/>
@@ -24661,14 +24495,14 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="scrapIronBlock"/>
 		</property>
-	</block>	
+	</block>
 	<block id="1092" name="scrapIronBlock">
 		<property name="Extends" value="scrapIronMaster"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="rScrapIronBlock"/>
 		</property>
 		<property name="DowngradeBlock" value="solidScrapIronFrameBlock"/>
-	</block>	
+	</block>
 	<block id="733" name="rScrapIronBlock">
 		<property name="Extends" value="rScrapIronMaster"/>
 		<property class="UpgradeBlock">
@@ -24679,7 +24513,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="scrapIronBlock"/>
-	</block>	
+	</block>
 	<block id="948" name="flagstoneBlock">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property class="UpgradeBlock">
@@ -24700,7 +24534,7 @@
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
 		<property name="UpgradeRated.ToBlock" value="concreteBlock"/>
-	</block>	
+	</block>
 	<block id="203" name="pouredRConcreteBlock">
 		<property name="Extends" value="pouredRConcreteMaster"/>
 		<property name="CustomIcon" value="pouredConcreteBlock"/>
@@ -24713,24 +24547,21 @@
 			<property name="ToBlock" value="steelBlock"/>
 		</property>
 		<property name="DowngradeBlock" value="concreteBlock"/>
-	</block>	
+	</block>
 	<block id="414" name="steelBlock">
 		<property name="Extends" value="steelMaster"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="stainlessSteelBlock"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcreteBlock"/>
-	</block>	
+	</block>
 	<block id="1776" name="stainlessSteelBlock">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="DowngradeBlock" value="rConcreteBlock"/>
-	</block>	
-	
-<!-- CORNER RAMP -->
-
+	</block>
+	<!-- CORNER RAMP -->
 	<block id="951" name="woodFrameCNRRamp">
 		<property name="Extends" value="woodFrameMaster"/>
-		<property name="Texture" value="241"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="ramp_corner"/>
@@ -24819,7 +24650,7 @@
 			<property name="ToBlock" value="pouredConcreteCNRRamp"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="271" name="pouredConcreteCNRRamp">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
@@ -24879,10 +24710,8 @@
 		<property name="Model" value="ramp_corner"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="DowngradeBlock" value="rConcreteCNRRamp"/>
-	</block>	
-	
-<!-- PYRAMID -->
-
+	</block>
+	<!-- PYRAMID -->
 	<block id="1147" name="woodFramePyramid">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="Texture" value="241"/>
@@ -24908,7 +24737,7 @@
 			<property name="ToBlock" value="scrapIronPyramid"/>
 		</property>
 		<property name="DowngradeBlock" value="woodPyramid"/>
-	</block>	
+	</block>
 	<block id="659" name="scrapIronPyramid">
 		<property name="Extends" value="scrapIronMaster"/>
 		<property name="Shape" value="New"/>
@@ -24929,7 +24758,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="scrapIronPyramid"/>
-	</block>	
+	</block>
 	<block id="1117" name="flagstonePyramid">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -24957,14 +24786,14 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredConcretePyramid"/>
 		</property>
-	</block>	
+	</block>
 	<block id="393" name="pouredConcretePyramid">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="pyramid"/>
 		<property name="UpgradeRated.ToBlock" value="concretePyramid"/>
-	</block>	
+	</block>
 	<block id="778" name="concretePyramid">
 		<property name="Extends" value="concreteMaster"/>
 		<property name="CustomIcon" value="rConcretePyramid"/>
@@ -24973,7 +24802,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcretePyramid"/>
 		</property>
-	</block>	
+	</block>
 	<block id="186" name="pouredRConcretePyramid">
 		<property name="Extends" value="pouredRConcreteMaster"/>
 		<property name="CustomIcon" value="pouredConcretePyramid"/>
@@ -25000,16 +24829,14 @@
 			<property name="ToBlock" value="stainlessSteelPyramid"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcretePyramid"/>
-	</block>	
+	</block>
 	<block id="789" name="stainlessSteelPyramid">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="pyramid"/>
 		<property name="DowngradeBlock" value="rConcretePyramid"/>
-	</block>	
-	
-<!-- POLE -->
-
+	</block>
+	<!-- POLE -->
 	<block id="1727" name="woodFramePole">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="Shape" value="New"/>
@@ -25022,8 +24849,7 @@
 			<property name="ToBlock" value="woodPole"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
-
+	</block>
 	<block id="988" name="woodPole">
 		<property name="Extends" value="woodMaster"/>
 		<property name="Shape" value="New"/>
@@ -25035,7 +24861,7 @@
 			<property name="ToBlock" value="rWoodPole"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="1537" name="rWoodPole">
 		<property name="Extends" value="rWoodMaster"/>
 		<property name="Shape" value="New"/>
@@ -25182,7 +25008,7 @@
 			<property name="ToBlock" value="stainlessSteelPole"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcretePole"/>
-	</block>	
+	</block>
 	<block id="811" name="stainlessSteelPole">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
@@ -25191,21 +25017,19 @@
 		<property name="ImposterExclude" value="true"/>
 		<property name="UseGlobalUV" value="Local"/>
 		<property name="DowngradeBlock" value="rConcretePole"/>
-	</block>	
-	
-<!-- PILLAR 50 -->
-	
+	</block>
+	<!-- PILLAR 50 -->
 	<block id="1940" name="woodFramePillar50">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole0.5m"/>
-		<property name="Texture" value="241"/>		
+		<property name="Texture" value="241"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="UseGlobalUV" value="Local"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="woodPillar50"/>
 		</property>
-	</block>		
+	</block>
 	<block id="1395" name="woodPillar50">
 		<property name="Extends" value="woodMaster"/>
 		<property name="Shape" value="New"/>
@@ -25215,7 +25039,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="rWoodPillar50"/>
 		</property>
-	</block>	
+	</block>
 	<block id="1836" name="rWoodPillar50">
 		<property name="Extends" value="rWoodMaster"/>
 		<property name="Shape" value="New"/>
@@ -25237,7 +25061,7 @@
 			<property name="ToBlock" value="scrapIronPillar50"/>
 		</property>
 		<property name="DowngradeBlock" value="rWoodPillar50"/>
-	</block>	
+	</block>
 	<block id="1291" name="scrapIronPillar50">
 		<property name="Extends" value="scrapIronMaster" param1="DowngradeBlock"/>
 		<property name="Shape" value="New"/>
@@ -25264,7 +25088,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="scrapIronPillar50"/>
-	</block>	
+	</block>
 	<block id="665" name="flagstonePillar50">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -25275,7 +25099,7 @@
 			<property name="ToBlock" value="cobblestonePillar50"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="757" name="cobblestonePillar50">
 		<property name="Extends" value="cobblestoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -25289,7 +25113,7 @@
 			<property name="ItemCount" value="8"/>
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
-	</block>	
+	</block>
 	<block id="1024" name="brickPillar50">
 		<property name="Extends" value="brickMaster"/>
 		<property name="Shape" value="New"/>
@@ -25300,7 +25124,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredConcretePillar50"/>
 		</property>
-	</block>		
+	</block>
 	<block id="388" name="pouredConcretePillar50">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
@@ -25310,7 +25134,7 @@
 		<property name="UseGlobalUV" value="Local"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="UpgradeRated.ToBlock" value="concretePillar50"/>
-	</block>	
+	</block>
 	<block id="378" name="concretePillar50">
 		<property name="Extends" value="concreteMaster"/>
 		<property name="CustomIcon" value="rConcretePillar50"/>
@@ -25322,7 +25146,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcretePillar50"/>
 		</property>
-	</block>	
+	</block>
 	<block id="255" name="pouredRConcretePillar50">
 		<property name="Extends" value="pouredRConcreteMaster"/>
 		<property name="CustomIcon" value="pouredConcretePillar50"/>
@@ -25333,7 +25157,7 @@
 		<property name="UseGlobalUV" value="Local"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="UpgradeRated.ToBlock" value="rConcretePillar50"/>
-	</block>	
+	</block>
 	<block id="282" name="rConcretePillar50">
 		<property name="Extends" value="rConcreteMaster"/>
 		<property name="Shape" value="New"/>
@@ -25345,7 +25169,7 @@
 			<property name="ToBlock" value="steelPillar50"/>
 		</property>
 		<property name="DowngradeBlock" value="concretePillar50"/>
-	</block>	
+	</block>
 	<block id="296" name="steelPillar50">
 		<property name="Extends" value="steelMaster"/>
 		<property name="Shape" value="New"/>
@@ -25358,7 +25182,7 @@
 			<property name="ToBlock" value="stainlessSteelPillar50"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcretePillar50"/>
-	</block>	
+	</block>
 	<block id="791" name="stainlessSteelPillar50">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
@@ -25367,11 +25191,8 @@
 		<property name="UseGlobalUV" value="Local"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="DowngradeBlock" value="rConcretePillar50"/>
-	</block>	
-	
-<!-- CENTER PLATE -->
-
-
+	</block>
+	<!-- CENTER PLATE -->
 	<block id="1295" name="scrapIronCTRPlate">
 		<property name="Extends" value="scrapIronMaster" param1="DowngradeBlock"/>
 		<property name="Shape" value="New"/>
@@ -25438,7 +25259,7 @@
 			<property name="ToBlock" value="stainlessSteelCTRPlate"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcreteCTRPlate"/>
-	</block>	
+	</block>
 	<block id="766" name="stainlessSteelCTRPlate">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
@@ -25446,10 +25267,7 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="rConcreteCTRPlate"/>
 	</block>
-
-	
-<!-- CORNER ROUND -->
-
+	<!-- CORNER ROUND -->
 	<block id="1630" name="woodFrameCNRRound">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="Shape" value="New"/>
@@ -25535,17 +25353,17 @@
 		<property name="Texture" value="7"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredConcreteCNRRound"/>
-		</property>		
+		</property>
 		<property name="ImposterExchange" value="imposterBlock" param1="1"/>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="275" name="pouredConcreteCNRRound">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_round1m"/>
 		<property name="UpgradeRated.ToBlock" value="concreteCNRRound"/>
-	</block>	
+	</block>
 	<block id="537" name="concreteCNRRound">
 		<property name="Extends" value="concreteMaster"/>
 		<property name="CustomIcon" value="rConcreteCNRRound"/>
@@ -25555,7 +25373,7 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcreteCNRRound"/>
 		</property>
-	</block>	
+	</block>
 	<block id="544" name="pouredRConcreteCNRRound">
 		<property name="Extends" value="pouredRConcreteMaster"/>
 		<property name="CustomIcon" value="pouredConcreteCNRRound"/>
@@ -25574,7 +25392,7 @@
 			<property name="ToBlock" value="steelCNRRound"/>
 		</property>
 		<property name="DowngradeBlock" value="concreteCNRRound"/>
-	</block>	
+	</block>
 	<block id="576" name="steelCNRRound">
 		<property name="Extends" value="steelMaster"/>
 		<property name="Shape" value="New"/>
@@ -25584,15 +25402,13 @@
 			<property name="ToBlock" value="stainlessSteelCNRRound"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcreteCNRRound"/>
-	</block>	
+	</block>
 	<block id="1778" name="stainlessSteelCNRRound">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Model" value="corner_round1m"/>
 		<property name="DowngradeBlock" value="rConcreteCNRRound"/>
-	</block>	
-	
-<!-- CORNER ROUND TOP -->
-
+	</block>
+	<!-- CORNER ROUND TOP -->
 	<block id="1018" name="woodFrameCNRRoundTop">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="Shape" value="New"/>
@@ -25602,7 +25418,7 @@
 			<property name="ToBlock" value="woodCNRRoundTop"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>		
+	</block>
 	<block id="1333" name="woodCNRRoundTop">
 		<property name="Extends" value="woodMaster"/>
 		<property name="Shape" value="New"/>
@@ -25612,7 +25428,7 @@
 			<property name="ToBlock" value="rWoodCNRRoundTop"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="1766" name="rWoodCNRRoundTop">
 		<property name="Extends" value="rWoodMaster"/>
 		<property name="Shape" value="New"/>
@@ -25622,7 +25438,7 @@
 			<property name="ToBlock" value="scrapIronCNRRoundTop"/>
 		</property>
 		<property name="DowngradeBlock" value="woodCNRRoundTop"/>
-	</block>	
+	</block>
 	<block id="1299" name="scrapIronCNRRoundTop">
 		<property name="Extends" value="scrapIronMaster" param1="DowngradeBlock"/>
 		<property name="Shape" value="New"/>
@@ -25644,7 +25460,7 @@
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="110"/>
-	</block>	
+	</block>
 	<block id="459" name="flagCNRRoundTop">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -25666,22 +25482,22 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="ImposterExchange" value="imposterBlock" param1="67"/>
-	</block>	
+	</block>
 	<block id="1640" name="brickCNRRoundTop">
 		<property name="Extends" value="brickCNRRound"/>
 		<property name="Model" value="corner_rounded"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredConcreteCNRRoundTop"/>
-		</property>			
+		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="281" name="pouredConcreteCNRRoundTop">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_rounded"/>
 		<property name="UpgradeRated.ToBlock" value="concreteCNRRoundTop"/>
-	</block>	
+	</block>
 	<block id="543" name="concreteCNRRoundTop">
 		<property name="Extends" value="concreteCNRRound"/>
 		<property name="CustomIcon" value="rConcreteCNRRoundTop"/>
@@ -25696,7 +25512,7 @@
 		<property name="CreativeMode" value="None"/>
 		<property name="Model" value="corner_rounded"/>
 		<property name="UpgradeRated.ToBlock" value="rConcreteCNRRoundTop"/>
-	</block>	
+	</block>
 	<block id="572" name="rConcreteCNRRoundTop">
 		<property name="Extends" value="rConcreteCNRRound"/>
 		<property name="Model" value="corner_rounded"/>
@@ -25712,20 +25528,14 @@
 			<property name="ToBlock" value="stainlessSteelCNRRoundTop"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcreteCNRRoundTop"/>
-	</block>	
+	</block>
 	<block id="1777" name="stainlessSteelCNRRoundTop">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_rounded"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="77"/>
 		<property name="DowngradeBlock" value="rConcreteCNRRoundTop"/>
-	</block>	
-	
-WEDGE TIP
-
-
-
-	<block id="1019" name="woodFrameWedgeTip">
+	</block>	 	 WEDGE TIP<block id="1019" name="woodFrameWedgeTip">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip"/>
@@ -25764,7 +25574,7 @@ WEDGE TIP
 			<property name="ToBlock" value="scrapIronWedgeTip"/>
 		</property>
 		<property name="DowngradeBlock" value="rWoodWedgeTip"/>
-	</block>	
+	</block>
 	<block id="1113" name="scrapIronWedgeTip">
 		<property name="Extends" value="scrapIronMaster"/>
 		<property name="Shape" value="New"/>
@@ -25798,7 +25608,7 @@ WEDGE TIP
 			<property name="ToBlock" value="cobblestoneWedgeTip"/>
 		</property>
 		<property name="SellableToTrader" value="false"/>
-	</block>	
+	</block>
 	<block id="752" name="cobblestoneWedgeTip">
 		<property name="Extends" value="cobblestoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -25819,7 +25629,7 @@ WEDGE TIP
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredConcreteWedgeTip"/>
 		</property>
-	</block>	
+	</block>
 	<block id="406" name="pouredConcreteWedgeTip">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
@@ -25827,7 +25637,7 @@ WEDGE TIP
 		<property name="Model" value="wedge60_tip"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="UpgradeRated.ToBlock" value="concreteWedgeTip"/>
-	</block>	
+	</block>
 	<block id="1135" name="concreteWedgeTip">
 		<property name="Extends" value="concreteMaster"/>
 		<property name="CustomIcon" value="rConcreteWedgeTip"/>
@@ -25837,7 +25647,7 @@ WEDGE TIP
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcreteWedgeTip"/>
 		</property>
-	</block>	
+	</block>
 	<block id="205" name="pouredRConcreteWedgeTip">
 		<property name="Extends" value="pouredRConcreteMaster"/>
 		<property name="CustomIcon" value="pouredConcreteWedgeTip"/>
@@ -25874,11 +25684,7 @@ WEDGE TIP
 		<property name="Model" value="wedge60_tip"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="rConcreteWedgeTip"/>
-	</block>	
-	
-ARROW SLIT HALF	
-	
-	<block id="1020" name="woodFrameArrowSlitHalf">
+	</block>	 	 ARROW SLIT HALF	 	<block id="1020" name="woodFrameArrowSlitHalf">
 		<property name="Extends" value="woodFrameMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
@@ -25890,7 +25696,7 @@ ARROW SLIT HALF
 		</property>
 		<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
 		<property name="SellableToTrader" value="false"/>
-	</block>		
+	</block>
 	<block id="649" name="woodArrowSlitHalf">
 		<property name="Extends" value="woodMaster"/>
 		<property name="Shape" value="New"/>
@@ -25903,7 +25709,7 @@ ARROW SLIT HALF
 		</property>
 		<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
 		<property name="SellableToTrader" value="false"/>
-	</block>		
+	</block>
 	<block id="862" name="rWoodArrowSlitHalf">
 		<property name="Extends" value="rWoodMaster"/>
 		<property name="Shape" value="New"/>
@@ -25916,7 +25722,7 @@ ARROW SLIT HALF
 		</property>
 		<property name="DowngradeBlock" value="woodArrowSlitHalf"/>
 		<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
-	</block>	
+	</block>
 	<block id="882" name="rWoodMetalArrowSlitHalf">
 		<property name="Extends" value="rWoodMetalMaster"/>
 		<property name="Shape" value="New"/>
@@ -25929,8 +25735,7 @@ ARROW SLIT HALF
 		</property>
 		<property name="DowngradeBlock" value="rWoodArrowSlitHalf"/>
 		<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
-	</block>	
-
+	</block>
 	<block id="899" name="scrapIronArrowSlitHalf">
 		<property name="Extends" value="scrapIronMaster"/>
 		<property name="Shape" value="New"/>
@@ -25942,7 +25747,7 @@ ARROW SLIT HALF
 			<property name="ToBlock" value="rScrapIronArrowSlitHalf"/>
 		</property>
 		<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
-	</block>	
+	</block>
 	<block id="911" name="rScrapIronArrowSlitHalf">
 		<property name="Extends" value="rScrapIronMaster"/>
 		<property name="Shape" value="New"/>
@@ -25959,7 +25764,7 @@ ARROW SLIT HALF
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<property name="DowngradeBlock" value="scrapIronArrowSlitHalf"/>
 		<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
-	</block>	
+	</block>
 	<block id="1033" name="flagstoneArrowSlitHalf">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property name="Shape" value="New"/>
@@ -25987,7 +25792,7 @@ ARROW SLIT HALF
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 		<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
-	</block>	
+	</block>
 	<block id="1734" name="brickArrowSlitHalf">
 		<property name="Extends" value="brickMaster"/>
 		<property name="Shape" value="New"/>
@@ -25999,7 +25804,7 @@ ARROW SLIT HALF
 			<property name="ToBlock" value="pouredConcreteArrowSlitHalf"/>
 		</property>
 		<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
-	</block>		
+	</block>
 	<block id="202" name="pouredConcreteArrowSlitHalf">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
@@ -26008,7 +25813,7 @@ ARROW SLIT HALF
 		<property name="Model" value="arrow_slit_half"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="UpgradeRated.ToBlock" value="concreteArrowSlitHalf"/>
-	</block>	
+	</block>
 	<block id="937" name="concreteArrowSlitHalf">
 		<property name="Extends" value="concreteMaster"/>
 		<property name="CustomIcon" value="rConcreteArrowSlitHalf"/>
@@ -26045,7 +25850,7 @@ ARROW SLIT HALF
 		</property>
 		<property name="DowngradeBlock" value="concreteArrowSlitHalf"/>
 		<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
-	</block>	
+	</block>
 	<block id="985" name="steelArrowSlitHalf">
 		<property name="Extends" value="steelMaster"/>
 		<property name="Shape" value="New"/>
@@ -26068,11 +25873,7 @@ ARROW SLIT HALF
 		<property name="ImposterExchange" value="imposterBlock" param1="77"/>
 		<property name="DowngradeBlock" value="rConcreteArrowSlitHalf"/>
 		<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
-	</block>	
-	
-EIGHTH	
-	
-	<block id="773" name="concreteEighth">
+	</block>	 	 EIGHTH	 	<block id="773" name="concreteEighth">
 		<property name="Extends" value="concreteMaster"/>
 		<property name="CustomIcon" value="rConcreteEighth"/>
 		<property name="LightOpacity" value="0"/>
@@ -26081,7 +25882,7 @@ EIGHTH
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcreteEighth"/>
 		</property>
-	</block>	
+	</block>
 	<block id="383" name="pouredConcreteEighth">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Extends" value="pouredConcreteMaster"/>
@@ -26089,7 +25890,7 @@ EIGHTH
 		<property name="Model" value="cube_eighth"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="UpgradeRated.ToBlock" value="concreteEighth"/>
-	</block>	
+	</block>
 	<block id="171" name="pouredRConcreteEighth">
 		<property name="Extends" value="pouredRConcreteMaster"/>
 		<property name="CustomIcon" value="pouredConcreteEighth"/>
@@ -26119,18 +25920,14 @@ EIGHTH
 			<property name="ToBlock" value="stainlessSteelEighth"/>
 		</property>
 		<property name="DowngradeBlock" value="rConcreteEighth"/>
-	</block>	
+	</block>
 	<block id="653" name="stainlessSteelEighth">
 		<property name="Extends" value="stainlessSteelMaster"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="cube_eighth"/>
 		<property name="DowngradeBlock" value="rConcreteEighth"/>
-	</block>	
-	
-CENTER POLE
-	
-	<block id="1657" name="woodCTRpole">
+	</block>	 	 CENTER POLE 	<block id="1657" name="woodCTRpole">
 		<property name="Extends" value="woodMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
@@ -26248,7 +26045,7 @@ CENTER POLE
 		<property name="ImposterExclude" value="true"/>
 		<property name="UseGlobalUV" value="Local"/>
 		<property name="UpgradeRated.ToBlock" value="concreteCTRpole"/>
-	</block>	
+	</block>
 	<block id="1669" name="concreteCTRpole">
 		<property name="Extends" value="concreteMaster"/>
 		<property name="CustomIcon" value="rConcreteCTRpole"/>
@@ -26310,11 +26107,6 @@ CENTER POLE
 		<property name="ImposterExclude" value="true"/>
 		<property name="UseGlobalUV" value="Local"/>
 		<property name="DowngradeBlock" value="rConcreteCTRpole"/>
-	</block>	
-	
-	
-	
-	
-		
-	<!-- ***** Free ID Slots in the Blocks.xml *********   	You cannot go further than 2047. -->
+	</block>
+	<!-- ***** Free ID Slots in the Blocks.xml *********    DEX Blocks -  1476 1489 1508 	You cannot go further than 2047. -->
 </blocks>

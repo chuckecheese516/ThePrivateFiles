@@ -493,8 +493,8 @@
 						<buff id="chestTrap" duration="0.5" icon="ui_game_symbol_stunned">
 							<modify id="0" stat="health" amount="-100" rate="0.4"/>
 						</buff>
-						<buff id="Dirty1" smell="smallSmell" duration="2400" onexpired="Dirty2"  mutex="infection,infection1,infection2,infection3" name_key="Dirty" tooltip_key="You Have Gotten Dirty" description_key="Digging through those bodies has made you quite dirty. Use some soap soon or it will get worse." icon="ui_game_symbol_dirty" cures="wetTowel,wetTowelSoap"/>
-						<buff id="Dirty2" smell="exLargeSmell" duration="900" onexpired="infection"   mutex="infection,infection1,infection2,infection3"  name_key="Filthy Mess" tooltip_key="You Need to Wash Up Or Else" description_key="Its gotten pretty bad. Use a washcloth and soap very soon or you will become infected" icon="ui_game_symbol_dirty" cures="wetTowelSoap"/>
+						<buff id="Dirty1" smell="smallSmell" duration="2400" onexpired="Dirty2"  mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3" name_key="Red On Ya" tooltip_key="You've Got Red On Ya" description_key="Digging through those bodies has made you quite dirty. Use a wet towel soon or it will get worse." icon="ui_game_symbol_dirty" cures="wetTowel,wetTowelSoap"/>
+						<buff id="Dirty2" smell="exLargeSmell" duration="900" onexpired="woundActivatorInfectious"   mutex="cured,infectionReset,infection,infectionBase,infection1,infection2,infection3"  name_key="Filthy Mess" tooltip_key="You Need to Wash Up Or Else" description_key="Its gotten pretty bad. Use a washcloth and soap very soon or you will become infected" icon="ui_game_symbol_dirty" cures="wetTowelSoap"/>
 						<buff id="rottedApple" duration="30" stack="extend" actions="increment(@wellness, -.5, 14, 0, 0)" type="sickness" icon="ui_game_symbol_food_poisoning" name_key="Rotten Apple" description_key="You have eaten a rotten apple and have become sick" tooltip_key="Oh No A Bad Apple" causes="Apple">
 							<modify id="0" stat="water" amount="-1" rate="2"/>
 						</buff>
@@ -655,7 +655,7 @@
 <buff id="HygieneLock" duration="0"/>
 <buff id="HygieneLockRemover" duration="1" actions="debuff(HygieneLock)"/>
 <buff id="Hygiene" duration="0" buffif="coretemp lequal 300" mutex="HygieneLock" actions="increment(hygiene, 2, 4t, 0, 0)"/>
-<buff id="fullyClean" duration="0" buffif="hygiene less 1" debuffif="hygiene gequal 24" mutex="dirty,grimy,filthy,infectious" actions="debuff(bathing)" icon="ui_game_symbol_shirt" name_key="Nice and clean" description_key="You are clean." tooltip_key="Nice and clean" />
+<buff id="fullyClean" duration="0" buffif="hygiene less 1" debuffif="hygiene gequal 24" mutex="dirty,grimy,filthy,infectious" actions="debuff(bathing)" icon="ui_game_symbol_shirt" name_key="Nice and Clean" description_key="You are clean." tooltip_key="Nice and Clean" />
 <buff id="clean" duration="0" buffif="hygiene gequal 1" debuffif="hygiene gequal 600" mutex="dirty,grimy,filthy,infectious"/>
 <buff id="dirty" duration="0" buffif="hygiene gequal 600" debuffif="hygiene lequal 599" mutex="grimy,filthy,infectious" smell="smallSmell" icon="ui_game_symbol_smell" name_key="Dirty" description_key="You are dirty and starting to smell, the dirtier you are the more prone you are to infection!" tooltip_key="Getting a little dirty"/>
 <buff id="grimy" duration="0" buffif="hygiene gequal 1200" debuffif="hygiene lequal 1199" mutex="filthy,infectious" smell="mediumSmell" actions="debuff(dirty)" icon="ui_game_symbol_smell" name_key="Grimy" description_key="You’re really starting to smell. Might want to take a bath soon." tooltip_key="You are grimy and smelly"/>

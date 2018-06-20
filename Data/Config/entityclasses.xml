@@ -35,8 +35,8 @@
 		<property name="MapIcon" value="ui_game_symbol_map_player_arrow"/>
 		<property name="IsEnemyEntity" value="false"/>
 		<property name="DropInventoryBlock" value="cntBackpackDropped"/>
-		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="classSelection,survivorKey,keystoneBlock,binoculars,qt_ultimateSurvivor"/>
-		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="classSelection,survivorKey,keystoneBlock,binoculars,qt_ultimateSurvivor"/>
+		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="qt_ultimateSurvivor,classSelection,survivorKey,keystoneBlock,binoculars"/>
+		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="qt_ultimateSurvivor,classSelection,survivorKey,keystoneBlock,binoculars"/>
 		<property name="ExperienceGain" value="173"/>
 		<property name="LegsExplosionDamageMultiplier" value="1"/>
 		<property name="ArmsExplosionDamageMultiplier" value="1"/>
@@ -3155,13 +3155,24 @@
 		<property name="ExperienceGain" value="155"/>
 		<property name="HasRagdoll" value="true"/>
 		<drop event="Harvest" name="redMeat" tool_category="Butcher" count="4"/>
+		<drop event="Harvest" name="infectedredMeat" tool_category="Butcher" count="2"/>
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="5"/>
 		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3"/>
 		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="2"/>
-		<drop event="Harvest" name="redMeat" tool_category="ButcherBonus" count="2"/>
-		<drop event="Harvest" name="deerHead" tool_category="ButcherBonus" count="0,1" prob="0.4"/>
-		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="2"/>
+		
+		<drop event="Harvest" name="redMeat" tool_category="ButcherBonus" count="6"/>
+		<drop event="Harvest" name="infectedredMeat" tool_category="ButcherBonus" count="3"/>
+		<drop event="Harvest" name="animalHide" tool_category="ButcherBonus" count="3"/>
+		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="5"/>
+		<drop event="Harvest" name="femur" tool_category="ButcherBonus" count="2"/>
+		
+		<drop event="Harvest" name="redMeat" tool_category="Skinner" count="2"/>
+		<drop event="Harvest" name="infectedredMeat" tool_category="Skinner" count="1"/>
+		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="7"/>
+		<drop event="Harvest" name="animalFat" tool_category="Skinner" count="2"/>
+		<drop event="Harvest" name="femur" tool_category="Skinner" count="3"/>
+		<drop event="Harvest" name="deerHead" tool_category="Skinner" count="0,1" prob="0.4"/>
+		
 	</entity_class>
 	<entity_class name="animalRabbit" extends="animalTemplateTimid">
 		<property name="Mesh" value="Animals/Rabbit/RABBIT"/>
@@ -3180,10 +3191,18 @@
 		<property name="HasRagdoll" value="true"/>
 		<property name="DeadBodyHitPoints" value="175"/>
 		<drop event="Harvest" name="whiteMeat" tool_category="Butcher" count="2"/>
+		<drop event="Harvest" name="infectedwhiteMeat" tool_category="Butcher" count="1"/>
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="1"/>
-		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="1"/>
-		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="1"/>
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1"/>
+		
+		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="3"/>
+		<drop event="Harvest" name="infectedwhiteMeat" tool_category="ButcherBonus" count="2"/>
+		<drop event="Harvest" name="animalHide" tool_category="ButcherBonus" count="1"/>
+		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="2"/>
+		
+		<drop event="Harvest" name="whiteMeat" tool_category="Skinner" count="1"/>
+		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="4"/>
+		<drop event="Harvest" name="animalFat" tool_category="Skinner" count="1"/>
 	</entity_class>
 	<entity_class name="animalChicken" extends="animalTemplateTimid">
 		<property name="Mesh" value="Animals/CHICKEN/chickenPrefab"/>
@@ -3203,14 +3222,21 @@
 		<property name="HasDeathAnim" value="false"/>
 		<property name="DeadBodyHitPoints" value="175"/>
 		<drop event="Harvest" name="whiteMeat" tool_category="Butcher" count="2"/>
-		<drop event="Harvest" name="feather" tool_category="Butcher" count="30"/>
+		<drop event="Harvest" name="feather" tool_category="Butcher" count="9"/>
 		<drop event="Harvest" name="infectedwhiteMeat" tool_category="Butcher" count="1"/>
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1"/>
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="1"/>
+
+		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="3"/>
+		<drop event="Harvest" name="feather" tool_category="ButcherBonus" count="7"/>
+		<drop event="Harvest" name="infectedwhiteMeat" tool_category="ButcherBonus" count="2"/>
+		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="2"/>
 		<drop event="Harvest" name="liveChicken" tool_category="ButcherBonus" count="0,1" prob="0.5"/>
-		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="1"/>
-		<drop event="Harvest" name="infectedwhiteMeat" tool_category="ButcherBonus" count="1"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="1"/>
-		<drop event="Harvest" name="feather" tool_category="Skinner" count="4"/>
-		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="1"/>
+		
+		<drop event="Harvest" name="whiteMeat" tool_category="Skinner" count="1"/>
+		<drop event="Harvest" name="feather" tool_category="Skinner" count="12"/>
+		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="3"/>
+
 	</entity_class>
 	<!-- HOSTILE ANIMALS -->
 	<entity_class name="animalTemplateHostile">
@@ -3307,9 +3333,17 @@
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="5"/>
 		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1"/>
 		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
-		<drop event="Harvest" name="rottingFlesh" tool_category="ButcherBonus" count="2"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="2"/>
+		
+		<drop event="Harvest" name="rottingFlesh" tool_category="ButcherBonus" count="4"/>
+		<drop event="Harvest" name="animalHide" tool_category="ButcherBonus" count="3"/>
 		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="2"/>
+		<drop event="Harvest" name="femur" tool_category="ButcherBonus" count="2"/>
+		
+		<drop event="Harvest" name="rottingFlesh" tool_category="Skinner" count="2"/>
+		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="7"/>
+		<drop event="Harvest" name="animalFat" tool_category="Skinner" count="1"/>
+		<drop event="Harvest" name="femur" tool_category="Skinner" count="3"/>		
+
 	</entity_class>
 	<entity_class name="animalBear" extends="animalTemplateHostile">
 		<property name="AvatarController" value="AvatarAnimalController"/>
@@ -3368,11 +3402,20 @@
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="8"/>
 		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="5"/>
 		<drop event="Harvest" name="femur" tool_category="Butcher" count="3"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="3"/>
-		<drop event="Harvest" name="bearSkin" tool_category="ButcherBonus" count="0,1" prob="0.4"/>
-		<drop event="Harvest" name="redMeat" tool_category="ButcherBonus" count="2"/>
-		<drop event="Harvest" name="infectedredMeat" tool_category="ButcherBonus" count="1"/>
-		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="2"/>
+		
+		<drop event="Harvest" name="redMeat" tool_category="ButcherBonus" count="6"/>
+		<drop event="Harvest" name="infectedredMeat" tool_category="ButcherBonus" count="3"/>
+		<drop event="Harvest" name="animalHide" tool_category="ButcherBonus" count="5"/>
+		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="6"/>
+		<drop event="Harvest" name="femur" tool_category="ButcherBonus" count="3"/>
+		
+		<drop event="Harvest" name="redMeat" tool_category="Skinner" count="3"/>
+		<drop event="Harvest" name="infectedredMeat" tool_category="Skinner" count="1"/>
+		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="10"/>
+		<drop event="Harvest" name="animalFat" tool_category="Skinner" count="4"/>
+		<drop event="Harvest" name="femur" tool_category="Skinner" count="4"/>
+		<drop event="Harvest" name="bearSkin" tool_category="Skinner" count="0,1" prob="0.4"/>
+		
 	</entity_class>
 	<entity_class name="animalZombieBear" extends="animalBear">
 		<property name="MaxHealth" value="2385"/>
@@ -3396,9 +3439,17 @@
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="10"/>
 		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="5"/>
 		<drop event="Harvest" name="femur" tool_category="Butcher" count="4"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="5"/>
-		<drop event="Harvest" name="rottingFlesh" tool_category="ButcherBonus" count="4"/>
-		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="4"/>
+		
+		<drop event="Harvest" name="rottingFlesh" tool_category="ButcherBonus" count="12"/>
+		<drop event="Harvest" name="animalHide" tool_category="ButcherBonus" count="7"/>
+		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="6"/>
+		<drop event="Harvest" name="femur" tool_category="ButcherBonus" count="4"/>
+		
+		<drop event="Harvest" name="rottingFlesh" tool_category="Skinner" count="6"/>
+		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="12"/>
+		<drop event="Harvest" name="animalFat" tool_category="Skinner" count="4"/>
+		<drop event="Harvest" name="femur" tool_category="Skinner" count="5"/>
+
 	</entity_class>
 	<entity_class name="animalWolf" extends="animalTemplateHostile">
 		<property name="AvatarController" value="AvatarAnimalController"/>
@@ -3458,10 +3509,18 @@
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="7"/>
 		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="5"/>
 		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="3"/>
-		<drop event="Harvest" name="redMeat" tool_category="ButcherBonus" count="1"/>
-		<drop event="Harvest" name="infectedredMeat" tool_category="ButcherBonus" count="1"/>
-		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="2"/>
+		
+		<drop event="Harvest" name="redMeat" tool_category="ButcherBonus" count="4"/>
+		<drop event="Harvest" name="infectedredMeat" tool_category="ButcherBonus" count="3"/>
+		<drop event="Harvest" name="animalHide" tool_category="ButcherBonus" count="5"/>
+		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="6"/>
+		<drop event="Harvest" name="femur" tool_category="ButcherBonus" count="2"/>
+
+		<drop event="Harvest" name="redMeat" tool_category="Skinner" count="2"/>
+		<drop event="Harvest" name="infectedredMeat" tool_category="Skinner" count="1"/>
+		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="9"/>
+		<drop event="Harvest" name="animalFat" tool_category="Skinner" count="4"/>
+		<drop event="Harvest" name="femur" tool_category="Skinner" count="3"/>
 	</entity_class>
 	<entity_class name="animalDireWolf" extends="animalWolf">
 		<property name="Mesh" value="Animals/Wolf/animalStandardDireWolfRagdoll"/>
@@ -3487,10 +3546,19 @@
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="9"/>
 		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="7"/>
 		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="4"/>
-		<drop event="Harvest" name="redMeat" tool_category="ButcherBonus" count="2"/>
-		<drop event="Harvest" name="infetedredMeat" tool_category="ButcherBonus" count="1"/>
-		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="3"/>
+		
+		<drop event="Harvest" name="redMeat" tool_category="ButcherBonus" count="7"/>
+		<drop event="Harvest" name="infetedredMeat" tool_category="ButcherBonus" count="3"/>
+		<drop event="Harvest" name="animalHide" tool_category="ButcherBonus" count="6"/>
+		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="8"/>
+		<drop event="Harvest" name="femur" tool_category="ButcherBonus" count="2"/>
+		
+		<drop event="Harvest" name="redMeat" tool_category="Skinner" count="3"/>
+		<drop event="Harvest" name="infetedredMeat" tool_category="Skinner" count="1"/>
+		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="12"/>
+		<drop event="Harvest" name="animalFat" tool_category="Skinner" count="4"/>
+		<drop event="Harvest" name="femur" tool_category="Skinner" count="3"/>
+
 	</entity_class>
 	<entity_class name="animalZombieVulture" extends="animalTemplateHostile">
 		<property name="Class" value="EntityVulture"/>
@@ -3532,9 +3600,14 @@
 		<property name="ExperienceGain" value="155"/>
 		<property name="DeadBodyHitPoints" value="175"/>
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-		<drop event="Harvest" name="feather" tool_category="Butcher" count="40" />
-		<drop event="Harvest" name="rottingFlesh" tool_category="ButcherBonus" count="1" />
-		<drop event="Harvest" name="feather" tool_category="ButcherBonus" count="20" />
+		<drop event="Harvest" name="feather" tool_category="Butcher" count="11" />
+		
+		<drop event="Harvest" name="rottingFlesh" tool_category="ButcherBonus" count="4" />
+		<drop event="Harvest" name="feather" tool_category="ButcherBonus" count="7" />
+		
+		<drop event="Harvest" name="rottingFlesh" tool_category="Skinner" count="1" />
+		<drop event="Harvest" name="feather" tool_category="Skinner" count="15" />
+
 	</entity_class>
 	<entity_class name="animalSnake" extends="animalTemplateHostile">
 		<property name="EntityType" value="Zombie" />
@@ -3593,8 +3666,16 @@
 		<drop event="Harvest" name="infectedwhiteMeat" tool_category="Butcher" count="1"/>
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2"/>
 		<drop event="Harvest" name="venomGland" tool_category="Butcher" count="1"/>
-		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="1"/>
+		
+		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="3"/>
 		<drop event="Harvest" name="infectedwhiteMeat" tool_category="ButcherBonus" count="1"/>
+		<drop event="Harvest" name="animalHide" tool_category="ButcherBonus" count="1"/>
+		<drop event="Harvest" name="venomGland" tool_category="ButcherBonus" count="1"/>
+		
+		<drop event="Harvest" name="whiteMeat" tool_category="Skinner" count="1"/>
+		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="4"/>
+		<drop event="Harvest" name="venomGland" tool_category="Skinner" count="2"/>
+		
 	</entity_class>
 	<entity_class name="animalBoar" extends="animalTemplateHostile">
 		<property name="IsEnemyEntity" value="false"/>
@@ -3645,9 +3726,18 @@
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="5"/>
 		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="5"/>
 		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="3"/>
-		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="1"/>
-		<drop event="Harvest" name="infectedwhiteMeat" tool_category="ButcherBonus" count="1"/>
+		
+		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="5"/>
+		<drop event="Harvest" name="infectedwhiteMeat" tool_category="ButcherBonus" count="2"/>
+		<drop event="Harvest" name="animalHide" tool_category="ButcherBonus" count="3"/>
+		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="6"/>
+		<drop event="Harvest" name="femur" tool_category="ButcherBonus" count="2"/>
+		
+		<drop event="Harvest" name="whiteMeat" tool_category="Skinner" count="2"/>
+		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="7"/>
+		<drop event="Harvest" name="animalFat" tool_category="Skinner" count="4"/>
+		<drop event="Harvest" name="femur" tool_category="Skinner" count="3"/>
+		
 	</entity_class>
 	<!-- JAXTELLER718 ANIMALS -->
 	<entity_class name="animalCow" extends="animalTemplateTimid">
@@ -3696,12 +3786,21 @@
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="7"/>
 		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4"/>
 		<drop event="Harvest" name="femur" tool_category="Butcher" count="3"/>
+		
+		<drop event="Harvest" name="redMeat" tool_category="ButcherBonus" count="5"/>
+		<drop event="Harvest" name="infectedredMeat" tool_category="ButcherBonus" count="3"/>
+		<drop event="Harvest" name="animalHide" tool_category="ButcherBonus" count="5"/>
+		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="5"/>
+		<drop event="Harvest" name="femur" tool_category="ButcherBonus" count="3"/>
+		
+		<drop event="Harvest" name="redMeat" tool_category="Skinner" count="2"/>
+		<drop event="Harvest" name="infectedredMeat" tool_category="Skinner" count="1"/>
+		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="9"/>
+		<drop event="Harvest" name="animalFat" tool_category="Skinner" count="3"/>
+		<drop event="Harvest" name="femur" tool_category="Skinner" count="4"/>
+		
 		<drop event="Harvest" name="milk" tool_category="Milk" count="2"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="4"/>
-		<drop event="Harvest" name="redMeat" tool_category="ButcherBonus" count="2"/>
-		<drop event="Harvest" name="infectedredMeat" tool_category="ButcherBonus" count="1"/>
-		<drop event="Harvest" name="milk" tool_category="MilkBonus" count="4"/>
-		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="3"/>
+
 	</entity_class>
 	<entity_class name="animalBull" extends="animalTemplateHostile">
 		<property name="Mesh" value="#RHAnimals?animalBull" />
@@ -3762,10 +3861,19 @@
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="7"/>
 		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4"/>
 		<drop event="Harvest" name="femur" tool_category="Butcher" count="3"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="4"/>
-		<drop event="Harvest" name="redMeat" tool_category="ButcherBonus" count="2"/>
-		<drop event="Harvest" name="infectedredMeat" tool_category="ButcherBonus" count="1"/>
-		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="3"/>
+		
+		<drop event="Harvest" name="redMeat" tool_category="ButcherBonus" count="5"/>
+		<drop event="Harvest" name="infectedredMeat" tool_category="ButcherBonus" count="3"/>
+		<drop event="Harvest" name="animalHide" tool_category="ButcherBonus" count="5"/>
+		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="5"/>
+		<drop event="Harvest" name="femur" tool_category="ButcherBonus" count="3"/>
+		
+		<drop event="Harvest" name="redMeat" tool_category="Skinner" count="2"/>
+		<drop event="Harvest" name="infectedredMeat" tool_category="Skinner" count="1"/>
+		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="9"/>
+		<drop event="Harvest" name="animalFat" tool_category="Skinner" count="3"/>
+		<drop event="Harvest" name="femur" tool_category="Skinner" count="4"/>
+
 	</entity_class>
 	<entity_class name="animalPig" extends="animalTemplateHostile">
 		<property name="Mesh" value="#RHAnimals?animalPig" />
@@ -3825,10 +3933,19 @@
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="4"/>
 		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4"/>
 		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="2"/>
-		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="2"/>
-		<drop event="Harvest" name="infectedwhiteMeat" tool_category="ButcherBonus" count="1"/>
-		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="3"/>
+		
+		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="6"/>
+		<drop event="Harvest" name="infectedwhiteMeat" tool_category="ButcherBonus" count="4"/>
+		<drop event="Harvest" name="animalHide" tool_category="ButcherBonus" count="2"/>
+		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="5"/>
+		<drop event="Harvest" name="femur" tool_category="ButcherBonus" count="2"/>
+		
+		<drop event="Harvest" name="whiteMeat" tool_category="Skinner" count="2"/>
+		<drop event="Harvest" name="infectedwhiteMeat" tool_category="Skinner" count="1"/>
+		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="7"/>
+		<drop event="Harvest" name="animalFat" tool_category="Skinner" count="2"/>
+		<drop event="Harvest" name="femur" tool_category="Skinner" count="3"/>
+		
 	</entity_class>
 	<entity_class name="animalCrow" extends="animalTemplateHostile">
 		<property name="Class" value="EntityVulture" />
@@ -3874,10 +3991,16 @@
 		<property name="IsEntityAnimal" value="true"/>
 		<property name="IsEnemyEntity" value="true"/>
 		<drop event="Harvest" name="whiteMeat" tool_category="Butcher" count="2" />
-		<drop event="Harvest" name="infectedwhiteMeat" tool_category="Butcher" count="1" />
-		<drop event="Harvest" name="feather" tool_category="Butcher" count="30" />
-		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="1" />
-		<drop event="Harvest" name="infectedwhiteMeat" tool_category="ButcherBonus" count="1" />
+		<drop event="Harvest" name="infectedwhiteMeat" tool_category="Butcher" count="2" />
+		<drop event="Harvest" name="feather" tool_category="Butcher" count="11" />
+		
+		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="3" />
+		<drop event="Harvest" name="infectedwhiteMeat" tool_category="ButcherBonus" count="3" />
+		<drop event="Harvest" name="feather" tool_category="ButcherBonus" count="7" />
+		
+		<drop event="Harvest" name="whiteMeat" tool_category="Skinner" count="1" />
+		<drop event="Harvest" name="infectedwhiteMeat" tool_category="Skinner" count="1" />
+		<drop event="Harvest" name="feather" tool_category="Skinner" count="15" />
 	</entity_class>
 	<!-- VEHICLES -->
 	<entity_class name="supplyPlane">
@@ -5649,6 +5772,7 @@
 		<property name="DeadBodyHitPoints" value="1"/>
 		<!-- we'll default drop raw fish items -->
 		<drop event="Harvest" name="rawFish" tool_category="Butcher" count="1"/>
+		<drop event="Harvest" name="rawFish" tool_category="ButcherBonus" count="1"/>
 	</entity_class>
 	<entity_class name="aFish" extends="PassiveFish">
 		<property name="Class" value="EntitySwimingSDX, Mods"/>
@@ -5662,12 +5786,14 @@
 		<property name="Class" value="EntitySwimingSDX, Mods"/>
 		<property name="Mesh" value="#Stingray?Stingray_X"/>
 		<drop event="Harvest" name="whiteMeat" tool_category="Butcher" count="1"/>
+		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="1"/>
 	</entity_class>
 	<entity_class name="aTurtle" extends="PassiveFish">
 		<property name="Class" value="EntitySwimingSDX, Mods"/>
 		<property name="Mesh" value="#Turtle?Turtle_X"/>
 		<property name="AttackAnimations" value="Attack0"/>
 		<drop event="Harvest" name="whiteMeat" tool_category="Butcher" count="1"/>
+		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="1"/>
 	</entity_class>
 	<entity_class name="aBarracuda" extends="PassiveFish">
 		<property name="Class" value="EntitySwimingSDX, Mods"/>
@@ -5726,6 +5852,7 @@
 		<property name="ExperienceGain" value="1"/>
 		<property name="DeadBodyHitPoints" value="1"/>
 		<drop event="Harvest" name="feather" tool_category="Butcher" count="2"/>
+		<drop event="Harvest" name="feather" tool_category="Skinner" count="4"/>
 		<property name="AITask-1" value="Swim"/>
 		<property name="AITask-2" value="RunawayWhenHurt"/>
 		<property name="AITask-3" value="RunawayFromEntity" param1="EntityPlayer"/>
@@ -5777,7 +5904,11 @@
 		<property name="PanicSpeed" value="1.7"/>
 		<property name="MaxHealth" value="30"/>
 		<drop event="Harvest" name="whiteMeat" tool_category="Butcher" count="3"/>
-		<drop event="Harvest" name="feather" tool_category="Butcher" count="30"/>
+		<drop event="Harvest" name="feather" tool_category="Butcher" count="8"/>
+		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="4"/>
+		<drop event="Harvest" name="feather" tool_category="ButcherBonus" count="6"/>
+		<drop event="Harvest" name="whiteMeat" tool_category="Skinner" count="2"/>
+		<drop event="Harvest" name="feather" tool_category="Skinner" count="12"/>
 	</entity_class>
 	<!-- Alcatraz - mecanim-->
 	<entity_class name="birdAlcatraz" extends="PassiveFlight">
@@ -6678,9 +6809,9 @@
 		<property name="DeadBodyHitPoints" value="350"/>
 		<property name="ExperienceGain" value="525"/>
 		<property name="HasDeathAnim" value="true"/>
-		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="4"/>
-		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="4"/>
-		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="10"/>
+		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="4"/>
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2"/>
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="6"/>
 		<drop event="Harvest" name="femur" tool_category="Butcher" count="5"/>
 	</entity_class>
 	<entity_class name="banditTest" extends="npcSDXMaleMeleeBanditTemplate">
