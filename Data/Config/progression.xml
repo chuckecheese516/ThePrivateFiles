@@ -559,13 +559,15 @@
 				<multiply skill_level="70,100" value="1.23,1.28"/>
 			</effect>
 		</action_skill>
-		<perk name="Advanced Bows" icon="archery" description_key="advancedBowWDesc" title_key="advancedBowW" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
+		<perk name="Advanced Bows" icon="archery" description_key="advancedBowWDesc" title_key="advancedBowW" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
 			<requirement skill_level="1" required_skill_name="Archery" required_skill_level="15"/>
 			<recipe name="ironBow" unlock_level="1"/>
 			<requirement skill_level="2" required_skill_name="Archery" required_skill_level="30"/>
-			<recipe name="ironCrossbow" unlock_level="2"/>
+			<recipe name="crossbow" unlock_level="2"/>
+			<requirement skill_level="2" required_skill_name="Archery" required_skill_level="45"/>
+			<recipe name="ironCrossbow" unlock_level="3"/>
 			<requirement skill_level="3" required_skill_name="Archery" required_skill_level="60"/>
-			<recipe name="compoundBow" unlock_level="3"/>
+			<recipe name="crossbowRepeater" unlock_level="4"/>
 		</perk>
 		<perk name="Legolas" icon="archery" description_key="legolasDesc" title_key="legolas" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
 			<requirement perk_level="1" required_skill_name="Archery" required_skill_level="50"/>
@@ -703,16 +705,11 @@
 			<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="30"/>
 			<recipe name="advancedWorkbench" unlock_level="2"/>
 		</perk>
-		<perk name="Advanced Forge" icon="resource" description_key="advancedForgePerkDesc" title_key="advancedForgePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+		<perk name="Blacksmith's Forge" icon="resource" description_key="blacksmithStationPerkDesc" title_key="blacksmithStationPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
-			<recipe name="advancedForge" unlock_level="1"/>
-		</perk>
-		<perk name="Blacksmith Station" icon="resource" description_key="blacksmithStationPerkDesc" title_key="blacksmithStationPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
-			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="30"/>
-			<requirement skill_level="1" required_skill_name="craftSkillPrimitiveTools" required_skill_level="1"/>
 			<recipe name="anvil" unlock_level="1"/>
 			<recipe name="blacksmithHammer" unlock_level="1"/>
-			<recipe name="blacksmithStation" unlock_level="1"/>
+			<recipe name="blacksmithsForge" unlock_level="1"/>
 		</perk>
 		<perk name="Decoration Station" icon="resource" description_key="decorationStationPerkDesc" title_key="decorationStationPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="40"/>
@@ -1078,9 +1075,9 @@
 			<requirement perk_level="5" required_player_level="20"/>
 			<requirement perk_level="6" required_player_level="25"/>
 			<requirement perk_level="7" required_player_level="30"/>
-			<requirement perk_level="8" required_player_level="40"/>
-			<requirement perk_level="9" required_player_level="50"/>
-			<requirement perk_level="10" required_player_level="60"/>
+			<requirement perk_level="8" required_player_level="35"/>
+			<requirement perk_level="9" required_player_level="40"/>
+			<requirement perk_level="10" required_player_level="50"/>
 			<effect name="CraftingTime">
 				<multiply skill_level="0,1" value="1.0,0.95"/>
 				<multiply skill_level="1,2" value="0.95,0.90"/>
@@ -1136,10 +1133,10 @@
 			</effect>
 		</perk>
 		<perk name="craftSkillIronTools" max_level="10" skill_point_cost_multiplier="1.21" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="tool_smithing" description_key="craftSkillIronToolsDesc" title_key="craftSkillIronTools" group="tools" exp_gain_multiplier="0">
-			<requirement perk_level="1" required_player_level="30"/>
-			<requirement perk_level="2" required_player_level="35"/>
-			<requirement perk_level="3" required_player_level="40"/>
-			<requirement perk_level="4" required_player_level="45"/>
+			<requirement perk_level="1" required_player_level="20"/>
+			<requirement perk_level="2" required_player_level="25"/>
+			<requirement perk_level="3" required_player_level="30"/>
+			<requirement perk_level="4" required_player_level="40"/>
 			<requirement perk_level="5" required_player_level="50"/>
 			<requirement perk_level="6" required_player_level="60"/>
 			<requirement perk_level="7" required_player_level="70"/>
@@ -1498,7 +1495,7 @@
 				<add skill_level="90,100" value="0.56,0.60"/>
 			</effect>
 		</player_skill>
-		<crafting_skill name="Research" exp_to_level="150" experience_multiplier="1.0606" icon="coin" description_key="researchDesc" title_key="research" group="scavenging" exp_gain_multiplier="0.2">
+		<crafting_skill name="Research" exp_to_level="150" experience_multiplier="1.0606" icon="coin" description_key="researchPerkDesc" title_key="researchPerk" group="scavenging" exp_gain_multiplier="0.2">
 			<effect name="CraftingTime">
 				<multiply skill_level="0,1" value="1.0,0.95"/>
 				<multiply skill_level="1,2" value="0.95,0.90"/>

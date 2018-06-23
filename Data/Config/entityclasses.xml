@@ -7204,7 +7204,6 @@
 		<property name="ArmsExplosionDamageMultiplier" value="1"/>
 		<property name="HeadExplosionDamageMultiplier" value="1"/>
 		<property name="ChestExplosionDamageMultiplier" value="1"/>
-		<property name="LootListOnDeath" value="200"/>
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>
 	</entity_class>
@@ -7218,7 +7217,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>	
@@ -7259,7 +7258,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>		
@@ -7286,7 +7285,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7325,7 +7324,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7353,7 +7352,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7381,7 +7380,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7410,7 +7409,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7439,7 +7438,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7467,7 +7466,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7495,7 +7494,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7523,7 +7522,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7551,7 +7550,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7579,7 +7578,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7607,7 +7606,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7635,7 +7634,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7663,7 +7662,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7691,7 +7690,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7719,7 +7718,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7747,7 +7746,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7775,7 +7774,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7801,7 +7800,7 @@
 		<property name="NightWanderSpeed" value="0.08"/>
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="WalkType" value="6"/>
@@ -7832,7 +7831,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="WalkType" value="7"/>
@@ -7864,7 +7863,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>	
 		<property name="WalkType" value="3" />
-		<property name="LootListOnDeath" value="200"/>
+		
 		<property name="ExperienceGain" value="25"/>
 		<property name="MaxHealth" value="85"/>	
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>

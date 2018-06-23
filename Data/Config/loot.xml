@@ -701,7 +701,6 @@
 		<item name="poster32"/>
 		<item name="poster33"/>
 		<item name="poster34"/>
-		<item name="poster35"/>
 		<item name="poster36"/>
 		<item name="poster37"/>
 		<item name="poster38"/>
@@ -2557,7 +2556,7 @@
 		<item name="scrapPlastics" count="1" prob="0.2"/>
 	</lootcontainer>
 	<!-- cars-->
-	<lootcontainer id="19" count="0,2" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="6" buff="carAlarm" buff_chance="0.05"  loot_quality_template="baseTemplate">
+	<lootcontainer id="19" count="0,2" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="6" buff="carAlarm" buff_chance="0.15"  loot_quality_template="baseTemplate">
 		<item group="automotive+tools+junk"/>
 		<item name="miningHelmet" prob="0.035"/>
 	</lootcontainer>
@@ -3435,7 +3434,7 @@
 		<item group="SurvivalKit"/>
 	</lootcontainer>
 	<!-- school Bus -->
-	<lootcontainer id="162" count="1,2" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="6" buff="carAlarm" buff_chance="0.05" loot_quality_template="baseTemplate">
+	<lootcontainer id="162" count="1,2" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="6" buff="carAlarm" buff_chance="0.15" loot_quality_template="baseTemplate">
 		<item group="automotive+tools+junk" prob="0.7"/>
 		<item name="miningHelmet" prob="0.035"/>
 		<item group="ammo" prob="0.4"/>
@@ -3456,7 +3455,7 @@
 		<item name="weed" count="1,2" prob="0.18"/>
 	</lootcontainer>
 	<!-- Mystery Machine -->
-	<lootcontainer id="163" count="1,2" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="6"  buff="carAlarm" buff_chance="0.05" loot_quality_template="baseTemplate">
+	<lootcontainer id="163" count="1,2" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="6"  buff="carAlarm" buff_chance="0.15" loot_quality_template="baseTemplate">
 		<item group="automotive+tools+junk" prob="0.7"/>
 		<item name="miningHelmet" prob="0.035"/>
 		<item name="beer" prob="0.6"/>
@@ -3577,7 +3576,7 @@
 		<item name="compoundBow" count="1" prob="25.0"/>
 	</lootcontainer>
 	<!-- Semi Trucks -->
-	<lootcontainer id="179" count="2,5" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="15" buff="carAlarm" buff_chance="0.05" loot_quality_template="baseTemplate">
+	<lootcontainer id="179" count="2,5" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="15" buff="carAlarm" buff_chance="0.15" loot_quality_template="baseTemplate">
 		<item name="paper" count="50,150"/>
 		<item name="scrapPlastics" count="5,15"/>
 		<item name="rebarFrameBlock" count="10,40"/>
@@ -3635,7 +3634,7 @@
 		<item name="tarp" count="2,8"/>
 	</lootcontainer>
 	<!-- Construction Vehicle -->
-	<lootcontainer id="180" count="1,2" size="5,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="10"  buff="carAlarm" buff_chance="0.05" loot_quality_template="baseTemplate">
+	<lootcontainer id="180" count="1,2" size="5,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="10"  buff="carAlarm" buff_chance="0.15" loot_quality_template="baseTemplate">
 		<item name="paper" count="50,150"/>
 		<item name="scrapPlastics" count="5,15"/>
 		<item name="rebarFrameBlock" count="10,40"/>
@@ -3694,7 +3693,7 @@
 		<item name="weldingTorch" prob="0.05"/>
 	</lootcontainer>
 	<!-- Police Vehicle -->
-	<lootcontainer id="181" count="1" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="6"  buff="carAlarm" buff_chance="0.05" loot_quality_template="baseTemplate">
+	<lootcontainer id="181" count="1" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="6"  buff="carAlarm" buff_chance="0.15" loot_quality_template="baseTemplate">
 		<item group="automotive+tools+junk" prob="0.6"/>
 		<item name="miningHelmet" prob="0.035"/>
 		<item group="weaponsPistol+ammo" prob="0.55"/>
@@ -3705,7 +3704,7 @@
 		<item name="painkillers" prob="0.35"/>
 	</lootcontainer>
 	<!-- Motorcycle -->
-	<lootcontainer id="182" count="0,1" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="6"  buff="carAlarm" buff_chance="0.05"  loot_quality_template="baseTemplate">
+	<lootcontainer id="182" count="0,1" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="6"  buff="carAlarm" buff_chance="0.15"  loot_quality_template="baseTemplate">
 		<item group="automotive+tools+junk" prob="0.7"/>
 		<item name="miningHelmet" prob="0.035"/>
 		<item group="weaponsPistol+ammo" prob="0.15"/>
@@ -3728,7 +3727,7 @@
 		<item group="zombieQuests" prob="0.2"/>
 	</lootcontainer>
 	<!-- Military Truck -->
-	<lootcontainer id="183" count="1,3" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="10" buff="carAlarm" buff_chance="0.05"   loot_quality_template="baseTemplate">
+	<lootcontainer id="183" count="1,3" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="10" buff="carAlarm" buff_chance="0.15"   loot_quality_template="baseTemplate">
 		<item name="miningHelmet" prob="0.035"/>
 		<item group="weaponsMilitaryGuns+ammo" prob="1"/>
 		<item group="gunSafeLoot" prob="0.1"/>
@@ -3739,7 +3738,7 @@
 		<item group="hazmatGear"  prob="0.09"/>
 	</lootcontainer>
 	<!-- Semi Small -->
-	<lootcontainer id="184" count="1" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="6"  buff="carAlarm" buff_chance="0.05"  loot_quality_template="baseTemplate">
+	<lootcontainer id="184" count="1" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="6"  buff="carAlarm" buff_chance="0.15"  loot_quality_template="baseTemplate">
 		<item group="automotive+tools+junk"/>
 		<item name="miningHelmet" prob="0.035"/>
 		<item name="flashlight02" prob="0.15"/>
@@ -3758,7 +3757,7 @@
 		<item group="FarmingKit"/>
 	</lootcontainer>
 	<!-- Ambulance -->
-	<lootcontainer id="188" count="1,3" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="10"  buff="carAlarm" buff_chance="0.05"  loot_quality_template="baseTemplate">
+	<lootcontainer id="188" count="1,3" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="10"  buff="carAlarm" buff_chance="0.15"  loot_quality_template="baseTemplate">
 		<item group="automotive+tools+junk" prob="0.7"/>
 		<item name="miningHelmet" prob="0.035"/>
 		<item group="medicine" prob="0.6"/>
@@ -3804,7 +3803,7 @@
 	</lootcontainer>
 	<lootcontainer id="199" count="0" size="8,4" destroy_on_close="false" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="baseTemplate"/>
 	<!-- Busted Bus -->
-	<lootcontainer id="194" count="1,2" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="10"  buff="carAlarm" buff_chance="0.05"  loot_quality_template="baseTemplate">
+	<lootcontainer id="194" count="1,2" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="10"  buff="carAlarm" buff_chance="0.15"  loot_quality_template="baseTemplate">
 		<item group="automotive+tools+junk"/>
 		<item name="miningHelmet" prob="0.035"/>
 		<item name="oldRadio" prob="0.005"/>
@@ -4244,7 +4243,7 @@
 	<lootcontainer id="238" size="10,12" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox"> </lootcontainer>
 	<lootcontainer id="239" size="10,12" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster"> </lootcontainer>
 	<lootcontainer id="240" size="3,3" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage"> </lootcontainer>
-	<lootcontainer id="241" count="1,2" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="15" buff="carAlarm" buff_chance="0.05" loot_quality_template="baseTemplate">
+	<lootcontainer id="241" count="1,2" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="15" buff="carAlarm" buff_chance="0.15" loot_quality_template="baseTemplate">
 		<item name="bottledRiverWater" prob="0.5"/>
 		<item group="cannedfood"   count="1,2"  prob="0.9"/>
 		<item name="bottledWater" prob="0.5"/>
@@ -4285,7 +4284,7 @@
 		<item group="zombieFood"/>
 		<item group="zombieQuests" count="1" prob="0.05"/>
 	</lootcontainer>
-	<lootcontainer id="243" count="0,1" size="7,4" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="15" loot_quality_template="baseTemplate">
+	<lootcontainer id="243" count="0,1" size="7,4" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="8" loot_quality_template="baseTemplate">
 		<item name="bottledRiverWater" prob="0.5"/>
 		<item group="cannedfood"   count="1,2"  prob="0.5"/>
 		<item name="bottledWater" prob="0.5"/>

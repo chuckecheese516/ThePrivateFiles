@@ -1878,8 +1878,10 @@
 		<reward type="Quest" id="quest_CookingClass03"/>
 	</quest>
 	<quest id="quest_CookingClass03" group_name_key="quest_CookingClass" name_key="quest_CookingClass03" subtitle_key="quest_CookingClass03_subtitle" description_key="quest_CookingClass03_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
-		<objective type="FetchKeep" id="goldenRodTea" value="5"/>
-		<objective type="FetchKeep" id="redTea" value="5"/>
+		<objective type="FetchKeep" id="sugar" value="3"/>
+		<objective type="FetchKeep" id="salt" value="3"/>
+		<objective type="FetchKeep" id="vinegar" value="3"/>
+		<objective type="FetchKeep" id="vegetableOil" value="3"/>
 		<reward type="Exp" value="300"/>
 		<reward type="Quest" id="quest_CookingClass04"/>
 	</quest>
@@ -1889,13 +1891,15 @@
 		<reward type="Quest" id="quest_CookingClass05"/>
 	</quest>
 	<quest id="quest_CookingClass05" group_name_key="quest_CookingClass" name_key="quest_CookingClass05" subtitle_key="quest_CookingClass05_subtitle" description_key="quest_CookingClass05_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
-		<objective type="FetchKeep" id="cornOnTheCob" value="5"/>
+		<objective type="FetchKeep" id="goldenRodTea" value="5"/>
+		<objective type="FetchKeep" id="redTea" value="5"/>
 		<reward type="Exp" value="500"/>
+		<reward type="SkillPoints" value="5"/>
 		<reward type="Quest" id="quest_CookingClass06"/>
-		<reward type="Item" id="butcherKnife" value="150"/>
 	</quest>
 	<quest id="quest_CookingClass06" group_name_key="quest_CookingClass" name_key="quest_CookingClass06" subtitle_key="quest_CookingClass06_subtitle" description_key="quest_CookingClass06_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
-		<objective type="FetchKeep" id="baconAndEggs" value="5"/>
+	    <objective type="FetchKeep" id="cornOnTheCob" value="5"/>
+		<reward type="Item" id="butcherKnife" value="150"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_CookingClass07"/>
 	</quest>
@@ -1905,15 +1909,16 @@
 		<reward type="Quest" id="quest_CookingClass08"/>
 	</quest>
 	<quest id="quest_CookingClass08" group_name_key="quest_CookingClass" name_key="quest_CookingClass08" subtitle_key="quest_CookingClass08_subtitle" description_key="quest_CookingClass08_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
-		<objective type="FetchKeep" id="vegetableStew" value="5"/>
+	    <objective type="FetchKeep" id="baconAndEggs" value="5"/>
 		<reward type="Exp" value="500"/>
+		<reward type="SkillPoints" value="5"/>
 		<reward type="Quest" id="quest_CookingClass09"/>
 	</quest>
 	<quest id="quest_CookingClass09" group_name_key="quest_CookingClass" name_key="quest_CookingClass09" subtitle_key="quest_CookingClass09_subtitle" description_key="quest_CookingClass09_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
-		<objective type="FetchKeep" id="charredredMeat" value="5"/>
-		<objective type="FetchKeep" id="charredwhiteMeat" value="5"/>
-		<objective type="FetchKeep" id="boiledMeat" value="5"/>
+	<objective type="FetchKeep" id="vegetableStew" value="5"/>
 		<reward type="Exp" value="1500"/>
+		<reward type="SkillPoints" value="5"/>
+		<reward type="Item" id="dinnerPlate" value="10"/>
 	</quest>
 	<!--Zombie Kills-->
 	<quest id="quest_ZombieSlayer01" name_key="quest_ZombieSlayer01" subtitle_key="quest_ZombieSlayer01_subtitle" description_key="quest_ZombieSlayer01_description"   	 	offer_key="quest_ZombieSlayer01_description" category_key="quest" difficulty="insane">
@@ -2305,7 +2310,6 @@
 		<reward type="Skill" id="Stone Crossbow Bolt" value="1"/>
 		<reward type="Item" id="ironBow" value="300"/>
 		<reward type="Item" id="ironArrow" value="250"/>
-		<reward type="Item" id="crossbowSchematic"/>
 		<reward type="Quest" id="quest_WeaponBows01"/>
 	</quest>
 	<quest id="bluntclass1" 	name_key="bluntclass1" 	group_name="SurvivalClasses" 	subtitle_key="bluntclass1_subtitle" 	offer_key="bluntclass1_offer" 	description_key="bluntclass1_description" 	icon="classFighterLevel1Icon" 	repeatable="false" 	category_key="quest" 	difficulty="easy">

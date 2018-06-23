@@ -104,7 +104,7 @@
 	</recipe>
 	<recipe name="barbedFence" count="1">
 		<ingredient name="scrapIron" count="8"/>
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="barbedWireSheet" count="1">
 		<ingredient name="scrapIron" count="15"/>
@@ -259,18 +259,9 @@
 	<recipe name="plantFiberShoes" count="1">
 		<ingredient name="yuccaFibers" count="5"/>
 	</recipe>
-	<recipe name="playerSignWood1x1" count="1">
-		<ingredient name="nail" count="4"/>
-		<ingredient name="wood" count="10"/>
-	</recipe>
-	<recipe name="playerSignWood1x3" count="1">
-		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="30"/>
-	</recipe>
-	<recipe name="playerSignWood2x5" count="1">
-		<ingredient name="nail" count="20"/>
-		<ingredient name="wood" count="100"/>
-	</recipe>
+
+	
+	
 	<recipe name="scrapIronSheet" count="1">
 		<ingredient name="scrapIron" count="40"/>
 	</recipe>
@@ -331,6 +322,14 @@
 	</recipe>
 	<recipe name="trapSpikesNew" count="1">
 		<ingredient name="wood" count="20"/>
+	</recipe>
+	<recipe name="rhwoodSpikes" count="1">
+		<ingredient name="wood" count="15"/>
+		<ingredient name="Twine" count="4"/>
+	</recipe>
+	<recipe name="rhwoodSpikesWall" count="1">
+		<ingredient name="wood" count="20"/>
+		<ingredient name="scrapIronNails" count="10"/>
 	</recipe>
 	<recipe name="treePlant02" count="1">
 		<ingredient name="yuccaFibers" count="4"/>
@@ -487,13 +486,7 @@
 	<recipe name="barricade" count="1">
 		<ingredient name="wood" count="5"/>
 	</recipe>
-	<recipe name="cntSecureStorageChest1" count="1">
-		<ingredient name="wood" count="10"/>
-	</recipe>
-	<recipe name="cntStorageGeneric" count="1">
-		<ingredient name="nail" count="10"/>
-		<ingredient name="polishedWood" count="20"/>
-	</recipe>
+
 	<!-- Ammo Conversions -->
 	<recipe name="ammoSupply9mm" count="1">
 		<ingredient name="genericAmmoBox" count="1"/>
@@ -770,7 +763,7 @@
 	<recipe name="CZTrash" count="1" scrapable="False">
 		<ingredient name="scrapIron" count="10"/>
 	</recipe>
-	<!-- 	<recipe name="halipad" count="1" craft_area="advancedWorkbench"><ingredient name="forgedSteel" count="50"/><ingredient name="carBattery" count="1"/><ingredient name="smallEngine" count="1"/><ingredient name="electronicParts" count="15"/></recipe><recipe name="halicopterCrate" count="1"><ingredient name="polishedWood" count="15"/><ingredient name="forgedSteel" count="20"/><ingredient name="electronicParts" count="15"/><ingredient name="mechanicalParts" count="10"/></recipe> -->
+	<!-- 	<recipe name="halipad" count="1" craft_area="advancedWorkbench"><ingredient name="forgedSteel" count="50"/><ingredient name="carBattery" count="1"/><ingredient name="smallEngine" count="1"/><ingredient name="electronicParts" count="15"/></recipe><recipe name="halicopterCrate" count="1"><ingredient name="woodPlanks" count="15"/><ingredient name="forgedSteel" count="20"/><ingredient name="electronicParts" count="15"/><ingredient name="mechanicalParts" count="10"/></recipe> -->
 	<recipe name="railingWoodWhiteSheet" count="1">
 		<ingredient name="wood" count="3"/>
 	</recipe>
@@ -821,7 +814,7 @@
 		<ingredient name="bottleOfMurkyWater" count="1"/>
 	</recipe>
 	<recipe name="deerBlind" count="1">
-		<ingredient name="polishedWood" count="400"/>
+		<ingredient name="woodPlanks" count="400"/>
 		<ingredient name="nail" count="30"/>
 	</recipe>
 	<recipe name="medicalStorage" count="1">
@@ -858,7 +851,7 @@
 	<recipe name="textile" count="1">
 		<ingredient name="cloth" count="1"/>
 	</recipe>
-	<recipe name="polishedWood" count="1">
+	<recipe name="woodPlanks" count="1">
 		<ingredient name="wood" count="1"/>
 	</recipe>
 	<recipe name="charcoal" count="1" craft_time="5">
@@ -1170,7 +1163,7 @@
 		<ingredient name="seedFlower" count="2"/>
 		<ingredient name="dirtFragment" count="5"/>
 	</recipe>
-	<recipe name="townTorch" count="1" craft_time="10" >
+	<recipe name="wallTorch" count="1" craft_time="10" >
 		<ingredient name="tallow" count="3"/>
 		<ingredient name="coal" count="2"/>
 		<ingredient name="wood" count="1"/>
@@ -1236,25 +1229,7 @@
 	<recipe name="rhwoodSpikesWall" count="1">
 		<ingredient name="wood" count="40"/>
 	</recipe>
-	<recipe name="survivalDoor01" count="1">
-		<ingredient name="wood" count="8"/>
-		<ingredient name="nail" count="8"/>
-		<ingredient name="screws" count="4"/>
-		<ingredient name="doorHinge" count="2"/>
-		<ingredient name="doorKnob" count="1"/>
-	</recipe>
-	<recipe name="metalDoor01" count="1">
-		<ingredient name="forgedIron" count="10"/>
-		<ingredient name="screws" count="4"/>
-		<ingredient name="doorHinge" count="2"/>
-		<ingredient name="doorKnob" count="1"/>
-	</recipe>
-	<recipe name="doubleDoors01" count="1">
-		<ingredient name="forgedIron" count="20"/>
-		<ingredient name="nail" count="8"/>
-		<ingredient name="screws" count="8"/>
-		<ingredient name="doorHinge" count="4"/>
-	</recipe>
+
 	<recipe name="blacksmithsForge" count="1" craft_time="60" >
 		<ingredient name="clayLump" count="150"/>
 		<ingredient name="anvil" count="1"/>
@@ -1688,7 +1663,12 @@
 		<ingredient name="unit_glass" count="5"/>
 		<ingredient name="unit_clay" count="15"/>
 	</recipe>
+	<recipe name="rebar" count="1" craft_area="advancedForge" material_based="true">
+		<ingredient name="unit_iron" count="8"/>
+		<ingredient name="unit_clay" count="2"/>
+	</recipe>
 	<!-- DECORATION STATION	 -->
+
 	<recipe name="doubleDoors01" count="1"  craft_area="decoStation">
 		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="spring" count="2"/>
@@ -1711,7 +1691,7 @@
 		<ingredient name="doorHinge" count="4"/>
 	</recipe>
 	<recipe name="survivalDoor01" count="1"  craft_area="decoStation">
-		<ingredient name="polishedWood" count="5"/>
+		<ingredient name="woodPlanks" count="5"/>
 		<ingredient name="glassCTRSheet" count="1"/>
 		<ingredient name="nail" count="8"/>
 		<ingredient name="doorHinge" count="2"/>
@@ -1724,7 +1704,7 @@
 		<ingredient name="doorHinge" count="2"/>
 	</recipe>
 	<recipe name="survivalDoor03" count="1"  craft_area="decoStation">
-		<ingredient name="polishedWood" count="5"/>
+		<ingredient name="woodPlanks" count="5"/>
 		<ingredient name="glassCTRSheet" count="1"/>
 		<ingredient name="nail" count="8"/>
 		<ingredient name="doorHinge" count="2"/>
@@ -1747,35 +1727,35 @@
 		<ingredient name="gasCan" count="1"/>
 	</recipe>
 	<recipe name="awningBlock" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="woodPlanks" count="4"/>
 		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="awningRamp" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="woodPlanks" count="4"/>
 		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="awningCNRFull" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="woodPlanks" count="4"/>
 		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="awningCNRInside" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="woodPlanks" count="4"/>
 		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="awningGable" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="woodPlanks" count="4"/>
 		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="awningPyramid" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="woodPlanks" count="4"/>
 		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="awningCNRRound" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="woodPlanks" count="4"/>
 		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="awningCNRRoundTop" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="woodPlanks" count="4"/>
 		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="bed01" count="1"  craft_area="decoStation">
@@ -1788,7 +1768,7 @@
 		<ingredient name="cloth" count="40"/>
 		<ingredient name="cottonPlant" count="40"/>
 		<ingredient name="spring" count="20"/>
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 		<ingredient name="shortMetalPipe" count="10"/>
 	</recipe>
 	<recipe name="camoNetBlock" count="1" craft_area="decoStation">
@@ -1804,10 +1784,10 @@
 		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="endTable" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="5"/>
+		<ingredient name="woodPlanks" count="5"/>
 	</recipe>
 	<recipe name="endTableLamp" count="1"  craft_area="decoStation">
-		<ingredient name="polishedWood" count="5"/>
+		<ingredient name="woodPlanks" count="5"/>
 		<ingredient name="lightBulb" count="1"/>
 		<ingredient name="electricParts" count="3"/>
 		<ingredient name="ductTape" count="4"/>
@@ -1902,18 +1882,18 @@
 	</recipe>
 	<recipe name="oldChair" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="10"/>
-		<ingredient name="polishedWood" count="6"/>
+		<ingredient name="woodPlanks" count="6"/>
 	</recipe>
 	<recipe name="pew_segment01" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="pew_segment02" count="1"  craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="pew_segment03" count="1"  craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="rScrapIronTable" count="1" craft_area="decoStation">
@@ -1922,32 +1902,32 @@
 	<recipe name="sectionalPlaidCouchSofaArm" count="1" craft_area="decoStation">
 		<ingredient name="textile" count="5"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="sectionalLeatherCouchSofaArm" count="1" craft_area="decoStation">
 		<ingredient name="leather" count="5"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="sectionalPlaidCouchSofaCorner" count="1" craft_area="decoStation">
 		<ingredient name="textile" count="5"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="sectionalLeatherCouchSofaCorner" count="1" craft_area="decoStation">
 		<ingredient name="leather" count="5"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="sectionalPlaidCouchSofaMiddle" count="1" craft_area="decoStation">
 		<ingredient name="textile" count="5"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="sectionalLeatherCouchSofaMiddle" count="1" craft_area="decoStation">
 		<ingredient name="leather" count="5"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="tv" count="1"  craft_area="decoStation">
 		<ingredient name="electricParts" count="4"/>
@@ -1969,11 +1949,11 @@
 	</recipe>
 	<recipe name="woodTable" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="10"/>
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="signShopColdBeer" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="4"/>
-		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="woodPlanks" count="4"/>
 	</recipe>
 	<recipe name="cntEPSMunitionsBox" count="1"   craft_area="decoStation">
 		<ingredient name="forgedIron" count="6"/>
@@ -2012,16 +1992,16 @@
 		<ingredient name="electronicParts" count="1"/>
 	</recipe>
 	<recipe name="cntEPSBookcase" count="1"    craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
 	<recipe name="cntEPSMedicineCabinet" count="1"  craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 		<ingredient name="nail" count="5"/>
 		<ingredient name="brokenGlass" count="10"/>
 	</recipe>
 	<recipe name="cntEPSPillCase" count="1"   craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
 	<recipe name="cntEPSBeerCooler" count="1"   craft_area="decoStation">
@@ -2036,7 +2016,7 @@
 		<ingredient name="mechanicalParts" count="3"/>
 	</recipe>
 	<recipe name="cntEPSCoffin" count="1"   craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
 	<recipe name="cntEPSGasPump" count="1"   craft_area="decoStation">
@@ -2052,10 +2032,10 @@
 		<ingredient name="cntEPSCabinetTop" count="1"/>
 	</recipe>
 	<recipe name="cntEPSCabinetTop" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="cntEPSDesk01" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="15"/>
+		<ingredient name="woodPlanks" count="15"/>
 	</recipe>
 	<recipe name="cntEPSDesk02" count="1" craft_area="decoStation">
 		<ingredient name="spring" count="4"/>
@@ -2076,50 +2056,50 @@
 	</recipe>
 	<recipe name="cntEPSMailBox01" count="1" craft_area="decoStation">
 		<ingredient name="scrapIronPlating" count="2"/>
-		<ingredient name="polishedWood" count="5"/>
+		<ingredient name="woodPlanks" count="5"/>
 	</recipe>
 	<recipe name="cntEPSMailBox02" count="1" craft_area="decoStation">
 		<ingredient name="scrapIronPlating" count="2"/>
-		<ingredient name="polishedWood" count="5"/>
+		<ingredient name="woodPlanks" count="5"/>
 	</recipe>
 	<recipe name="cntEPSMailBox03" count="1" craft_area="decoStation">
 		<ingredient name="scrapIronPlating" count="2"/>
-		<ingredient name="polishedWood" count="5"/>
+		<ingredient name="woodPlanks" count="5"/>
 	</recipe>
 	<recipe name="cntEPSNightstand" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="10"/>
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 	</recipe>
 	<recipe name="cntEPSToilet01" count="1" craft_area="decoStation">
 		<ingredient name="bucketWater" count="1"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
-		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="woodPlanks" count="4"/>
 	</recipe>
 	<recipe name="cntEPSToilet02" count="1" craft_area="decoStation">
 		<ingredient name="bucketWater" count="1"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
-		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="woodPlanks" count="4"/>
 	</recipe>
 	<recipe name="cntEPSToilet03" count="1" craft_area="decoStation">
 		<ingredient name="bucketWater" count="1"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
-		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="woodPlanks" count="4"/>
 	</recipe>
 	<recipe name="cntEPSCabinetOldSink" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="cntEPSCabinetOldBottom" count="1"/>
 	</recipe>
 	<recipe name="cntEPSCabinetOldBottom" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="cntCabinetOldCNRRoundFiller" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="cntEPSCabinetOldTop" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="cntEPSDuffle01" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="2"/>
@@ -2157,21 +2137,21 @@
 		<ingredient name="leather" count="40"/>
 		<ingredient name="cottonPlant" count="60"/>
 		<ingredient name="spring" count="20"/>
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 		<ingredient name="shortMetalPipe" count="20"/>
 	</recipe>
 	<recipe name="leatherChairCouchSofa" count="1" craft_area="decoStation">
 		<ingredient name="leather" count="20"/>
 		<ingredient name="cottonPlant" count="40"/>
 		<ingredient name="spring" count="10"/>
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 		<ingredient name="shortMetalPipe" count="10"/>
 	</recipe>
 	<recipe name="barStool" count="1"  craft_area="decoStation">
 		<ingredient name="textile" count="20"/>
 		<ingredient name="cottonPlant" count="20"/>
 		<ingredient name="spring" count="10"/>
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 		<ingredient name="shortMetalPipe" count="10"/>
 	</recipe>
 	<recipe name="miniblindTopSheet" count="1" craft_area="decoStation">
@@ -2204,13 +2184,13 @@
 		<ingredient name="lightBulb" count="5"/>
 	</recipe>
 	<recipe name="painting01" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="8"/>
+		<ingredient name="woodPlanks" count="8"/>
 		<ingredient name="chrysanthemumPlant" count="1"/>
 		<ingredient name="goldenrodPlant" count="1"/>
 		<ingredient name="blueberries" count="1"/>
 	</recipe>
 	<recipe name="painting02" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="8"/>
+		<ingredient name="woodPlanks" count="8"/>
 		<ingredient name="chrysanthemumPlant" count="1"/>
 		<ingredient name="goldenrodPlant" count="1"/>
 		<ingredient name="blueberries" count="1"/>
@@ -2240,14 +2220,14 @@
 		<ingredient name="doorHinge" count="2"/>
 	</recipe>
 	<recipe name="unlckResDoor" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 		<ingredient name="nail" count="8"/>
 		<ingredient name="screws" count="4"/>
 		<ingredient name="doorHinge" count="2"/>
 		<ingredient name="doorKnob" count="1"/>
 	</recipe>
 	<recipe name="houseFrontDoor2_v1" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 		<ingredient name="nail" count="8"/>
 		<ingredient name="screws" count="4"/>
 		<ingredient name="doorHinge" count="2"/>
@@ -2440,15 +2420,15 @@
 		<ingredient name="paper" count="1"/>
 	</recipe>
 	<recipe name="vintageCloset" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="100"/>
+		<ingredient name="woodPlanks" count="100"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
 	<recipe name="largeShelf2" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
 	<recipe name="largeShelf" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
 	<recipe name="oldFridge1" count="1" craft_area="decoStation">
@@ -2476,43 +2456,43 @@
 		<ingredient name="cloth" count="40"/>
 		<ingredient name="forgedIron" count="40"/>
 		<ingredient name="spring" count="20"/>
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 	</recipe>
 	<recipe name="classicCouch" count="1" craft_area="decoStation">
 		<ingredient name="leather" count="20"/>
-		<ingredient name="polishedWood" count="50"/>
+		<ingredient name="woodPlanks" count="50"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
 	<recipe name="guillotine" count="1" craft_area="decoStation">
 		<ingredient name="Twine" count="5"/>
-		<ingredient name="polishedWood" count="50"/>
+		<ingredient name="woodPlanks" count="50"/>
 		<ingredient name="nail" count="10"/>
 		<ingredient name="forgedIron" count="5"/>
 	</recipe>
 	<recipe name="loungeChair" count="1" craft_area="decoStation">
 		<ingredient name="textile" count="10"/>
-		<ingredient name="polishedWood" count="30"/>
+		<ingredient name="woodPlanks" count="30"/>
 		<ingredient name="nail" count="8"/>
 	</recipe>
 	<recipe name="vanity" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="50"/>
-		<ingredient name="polishedWood" count="100"/>
+		<ingredient name="woodPlanks" count="100"/>
 		<ingredient name="glassCTRSheet" count="1"/>
 	</recipe>
 	<recipe name="nightStand" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="10"/>
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 	</recipe>
 	<recipe name="woodenDresser1" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="15"/>
-		<ingredient name="polishedWood" count="50"/>
+		<ingredient name="woodPlanks" count="50"/>
 	</recipe>
 	<recipe name="oldTrunk" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="10"/>
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="picnicTable" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="50"/>
+		<ingredient name="woodPlanks" count="50"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
 	<recipe name="newSink1" count="1" craft_area="decoStation">
@@ -2531,11 +2511,11 @@
 		<ingredient name="concreteMix" count="50"/>
 	</recipe>
 	<recipe name="tableWood1" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="tableWood2" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="kitchenTable1" count="1" craft_area="decoStation">
@@ -2543,14 +2523,14 @@
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="kitchenTable2" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="trellis" count="1" craft_area="decoStation">
 		<ingredient name="yuccaFibers" count="50"/>
 		<ingredient name="nail" count="20"/>
 		<ingredient name="chrysanthemumPlant" count="10"/>
-		<ingredient name="polishedWood" count="50"/>
+		<ingredient name="woodPlanks" count="50"/>
 	</recipe>
 	<recipe name="flatScreenLarge" count="1" craft_area="decoStation">
 		<ingredient name="electricParts" count="6"/>
@@ -2601,33 +2581,33 @@
 		<ingredient name="forgedIron" count="100"/>
 	</recipe>
 	<recipe name="wallShelf1" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="15"/>
+		<ingredient name="woodPlanks" count="15"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="wallShelf2" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="15"/>
+		<ingredient name="woodPlanks" count="15"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="wallShelf3" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="15"/>
+		<ingredient name="woodPlanks" count="15"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="wallShelf4" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="15"/>
+		<ingredient name="woodPlanks" count="15"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="wallShelf5" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="15"/>
+		<ingredient name="woodPlanks" count="15"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="mirrorBath" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 		<ingredient name="nail" count="5"/>
 		<ingredient name="glassCTRSheet" count="1"/>
 	</recipe>
 	<recipe name="ceilingFan" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="10"/>
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 		<ingredient name="electronicParts" count="10"/>
 	</recipe>
 	<recipe name="orangeBarrel" count="1" craft_area="decoStation">
@@ -2638,27 +2618,27 @@
 		<ingredient name="forgedIron" count="10"/>
 	</recipe>
 	<recipe name="crookedFence" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="5"/>
+		<ingredient name="woodPlanks" count="5"/>
 		<ingredient name="nail" count="2"/>
 	</recipe>
 	<recipe name="electricChair" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="50"/>
-		<ingredient name="polishedWood" count="200"/>
+		<ingredient name="woodPlanks" count="200"/>
 		<ingredient name="electronicParts" count="10"/>
 	</recipe>
 	<recipe name="woodCounter01" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="woodCounter02" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="woodCounter03" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="woodSink01" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="shortMetalPipe" count="8"/>
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="largeStove01" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="20"/>
@@ -2688,10 +2668,7 @@
 		<ingredient name="shortMetalPipe" count="6"/>
 		<ingredient name="electronicParts" count="8"/>
 	</recipe>
-	<recipe name="cntStorageCustomSecure" count="1" scrapable="False">
-		<ingredient name="polishedWood" count="10"/>
-		<ingredient name="nail" count="10"/>
-	</recipe>
+
 	<recipe name="roadRailing" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="15"/>
 	</recipe>
@@ -2712,7 +2689,7 @@
 	</recipe>
 	<recipe name="deerTrophy" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="20"/>
-		<ingredient name="polishedWood" count="50"/>
+		<ingredient name="woodPlanks" count="50"/>
 		<ingredient name="deerHead" count="1"/>
 	</recipe>
 	<recipe name="bearRug" count="1" craft_area="decoStation">
@@ -2731,17 +2708,17 @@
 		<ingredient name="wood" count="100"/>
 	</recipe>
 	<recipe name="coffinBlack" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 		<ingredient name="nail" count="10"/>
 		<ingredient name="forgedIron" count="10"/>
 	</recipe>
 	<recipe name="coffinBrown" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 		<ingredient name="nail" count="10"/>
 		<ingredient name="forgedIron" count="10"/>
 	</recipe>
 	<recipe name="coffinRed" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="woodPlanks" count="20"/>
 		<ingredient name="nail" count="10"/>
 		<ingredient name="forgedIron" count="10"/>
 	</recipe>
@@ -2755,7 +2732,7 @@
 		<ingredient name="scrapPlastics" count="6"/>
 	</recipe>
 	<recipe name="armChair" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="30"/>
+		<ingredient name="woodPlanks" count="30"/>
 		<ingredient name="leather" count="20"/>
 		<ingredient name="mechanicalParts" count="4"/>
 	</recipe>
@@ -2765,7 +2742,7 @@
 	</recipe>
 	<recipe name="gardenBench" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="20"/>
-		<ingredient name="polishedWood" count="40"/>
+		<ingredient name="woodPlanks" count="40"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
 	<recipe name="filingCabinetNew" count="1"   craft_area="decoStation">
@@ -2980,20 +2957,20 @@
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="rebarFrameBlock" count="10"/>
 		<ingredient name="concreteMix" count="100"/>
-		<ingredient name="polishedWood" count="100"/>
+		<ingredient name="woodPlanks" count="100"/>
 	</recipe>
 	<recipe name="schoolDesk" count="1"  craft_area="decoStation">
 		<ingredient name="scrapIron" count="10"/>
 		<ingredient name="spring" count="2"/>
 		<ingredient name="shortMetalPipe" count="4"/>
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="woodPlanks" count="10"/>
 	</recipe>
 	<recipe name="fountain" count="1"  craft_area="decoStation">
 		<ingredient name="scrapIron" count="10"/>
 		<ingredient name="faucet02" count="1"/>
 	</recipe>
 	<recipe name="woodbathTub" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="50"/>
+		<ingredient name="woodPlanks" count="50"/>
 		<ingredient name="nail" count="15"/>
 	</recipe>
 	<recipe name="toolChest" count="1" craft_area="decoStation">
@@ -3011,12 +2988,12 @@
 		<ingredient name="scrapPlastics" count="15"/>
 	</recipe>
 	<recipe name="wagon01" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="50"/>
+		<ingredient name="woodPlanks" count="50"/>
 		<ingredient name="nail" count="15"/>
 		<ingredient name="Twine" count="5"/>
 	</recipe>
 	<recipe name="wagon02" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="50"/>
+		<ingredient name="woodPlanks" count="50"/>
 		<ingredient name="nail" count="15"/>
 		<ingredient name="Twine" count="5"/>
 	</recipe>
@@ -3763,7 +3740,7 @@
 		<ingredient name="forgedSteel" count="5"/>
 	</recipe>
 	<recipe name="bridgeWoodBlock" count="1" craft_area="advancedWorkbench">
-		<ingredient name="polishedWood" count="40"/>
+		<ingredient name="woodPlanks" count="40"/>
 	</recipe>
 	<recipe name="bridgeMetalRivetBlock" count="1" craft_area="advancedWorkbench">
 		<ingredient name="scrapIron" count="30"/>
@@ -3947,7 +3924,7 @@
 		<ingredient name="mechanicalParts" count="25" />
 		<ingredient name="electricParts" count="25" />
 		<ingredient name="electronicParts" count="25" />
-		<ingredient name="polishedWood" count="20" />
+		<ingredient name="woodPlanks" count="20" />
 	</recipe>
 	<recipe name="Scrap_Iron_Gate_2x3" count="1"  craft_area="advancedWorkbench">
 		<ingredient name="scrapIron" count="50"/>
@@ -3963,10 +3940,7 @@
 		<ingredient name="Twine" count="10"/>
 		<ingredient name="mechanicalParts" count="5"/>
 	</recipe>
-	<recipe name="rebarFrameBlock" count="1" craft_area="advancedWorkbench">
-		<ingredient name="rebar" count="2"/>
-		<ingredient name="screws" count="2"/>
-	</recipe>
+
 	<recipe name="smallEngine" count="1" craft_area="advancedWorkbench">
 		<ingredient name="car_parts" count="75"/>
 		<ingredient name="radiator" count="1"/>
@@ -6087,11 +6061,8 @@
 	<recipe name="stick" count="6" craft_area="carpentryStation" craft_tool="saw">
 		<ingredient name="wood" count="1"/>
 	</recipe>
-	<recipe name="polishedWood" count="1" craft_area="carpentryStation">
-		<ingredient name="wood" count="1"/>
-	</recipe>
 	<recipe name="handle" count="1" craft_area="carpentryStation" craft_tool="saw">
-		<ingredient name="polishedWood" count="5"/>
+		<ingredient name="woodPlanks" count="5"/>
 	</recipe>
 	<recipe name="woodHatch1_v1" count="1" craft_area="carpentryStation">
 		<ingredient name="wood" count="4"/>
@@ -6139,7 +6110,7 @@
 		<ingredient name="woodLog" count="1"/>
 	</recipe>
 	<recipe name="whitePicketFenceSheet" count="1" craft_area="carpentryStation" craft_tool="saw">
-		<ingredient name="polishedWood" count="3"/>
+		<ingredient name="woodPlanks" count="3"/>
 		<ingredient name="scrapIronNails" count="4"/>
 	</recipe>
 	<recipe name="window03Wood" count="1" craft_area="carpentryStation">
@@ -6147,11 +6118,11 @@
 		<ingredient name="scrapIronNails" count="4"/>
 	</recipe>
 	<recipe name="woodFenceFarmSheet" count="1" craft_area="carpentryStation" craft_tool="saw">
-		<ingredient name="polishedWood" count="3"/>
+		<ingredient name="woodPlanks" count="3"/>
 		<ingredient name="scrapIronNails" count="4"/>
 	</recipe>
 	<recipe name="woodFenceSheet" count="1" craft_area="carpentryStation" craft_tool="saw">
-		<ingredient name="polishedWood" count="3"/>
+		<ingredient name="woodPlanks" count="3"/>
 		<ingredient name="scrapIronNails" count="4"/>
 	</recipe>
 	<recipe name="woodSupport" count="1" craft_area="carpentryStation">
@@ -6164,6 +6135,70 @@
 	</recipe>
 	<recipe name="woodLogPillar100" count="1" craft_area="carpentryStation">
 		<ingredient name="wood" count="8"/>
+	</recipe>
+	<recipe name="playerSignWood1x1" count="1" craft_area="carpentryStation">
+		<ingredient name="nail" count="4"/>
+		<ingredient name="wood" count="10"/>
+	</recipe>
+	<recipe name="playerSignWood1x3" count="1" craft_area="carpentryStation">
+		<ingredient name="nail" count="10"/>
+		<ingredient name="wood" count="30"/>
+	</recipe>
+	<recipe name="playerSignWood2x5" count="1" craft_area="carpentryStation">
+		<ingredient name="nail" count="20"/>
+		<ingredient name="wood" count="100"/>
+	</recipe>
+	<recipe name="cntStorageCustomSecure" count="1" craft_area="carpentryStation">
+		<ingredient name="woodPlanks" count="10"/>
+		<ingredient name="nail" count="10"/>
+	</recipe>
+	<recipe name="cntSecureStorageChest1" count="1" craft_area="carpentryStation">
+		<ingredient name="wood" count="10"/>
+	</recipe>
+	<recipe name="cntStorageGeneric" count="1" craft_area="carpentryStation">
+		<ingredient name="nail" count="10"/>
+		<ingredient name="woodPlanks" count="20"/>
+	</recipe>
+	
+	<recipe name="cntStorageClothes" count="1" craft_area="carpentryStation">
+		<ingredient name="woodPlanks" count="10"/>
+		<ingredient name="nail" count="10"/>
+	</recipe>
+	<recipe name="cntStorageBooks" count="1" craft_area="carpentryStation">
+		<ingredient name="woodPlanks" count="10"/>
+		<ingredient name="nail" count="10"/>
+	</recipe>
+	<recipe name="cntStorageMining" count="1" craft_area="carpentryStation">
+		<ingredient name="woodPlanks" count="10"/>
+		<ingredient name="nail" count="10"/>
+	</recipe>
+	<recipe name="cntStorageSchematics" count="1" craft_area="carpentryStation">
+		<ingredient name="woodPlanks" count="10"/>
+		<ingredient name="nail" count="10"/>
+	</recipe>
+	<recipe name="cntStorageParts" count="1" craft_area="carpentryStation">
+		<ingredient name="woodPlanks" count="10"/>
+		<ingredient name="nail" count="10"/>
+	</recipe>
+	<recipe name="cntStorageSell" count="1" craft_area="carpentryStation">
+		<ingredient name="woodPlanks" count="10"/>
+		<ingredient name="nail" count="10"/>
+	</recipe>
+	<recipe name="cntStorageJunk" count="1" craft_area="carpentryStation">
+		<ingredient name="woodPlanks" count="10"/>
+		<ingredient name="nail" count="10"/>
+	</recipe>
+	<recipe name="cntStorageDrinks" count="1" craft_area="carpentryStation">
+		<ingredient name="woodPlanks" count="10"/>
+		<ingredient name="nail" count="10"/>
+	</recipe>
+	<recipe name="cntStorageFarming" count="1" craft_area="carpentryStation">
+		<ingredient name="woodPlanks" count="10"/>
+		<ingredient name="nail" count="10"/>
+	</recipe>
+	<recipe name="cntStorageFuel" count="1" craft_area="carpentryStation">
+		<ingredient name="woodPlanks" count="10"/>
+		<ingredient name="nail" count="10"/>
 	</recipe>
 	<recipe name="carpentryStation" count="1">
 		<ingredient name="forgedIron" count="15"/>

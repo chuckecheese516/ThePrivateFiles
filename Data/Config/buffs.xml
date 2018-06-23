@@ -41,6 +41,14 @@
 		<buff id="trapDamageZombie2" mutex="isPlayer" duration="2" stack="reset" >
 			<modify id="1" stat="health" amount="-32" rate="1"/>
 		</buff>
+		<!-- QoLaFIM A16.2 - new buff for iron spikes -->
+		<buff id="trapDamageZombie3" mutex="isPlayer" duration="2" stack="reset" >
+			<modify id="1" stat="health" amount="-40" rate="1"/>
+		</buff>
+		<!-- QoLaFIM A16.2 - new buff for iron spikes -->
+		<buff id="trapDamageZombie4" mutex="isPlayer" duration="2" stack="reset" >
+			<modify id="1" stat="health" amount="-48" rate="1"/>
+		</buff>
 		<!-- Drunkeness: Starts with the DrinkBeer buff, which is triggered by the Beer item each time a beer is consumed. DrinkBeer has no icon specified so it is invisible to the player, you can use hidden buffs to perform some more advanced types of effects. DrinkBeer increments the "beers" variable. The "beers" variable controls several buffs: "Buzzed" is cast up to 5 beers, after which the player becomes "Drunk". If the player drinks more than 8 beers they become "SickDrunk". If the player lets SickDrunk wear off they will have a hangover. Drinking during a hangover makes them instantly SickDrunk again. If the player drinks more than 14 beers they will have alcohol poisoning. The "MetabolizeBeer" buff will slowly reduce the beer variable. -->
 		<buff id="DrinkBeer" duration="1" actions="increment(beers, 1, 0, 0, 1)">
 			<modify id="0" stat="stamina" amount="2" rate="1"/>
@@ -815,4 +823,8 @@
 		<buff id="sunblocker" duration="360" stack="extend" type="staminaup" icon="ui_game_symbol_tea" 	name_key="Sunblocker" description_key="You have applied sunblocker which will cool you down a bit in hot temperatures." tooltip_key="You Are Wearing Sunscreen" causes="sunblocker">
 			<modify id="1" stat="coretemp" modifyValue="-10"/>
 		</buff>
+				<buff id="restingMatEffect" duration="10"  	name_key="Taking A Break" description_key="You are taking a small break. Your health and stamina will recover while doing this." tooltip_key="You are taking a break" icon="ui_game_symbol_map_bed">
+					<modify id="0" stat="health" amount="1" rate="20" />
+					<modify id="0" stat="stamina" amount="1" rate="4" />
+				</buff>
 					</buffs>

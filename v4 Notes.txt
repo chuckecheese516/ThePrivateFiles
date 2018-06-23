@@ -677,6 +677,75 @@ Patch 4.0d Release Patch Notes  Release Date 06/20/2018
 
 
 
+
+Patch 4.0d Release Patch Notes          Release Date 06/20/2018
+
+
+
+
+-All Harvests on Knives should now be consistent
+
+-Added Resting Mat which can be placed and picked uo but is NOT a bed spawn point. It simulates the Moderate Comfort Buff
+
+-Fixed multiple categories in items for trader issue
+
+-Several Localization Fixes
+
+-Fixed up Cooking Class descriptions
+
+-Icon additions and fixes
+
+-Increased health on boards covering boxes to make crowbar worth using on the boards. May reduce take time as well
+
+-Added some more groups to items and blocks but admittedly am not going to finish this.
+
+-Removed Advanced Forge Perk
+
+-Moved Blacksmiths Forge to Advance Forge Slot
+
+-Added Bows and Crossbows to Perks like Blunt and Blades
+
+-Removed Crossbow Schematic
+
+-Iron Tools now unlock at PL 20
+
+-Added Chemicals and Books back to categories
+
+-First stage of scrap iron upgrade now requires rebar to upgrade
+
+-Removed forged steel and steel polish from stone hammer and hammers and wrenches upgrade abilities. Now resides only in nailguns
+
+-Adjusted Hitbox height on new spikes
+
+-Created new zombie buffs for rhwoodspikes, iron spikes and steel spikes
+
+-Removed 2 unnecessary traders from npc
+
+-Added RH Spikes recipes and Localization
+
+-Fixed incorrect ray spreads on Boomstick and Reggie
+
+-Combined Some Categories
+
+-Increased chance of Car Alarm from 0.05 to 0.15
+
+-Shelves now take 8 seconds to loot down from 15
+
+-Categories now use Vanilla Icons
+
+-Moved more recipes to Carpenter Bench
+
+-Added recipes for the new storage
+
+-Removed polished wood and changed over to wood planks
+
+-Removed Loot List from Hive zombies
+
+-Hive gore blocks now have a chance to give a bone and fat
+
+
+
+
 KNOWN ISSUES/TO DO
 
 -Convert more POIS to hives

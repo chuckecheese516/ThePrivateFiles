@@ -370,7 +370,17 @@
 			<item name="modernCrossbowBolt" count="20,60"/>
 		</trader_item_group>
 		<trader_item_group name="ammoSupplies">
-			<item name="bulletCasing" count="8,40"/>
+			<item name="9mmBulletCasing" count="8,40"/>
+			<!-- 5 -->
+			<item name="44MagBulletCasing" count="8,40"/>
+			<!-- 5 -->
+			<item name="762mmBulletCasing" count="8,40"/>
+			<!-- 5 -->
+			<item name="32mmBulletCasing" count="8,40"/>
+			<!-- 5 -->
+			<item name="556mmBulletCasing" count="8,40"/>
+			<!-- 5 -->
+			<item name="shotgunShellCasing" count="8,40"/>
 			<!-- 5 -->
 			<item name="bulletTip" count="20,80"/>
 			<!-- 5 -->
@@ -526,7 +536,7 @@
 		<trader_item_group name="generalResources">
 			<!-- bundle size -->
 			<item name="wood" count="50,250"/>
-			<item name="charcoal" count="1,2"/>
+			<item name="charcoal" count="1,5"/>
 			<!-- 50 -->
 			<item name="yuccaFibers" count="5,40"/>
 			<item name="rockSmall" count="20,40"/>
@@ -542,7 +552,7 @@
 			<item name="oilShale" count="20,60"/>
 			<!-- 50 -->
 			<item name="animalHide" count="5,25"/>
-			<item name="leather" count="5,30"/>
+			<item name="leatherStrips" count="5,30"/>
 			<item name="scrapBrass" count="5,40"/>
 			<!-- 10 -->
 			<item name="clayLump" count="5,25"/>
@@ -908,10 +918,5 @@
 			<item group="cowboyHatAll" count="1"/>
 		</trader_items>
 	</trader_info>
-	<!-- Quest Board -->
-<!-- 	<trader_info id="21" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
-		<trader_items count="10">
-			<item group="questChallenge" count="1"/>
-		</trader_items>
-	</trader_info> -->
+
 </traders>
