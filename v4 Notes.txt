@@ -743,6 +743,15 @@ Patch 4.0d Release Patch Notes          Release Date 06/20/2018
 
 -Hive gore blocks now have a chance to give a bone and fat
 
+-Set gore blocks on ghouls to the normal one
+
+-Added Resting Mat Recipe
+
+-Added some Groups to items missing them
+
+-All growable items are set back to their original timers
+
+
 
 
 

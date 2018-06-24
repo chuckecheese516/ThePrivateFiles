@@ -1477,7 +1477,7 @@
 		</property>
 		<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="rConcreteMaster"/>
-		<property name="UpgradeRated.Rate" value="5"/>
+		<property name="UpgradeRated.Rate" value="10"/>
 		<drop event="Destroy" count="0"/>
 		<property name="DescriptionKey" value="concreteGroupDesc"/>
 	</block>
@@ -5140,6 +5140,7 @@
 		<property name="DescriptionKey" value="faucetGroupDesc"/>
 		<!-- disassemble value -->
 		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Decor/Miscellaneous"/>
 	</block>
 	<block id="620" name="faucet04">
 		<property name="Material" value="Mmetal_thin"/>
@@ -5155,6 +5156,7 @@
 		<property name="DescriptionKey" value="faucetGroupDesc"/>
 		<!-- disassemble value -->
 		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Decor/Miscellaneous"/>
 	</block>
 	<block id="621" name="faucetBrass02">
 		<property name="Material" value="brass"/>
@@ -5170,6 +5172,7 @@
 		<property name="DescriptionKey" value="faucetGroupDesc"/>
 		<!-- disassemble value -->
 		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Decor/Miscellaneous"/>
 	</block>
 	<block id="622" name="faucetBrass04">
 		<property name="Material" value="brass"/>
@@ -5185,6 +5188,7 @@
 		<property name="DescriptionKey" value="faucetGroupDesc"/>
 		<!-- disassemble value -->
 		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Decor/Miscellaneous"/>
 	</block>
 	<block id="623" name="cntFileCabinet">
 		<property name="Class" value="Loot"/>
@@ -5984,7 +5988,7 @@
 		<property name="ActivationDistance" value="6"/>
 		<property name="FallDamage" value="false"/>
 		<property name="UpgradeRated.ToBlock" value="radiated"/>
-		<property name="UpgradeRated.Rate" value="1"/>
+		<property name="UpgradeRated.Rate" value="2"/>
 		<!-- <property name="UpgradeRated.BlockCombined" value="air"/> -->
 		<!-- WILL NOT WORK WITH GORE ANY MORE<property name="UpgradeRated.ToBlock" value="air"/><property name="UpgradeRated.Rate" value="50"/>-->
 		<property name="LootList" value="1"/>
@@ -13175,8 +13179,7 @@
 		<property name="MultiBlockDim" value="2,2,1"/>
 		<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="Full_Composter"/>
-		<property name="UpgradeRated.Rate" value="10"/>
-		<!--  <property name="UpgradeRated.Rate" value="420"/>-->
+		<property name="UpgradeRated.Rate" value="420"/>
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 		</property>
@@ -15939,8 +15942,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="chickenCoopReady"/>
-		<property name="UpgradeRated.Rate" value="10"/>
-		<!-- <property name="UpgradeRated.Rate" value="420"/> -->
+		<property name="UpgradeRated.Rate" value="420"/>
 		<property class="RepairItems">
 			<property name="wood" value="15"/>
 			<property name="nail" value="10"/>
@@ -20514,64 +20516,7 @@
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<drop event="Destroy" count="0"/>
 	</block>
-	<block id="2035" name="ZedGoreGenericZeds">
-		<property name="Material" value="organic"/>
-		<property name="MaxDamage" value="350"/>
-		<property name="StabilitySupport" value="false"/>
-		<property name="Shape" value="ModelEntity"/>
-		<property name="Model" value="Entities/Gore/gore_block1_Prefab"/>
-		<property name="ImposterDontBlock" value="true"/>
-		<property name="IsTerrainDecoration" value="true"/>
-		<property name="CanPickup" value="false"/>
-		<property name="Collide" value="melee,bullet,arrow,rocket"/>
-		<!-- Junk -->
-		<drop event="Harvest" name="femur" count="1,2" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="animalFat" count="1,2" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="ironArrowHead" count="3,12" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="wood" count="0,4" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="glue" count="0,1" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="nail" count="0,10" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="candyTin" count="0,1" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="painkillers" count="0,1" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="paper" count="0,8" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="cloth" count="0,4" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="candleStick" count="0,1" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="scrapIron" count="0,8" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="rockSmall" count="0,8" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="scrapLead" count="0,4" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="scrapBrass" count="0,4" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="scrapPlastics" count="0,4" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="ink" count="0,1" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="casinoCoin" count="0,4" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="feather" count="0,4" prob="0.1" tool_category="Butcher"/>
-		<!-- Shoes -->
-		<drop event="Harvest" name="wornBoots" count="0,1" prob="0.05" tool_category="Butcher"/>
-		<drop event="Harvest" name="cowboyBootsBrown" count="0,1" prob="0.025" tool_category="Butcher"/>
-		<!-- T Shirts -->
-		<drop event="Harvest" name="shirt" count="0,1" prob="0.05" tool_category="Butcher"/>
-		<drop event="Harvest" name="shirtBlack" count="0,1" prob="0.025" tool_category="Butcher"/>
-		<!-- Pants -->
-		<drop event="Harvest" name="denimPants" count="0,1" prob="0.05" tool_category="Butcher"/>
-		<drop event="Harvest" name="blackDenimPants" count="0,1" prob="0.025" tool_category="Butcher"/>
-		<!-- Food -->
-		<drop event="Harvest" name="bottledWater" count="0,1" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="canTuna" count="0,1" prob="0.1" tool_category="Butcher"/>
-		<!-- Rotten Food -->
-		<drop event="Harvest" name="rottingFlesh" count="1,6" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="shamSandwich" count="1,2" prob="0.1" tool_category="Butcher"/>
-		<drop event="Harvest" name="moldyBread" count="1,2" prob="0.05" tool_category="Butcher"/>
-		<!-- Ammunition -->
-		<drop event="Harvest" name="shotgunShell" count="1,12" prob="0.05" tool_category="Butcher"/>
-		<drop event="Harvest" name="9mmBullet" count="1,12" prob="0.05" tool_category="Butcher"/>
-		<drop event="Harvest" name="762mmBullet" count="1,12" prob="0.05" tool_category="Butcher"/>
-		<drop event="Harvest" name="556mmBullet" count="1,12" prob="0.05" tool_category="Butcher"/>
-		<drop event="Harvest" name="32mmBullet" count="1,12" prob="0.05" tool_category="Butcher"/>
-		<drop event="Harvest" name="44MagBullet" count="1,12" prob="0.05" tool_category="Butcher"/>
-		<drop event="Harvest" name="ironArrow" count="1,12" prob="0.05" tool_category="Butcher"/>
-		<drop event="Harvest" name="ironCrossbowBolt" count="1,12" prob="0.05" tool_category="Butcher"/>
-		<!-- Destroyed -->
-		<drop event="Destroy" name="femur" count="1,2" prob="0.25"/>
-	</block>
+
 	<block id="68" name="cookingKitLocked">
 		<property name="DescriptionKey" value="cookingKitDesc"/>
 		<property name="CustomIcon" value="kit"/>
@@ -20736,8 +20681,7 @@
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="beehiveFull"/>
-		<property name="UpgradeRated.Rate" value="10"/>
-		<!-- <property name="UpgradeRated.Rate" value="420"/> -->
+		<property name="UpgradeRated.Rate" value="420"/> 
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property class="RepairItems">
 			<property name="wood" value="20"/>
@@ -20895,8 +20839,7 @@
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="animalTrapFull"/>
-		<property name="UpgradeRated.Rate" value="10"/>
-		<!-- <property name="UpgradeRated.Rate" value="420"/> -->
+		<property name="UpgradeRated.Rate" value="420"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="5"/>
@@ -26151,5 +26094,5 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Basics,Decor/Miscellaneous"/>
 	</block>
-	<!-- ***** Free ID Slots in the Blocks.xml *********    DEX Blocks -  1476 1489 1508 1764	You cannot go further than 2047. -->
+	<!-- ***** Free ID Slots in the Blocks.xml *********    DEX Blocks -  1476 1489 1508 1764 2035	You cannot go further than 2047. -->
 </blocks>

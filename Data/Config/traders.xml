@@ -393,7 +393,7 @@
 			<item name="ironArrowHead" count="5,25" prob="0.05"/>
 			<!-- 5 -->
 			<item name="steelArrowHead" count="5,25" prob="0.05"/>
-			<!-- 5 -->><item name="feather" count="10,45"/>
+			<!-- 5 --><item name="feather" count="10,45"/>
 			<!-- 5 -->
 		</trader_item_group>
 		<trader_item_group name="seeds">

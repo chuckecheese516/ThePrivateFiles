@@ -112,6 +112,9 @@
 	<recipe name="bedroll" count="1">
 		<ingredient name="cloth" count="5"/>
 	</recipe>
+	<recipe name="restingMat" count="1">
+		<ingredient name="cloth" count="10"/>
+	</recipe>	
 	<recipe name="bellows" count="1">
 		<ingredient name="wood" count="6"/>
 		<ingredient name="leather" count="20"/>
