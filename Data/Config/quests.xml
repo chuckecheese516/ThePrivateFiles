@@ -1080,65 +1080,43 @@
 		<reward type="Quest" id="quest_HandgunExpert02"/>
 		<reward type="Quest" id="challenge_theHerd3"/>
 	</quest>
-	<quest id="quest_HandgunExpert02" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert02" subtitle_key="quest_HandgunExpert02_subtitle" description_key="quest_HandgunExpert02_description" icon="ui_game_symbol_pistol" category_key="quest">
-		<objective type="FetchKeep" id="gun44Magnum" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="500"/>
-		<reward type="Quest" id="quest_HandgunExpert03"/>
-	</quest>
-	<quest id="quest_HandgunExpert03" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert03" subtitle_key="quest_HandgunExpert03_subtitle" description_key="quest_HandgunExpert03_description" icon="ui_game_symbol_pistol"  category_key="quest" difficulty="medium">
+	<quest id="quest_HandgunExpert02" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert02" subtitle_key="quest_HandgunExpert02_subtitle" description_key="quest_HandgunExpert02_description" icon="ui_game_symbol_pistol"  category_key="quest" difficulty="medium">
+		<objective type="FetchKeep" id="gun44Magnum" value="1"/>		
 		<objective type="ZombieKill" value="100"/>
 		<requirement type="Holding" id="gun44Magnum"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
-		<reward type="Quest" id="quest_HandgunExpert04"/>
+		<reward type="Quest" id="quest_HandgunExpert03"/>
 	</quest>
-	<quest id="quest_HandgunExpert04" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert04" subtitle_key="quest_HandgunExpert04_subtitle" description_key="quest_HandgunExpert04_description" icon="ui_game_symbol_pistol" category_key="quest">
+	<quest id="quest_HandgunExpert03" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert03" subtitle_key="quest_HandgunExpert03_subtitle" description_key="quest_HandgunExpert03_description" icon="ui_game_symbol_pistol"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="fiveseveN" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="1000"/>
-		<reward type="Quest" id="quest_HandgunExpert05"/>
-	</quest>
-	<quest id="quest_HandgunExpert05" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert05" subtitle_key="quest_HandgunExpert05_subtitle" description_key="quest_HandgunExpert05_description" icon="ui_game_symbol_pistol"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="200"/>
+	    <objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="fiveseveN"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1500"/>
-		<reward type="Quest" id="quest_HandgunExpert06"/>
+		<reward type="Quest" id="quest_HandgunExpert04"/>
 	</quest>
-	<quest id="quest_HandgunExpert06" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert06" subtitle_key="quest_HandgunExpert06_subtitle" description_key="quest_HandgunExpert06_description" icon="ui_game_symbol_pistol" category_key="quest">
-		<objective type="FetchKeep" id="mP443Rook" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="1000"/>
-		<reward type="Quest" id="quest_HandgunExpert07"/>
-	</quest>
-	<quest id="quest_HandgunExpert07" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert07" subtitle_key="quest_HandgunExpert07_subtitle" description_key="quest_HandgunExpert07_description" icon="ui_game_symbol_pistol"   category_key="quest" difficulty="medium">
-		<objective type="ZombieKill" value="200"/>
+
+	<quest id="quest_HandgunExpert04" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert04" subtitle_key="quest_HandgunExpert04_subtitle" description_key="quest_HandgunExpert04_description" icon="ui_game_symbol_pistol"   category_key="quest" difficulty="medium">
+    	<objective type="FetchKeep" id="mP443Rook" value="1"/>
+    	<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="mP443Rook"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1500"/>
-		<reward type="Quest" id="quest_HandgunExpert08"/>
+		<reward type="Quest" id="quest_HandgunExpert05"/>
 	</quest>
-	<quest id="quest_HandgunExpert08" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert08" subtitle_key="quest_HandgunExpert08_subtitle" description_key="quest_HandgunExpert08_description" icon="ui_game_symbol_pistol" category_key="quest">
+
+	<quest id="quest_HandgunExpert05" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert05" subtitle_key="quest_HandgunExpert05_subtitle" description_key="quest_HandgunExpert05_description" icon="ui_game_symbol_pistol"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="DesertEagle" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="1000"/>
-		<reward type="Quest" id="quest_HandgunExpert09"/>
-	</quest>
-	<quest id="quest_HandgunExpert09" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert09" subtitle_key="quest_HandgunExpert09_subtitle" description_key="quest_HandgunExpert09_description" icon="ui_game_symbol_pistol"   category_key="quest" difficulty="medium">
 		<objective type="ZombieKill" value="250"/>
 		<requirement type="Holding" id="DesertEagle"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1500"/>
-		<reward type="Quest" id="quest_HandgunExpert10"/>
+		<reward type="Quest" id="quest_HandgunExpert06"/>
 	</quest>
-	<quest id="quest_HandgunExpert10" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert10" subtitle_key="quest_HandgunExpert10_subtitle" description_key="quest_HandgunExpert10_description" icon="ui_game_symbol_pistol" category_key="quest">
+
+	<quest id="quest_HandgunExpert06" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert06" subtitle_key="quest_HandgunExpert06_subtitle" description_key="quest_HandgunExpert06_description" icon="ui_game_symbol_pistol"  category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="coltPython" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="1000"/>
-		<reward type="Quest" id="quest_HandgunExpert11"/>
-	</quest>
-	<quest id="quest_HandgunExpert11" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert11" subtitle_key="quest_HandgunExpert11_subtitle" description_key="quest_HandgunExpert11_description" icon="ui_game_symbol_pistol"  category_key="quest" difficulty="medium">
 		<objective type="ZombieKill" value="250"/>
 		<requirement type="Holding" id="coltPython"/>
 		<reward type="SkillPoints" value="10"/>
@@ -1157,26 +1135,18 @@
 		<reward type="Quest" id="quest_RiflesExpert02"/>
 		<reward type="Quest" id="challenge_theHerd3"/>
 	</quest>
-	<quest id="quest_RiflesExpert02" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert02" subtitle_key="quest_RiflesExpert02_subtitle" description_key="quest_RiflesExpert02_description" icon="ui_game_symbol_famas" category_key="quest">
+
+	<quest id="quest_RiflesExpert02" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert02" subtitle_key="quest_RiflesExpert02_subtitle" description_key="quest_RiflesExpert02_description" icon="ui_game_symbol_famas"  category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="gunHuntingRifle" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="500"/>
-		<reward type="Quest" id="quest_RiflesExpert03"/>
-	</quest>
-	<quest id="quest_RiflesExpert03" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert03" subtitle_key="quest_RiflesExpert03_subtitle" description_key="quest_RiflesExpert03_description" icon="ui_game_symbol_famas"  category_key="quest" difficulty="medium">
 		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="gunHuntingRifle"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
-		<reward type="Quest" id="quest_RiflesExpert04"/>
+		<reward type="Quest" id="quest_RiflesExpert03"/>
 	</quest>
-	<quest id="quest_RiflesExpert04" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert04" subtitle_key="quest_RiflesExpert04_subtitle" description_key="quest_RiflesExpert04_description" icon="ui_game_symbol_famas" category_key="quest">
+
+	<quest id="quest_RiflesExpert03" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert03" subtitle_key="quest_RiflesExpert03_subtitle" description_key="quest_RiflesExpert03_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="gunAK47" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="500"/>
-		<reward type="Quest" id="quest_RiflesExpert05"/>
-	</quest>
-	<quest id="quest_RiflesExpert05" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert05" subtitle_key="quest_RiflesExpert05_subtitle" description_key="quest_RiflesExpert05_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="ZombieKill" value="100"/>
 		<requirement type="Group"  id="requirementGroupAK47" value="OR">
 			<requirement type="Holding" id="gunAK47"/>
@@ -1186,15 +1156,11 @@
 		</requirement>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="500"/>
-		<reward type="Quest" id="quest_RiflesExpert06"/>
+		<reward type="Quest" id="quest_RiflesExpert04"/>
 	</quest>
-	<quest id="quest_RiflesExpert06" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert06" subtitle_key="quest_RiflesExpert06_subtitle" description_key="quest_RiflesExpert06_description" icon="ui_game_symbol_famas" category_key="quest">
+
+	<quest id="quest_RiflesExpert04" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert04" subtitle_key="quest_RiflesExpert04_subtitle" description_key="quest_RiflesExpert04_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="gunSniperRifle" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="500"/>
-		<reward type="Quest" id="quest_RiflesExpert07"/>
-	</quest>
-	<quest id="quest_RiflesExpert07" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert07" subtitle_key="quest_RiflesExpert07_subtitle" description_key="quest_RiflesExpert07_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="ZombieKill" value="200"/>
 		<requirement type="Group"  id="requirementGroupSniperRifle" value="OR">
 			<requirement type="Holding" id="gunSniperRifle"/>
@@ -1202,15 +1168,11 @@
 		</requirement>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
-		<reward type="Quest" id="quest_RiflesExpert08"/>
+		<reward type="Quest" id="quest_RiflesExpert05"/>
 	</quest>
-	<quest id="quest_RiflesExpert08" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert08" subtitle_key="quest_RiflesExpert08_subtitle" description_key="quest_RiflesExpert08_description" icon="ui_game_symbol_famas" category_key="quest">
+
+	<quest id="quest_RiflesExpert05" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert05" subtitle_key="quest_RiflesExpert05_subtitle" description_key="quest_RiflesExpert05_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="gunBoltRifle" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="500"/>
-		<reward type="Quest" id="quest_RiflesExpert09"/>
-	</quest>
-	<quest id="quest_RiflesExpert09" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert09" subtitle_key="quest_RiflesExpert09_subtitle" description_key="quest_RiflesExpert09_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="ZombieKill" value="200"/>
 		<requirement type="Group"  id="requirementGroupBoltRifle" value="OR">
 			<requirement type="Holding" id="gunBoltRifle"/>
@@ -1218,15 +1180,11 @@
 		</requirement>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
-		<reward type="Quest" id="quest_RiflesExpert10"/>
+		<reward type="Quest" id="quest_RiflesExpert06"/>
 	</quest>
-	<quest id="quest_RiflesExpert10" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert10" subtitle_key="quest_RiflesExpert10_subtitle" description_key="quest_RiflesExpert10_description" icon="ui_game_symbol_famas" category_key="quest">
+
+	<quest id="quest_RiflesExpert06" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert06" subtitle_key="quest_RiflesExpert06_subtitle" description_key="quest_RiflesExpert06_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="FAMAS" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="500"/>
-		<reward type="Quest" id="quest_RiflesExpert11"/>
-	</quest>
-	<quest id="quest_RiflesExpert11" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert11" subtitle_key="quest_RiflesExpert11_subtitle" description_key="quest_RiflesExpert11_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="ZombieKill" value="200"/>
 		<requirement type="Group"  id="requirementGroupFAMAS" value="OR">
 			<requirement type="Holding" id="FAMAS"/>
@@ -1234,28 +1192,20 @@
 		</requirement>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
-		<reward type="Quest" id="quest_RiflesExpert12"/>
+		<reward type="Quest" id="quest_RiflesExpert07"/>
 	</quest>
-	<quest id="quest_RiflesExpert12" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert12" subtitle_key="quest_RiflesExpert12_subtitle" description_key="quest_RiflesExpert12_description" icon="ui_game_symbol_famas" category_key="quest">
+
+	<quest id="quest_RiflesExpert07" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert07" subtitle_key="quest_RiflesExpert07_subtitle" description_key="quest_RiflesExpert07_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="hKG3" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="500"/>
-		<reward type="Quest" id="quest_RiflesExpert13"/>
-	</quest>
-	<quest id="quest_RiflesExpert13" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert13" subtitle_key="quest_RiflesExpert13_subtitle" description_key="quest_RiflesExpert13_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="hKG3"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
-		<reward type="Quest" id="quest_RiflesExpert14"/>
+		<reward type="Quest" id="quest_RiflesExpert08"/>
 	</quest>
-	<quest id="quest_RiflesExpert14" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert14" subtitle_key="quest_RiflesExpert14_subtitle" description_key="quest_RiflesExpert14_description" icon="ui_game_symbol_famas" category_key="quest">
+
+	<quest id="quest_RiflesExpert08" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert08" subtitle_key="quest_RiflesExpert08_subtitle" description_key="quest_RiflesExpert08_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="M25SniperRifle" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="500"/>
-		<reward type="Quest" id="quest_RiflesExpert15"/>
-	</quest>
-	<quest id="quest_RiflesExpert15" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert15" subtitle_key="quest_RiflesExpert15_subtitle" description_key="quest_RiflesExpert15_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="ZombieKill" value="250"/>
 		<requirement type="Group"  id="requirementGroupM25SniperRifle" value="OR">
 			<requirement type="Holding" id="M25SniperRifle"/>
@@ -1263,28 +1213,20 @@
 		</requirement>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
-		<reward type="Quest" id="quest_RiflesExpert16"/>
+		<reward type="Quest" id="quest_RiflesExpert09"/>
 	</quest>
-	<quest id="quest_RiflesExpert16" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert16" subtitle_key="quest_RiflesExpert16_subtitle" description_key="quest_RiflesExpert16_description" icon="ui_game_symbol_famas" category_key="quest">
+
+	<quest id="quest_RiflesExpert09" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert09" subtitle_key="quest_RiflesExpert09_subtitle" description_key="quest_RiflesExpert09_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="iMIGalil" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="500"/>
-		<reward type="Quest" id="quest_RiflesExpert17"/>
-	</quest>
-	<quest id="quest_RiflesExpert17" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert17" subtitle_key="quest_RiflesExpert17_subtitle" description_key="quest_RiflesExpert17_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="ZombieKill" value="250"/>
 		<requirement type="Holding" id="iMIGalil"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1500"/>
-		<reward type="Quest" id="quest_RiflesExpert18"/>
+		<reward type="Quest" id="quest_RiflesExpert10"/>
 	</quest>
-	<quest id="quest_RiflesExpert18" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert18" subtitle_key="quest_RiflesExpert18_subtitle" description_key="quest_RiflesExpert18_description" icon="ui_game_symbol_famas" category_key="quest">
+
+	<quest id="quest_RiflesExpert10" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert10" subtitle_key="quest_RiflesExpert10_subtitle" description_key="quest_RiflesExpert10_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="vSSVintorez" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="500"/>
-		<reward type="Quest" id="quest_RiflesExpert19"/>
-	</quest>
-	<quest id="quest_RiflesExpert19" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert19" subtitle_key="quest_RiflesExpert19_subtitle" description_key="quest_RiflesExpert19_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="ZombieKill" value="250"/>
 		<requirement type="Holding" id="vSSVintorez"/>
 		<reward type="SkillPoints" value="10"/>
@@ -1300,54 +1242,42 @@
 		<reward type="Quest" id="quest_ShotgunExpert02"/>
 		<reward type="Quest" id="challenge_theHerd3"/>
 	</quest>
-	<quest id="quest_ShotgunExpert02" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert02" subtitle_key="quest_ShotgunExpert02_subtitle" description_key="quest_ShotgunExpert02_description" icon="ui_game_symbol_shotgun" category_key="quest">
+
+	<quest id="quest_ShotgunExpert02" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert02" subtitle_key="quest_ShotgunExpert02_subtitle" description_key="quest_ShotgunExpert02_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="gunPumpShotgun" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="500"/>
-		<reward type="Quest" id="quest_ShotgunExpert03"/>
-	</quest>
-	<quest id="quest_ShotgunExpert03" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert03" subtitle_key="quest_ShotgunExpert03_subtitle" description_key="quest_ShotgunExpert03_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
 		<objective type="ZombieKill" value="100"/>
 		<requirement type="Holding" id="gunPumpShotgun"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
-		<reward type="Quest" id="quest_ShotgunExpert04"/>
+		<reward type="Quest" id="quest_ShotgunExpert03"/>
 	</quest>
-	<quest id="quest_ShotgunExpert04" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert04" subtitle_key="quest_ShotgunExpert04_subtitle" description_key="quest_ShotgunExpert04_description" icon="ui_game_symbol_shotgun" category_key="quest">
+
+	<quest id="quest_ShotgunExpert03" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert03" subtitle_key="quest_ShotgunExpert03_subtitle" description_key="quest_ShotgunExpert03_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="benelliM3Super90" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="500"/>
-		<reward type="Quest" id="quest_ShotgunExpert05"/>
-	</quest>
-	<quest id="quest_ShotgunExpert05" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert05" subtitle_key="quest_ShotgunExpert05_subtitle" description_key="quest_ShotgunExpert05_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
 		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="benelliM3Super90"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
-		<reward type="Quest" id="quest_ShotgunExpert06"/>
+		<reward type="Quest" id="quest_ShotgunExpert04"/>
 	</quest>
-	<quest id="quest_ShotgunExpert06" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert06" subtitle_key="quest_ShotgunExpert06_subtitle" description_key="quest_ShotgunExpert06_description" icon="ui_game_symbol_shotgun" category_key="quest">
+
+	<quest id="quest_ShotgunExpert04" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert04" subtitle_key="quest_ShotgunExpert04_subtitle" description_key="quest_ShotgunExpert04_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="DoubleBarrel" value="1"/>
-		<reward type="SkillPoints" value="1"/>
-		<reward type="Exp" value="1000"/>
-		<reward type="Quest" id="quest_ShotgunExpert07"/>
-	</quest>
-	<quest id="quest_ShotgunExpert07" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert07" subtitle_key="quest_ShotgunExpert07_subtitle" description_key="quest_ShotgunExpert07_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
 		<objective type="ZombieKill" value="250"/>
 		<requirement type="Holding" id="DoubleBarrel"/>
 		<reward type="SkillPoints" value="10"/>
 		<reward type="Exp" value="1500"/>
-		<reward type="Quest" id="quest_ShotgunExpert08"/>
+		<reward type="Quest" id="quest_ShotgunExpert05"/>
 	</quest>
-	<quest id="quest_ShotgunExpert08" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert08" subtitle_key="quest_ShotgunExpert08_subtitle" description_key="quest_ShotgunExpert08_description" icon="ui_game_symbol_shotgun" category_key="quest">
+	<quest id="quest_ShotgunExpert05" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert05" subtitle_key="quest_ShotgunExpert05_subtitle" description_key="quest_ShotgunExpert05_description" icon="ui_game_symbol_shotgun" category_key="quest">
 		<objective type="FetchKeep" id="DoubleBarrel" value="2"/>
 		<objective type="FetchKeep" id="forgedSteel" value="50"/>
 		<objective type="Craft" id="reggieSpecial" value="1"/>
 		<reward type="SkillPoints" value="1"/>
 		<reward type="Exp" value="1000"/>
-		<reward type="Quest" id="quest_ShotgunExpert09"/>
+		<reward type="Quest" id="quest_ShotgunExpert06"/>
 	</quest>
-	<quest id="quest_ShotgunExpert09" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert09" subtitle_key="quest_ShotgunExpert09_subtitle" description_key="quest_ShotgunExpert09_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
+	<quest id="quest_ShotgunExpert06" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert06" subtitle_key="quest_ShotgunExpert06_subtitle" description_key="quest_ShotgunExpert06_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
 		<objective type="ZombieKill" value="250"/>
 		<requirement type="Holding" id="reggieSpecial"/>
 		<reward type="SkillPoints" value="15"/>

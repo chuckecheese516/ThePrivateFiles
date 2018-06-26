@@ -1796,6 +1796,50 @@
 		<ingredient name="ductTape" count="4"/>
 		<ingredient name="scrapPlastics" count="4"/>
 	</recipe>
+	<recipe name="streetLight01" count="1"  craft_area="decoStation">
+		<ingredient name="forgedSteel" count="5"/>
+		<ingredient name="electricParts" count="13"/>
+		<ingredient name="lightBulb" count="5"/>
+	</recipe>
+	<recipe name="ceilingLight01_player" count="1" craft_area="decoStation">
+		<ingredient name="forgedIron" count="2"/>
+		<ingredient name="electricParts" count="4"/>
+		<ingredient name="lightBulb" count="1"/>
+	</recipe>
+	<recipe name="porchLight01_player" count="1" craft_area="decoStation">
+		<ingredient name="forgedIron" count="2"/>
+		<ingredient name="electricParts" count="6"/>
+		<ingredient name="lightBulb" count="1"/>
+	</recipe>
+	<recipe name="wallLight01_player" count="1" craft_area="decoStation">
+		<ingredient name="forgedIron" count="12"/>
+		<ingredient name="lightBulb" count="1"/>
+	</recipe>
+	<recipe name="ceilingLight02_player" count="1" craft_area="decoStation">
+		<ingredient name="forgedIron" count="2"/>
+		<ingredient name="electricParts" count="7"/>
+		<ingredient name="lightBulb" count="1"/>
+	</recipe>
+	<recipe name="industrialLight01_player" count="1" craft_area="decoStation">
+		<ingredient name="forgedIron" count="2"/>
+		<ingredient name="electricParts" count="5"/>
+		<ingredient name="electronicParts" count="3"/>
+		<ingredient name="scrapPlastics" count="1"/>
+		<ingredient name="lightBulb" count="1"/>
+	</recipe>
+	<recipe name="ceilingLight07_player" count="1" craft_area="decoStation">
+		<ingredient name="forgedIron" count="2"/>
+		<ingredient name="electricParts" count="5"/>
+		<ingredient name="electronicParts" count="3"/>
+		<ingredient name="scrapPlastics" count="3"/>
+		<ingredient name="lightBulb" count="1"/>
+	</recipe>
+	<recipe name="spotlightPlayer" count="1" craft_area="decoStation">
+		<ingredient name="headlight" count="1"/>
+		<ingredient name="electricParts" count="8"/>
+		<ingredient name="ductTape" count="2"/>
+		<ingredient name="scrapIron" count="50"/>
+	</recipe>
 	<recipe name="rustyIronTable" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="7"/>
 	</recipe>
@@ -2181,11 +2225,7 @@
 		<ingredient name="shortMetalPipe" count="5"/>
 		<ingredient name="plumbingKit" count="1"/>
 	</recipe>
-	<recipe name="streetLight01" count="1"  craft_area="decoStation">
-		<ingredient name="forgedSteel" count="5"/>
-		<ingredient name="electricParts" count="13"/>
-		<ingredient name="lightBulb" count="5"/>
-	</recipe>
+
 	<recipe name="painting01" count="1" craft_area="decoStation">
 		<ingredient name="woodPlanks" count="8"/>
 		<ingredient name="chrysanthemumPlant" count="1"/>
@@ -3446,45 +3486,7 @@
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="1"/>
 	</recipe>
-	<recipe name="ceilingLight01_player" count="1" craft_area="advancedWorkbench">
-		<ingredient name="forgedIron" count="2"/>
-		<ingredient name="electricParts" count="4"/>
-		<ingredient name="lightBulb" count="1"/>
-	</recipe>
-	<recipe name="porchLight01_player" count="1" craft_area="advancedWorkbench">
-		<ingredient name="forgedIron" count="2"/>
-		<ingredient name="electricParts" count="6"/>
-		<ingredient name="lightBulb" count="1"/>
-	</recipe>
-	<recipe name="wallLight01_player" count="1" craft_area="advancedWorkbench">
-		<ingredient name="forgedIron" count="12"/>
-		<ingredient name="lightBulb" count="1"/>
-	</recipe>
-	<recipe name="ceilingLight02_player" count="1" craft_area="advancedWorkbench">
-		<ingredient name="forgedIron" count="2"/>
-		<ingredient name="electricParts" count="7"/>
-		<ingredient name="lightBulb" count="1"/>
-	</recipe>
-	<recipe name="industrialLight01_player" count="1" craft_area="advancedWorkbench">
-		<ingredient name="forgedIron" count="2"/>
-		<ingredient name="electricParts" count="5"/>
-		<ingredient name="electronicParts" count="3"/>
-		<ingredient name="scrapPlastics" count="1"/>
-		<ingredient name="lightBulb" count="1"/>
-	</recipe>
-	<recipe name="ceilingLight07_player" count="1" craft_area="advancedWorkbench">
-		<ingredient name="forgedIron" count="2"/>
-		<ingredient name="electricParts" count="5"/>
-		<ingredient name="electronicParts" count="3"/>
-		<ingredient name="scrapPlastics" count="3"/>
-		<ingredient name="lightBulb" count="1"/>
-	</recipe>
-	<recipe name="spotlightPlayer" count="1" craft_area="advancedWorkbench">
-		<ingredient name="headlight" count="1"/>
-		<ingredient name="electricParts" count="8"/>
-		<ingredient name="ductTape" count="2"/>
-		<ingredient name="scrapIron" count="50"/>
-	</recipe>
+
 	<recipe name="speaker" count="1"  craft_area="advancedWorkbench">
 		<ingredient name="forgedIron" count="4"/>
 		<ingredient name="electricParts" count="3"/>
@@ -6207,5 +6209,17 @@
 		<ingredient name="forgedIron" count="15"/>
 		<ingredient name="electricParts" count="5"/>
 		<ingredient name="wood" count="50"/>
+	</recipe>
+	
+	<recipe name="tire" count="1" craft_area="advancedWorkbench">
+		<ingredient name="scrapRubber" count="20" />
+	</recipe>
+	<recipe name="minibikeWheels" count="1" craft_area="advancedWorkbench">
+		<ingredient name="minibikeRim" count="2" />
+		<ingredient name="scrapRubber" count="40" />
+	</recipe>
+	<recipe name="minibikeRim" count="1" craft_area="blacksmithsForge" material_based="true">
+		<ingredient name="unit_iron" count="150"/>
+		<ingredient name="unit_clay" count="50"/>
 	</recipe>
 </recipes>

@@ -77,7 +77,7 @@
 			<spawn group="ZombieGhostTownGroup" num="16" maxAlive="40" duration="09" />
 		</gamestage>
 		<gamestage stage="25">
-			<spawn group="scoutHordeStageGS31" num="17" maxAlive="40" duration="09" />
+			<spawn group="scoutGhouls" num="17" maxAlive="30" duration="09" />
 		</gamestage>
 		<gamestage stage="26">
 			<spawn group="scoutHordeStageGS36" num="15" maxAlive="40" duration="09" />
@@ -86,7 +86,7 @@
 			<spawn group="VultureGroup" num="09" maxAlive="30" duration="09" />
 		</gamestage>
 		<gamestage stage="28">
-			<spawn group="scoutHordeStageGS41" num="18" maxAlive="40" duration="09" />
+			<spawn group="scoutPrisonersWandering" num="18" maxAlive="20" duration="09" />
 		</gamestage>
 		<gamestage stage="29">
 			<spawn group="feralHordeStageGS27" num="16" maxAlive="40" duration="09" />

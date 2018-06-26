@@ -1877,6 +1877,7 @@
 		<item name="paint" count="10,30" prob="0.9"/>
 		<item group="treasureMaps" count="1" prob="0.003"/>
 		<item name="scrapPlastics" count="1,6" prob="2"/>
+		<item name="scrapRubber" count="1,6" prob="0.7"/>
 		<item group="moviePosters" prob="0.05"/>
 		<item group="soaPosters" prob="0.05"/>
 		<item group="Paintings" prob="0.05"/>

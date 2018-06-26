@@ -216,7 +216,6 @@
 			<prefab name="store_grocery_sm_01" max_count="2"/>
 			<prefab name="store_bank_lg_01" max_count="2"/>
 			<prefab rule="GasStations" max_count="2"/>
-			<prefab name="xcostum_VarietiesDepartmentStore(by_Stallionsden)" max_count="2"/>
 			<prefab name="xcostum_circus(by_magoli)" max_count="1"/>
 			<prefab name="xcostum_TV_Tower_Restaurant(by_magoli)" max_count="1"/>
 			<prefab name="junkyard_lg_01" max_count="2"/>
@@ -227,13 +226,13 @@
 			<prefab name="xcostum_Science_lab(by_kinklade)" max_count="1"/>
 			<prefab name="xcostum_Prison1(by_Curbolt)" max_count="1"/>
 			<prefab name="xcostum_Asylum(by_Wsiegel)" max_count="1"/>
-			<prefab name="xcostum_TruckStop(by_magoli)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_TruckStop(by_magoli)" max_count="1"/>
 			<prefab name="xcostum_DriveIn(by_Wsiegel)" max_count="1"/>
 			<prefab name="xcostum_RaceTrack(by_Guppycur)" max_count="1"/>
 			<prefab name="xcostum_NSiteMissileSilo(byEphoie)" max_count="1"/>
 			<prefab name="xcostum_spanish_mission(by_The_Cure)" max_count="1"/>
-			<prefab name="xcostum_airport1(by_ouch)" max_count="1"/>
-			<prefab name="xcostum_airport2(by_ouch)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_airport1(by_ouch)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_airport2(by_ouch)" max_count="1"/>
 		</prefab_rule>
 		<prefab_rule name="RURAL_VILLAGE_POIS">
 			<prefab name="blueberryfield_sm" max_count="1"/>
@@ -249,10 +248,8 @@
 			<prefab name="pond01" max_count="2"/>
 			<prefab name="water_tower_01" max_count="1"/>
 			<prefab name="water_tower_02" max_count="1"/>
-			<prefab name="xcostum_TruckStop(by_magoli)" max_count="1"/>
-			<prefab name="xcostum_TruckStop_Garage(by_stallionsden)" max_count="1"/>
-			<prefab name="xcostum_TruckStop_Roadhouse(by_stallionsden)" max_count="1"/>
-			<prefab name="xcostum_nepa_base(by_Eihwaz)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_TruckStop(by_magoli)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_TruckStop_Garage(by_stallionsden)" max_count="1"/>
 			<prefab name="xcostum_Rangercabin(by_Guppycur)" max_count="2"/>
 			<prefab name="xcostum_Motel(by_Limodor)" max_count="2"/>
 			<prefab name="xvanilla_cornfield_md" max_count="1"/>
@@ -265,7 +262,7 @@
 			<prefab name="xcostum_DriveIn(by_Wsiegel)" max_count="1"/>
 			<prefab name="xcostum_Storage(by_ShoNuff)" max_count="1"/>
 			<prefab name="xcostum_RestArea_Desert(by_Guppycur)" max_count="2"/>
-			<prefab name="xcostum_Wooden_Palisade(by_LuckyStar)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_Wooden_Palisade(by_LuckyStar)" max_count="1"/>
 			<prefab name="xcostum_ZombieZoo(by_Wsiegel)" max_count="1"/>
 			<prefab name="xcostum_RaceTrack(by_Guppycur)" max_count="1"/>
 			<prefab name="xcostum_BoxingGym(by_KamR)" max_count="1"/>
@@ -312,9 +309,9 @@
 			<prefab name="ravenhearst_xcostum_Jail_House(by_War3zuk)" max_count="2"/>
 			<prefab name="xcostum_TittyTwister(by_Sorrowthief)" max_count="1"/>
 			<prefab name="xcostum_Farm(by_BigC90210)" max_count="2"/>
-			<prefab name="xcostum_Wooden_Palisade(by_LuckyStar)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_Wooden_Palisade(by_LuckyStar)" max_count="1"/>
 			<prefab name="church_sm_01" max_count="2"/>
-			<prefab name="xcostum_Wooden_Store(by_Guppycur)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_Wooden_Store(by_Guppycur)" max_count="1"/>
 			<prefab name="bar_sm_01" max_count="2"/>
 			<prefab name="xcostum_oldwestBank(by_magoli)" max_count="2"/>
 		</prefab_rule>
@@ -475,7 +472,7 @@
 			<prefab name="xcostum_House_AF06R(29x30)(by_Nodabba)" max_count="1"/>
 			<prefab name="xcostum_Bunker1(by_LazMan)" max_count="1"/>
 			<prefab name="xcostum_Bunker2(by_LazMan)" max_count="1"/>
-			<prefab name="xcostum_Bunker3(by_LazMan)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_Bunker3(by_LazMan)" max_count="1"/>
 			<prefab name="xcostum_Bunker_deep(by_Devilhunter)" max_count="1"/>
 			<prefab name="xcostum_SC_Bunker(by_Rhapsodos)" max_count="1"/>
 			<prefab name="xcostum_Bunker_Top(by_Fr0gb0mber)" max_count="1"/>
@@ -484,7 +481,7 @@
 			<prefab name="xcostum_house3(by_Curbolt)" max_count="1"/>
 			<prefab name="xcostum_house4(by_Curbolt)" max_count="1"/>
 			<prefab name="xcostum_house7(by_Curbolt)" max_count="1"/>
-			<prefab name="xcostum_FuneralHome(by_Wsiegel)" max_count="2"/>
+			<prefab name="ravenhearst_xcostum_FuneralHome(by_Wsiegel)" max_count="2"/>
 			<prefab name="xcostum_kuldbrickhouse(by_Kuldiin)" max_count="1"/>
 			<prefab name="xcostum_kuldlargehouse(by_Kuldiin)" max_count="1"/>
 			<prefab name="xcostum_Apartment(by_Spider)" max_count="1"/>
@@ -592,7 +589,7 @@
 			<prefab name="xcostum_NotreDamn_(by_tehkarma)" max_count="1"/>
 			<prefab name="xcostum_Stonehouse01(by_Tom)" max_count="1"/>
 			<prefab name="xcostum_Hostel_destroyed(by_Tom)" max_count="2"/>
-			<prefab name="xcostum_Villa(by_Tom)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_Villa(by_Tom)" max_count="1"/>
 			<prefab name="xcostum_Roundhouse(by_Tom)" max_count="2"/>
 			<prefab name="xcostum_Redhouse(by_Tom)" max_count="2"/>
 		</prefab_rule>
@@ -625,7 +622,7 @@
 			<prefab name="xcostum_timbershop(by_magoli)" max_count="1"/>
 			<prefab name="xcostum_tv_store(by_magoli)" max_count="1"/>
 			<prefab name="xcostum_Pawnshop(by_magoli)" max_count="1"/>
-			<prefab name="xcostum_Wooden_Store(by_Guppycur)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_Wooden_Store(by_Guppycur)" max_count="1"/>
 			<prefab name="xcostum_McDonalds(by_BigC90210)" max_count="2"/>
 			<prefab name="xcostum_Tank_Garage(by_LuckyStar)" max_count="1"/>
 			<prefab name="xcostum_Bank(by_Guppycur)" max_count="1"/>
@@ -646,8 +643,6 @@
 			<prefab name="ravenhearst_xcostum_Bike_Shop(by_War3zuk)" max_count="2"/>
 			<prefab name="xcostum_PetStore(by_Jackelmyer)" max_count="2"/>
 			<prefab name="xcostum_BoxingGym(by_KamR)" max_count="2"/>
-			<prefab name="xcostum_FarmerJoesNursery(by_Stallionsden)" max_count="1"/>
-			<prefab name="xcostum_VarietiesDepartmentStore(by_Stallionsden)" max_count="1"/>
 			<prefab name="ravenhearst_xcostum_Ure_Lattez_Shop(by_BLAPLAYGIRL)" max_count="2"/>
 			<prefab name="xcostum_Shoppingcenter(by_Tom)" max_count="1"/>
 			<prefab name="xcostum_donut_shop(by_bigstep70)" max_count="1"/>
@@ -673,7 +668,6 @@
 			<prefab name="xcostum_Courthouse(by_stallionsden)" max_count="1"/>
 			<prefab name="xcostum_NotreDamn_(by_tehkarma)" max_count="1"/>
 			<prefab name="xcostum_bridgesideapartmentsA16(by_Batman)" max_count="1"/>
-			<prefab name="xcostum_Hospital(by_Tom)" max_count="1"/>
 			<prefab name="xcostum_Spirallibrary(by_Tom)" max_count="1"/>
 			<prefab name="ravenhearst_xcostum_GhostbustersHQ(by_DestroyTheBrain)" max_count="1"/>
 			<prefab name="ravenhearst_xcostum_Underground(by_War3zuk)" max_count="2"/>
@@ -759,7 +753,6 @@
 			<prefab name="ravenhearst_xcostum_CBLOCK(by_Unknown)" max_count="1"/>
 			<prefab name="xcostum_Plant(by_Wsiegel)" max_count="1"/>
 			<prefab name="xcostum_Windowfactory(by_magoli)" max_count="2"/>
-			<prefab name="xcostum_VarietiesDepartmentStore(by_Stallionsden)" max_count="2"/>
 		</prefab_rule>
 		<!--wilderness :-->
 		<prefab_rule name="wildernessGroup">
@@ -846,7 +839,7 @@
 			<prefab name="cabin_05_lg" max_count="3"/>
 			<prefab name="cabin_06_lg" max_count="3"/>
 			<prefab name="cabin_snow_hidden_01" max_count="1"/>
-			<prefab name="xcostum_Villa(by_Limodor)" max_count="1" prob="0.4"/>
+			<prefab name="ravenhearst_xcostum_Villa(by_Limodor)" max_count="1" prob="0.4"/>
 			<prefab name="house_new_mansion_02" max_count="1" prob="0.2"/>
 			<prefab name="ravenhearst_xcostum_House(by_ShoNuff)" max_count="1" prob="0.4"/>
 			<prefab name="xcostum_NSiteMissileSilo(byEphoie)" max_count="1" prob="0.3"/>
@@ -889,7 +882,7 @@
 		</prefab_rule>
 		<prefab_rule name="W_POIs_rare_Set_A">
 			<prefab name="xcostum_Nuket0wn(by_Limodor)" max_count="1" prob="0.3"/>
-			<prefab name="xcostum_Recycling(by_Limodor)" max_count="1" prob="0.3"/>
+			<prefab name="ravenhearst_xcostum_Recycling(by_Limodor)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_strandresort(by_magoli)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_LumberMill(by_IceJudge)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_Tavern(by_Limodor)" max_count="1" prob="0.3"/>
@@ -899,8 +892,7 @@
 			<prefab name="snowy_ski_lodge" max_count="1" prob="0.2"/>
 			<prefab name="ravenhearst_xcostum_CBLOCK(by_Unknown)" max_count="1" prob="0.2"/>
 			<prefab name="xcostum_Chernobyl(by_Maz_Burt)" max_count="1" prob="0.2"/>
-			<prefab name="xcostum_MiniBikeRaceTrack(by_Spider)" max_count="1" prob="0.3"/>
-			<prefab name="xcostum_nepa_base(by_Eihwaz)" max_count="1" prob="0.2"/>
+			<prefab name="ravenhearst_xcostum_MiniBikeRaceTrack(by_Spider)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_TheEstate(by_Ekk0)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_ancient_tomb(by_bigstep70)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_wastelandtrain(by_incrediblejimmy)" max_count="1" prob="0.3"/>
@@ -924,17 +916,16 @@
 		</prefab_rule>
 		<prefab_rule name="W_POIs_superrare">
 			<prefab name="xcostum_ZHigh(by_Volar)" max_count="1" prob="0.4"/>
-			<prefab name="xcostum_RocketLaunchPad(by_Saeid)" max_count="1" prob="0.3"/>
+			<prefab name="ravenhearst_xcostum_RocketLaunchPad(by_Saeid)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_CrashedAirplane(by_LazMan)" max_count="1" prob="0.4"/>
 			<prefab name="xcostum_TV_Tower_Restaurant(by_magoli)" max_count="1" prob="0.2"/>
 			<prefab name="xcostum_strange_cornfield(by_magoli)" max_count="1" prob="0.2"/>
 			<prefab name="xcostum_swimmingbath(by_magoli)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_WulftownCD(by_WereWulfen)" max_count="1" prob="0.2"/>
 			<prefab name="xcostum_Sphinx(by_Andyjoki)" max_count="1" prob="0.1"/>
-			<prefab name="xcostum_TheVillage(by_Stallionsden)" max_count="1" prob="0.2"/>
 			<prefab name="ravenhearst_xcostum_Canyon_Cave(by_War3zuk)" max_count="1" prob="0.2"/>
-			<prefab name="xcostum_airport1(by_ouch)" prob="0.2" max_count="1"/>
-			<prefab name="xcostum_airport2(by_ouch)" prob="0.2" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_airport1(by_ouch)" prob="0.2" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_airport2(by_ouch)" prob="0.2" max_count="1"/>
 			<prefab name="ravenhearst_Resident_Evil_Mansion_(by_Frantic_Dan)" prob="0.2" max_count="1"/>
 		</prefab_rule>
 		<!-- POI-Groups: -->

@@ -535,7 +535,7 @@
 			<property name="DegradationRate" value="1,1" />
 			<property name="DismembermentBaseChance" value="0,0.05" />
 		</property>
-		<property name="Group" value="Blunt Weapons,Ammo/Weapons" />
+		<property name="Group" value="Weapons,Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Blunt Weapons" />
 		<property name="CraftingSkillGroup" value="craftSkillBluntWeapons" />
 		<property name="SellableToTrader" value="false" />
@@ -6476,7 +6476,7 @@
 			<property name="DamageBonus.metal" value="0" />
 			<property name="DamageBonus.cloth" value="0" />
 		</property>
-		<property name="Group" value="Basics,Weapons,Ammo/Weapons" />
+		<property name="Group" value="Basics,Archery,Ammo/Weapons" />
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true" />
 			<property name="EntityDamage" value="18,30" />
@@ -18455,7 +18455,7 @@
 			<property name="Gain_wellness" value="0.15" />
 			<property name="Sound_start" value="player_eating" />
 		</property>
-		<property name="Group" value="Meals,Food/Cooking" />
+		<property name="Group" value="Food/Cooking,Sides" />
 		<property name="CraftingIngredientExp" value="1" />
 		<property name="CraftingSkillGroup" value="Cooking" />
 		<property name="DescriptionKey" value="cornBreadDesc" />
@@ -18694,7 +18694,7 @@
 			<property name="Gain_wellness" value="0.04" />
 			<property name="Sound_start" value="player_eating" />
 		</property>
-		<property name="Group" value="Meals,Food/Cooking" />
+		<property name="Group" value="Food/Cooking,Sides" />
 		<property name="CraftingIngredientExp" value="1" />
 		<property name="CraftingSkillGroup" value="Cooking" />
 		<property name="DescriptionKey" value="bakedPotatoDesc" />
@@ -18825,7 +18825,7 @@
 			<property name="Gain_wellness" value="0.05" />
 			<property name="Sound_start" value="player_eating" />
 		</property>
-		<property name="Group" value="Meals,Food/Cooking" />
+		<property name="Group" value="Food/Cooking,Sides" />
 		<property name="DescriptionKey" value="mushroomGrilledDesc" />
 		<property name="CraftingIngredientExp" value="1" />
 		<property name="CraftingSkillGroup" value="Cooking" />
@@ -18851,7 +18851,7 @@
 			<property name="Gain_stamina" value="3" />
 			<property name="Sound_start" value="player_eating" />
 		</property>
-		<property name="Group" value="Meals,Food/Cooking" />
+		<property name="Group" value="Food/Cooking,Sides" />
 		<property name="DescriptionKey" value="cornGrilledDesc" />
 		<property name="CraftingIngredientExp" value="1" />
 		<property name="CraftingSkillGroup" value="Cooking" />
@@ -19778,7 +19778,7 @@
 		</property>
 		<property name="Smell" value="exLargeSmell" />
 		<property name="Stacknumber" value="100" />
-		<property name="Group" value="Meals,Food/Cooking" />
+		<property name="Group" value="Food/Cooking,Sides" />
 		<property name="CraftingIngredientExp" value="1" />
 		<property name="CraftingSkillGroup" value="Cooking" />
 		<property name="DescriptionKey" value="friedPotatoDesc" />
@@ -19911,7 +19911,7 @@
 			<property name="Sound_start" value="player_eating" />
 		</property>
 		<property name="Smell" value="largeSmell" />
-		<property name="Group" value="Basics,Food/Cooking" />
+		<property name="Group" value="Basics,Meals,Food/Cooking" />
 		<property name="CraftingIngredientExp" value="1" />
 		<property name="CraftingSkillGroup" value="Cooking" />
 		<property name="DescriptionKey" value="jerkyDesc" />
@@ -21982,7 +21982,7 @@
 		<property name="VehicleSlotType" value="wheel" />
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-		<property name="Material" value="metal" />
+		<property name="Material" value="scrap_Rubber" />
 		<property name="RepairTools" value="repairKit" />
 		<property name="HoldType" value="45" />
 		<property name="Weight" value="30" />
@@ -21999,7 +21999,7 @@
 		<property name="Extends" value="minibikeWheels" />
 		<property name="CustomIcon" value="HDMinibikeWheels" />
 		<property name="DescriptionKey" value="HDMinibikeWheelsDesc" />
-		<property name="Material" value="Msteel" />
+		<property name="Material" value="scrap_Rubber" />
 		<property name="Weight" value="50" />
 		<property class="Attributes">
 			<property name="VehicleTraction" value="0.7,1.1" />
@@ -23246,7 +23246,7 @@
 		<property name="Stacknumber" value="500" />
 		<property name="FuelValue" value="1" />
 		<property name="EconomicValue" value="20" />
-		<property name="Group" value="Clothing" />
+		<property name="Group" value="Resources" />
 		<property name="CraftingIngredientTime" value="2" />
 		<property name="CraftingSkillGroup" value="craftSkillArmor" />
 		<property name="SellableToTrader" value="false" />
@@ -23260,7 +23260,7 @@
 		<property name="Stacknumber" value="500" />
 		<property name="FuelValue" value="1" />
 		<property name="EconomicValue" value="22" />
-		<property name="Group" value="Clothing" />
+		<property name="Group" value="Resources" />
 		<property name="CraftingIngredientTime" value="2" />
 		<property name="Weight" value="5" />
 		<property name="CraftingSkillGroup" value="craftSkillArmor" />
@@ -23457,7 +23457,7 @@
 		<property name="EconomicValue" value="5" />
 		<property name="SellableToTrader" value="false" />
 		<property name="ItemWeight" value="1" />
-		<property name="Group" value="Clothing" />
+		<property name="Group" value="Resources" />
 		<property name="CraftingSkillGroup" value="craftSkillArmor" />
 	</item>
 	<item id="1377" name="paper">
@@ -24704,7 +24704,7 @@
 		<property name="Stacknumber" value="500" />
 		<property name="FuelValue" value="1" />
 		<property name="EconomicValue" value="22" />
-		<property name="Group" value="Clothing" />
+		<property name="Group" value="Resources" />
 		<property name="CraftingIngredientTime" value="2" />
 		<property name="Weight" value="2" />
 		<property name="CraftingSkillGroup" value="craftSkillArmor" />
@@ -25898,7 +25898,7 @@
 			<property name="BlockDamage" value="10000,10000" />
 			<property name="DegradationRate" value="0,0" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1548" name="AdminFood">
 		<property name="Meshfile" value="Items/Food/vegetable_potato_bakedPrefab" />
@@ -25921,7 +25921,7 @@
 			<property name="Gain_stamina" value="80" />
 			<property name="Sound_start" value="player_eating" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1549" name="AdminPill">
 		<property name="Meshfile" value="Items/Health/painkillersPrefab" />
@@ -25945,7 +25945,7 @@
 			<property name="Buff" value="medicalsplint,firstAid,blackPillBuff" />
 			<property name="Debuff" value="sprainedLeg,burningSmall,brokenLeg,burning,burningMolotov,infection,infection1,infection2,infection3,dysentery,dysentery2,bleeding,venomActivator,arrowCriticalBleedout,biteMark,Dirty1,Dirty2,bleedingBurningSmall" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1550" name="Admin_nailgun">
 		<property name="CreativeMode" value="Dev" />
@@ -25985,7 +25985,7 @@
 			<property name="Upgrade_action_sound" value="Weapons/Motorized/Nailgun/nailgun_fire" />
 			<property name="Allowed_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,bricks,yuccaFibers,ovenKit,plumbingKit,chickenFeed,compost,survivorKey,gasCan,electricParts,electronicParts,mechanicalParts,Twine,leather,animalHide" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1551" name="Admin_nail">
 		<property name="CreativeMode" value="Dev" />
@@ -26003,7 +26003,7 @@
 			<property name="FlyTime" value="10" />
 			<property name="LifeTime" value="10" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1552" name="Admin_nail_x4">
 		<property name="CreativeMode" value="Dev" />
@@ -26026,7 +26026,7 @@
 			<property name="Explosion.RadiusEntities" value="4" />
 			<property name="Explosion.EntityDamage" value="500" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1553" name="Admin_nail_x10">
 		<property name="CreativeMode" value="Dev" />
@@ -26049,7 +26049,7 @@
 			<property name="Explosion.RadiusEntities" value="10" />
 			<property name="Explosion.EntityDamage" value="500" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1554" name="Admin_Grassbomb">
 		<property name="CreativeMode" value="Dev" />
@@ -26088,7 +26088,7 @@
 			<property name="EntityDamage" value="1,1" />
 			<property name="BlockDamage" value="1,1" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1555" name="Admin 5 Skillpoints">
 		<property name="CustomIcon" value="survivorNotes" />
@@ -26106,7 +26106,7 @@
 			<property name="QuestGiven" value="adminskill5" />
 			<property name="Delay" value="0" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1556" name="Admin 15 Skillpoints">
 		<property name="CustomIcon" value="survivorNotes" />
@@ -26124,7 +26124,7 @@
 			<property name="QuestGiven" value="adminskill15" />
 			<property name="Delay" value="0" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1557" name="Admin 50 Skillpoints">
 		<property name="CustomIcon" value="survivorNotes" />
@@ -26142,7 +26142,7 @@
 			<property name="QuestGiven" value="adminskill50" />
 			<property name="Delay" value="0" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1558" name="Admin Starter Pack">
 		<property name="Extends" value="challengeQuestMaster" />
@@ -26152,7 +26152,7 @@
 		<property class="Action1">
 			<property name="QuestGiven" value="quest_AdminStarter" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1559" name="Admin XP and Skills">
 		<property name="CustomIcon" value="survivorNotes" />
@@ -26170,7 +26170,7 @@
 			<property name="QuestGiven" value="adminskillxp" />
 			<property name="Delay" value="0" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1560" name="AdminClothing">
 		<property name="CustomIcon" value="survivorNotes" />
@@ -26188,7 +26188,7 @@
 			<property name="QuestGiven" value="quest_AdminClothing" />
 			<property name="Delay" value="0" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1561" name="adminbucket">
 		<property name="CustomIcon" value="bucket" />
@@ -26219,7 +26219,7 @@
 			<property name="Focused_blockname_5" value="waterSource8" />
 			<property name="Sound_start" value="bucketfill_water" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1562" name="adminbucketWater">
 		<property name="CustomIcon" value="bucketWater" />
@@ -26240,7 +26240,7 @@
 			<property name="Change_item_to" value="adminbucket" />
 			<property name="Sound_start" value="bucketplace_water" />
 		</property>
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 	</item>
 	<item id="1563" name="Admin 25 Skillpoints">
 		<property name="CustomIcon" value="survivorNotes" />
@@ -26253,7 +26253,7 @@
 		<property name="Material" value="knowledge_Points" />
 		<property name="Weight" value="1" />
 		<property name="FuelValue" value="1" />
-		<property name="Group" value="Admin,Special Items" />
+		<property name="Group" value="Special Items" />
 		<property class="Action1">
 			<property name="Class" value="Quest" />
 			<property name="QuestGiven" value="adminskill25" />
@@ -27045,5 +27045,23 @@
 		</property>
 		<property name="Group" value="Archery,Ammo/Weapons" />
 	</item>
-
+	<item id="1601" name="scrapRubber">
+		<property name="Extends" value="scrapPlastics" />
+		<property name="DescriptionKey" value="scrapRubberDesc" />
+		<property name="CustomIcon" value="scrapRubber" />
+		<property name="EconomicValue" value="20" />
+		<property name="EconomicBundleSize" value="10" />
+		<property name="Material" value="scrap_Rubber" />
+		<property name="Weight" value="3" />
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1602" name="minibikeRim">
+		<property name="Extends" value="radiator" />
+		<property name="DescriptionKey" value="minibikeRimDesc" />
+		<property name="CustomIcon" value="minibikeRim" />
+		<property name="EconomicValue" value="75" />
+		<property name="Material" value="metal" />
+		<property name="Weight" value="80" />
+		<property name="Group" value="Minibike,Resources" />
+	</item>
 </items>

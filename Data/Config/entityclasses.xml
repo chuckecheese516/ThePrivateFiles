@@ -6798,11 +6798,11 @@
 		<property name="ParticleOnDeath" value="blood_death"/>
 		<property name="SoundRandomTime" value="200.0"/>
 		<property name="SoundRandom" value="malehateroam"/>
-		<property name="SoundAlert" value="malehatealert"/>
-		<property name="SoundSense" value="malehatesense"/>
-		<property name="SoundHurt" value="malehatepain"/>
+		<property name="SoundAlert" value=""/>
+		<property name="SoundSense" value=""/>
+		<property name="SoundHurt" value=""/>
 		<property name="SoundDeath" value="malehatedeath"/>
-		<property name="SoundAttack" value="malehateattack"/>
+		<property name="SoundAttack" value=""/>
 		<property name="TimeStayAfterDeath" value="10"/>
 		<property name="LootListOnDeath" value="71"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab"/>

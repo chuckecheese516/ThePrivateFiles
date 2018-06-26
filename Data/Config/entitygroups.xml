@@ -1487,6 +1487,30 @@
 		<entity name="animalDireWolf"/>
 		<entity name="animalZombieBear"/>
 	</entitygroup>
+	<entitygroup name="scoutPrisonersWandering">
+		<entity name="banditTest" prob="0.1"/>
+		<entity name="banditPrisoner01" />
+		<entity name="banditPrisoner02" />
+		<entity name="banditPrisoner03" />
+		<entity name="banditPrisoner04" />
+		<entity name="banditPrisoner05" />
+		<entity name="banditPrisoner06" />
+		<entity name="banditPrisoner07" />
+		<entity name="banditPrisoner08" />
+		<entity name="banditPrisoner09" />
+		<entity name="banditPrisoner10" />
+		<entity name="banditPrisoner11" />
+		<entity name="banditPrisoner12" />
+	</entitygroup>
+	<entitygroup name="scoutGhouls">
+		<entity name="GhoulMale" prob="0.2"/>
+		<entity name="GhoulMale2" prob="0.2"/>
+		<entity name="GhoulFemale" prob="0.2"/>
+		<entity name="GhoulFemale2" prob="0.2"/>
+		<entity name="GhoulFemaleScreamer" prob="0.2"/>
+		<entity name="zombieHooker" prob="0.0039"/>	
+	</entitygroup>
+
 	<!-- https://7daystodie.com/forums/showthread.php?56533-Gamestage-Blood-Moon-Horde-generator -->
 	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  start: auto generated sleeper horde groups  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 	<entitygroup name="sleeperHordeStageGS1">

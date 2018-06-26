@@ -678,7 +678,7 @@ Patch 4.0d Release Patch Notes  Release Date 06/20/2018
 
 
 
-Patch 4.0d Release Patch Notes          Release Date 06/20/2018
+Patch 4.0e Release Patch Notes          Release Date 06/20/2018
 
 
 
@@ -751,6 +751,33 @@ Patch 4.0d Release Patch Notes          Release Date 06/20/2018
 
 -All growable items are set back to their original timers
 
+
+Patch 4.0f Release Patch Notes          Release Date 06/26/2018
+
+
+-Added Rubber to tires instead of the actual tire
+
+-Added recipe for Minibike Rim
+
+-Fixed several pois for balancing and meshes
+
+-Removed some more categories
+
+-Removed some Op pois
+
+-Combined Find and Kill gun quests
+
+-Reverted Categories
+
+-Increased Trader Window Columns
+
+-Added Dan and Spheres fixes for nulling traders
+
+-Changed description of the Bloody buff (formerly dirty from looting bodies) on towels and the buff itself
+
+-Added and rearranged some recipes in stations
+
+-Added Ghouls and Prisoners as chances of wandering hordes
 
 
 
