@@ -21442,9 +21442,9 @@
 	<!-- PILLAR 100 -->
 	<block id="1970" name="woodFramePillar100">
 		<property name="Extends" value="woodFrameMaster"/>
+		<property name="CanPickup" value="true"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole1m"/>
-		<property name="Texture" value="241"/>
 		<property name="UseGlobalUV" value="Local"/>
 		<property name="ImposterExchange" value="imposterDontBlockBlock" param1="67"/>
 		<property class="UpgradeBlock">
@@ -21615,7 +21615,6 @@
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_frame"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="Texture" value="241"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="woodRamp"/>
 		</property>
@@ -21954,10 +21953,10 @@
 	<!-- HALF -->
 	<block id="1369" name="woodFrameHalf">
 		<property name="Extends" value="woodFrameMaster"/>
+		<property name="CanPickup" value="true"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="cube_half"/>
-		<property name="CanPickup" value="true"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="woodHalf"/>
 		</property>
@@ -24231,6 +24230,7 @@
 	<!-- STAIRS 25 -->
 	<block id="950" name="woodFrameStairs25">
 		<property name="Extends" value="woodFrameMaster"/>
+		<property name="CanPickup" value="true"/>
 		<property name="DescriptionKey" value="woodFrameGroupDesc"/>
 		<property name="Texture" value="381"/>
 		<property name="Stairs"/>
@@ -24522,6 +24522,7 @@
 	<!-- CORNER RAMP -->
 	<block id="951" name="woodFrameCNRRamp">
 		<property name="Extends" value="woodFrameMaster"/>
+		<property name="CanPickup" value="true"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="ramp_corner"/>
@@ -24674,9 +24675,10 @@
 	<!-- PYRAMID -->
 	<block id="1147" name="woodFramePyramid">
 		<property name="Extends" value="woodFrameMaster"/>
-		<property name="Texture" value="241"/>
+		<property name="CanPickup" value="true"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="pyramid"/>
+		<property name="ImposterDontBlock" value="true"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="woodPyramid"/>
 		</property>
@@ -24799,8 +24801,8 @@
 	<!-- POLE -->
 	<block id="1727" name="woodFramePole">
 		<property name="Extends" value="woodFrameMaster"/>
+		<property name="CanPickup" value="true"/>
 		<property name="Shape" value="New"/>
-		<property name="Texture" value="241"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square"/>
 		<property name="ImposterExclude" value="true"/>
@@ -24981,9 +24983,9 @@
 	<!-- PILLAR 50 -->
 	<block id="1940" name="woodFramePillar50">
 		<property name="Extends" value="woodFrameMaster"/>
+		<property name="CanPickup" value="true"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole0.5m"/>
-		<property name="Texture" value="241"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="UseGlobalUV" value="Local"/>
 		<property class="UpgradeBlock">
@@ -25230,6 +25232,7 @@
 	<!-- CORNER ROUND -->
 	<block id="1630" name="woodFrameCNRRound">
 		<property name="Extends" value="woodFrameMaster"/>
+		<property name="CanPickup" value="true"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_round1m"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="67"/>
@@ -25371,6 +25374,7 @@
 	<!-- CORNER ROUND TOP -->
 	<block id="1018" name="woodFrameCNRRoundTop">
 		<property name="Extends" value="woodFrameMaster"/>
+		<property name="CanPickup" value="true"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_rounded"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="67"/>
@@ -25495,8 +25499,13 @@
 		<property name="Model" value="corner_rounded"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="77"/>
 		<property name="DowngradeBlock" value="rConcreteCNRRoundTop"/>
-	</block>	 	 WEDGE TIP<block id="1019" name="woodFrameWedgeTip">
+	</block>	 
+
+	<!-- WEDGE TIP -->
+	
+	<block id="1019" name="woodFrameWedgeTip">
 		<property name="Extends" value="woodFrameMaster"/>
+		<property name="CanPickup" value="true"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -25644,8 +25653,13 @@
 		<property name="Model" value="wedge60_tip"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DowngradeBlock" value="rConcreteWedgeTip"/>
-	</block>	 	 ARROW SLIT HALF	 	<block id="1020" name="woodFrameArrowSlitHalf">
+	</block>
+
+	<!-- ARROW SLIT HALF	 --> 	
+	
+	<block id="1020" name="woodFrameArrowSlitHalf">
 		<property name="Extends" value="woodFrameMaster"/>
+		<property name="CanPickup" value="true"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="arrow_slit_half"/>

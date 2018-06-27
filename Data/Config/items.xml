@@ -2530,7 +2530,7 @@
 		<property name="RepairTools" value="scrapIron" />
 		<property name="Degradation" value="50" param1="true" />
 		<property name="SoundDestroy" value="wooddestroy1" />
-		<property name="Weight" value="24" />
+		<property name="Weight" value="12" />
 		<property class="Action0">
 			<property name="Class" value="Melee" />
 			<property name="Delay" value="1" />
@@ -18777,7 +18777,7 @@
 			<property name="Gain_health" value="0" />
 			<property name="Gain_food" value="3" />
 			<property name="Gain_water" value="0" />
-			<property name="Gain_wellness" value="-0.01" />
+			<property name="Gain_wellness" value="0" />
 			<property name="Sound_start" value="player_eating" />
 		</property>
 		<property name="Group" value="Meals,Food/Cooking" />

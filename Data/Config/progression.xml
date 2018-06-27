@@ -564,7 +564,7 @@
 			<recipe name="ironBow" unlock_level="1"/>
 			<requirement skill_level="2" required_skill_name="Archery" required_skill_level="30"/>
 			<recipe name="crossbow" unlock_level="2"/>
-			<requirement skill_level="2" required_skill_name="Archery" required_skill_level="45"/>
+			<requirement skill_level="3" required_skill_name="Archery" required_skill_level="45"/>
 			<recipe name="ironCrossbow" unlock_level="3"/>
 			<requirement skill_level="3" required_skill_name="Archery" required_skill_level="60"/>
 			<recipe name="crossbowRepeater" unlock_level="4"/>
