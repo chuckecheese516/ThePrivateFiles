@@ -1362,6 +1362,18 @@
 		<property name="MaxDamage" value="500"/>
 		<property name="Experience" value="2.0"/>
 	</material>
+	<material id="MtrapSpikesIron1">
+		<property name="damage_category" value="metal"/>
+		<property name="surface_category" value="metal"/>
+		<property name="forge_category" value="metal"/>
+		<property name="Hardness" type="float" value="1"/>
+		<property name="stepsound" value="metal"/>
+		<property name="stability_glue" value="20"/>
+		<property name="Mass" type="int" value="5"/>
+		<property name="MaxDamage" value="43"/>
+		<property name="movement_factor" value="0.4"/>
+		<property name="Experience" value="15.0"/>
+	</material>
 	<material id="MtrapSpikesIron">
 		<property name="damage_category" value="metal"/>
 		<property name="surface_category" value="metal"/>
@@ -1370,8 +1382,20 @@
 		<property name="stepsound" value="metal"/>
 		<property name="stability_glue" value="20"/>
 		<property name="Mass" type="int" value="5"/>
-		<property name="MaxDamage" value="33"/>
-		<property name="movement_factor" value="0.3"/>
+		<property name="MaxDamage" value="53"/>
+		<property name="movement_factor" value="0.5"/>
+		<property name="Experience" value="15.0"/>
+	</material>
+	<material id="MtrapSpikesSteel">
+		<property name="damage_category" value="metal"/>
+		<property name="surface_category" value="metal"/>
+		<property name="forge_category" value="metal"/>
+		<property name="Hardness" type="float" value="1"/>
+		<property name="stepsound" value="metal"/>
+		<property name="stability_glue" value="20"/>
+		<property name="Mass" type="int" value="5"/>
+		<property name="MaxDamage" value="63"/>
+		<property name="movement_factor" value="0.6"/>
 		<property name="Experience" value="15.0"/>
 	</material>
 	<material id="mechanical_Parts">

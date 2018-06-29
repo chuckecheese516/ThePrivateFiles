@@ -781,6 +781,15 @@ Patch 4.0f Release Patch Notes          Release Date 06/26/2018
 
 
 
+-Added Hazmat suit pieces and Trioxin to Weapon Class Rewards
+
+-Added 3 new POIs
+
+-Cleaned up zombie names
+
+-Burning Barrels now pick to the proper item
+
+-Adjusted Spikey Trap Damages
 
 KNOWN ISSUES/TO DO
 

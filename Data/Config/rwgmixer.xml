@@ -463,6 +463,10 @@
 			<prefab name="trailer_03" max_count="2"/>
 			<prefab name="trailer_04" max_count="2"/>
 			<prefab name="trailer_park_01" max_count="2"/>
+			<prefab name="owl79_housewhiteblue" max_count="2"/>
+			<prefab name="owl79_modernvilla" max_count="2"/>
+			<prefab name="owl79_townvilla" max_count="2"/>
+			<prefab name="owl79_exfarmstead" max_count="2"/>
 			<prefab name="ravenhearst_xcostum_OtherHGHouse(by_Unknown)" max_count="1"/>
 			<prefab name="ravenhearst_xcostum_BigRed(by_BLAPLAYGIRL)" max_count="1"/>
 			<prefab name="xcostum_House_AF02R(19x35)(by_Nodabba)" max_count="1"/>
@@ -555,6 +559,9 @@
 			<prefab name="ravenhearst_xcostum_CabanaDelDiablo(by_LilDevil)" max_count="1"/>
 			<prefab name="ravenhearst_xcostum_CabanaDelDiablo2(by_LilDevil)" max_count="1"/>
 			<prefab name="ravenhearst_Sinders_House_(by_sinder)" max_count="2"/>
+			<prefab name="owl79_housewhiteblue" max_count="2"/>
+			<prefab name="owl79_modernvilla" max_count="2"/>
+			<prefab name="owl79_townvilla" max_count="2"/>
 			<prefab name="xcostum_House_AF01P(19x35)(by_Nodabba)" max_count="1"/>
 			<prefab name="xcostum_House_AF02P(17x16)(by_Nodabba)" max_count="1"/>
 			<prefab name="xcostum_House_AF03P(35x54)(by_Nodabba)" max_count="1"/>

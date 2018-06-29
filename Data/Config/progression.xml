@@ -203,7 +203,7 @@
 				<setvalue skill_level="4" value="3"/>
 			</effect>
 		</perk>
-		<crafting_skill name="Locksmith" exp_to_level="100" icon="misc_crafting" description_key="locksmithDesc" title_key="locksmith" group="Locksmithing">
+		<crafting_skill name="Locksmith" exp_to_level="100" icon="misc_crafting" description_key="locksmithDesc" title_key="Locksmith" group="Locksmithing">
 			<recipe name="CZLockPickKit02" unlock_level="20" />
 			<recipe name="CZdrillbit" unlock_level="20" />
 			<recipe name="CZLockPickKit03" unlock_level="50" />

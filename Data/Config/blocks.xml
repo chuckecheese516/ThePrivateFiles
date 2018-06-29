@@ -11664,6 +11664,7 @@
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="DescriptionKey" value="burningBarrelDesc"/>
 		<property name="SellableToTrader" value="false"/>
+		<property name="CanPickup" value="true" param1="burningbarrelplayer"/>
 	</block>
 	<block id="1775" name="burningBarrel">
 		<property name="Extends" value="burningBarrelPlayer"/>
@@ -16911,7 +16912,7 @@
 		<property name="CustomIcon" value="ironSpikes"/>
 		<property name="Damage" value="15"/>
 		<property name="Damage_received" value="10"/>
-		<property name="Material" value="MtrapSpikesIron"/>
+		<property name="Material" value="MtrapSpikesSteel"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#traps?irSpikeN"/>
 		<property name="BuffsWhenWalkedOn" value="trapDamageZombi4"/>
@@ -16929,7 +16930,7 @@
 		<property name="CustomIcon" value="ironSpikes"/>
 		<property name="Damage" value="5"/>
 		<property name="Damage_received" value="10"/>
-		<property name="Material" value="MtrapSpikesIron"/>
+		<property name="Material" value="MtrapSpikesIron1"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#traps?irSpikeR"/>
 		<property name="BuffsWhenWalkedOn" value="trapDamageZombie2"/>
