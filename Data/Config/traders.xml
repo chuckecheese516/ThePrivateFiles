@@ -282,6 +282,8 @@
 			<item name="qc_disrepecttheelderly" count="1"/>
 			<item name="qc_killingfarmers" count="1"/>
 			<item name="qc_clubkilling" count="1"/>
+			<item name="qc_diagnosiszombie" count="1"/>
+			<item name="qc_thinkofthechildren" count="1"/>
 			<item name="qc_arefreshingdrink" count="1"/>
 			<item name="qc_brewingsometrouble" count="1"/>
 			<item name="qc_drowningsorrows" count="1"/>
@@ -393,7 +395,8 @@
 			<item name="ironArrowHead" count="5,25" prob="0.05"/>
 			<!-- 5 -->
 			<item name="steelArrowHead" count="5,25" prob="0.05"/>
-			<!-- 5 --><item name="feather" count="10,45"/>
+			<!-- 5 -->
+			<item name="feather" count="10,45"/>
 			<!-- 5 -->
 		</trader_item_group>
 		<trader_item_group name="seeds">
@@ -918,5 +921,4 @@
 			<item group="cowboyHatAll" count="1"/>
 		</trader_items>
 	</trader_info>
-
 </traders>

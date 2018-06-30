@@ -79,7 +79,6 @@
 			<window name="windowOutput2" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
-
 		<window_group name="workstation_cntworkingOven" controller="XUiC_WorkstationWindowGroup">
 			<window name="SMXCraftingList" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
@@ -237,7 +236,6 @@
 			<window name="windowOutput2"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
-
 		<window_group name="workstation_forge" controller="XUiC_WorkstationWindowGroup">
 			<window name="SMXCraftingList" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
@@ -254,7 +252,6 @@
 			<window name="windowForgeOutput"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
-
 		<window_group name="workstation_largeStove01" controller="XUiC_WorkstationWindowGroup">
 			<window name="SMXCraftingList" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
@@ -425,7 +422,6 @@
 			<window name="windowOutput"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
-
 		<window_group name="workstation_applianceTable" controller="XUiC_WorkstationWindowGroup">
 			<window name="SMXCraftingList" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
@@ -482,8 +478,7 @@
 			<window name="windowForgeInput2"/>
 			<window name="windowForgeOutput"/>
 			<window name="windowNonPagingHeader"/>
-		</window_group>		
-
+		</window_group>
 		<!-- <<< SMX A16.4B8R2 END - BY SIRILLION >>> -->
 		<window_group name="LabelInterfaceWindow">
 			<window name="windowTextInput"/>

@@ -338,7 +338,6 @@
 		<objective type="BlockPlace" id="applianceTable" value="1"/>
 		<reward type="Exp" value="500"/>
 	</quest>
-
 	<!-- Additional Storage Quest 1 - Pickup Some Bags /> -->
 	<quest id="quest_extrastorage1" group_name_key="Running Out Of Space" name_key="quest_extrastorage1" subtitle_key="quest_extrastorage1_subtitle" description_key="quest_extrastorage1_description" 	icon="ui_game_symbol_hammer" category_key="quest" difficulty="hard">
 		<objective type="FetchKeep" id="cntEPSTrashPile01" value="1"/>
@@ -705,7 +704,27 @@
 		<objective type="ZombieKill" id="zombieBiker" value="3"/>
 		<objective type="ZombieKill" id="zombieStripper,zombieStripperFeral" value="3"/>
 		<objective type="ZombieKill" id="sanZombieBikerChick" value="3"/>
-		<objective type="ZombieKill" id="ZUMABikerFemale,ZUMABikerFemaleFeral" value="3"/>
+		<objective type="ZombieKill" id="zombieBikerFemale,zombieBikerFemaleFeral" value="3"/>
+		<reward type="SkillPoints" value="2"/>
+		<reward type="Exp" value="800"/>
+		<reward type="SkillPoints" value="3" optional="true"/>
+	</quest>
+	<quest id="challenge_diagnosiszombie" name_key="challenge_diagnosiszombie" subtitle_key="challenge_diagnosiszombie_subtitle" description_key="challenge_diagnosiszombie_offer" icon="ui_game_symbol_zombie"	repeatable="true" category_key="challenge" offer_key="challenge_diagnosiszombie_offer" difficulty="medium">
+		<objective type="Time" value="1200" optional="true"/>
+		<objective type="ZombieKill" id="zombieNurse,zombieNurseFeral,zombieHordeNurseFeral,zombieNurseTier1,zombieNurseTier2,zombieNurseTier3,zombieNurseTier4,zombieNurseTier5" value="3"/>
+		<objective type="ZombieKill" id="zombieSurgeonMale,zombieSurgeonMaleFeral" value="3"/>
+		<objective type="ZombieKill" id="zombieSurgeonFemale,zombieSurgeonFemaleFeral" value="3"/>
+		<reward type="SkillPoints" value="2"/>
+		<reward type="Exp" value="800"/>
+		<reward type="SkillPoints" value="3" optional="true"/>
+	</quest>
+	<quest id="challenge_thinkofthechildren" name_key="challenge_thinkofthechildren" subtitle_key="challenge_thinkofthechildren_subtitle" description_key="challenge_thinkofthechildren_offer" icon="ui_game_symbol_zombie"	repeatable="true" category_key="challenge" offer_key="challenge_thinkofthechildren_offer" difficulty="medium">
+		<objective type="Time" value="1200" optional="true"/>
+		<objective type="ZombieKill" id="zombieLittleBoy,zombieLittleBoyFeral" value="3"/>
+		<objective type="ZombieKill" id="zombieLittleGirl,zombieLittleGirlFeral" value="3"/>
+		<objective type="ZombieKill" id="zombieTeenGirl,zombieTeenGirlFeral2" value="3"/>
+		<objective type="ZombieKill" id="valZombieChildFemale" value="3"/>
+		<objective type="ZombieKill" id="valZombieChildMale" value="3"/>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="800"/>
 		<reward type="SkillPoints" value="3" optional="true"/>
@@ -1084,7 +1103,7 @@
 		<reward type="Quest" id="challenge_theHerd3"/>
 	</quest>
 	<quest id="quest_HandgunExpert02" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert02" subtitle_key="quest_HandgunExpert02_subtitle" description_key="quest_HandgunExpert02_description" icon="ui_game_symbol_pistol"  category_key="quest" difficulty="medium">
-		<objective type="FetchKeep" id="gun44Magnum" value="1"/>		
+		<objective type="FetchKeep" id="gun44Magnum" value="1"/>
 		<objective type="ZombieKill" value="100"/>
 		<requirement type="Holding" id="gun44Magnum"/>
 		<reward type="SkillPoints" value="3"/>
@@ -1093,22 +1112,20 @@
 	</quest>
 	<quest id="quest_HandgunExpert03" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert03" subtitle_key="quest_HandgunExpert03_subtitle" description_key="quest_HandgunExpert03_description" icon="ui_game_symbol_pistol"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="fiveseveN" value="1"/>
-	    <objective type="ZombieKill" value="200"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="fiveseveN"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1500"/>
 		<reward type="Quest" id="quest_HandgunExpert04"/>
 	</quest>
-
 	<quest id="quest_HandgunExpert04" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert04" subtitle_key="quest_HandgunExpert04_subtitle" description_key="quest_HandgunExpert04_description" icon="ui_game_symbol_pistol"   category_key="quest" difficulty="medium">
-    	<objective type="FetchKeep" id="mP443Rook" value="1"/>
-    	<objective type="ZombieKill" value="200"/>
+		<objective type="FetchKeep" id="mP443Rook" value="1"/>
+		<objective type="ZombieKill" value="200"/>
 		<requirement type="Holding" id="mP443Rook"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1500"/>
 		<reward type="Quest" id="quest_HandgunExpert05"/>
 	</quest>
-
 	<quest id="quest_HandgunExpert05" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert05" subtitle_key="quest_HandgunExpert05_subtitle" description_key="quest_HandgunExpert05_description" icon="ui_game_symbol_pistol"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="DesertEagle" value="1"/>
 		<objective type="ZombieKill" value="250"/>
@@ -1117,7 +1134,6 @@
 		<reward type="Exp" value="1500"/>
 		<reward type="Quest" id="quest_HandgunExpert06"/>
 	</quest>
-
 	<quest id="quest_HandgunExpert06" group_name_key="quest_HandgunExpert" name_key="quest_HandgunExpert06" subtitle_key="quest_HandgunExpert06_subtitle" description_key="quest_HandgunExpert06_description" icon="ui_game_symbol_pistol"  category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="coltPython" value="1"/>
 		<objective type="ZombieKill" value="250"/>
@@ -1139,7 +1155,6 @@
 		<reward type="Quest" id="quest_RiflesExpert02"/>
 		<reward type="Quest" id="challenge_theHerd3"/>
 	</quest>
-
 	<quest id="quest_RiflesExpert02" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert02" subtitle_key="quest_RiflesExpert02_subtitle" description_key="quest_RiflesExpert02_description" icon="ui_game_symbol_famas"  category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="gunHuntingRifle" value="1"/>
 		<objective type="ZombieKill" value="200"/>
@@ -1148,7 +1163,6 @@
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_RiflesExpert03"/>
 	</quest>
-
 	<quest id="quest_RiflesExpert03" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert03" subtitle_key="quest_RiflesExpert03_subtitle" description_key="quest_RiflesExpert03_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="gunAK47" value="1"/>
 		<objective type="ZombieKill" value="100"/>
@@ -1162,7 +1176,6 @@
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_RiflesExpert04"/>
 	</quest>
-
 	<quest id="quest_RiflesExpert04" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert04" subtitle_key="quest_RiflesExpert04_subtitle" description_key="quest_RiflesExpert04_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="gunSniperRifle" value="1"/>
 		<objective type="ZombieKill" value="200"/>
@@ -1174,7 +1187,6 @@
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_RiflesExpert05"/>
 	</quest>
-
 	<quest id="quest_RiflesExpert05" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert05" subtitle_key="quest_RiflesExpert05_subtitle" description_key="quest_RiflesExpert05_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="gunBoltRifle" value="1"/>
 		<objective type="ZombieKill" value="200"/>
@@ -1186,7 +1198,6 @@
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_RiflesExpert06"/>
 	</quest>
-
 	<quest id="quest_RiflesExpert06" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert06" subtitle_key="quest_RiflesExpert06_subtitle" description_key="quest_RiflesExpert06_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="FAMAS" value="1"/>
 		<objective type="ZombieKill" value="200"/>
@@ -1198,7 +1209,6 @@
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_RiflesExpert07"/>
 	</quest>
-
 	<quest id="quest_RiflesExpert07" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert07" subtitle_key="quest_RiflesExpert07_subtitle" description_key="quest_RiflesExpert07_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="hKG3" value="1"/>
 		<objective type="ZombieKill" value="200"/>
@@ -1207,7 +1217,6 @@
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_RiflesExpert08"/>
 	</quest>
-
 	<quest id="quest_RiflesExpert08" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert08" subtitle_key="quest_RiflesExpert08_subtitle" description_key="quest_RiflesExpert08_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="M25SniperRifle" value="1"/>
 		<objective type="ZombieKill" value="250"/>
@@ -1219,7 +1228,6 @@
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_RiflesExpert09"/>
 	</quest>
-
 	<quest id="quest_RiflesExpert09" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert09" subtitle_key="quest_RiflesExpert09_subtitle" description_key="quest_RiflesExpert09_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="iMIGalil" value="1"/>
 		<objective type="ZombieKill" value="250"/>
@@ -1228,7 +1236,6 @@
 		<reward type="Exp" value="1500"/>
 		<reward type="Quest" id="quest_RiflesExpert10"/>
 	</quest>
-
 	<quest id="quest_RiflesExpert10" group_name_key="quest_RiflesExpert" name_key="quest_RiflesExpert10" subtitle_key="quest_RiflesExpert10_subtitle" description_key="quest_RiflesExpert10_description" icon="ui_game_symbol_famas"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="vSSVintorez" value="1"/>
 		<objective type="ZombieKill" value="250"/>
@@ -1247,7 +1254,6 @@
 		<reward type="Quest" id="quest_ShotgunExpert02"/>
 		<reward type="Quest" id="challenge_theHerd3"/>
 	</quest>
-
 	<quest id="quest_ShotgunExpert02" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert02" subtitle_key="quest_ShotgunExpert02_subtitle" description_key="quest_ShotgunExpert02_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="gunPumpShotgun" value="1"/>
 		<objective type="ZombieKill" value="100"/>
@@ -1256,7 +1262,6 @@
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_ShotgunExpert03"/>
 	</quest>
-
 	<quest id="quest_ShotgunExpert03" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert03" subtitle_key="quest_ShotgunExpert03_subtitle" description_key="quest_ShotgunExpert03_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="benelliM3Super90" value="1"/>
 		<objective type="ZombieKill" value="200"/>
@@ -1265,7 +1270,6 @@
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_ShotgunExpert04"/>
 	</quest>
-
 	<quest id="quest_ShotgunExpert04" group_name_key="quest_ShotgunExpert" name_key="quest_ShotgunExpert04" subtitle_key="quest_ShotgunExpert04_subtitle" description_key="quest_ShotgunExpert04_description" icon="ui_game_symbol_shotgun"   category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="DoubleBarrel" value="1"/>
 		<objective type="ZombieKill" value="250"/>
@@ -1834,7 +1838,7 @@
 		<reward type="Quest" id="quest_CookingClass06"/>
 	</quest>
 	<quest id="quest_CookingClass06" group_name_key="quest_CookingClass" name_key="quest_CookingClass06" subtitle_key="quest_CookingClass06_subtitle" description_key="quest_CookingClass06_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
-	    <objective type="FetchKeep" id="cornOnTheCob" value="5"/>
+		<objective type="FetchKeep" id="cornOnTheCob" value="5"/>
 		<reward type="Item" id="butcherKnife" value="150"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_CookingClass07"/>
@@ -1845,13 +1849,13 @@
 		<reward type="Quest" id="quest_CookingClass08"/>
 	</quest>
 	<quest id="quest_CookingClass08" group_name_key="quest_CookingClass" name_key="quest_CookingClass08" subtitle_key="quest_CookingClass08_subtitle" description_key="quest_CookingClass08_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
-	    <objective type="FetchKeep" id="baconAndEggs" value="5"/>
+		<objective type="FetchKeep" id="baconAndEggs" value="5"/>
 		<reward type="Exp" value="500"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Quest" id="quest_CookingClass09"/>
 	</quest>
 	<quest id="quest_CookingClass09" group_name_key="quest_CookingClass" name_key="quest_CookingClass09" subtitle_key="quest_CookingClass09_subtitle" description_key="quest_CookingClass09_description" icon="ui_game_symbol_hunger"   category_key="quest" difficulty="medium">
-	<objective type="FetchKeep" id="vegetableStew" value="5"/>
+		<objective type="FetchKeep" id="vegetableStew" value="5"/>
 		<reward type="Exp" value="1500"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Item" id="dinnerPlate" value="10"/>
@@ -1983,7 +1987,7 @@
 		<reward type="Item" id="ironArrowHead" value="10"/>
 		<reward type="Item" id="feather" value="10"/>
 		<reward type="Item" id="stick" value="10"/>
-	</quest>	
+	</quest>
 	<quest id="steelArrowDismantle30" name_key="steelArrowDismantle" subtitle_key="steelArrowDismantle_subtitle" description_key="Dismantle_description" icon="misc_crafting"  repeatable="true" category_key="challenge" offer_key="Dismantle_offer" difficulty="easy">
 		<reward type="Item" id="steelArrowHead" value="30"/>
 		<reward type="Item" id="feather" value="30"/>
@@ -2003,7 +2007,7 @@
 		<reward type="Item" id="steelArrowHead" value="10"/>
 		<reward type="Item" id="feather" value="10"/>
 		<reward type="Item" id="stick" value="10"/>
-	</quest>	
+	</quest>
 	<!-- Ammo Box -->
 	<quest id="AmmoSupply9mm" name_key="AmmoSupply" subtitle_key="AmmoSupply" description_key="AmmoSupply_description" icon="misc_crafting"  repeatable="true" category_key="challenge" offer_key="AmmoSupply_description" difficulty="easy">
 		<reward type="Item" id="9mmBullet" value="50"/>

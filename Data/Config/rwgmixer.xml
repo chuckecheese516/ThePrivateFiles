@@ -226,7 +226,7 @@
 			<prefab name="xcostum_Science_lab(by_kinklade)" max_count="1"/>
 			<prefab name="xcostum_Prison1(by_Curbolt)" max_count="1"/>
 			<prefab name="ravenhearst_xcostum_Prison(by_Limodur)" max_count="1"/>
-			<prefab name="xcostum_Asylum(by_Wsiegel)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_Asylum(by_Wsiegel)" max_count="1"/>
 			<prefab name="ravenhearst_xcostum_TruckStop(by_magoli)" max_count="1"/>
 			<prefab name="xcostum_DriveIn(by_Wsiegel)" max_count="1"/>
 			<prefab name="xcostum_RaceTrack(by_Guppycur)" max_count="1"/>
@@ -510,7 +510,7 @@
 			<prefab name="xcostum_LittleLeagueBaseball(by_Curmudgeon)" max_count="1"/>
 			<prefab name="xcostum_Rangercabin(by_Guppycur)" max_count="1"/>
 			<prefab name="xcostum_Hightop(by_Curbolt)" max_count="1"/>
-			<prefab name="xcostum_Hospital(by_Wsiegel)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_Hospital(by_Wsiegel)" max_count="1"/>
 			<prefab name="xcostum_Park(by_Guppycur)" max_count="2"/>
 			<prefab name="xcostum_house_number14(by_Kam)" max_count="2"/>
 			<prefab name="xcostum_NotreDamn_(by_tehkarma)" max_count="1"/>
@@ -547,10 +547,10 @@
 			<prefab name="houseranchblue1" max_count="2"/>
 			<prefab name="church_sm_01" max_count="1"/>
 			<prefab name="ravenhearst_xcostum_church_sm_01(by_JaxTeller718)" max_count="1"/>
-			<prefab name="hospital_01_rg"  max_count="1"/>
-			<prefab name="school_01" max_count="2"/>
-			<prefab name="school_k6_01" max_count="2"/>
-			<prefab name="school_daycare_01" max_count="2"/>
+			<prefab name="ravenhearst_xcostum_hospital_01_rg(by_JaxTeller718)"  max_count="1"/>
+			<prefab name="ravenhearst_xcostum_school_01(by_JaxTeller718)" max_count="2"/>
+			<prefab name="ravenhearst_xcostum_school_k6_01(by_JaxTeller718)" max_count="2"/>
+			<prefab name="ravenhearst_xcostum_school_daycare_01(by_JaxTeller718)" max_count="2"/>
 			<prefab name="football_stadium" max_count="1"/>
 			<prefab name="apartment_adobe_red_5_flr" max_count="2"/>
 			<prefab name="apartment_brick_6_flr" max_count="2"/>
@@ -594,7 +594,6 @@
 			<prefab name="ravenhearst_xcostum_house04(byGuppycur)" max_count="2"/>
 			<prefab name="ravenhearst_xcostum_house05(byGuppycur)" max_count="2"/>
 			<prefab name="xcostum_house_modern_01(by_Kam)" max_count="2"/>
-			<prefab name="xcostum_house_modern_02(by_Kam)" max_count="2"/>
 			<prefab name="xcostum_house_modern_03(by_Kam)" max_count="2"/>
 			<prefab name="xcostum_house_modern_04(by_Kam)" max_count="2"/>
 			<prefab name="xcostum_house_modern_05(by_Kam)" max_count="2"/>
@@ -763,12 +762,13 @@
 			<prefab name="xcostum_Science_lab(by_kinklade)" max_count="1"/>
 			<prefab name="xcostum_Prison1(by_Curbolt)" max_count="2"/>
 			<prefab name="ravenhearst_xcostum_Prison(by_Limodur)" max_count="1"/>
-			<prefab name="xcostum_Asylum(by_Wsiegel)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_Asylum(by_Wsiegel)" max_count="1"/>
 			<prefab name="xcostum_Haulier_lg(by_Limodor)" max_count="2"/>
 			<prefab name="xcostum_CountyJail(by_Volar)" max_count="2"/>
 			<prefab name="ravenhearst_xcostum_CBLOCK(by_Unknown)" max_count="1"/>
 			<prefab name="xcostum_Plant(by_Wsiegel)" max_count="1"/>
 			<prefab name="xcostum_Windowfactory(by_magoli)" max_count="2"/>
+			<prefab name="ravenhearst_xcostum_Walking_Dead_Prison(by_LazMan)PrisonF_Test" max_count="1" prob="0.2"/>
 		</prefab_rule>
 		<!--wilderness :-->
 		<prefab_rule name="wildernessGroup">
@@ -915,22 +915,24 @@
 			<prefab name="xcostum_TheEstate(by_Ekk0)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_ancient_tomb(by_bigstep70)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_wastelandtrain(by_incrediblejimmy)" max_count="1" prob="0.3"/>
+			<prefab name="ravenhearst_xcostum_Walking_Dead_Prison(by_LazMan)PrisonF_Test" max_count="1" prob="0.2"/>
 		</prefab_rule>
 		<prefab_rule name="W_POIs_rare_Set_B">
 			<prefab name="xcostum_Nuclear_Powerplant(by_Rocky)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_timbershop(by_magoli)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_Firewatchtower(by_SciFiFlippa)" max_count="1" prob="0.2"/>
 			<prefab name="xcostum_Science_lab(by_kinklade)" max_count="1" prob="0.2"/>
-			<prefab name="xcostum_Asylum(by_Wsiegel)" max_count="1" prob="0.2"/>
+			<prefab name="ravenhearst_xcostum_Asylum(by_Wsiegel)" max_count="1" prob="0.2"/>
 			<prefab name="xcostum_Glass_factory_big(by_Khyber)" max_count="1" prob="0.2"/>
 			<prefab name="xcostum_minigolf(by_magoli)" max_count="1" prob="0.1"/>
 			<prefab name="factory_lg_02" max_count="1" prob="0.1"/>
 			<prefab name="ravenhearst_xcostum_TheHilltop2(by_Rednarb)" max_count="1" prob="0.1"/>
 			<prefab name="xcostum_Warehouse(by_Illidua)" max_count="1" prob="0.1"/>
 			<prefab name="ravenhearst_xcostum_McDowell_restaurant(by_LazMan)" max_count="1" prob="0.1"/>
-			<prefab name="xcostum_Hospital(by_Wsiegel)" max_count="1" prob="0.2"/>
+			<prefab name="ravenhearst_xcostum_Hospital(by_Wsiegel)" max_count="1" prob="0.2"/>
 			<prefab name="xcostum_AltenburgCastle(by_Horst)" max_count="1" prob="0.2"/>
 			<prefab name="xcostum_powerplant(byKam)" max_count="1" prob="0.2"/>
+			<prefab name="ravenhearst_xcostum_LakesideLodge(by_Kam)" max_count="1" prob="0.2"/>
 			<prefab name="ravenhearst_xcostum_spanish_mission(by_The_Cure)" max_count="1" prob="0.2"/>
 		</prefab_rule>
 		<prefab_rule name="W_POIs_superrare">
@@ -1244,35 +1246,34 @@
 		</biome_intensity_generator>
 	</biome_intensity_generators>
 	<biome_spawn_rules>
-        <biome_spawn_rule name="pine_forest">
-            <biome_generator range="0,0.1"/>
-            <terrain_generator range="150,175"/>
-        <biome_spawn_rule name="desert">
-        </biome_spawn_rule>
-            <biome_generator range="0.1,0.3"/>
-        </biome_spawn_rule>
-        <biome_spawn_rule name="burnt_forest">
-            <biome_generator range="0.3,0.4"/>
-        </biome_spawn_rule>
-        <biome_spawn_rule name="forest">
-            <biome_generator range="0.4,0.6"/>
-        </biome_spawn_rule>
-        <biome_spawn_rule name="snow">
-            <biome_generator range="0.6,0.7"/>
-            <terrain_generator range="176,255"/>
-        </biome_spawn_rule>
-        <biome_spawn_rule name="wasteland">
-            <biome_generator range="0.7,0.8"/>
-        </biome_spawn_rule>
-        <biome_spawn_rule name="plains">
-            <biome_generator range="0.8,.95"/>
-        </biome_spawn_rule>
-        <biome_spawn_rule name="radiated">
-            <biome_generator range="0.95,1"/>
-        </biome_spawn_rule>
-        <biome_spawn_rule name="water">
-            <terrain_generator range="-31,-1"/>
-        </biome_spawn_rule>
+		<biome_spawn_rule name="pine_forest">
+			<biome_generator range="0,0.1"/>
+			<terrain_generator range="150,175"/>
+			<biome_spawn_rule name="desert"/>
+			<biome_generator range="0.1,0.3"/>
+		</biome_spawn_rule>
+		<biome_spawn_rule name="burnt_forest">
+			<biome_generator range="0.3,0.4"/>
+		</biome_spawn_rule>
+		<biome_spawn_rule name="forest">
+			<biome_generator range="0.4,0.6"/>
+		</biome_spawn_rule>
+		<biome_spawn_rule name="snow">
+			<biome_generator range="0.6,0.7"/>
+			<terrain_generator range="176,255"/>
+		</biome_spawn_rule>
+		<biome_spawn_rule name="wasteland">
+			<biome_generator range="0.7,0.8"/>
+		</biome_spawn_rule>
+		<biome_spawn_rule name="plains">
+			<biome_generator range="0.8,.95"/>
+		</biome_spawn_rule>
+		<biome_spawn_rule name="radiated">
+			<biome_generator range="0.95,1"/>
+		</biome_spawn_rule>
+		<biome_spawn_rule name="water">
+			<terrain_generator range="-31,-1"/>
+		</biome_spawn_rule>
 		<biome_spawn_rule name="radiated">
 			<distance_from_center range="10000,15000"/>
 		</biome_spawn_rule>

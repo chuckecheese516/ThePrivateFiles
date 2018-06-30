@@ -12,11 +12,9 @@
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightHerd"/>
 		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="ZombiesWatelandBosses"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightTerrors"/>
-		
 		<spawn maxcount="3" respawndelay="3" time="Day" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="3" time="Night" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="2" time="Any" entitygroup="ZombieHordeMode"/>
-
 	</biome>
 	<!-- Not Used anymore in Navezgane-->
 	<biome name="city_wasteland">
@@ -28,7 +26,6 @@
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightHerd"/>
 		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="ZombiesWatelandBosses"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightTerrors"/>
-		
 		<spawn maxcount="3" respawndelay="3" time="Day" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="3" time="Night" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="2" time="Any" entitygroup="ZombieHordeMode"/>
@@ -41,7 +38,6 @@
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightHerd"/>
 		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="ZombiesWatelandBosses"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightTerrors"/>
-		
 		<spawn maxcount="3" respawndelay="3" time="Day" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="3" time="Night" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="2" time="Any" entitygroup="ZombieHordeMode"/>
@@ -53,7 +49,6 @@
 		<spawn maxcount="2" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsForest" spawnDeadChance="0"/>
 		<spawn maxcount="1" respawndelay="3" time="Night" entitygroup="Herd"/>
 		<spawn maxcount="1" respawndelay="3" time="Any" entitygroup="RHBandits"/>
-
 		<spawn maxcount="3" respawndelay="3" time="Day" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="3" time="Night" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="2" time="Any" entitygroup="ZombieHordeMode"/>
@@ -66,7 +61,6 @@
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="Herd"/>
 		<spawn maxcount="1" respawndelay="3" time="Night" entitygroup="NightTerrors"/>
 		<spawn maxcount="1" respawndelay="3" time="Any" entitygroup="RHBandits"/>
-		
 		<spawn maxcount="3" respawndelay="3" time="Day" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="3" time="Night" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="2" time="Any" entitygroup="ZombieHordeMode"/>
@@ -79,7 +73,6 @@
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="Herd"/>
 		<spawn maxcount="1" respawndelay="3" time="Night" entitygroup="NightTerrors"/>
 		<spawn maxcount="1" respawndelay="3" time="Any" entitygroup="RHBandits"/>
-		
 		<spawn maxcount="3" respawndelay="3" time="Day" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="3" time="Night" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="2" time="Any" entitygroup="ZombieHordeMode"/>
@@ -92,7 +85,6 @@
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="Herd"/>
 		<spawn maxcount="1" respawndelay="3" time="Night" entitygroup="NightTerrors"/>
 		<spawn maxcount="1" respawndelay="3" time="Any" entitygroup="RHBandits"/>
-		
 		<spawn maxcount="3" respawndelay="3" time="Day" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="3" time="Night" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="2" time="Any" entitygroup="ZombieHordeMode"/>
@@ -104,7 +96,6 @@
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightHerd"/>
 		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="ZombiesWatelandBosses"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightTerrors"/>
-		
 		<spawn maxcount="5" respawndelay="3" time="Day" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="5" respawndelay="3" time="Night" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="5" respawndelay="2" time="Any" entitygroup="ZombieHordeMode"/>
@@ -115,7 +106,6 @@
 		<spawn maxcount="1" respawndelay="7" time="Any"   entitygroup="EnemyAnimalsBurntForest" spawnDeadChance="0"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightHerd"/>
 		<spawn maxcount="1" respawndelay="1" time="Night" entitygroup="NightTerrors"/>
-		
 		<spawn maxcount="3" respawndelay="3" time="Day" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="3" time="Night" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="2" time="Any" entitygroup="ZombieHordeMode"/>
@@ -127,7 +117,6 @@
 		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsSnow" spawnDeadChance="0"/>
 		<spawn maxcount="4" respawndelay="1" time="Night" entitygroup="Herd"/>
 		<spawn maxcount="1" respawndelay="3" time="Night" entitygroup="NightTerrors"/>
-		
 		<spawn maxcount="3" respawndelay="3" time="Day" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="3" time="Night" entitygroup="ZombieHordeMode"/>
 		<spawn maxcount="3" respawndelay="2" time="Any" entitygroup="ZombieHordeMode"/>

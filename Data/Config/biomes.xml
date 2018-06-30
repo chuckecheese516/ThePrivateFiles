@@ -132,7 +132,7 @@
 					<decoration type="prefab" name="xxx0Deko066" prob=".00005" rotatemax="3"/>
 					<decoration type="prefab" name="xxx0Deko067" prob=".00005" rotatemax="3"/>
 					<decoration type="prefab" name="ravenhearst_Sinders_Rock_Base_(by_sinder)" prob=".00009" rotatemax="3"/>
-					<decoration type="prefab" name="ravenhearst_xcostum_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
+					<decoration type="prefab" name="ravenhearst_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
 					<!-- ############################  SNOW ONLY  ####################################################################################### -->
 					<decoration type="prefab" name="xxx0Deko070" prob=".00005" rotatemax="3"/>
 					<!-- ################################################################################################################################ -->
@@ -571,7 +571,7 @@
 				<decoration type="prefab" name="xxx0Deko066" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="xxx0Deko067" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="ravenhearst_Sinders_Rock_Base_(by_sinder)" prob=".00009" rotatemax="3"/>
-				<decoration type="prefab" name="ravenhearst_xcostum_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
+				<decoration type="prefab" name="ravenhearst_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
 				<!-- ################################################################################################################################ -->
 				<!-- ################################################################################################################################ -->
 				<!-- #########################################################  MOD  ################################################################ -->
@@ -877,7 +877,7 @@
 				<decoration type="prefab" name="xxx0Deko066" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="xxx0Deko067" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="ravenhearst_Sinders_Rock_Base_(by_sinder)" prob=".00009" rotatemax="3"/>
-				<decoration type="prefab" name="ravenhearst_xcostum_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
+				<decoration type="prefab" name="ravenhearst_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
 				<!-- ################################################################################################################################ -->
 				<!-- ################################################################################################################################ -->
 				<!-- #########################################################  MOD  ################################################################ -->
@@ -1174,7 +1174,7 @@
 				<decoration type="prefab" name="xxx0Deko066" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="xxx0Deko067" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="ravenhearst_Sinders_Rock_Base_(by_sinder)" prob=".00009" rotatemax="3"/>
-				<decoration type="prefab" name="ravenhearst_xcostum_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
+				<decoration type="prefab" name="ravenhearst_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
 				<!-- ################################################################################################################################ -->
 				<!-- ################################################################################################################################ -->
 				<!-- #########################################################  MOD  ################################################################ -->
@@ -1401,7 +1401,7 @@
 				<decoration type="prefab" name="xxx0Deko066" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="xxx0Deko067" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="ravenhearst_Sinders_Rock_Base_(by_sinder)" prob=".00009" rotatemax="3"/>
-				<decoration type="prefab" name="ravenhearst_xcostum_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
+				<decoration type="prefab" name="ravenhearst_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
 				<!-- ################################################################################################################################ -->
 				<!-- ################################################################################################################################ -->
 				<!-- #########################################################  MOD  ################################################################ -->
@@ -2123,7 +2123,7 @@
 				<decoration type="prefab" name="xxx0Deko066" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="xxx0Deko067" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="ravenhearst_Sinders_Rock_Base_(by_sinder)" prob=".00009" rotatemax="3"/>
-				<decoration type="prefab" name="ravenhearst_xcostum_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
+				<decoration type="prefab" name="ravenhearst_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
 				<!-- ################################################################################################################################ -->
 				<!-- ################################################################################################################################ -->
 				<!-- #########################################################  MOD  ################################################################ -->

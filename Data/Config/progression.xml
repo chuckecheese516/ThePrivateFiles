@@ -1509,7 +1509,6 @@
 				<multiply skill_level="9,10" value="0.55,0.50"/>
 			</effect>
 			<recipe name="ResearchDesk" unlock_level="10"/>
-			
 			<recipe name="Barter_skill3points" unlock_level="30"/>
 			<recipe name="Athletics_skill3points" unlock_level="30"/>
 			<recipe name="Blunt_Weapons_skill3points" unlock_level="30"/>
@@ -1523,7 +1522,6 @@
 			<recipe name="Medicine_skill3points" unlock_level="30"/>
 			<recipe name="Armor_skill3points" unlock_level="30"/>
 			<recipe name="ElectricTools_skill3points" unlock_level="30"/>
-			
 			<recipe name="Barter_skill5points" unlock_level="50"/>
 			<recipe name="Athletics_skill5points" unlock_level="50"/>
 			<recipe name="Blunt_Weapons_skill5points" unlock_level="50"/>

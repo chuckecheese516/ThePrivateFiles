@@ -188,17 +188,12 @@
 		<entity name="zombieSpiderFeral" prob="0.6"/>
 		<entity name="zombieNurseFeral" prob="0.6"/>
 		<entity name="zombieFootballPlayerFeral" prob="0.6"/>
-		<entity name="ZUMABuisnesswomanFeral" />
-		<entity name="ZUMABadGirlFeral" prob="0.6"/>
-		<entity name="ZUMADoctorMaleFeral" prob="0.6"/>
-		<entity name="ZUMADoctorFemaleFeral" prob="0.6"/>
-		<entity name="ZUMAChildFemaleFeral" prob="0.6"/>
-		<entity name="ZUMAChildFemaleFeral2" prob="0.6"/>
-		<entity name="ZUMAChildMaleFeral"  prob="0.6"/>
-		<entity name="ZUMAChildMaleFeral2" prob="0.6"/>
-		<entity name="ZUMAChildMaleFeral3" prob="0.6"/>
-		<entity name="ZUMAMaleStripperFeral" prob="0.6"/>
-		<entity name="ZUMABikerFemaleFeral" prob="0.6"/>
+		<entity name="zombieSurgeonMaleFeral" prob="0.6"/>
+		<entity name="zombieSurgeonFemaleFeral" prob="0.6"/>
+		<entity name="zombieLittleGirlFeral" prob="0.6"/>
+		<entity name="zombieTeenGirlFeral2" prob="0.6"/>
+		<entity name="zombieLittleBoyFeral"  prob="0.6"/>
+		<entity name="zombieBikerFemaleFeral" prob="0.6"/>
 		<entity name="zombieWight" prob="0.7"/>
 		<entity name="zombieScreamerRadiated" prob="0.1"/>
 		<entity name="zombieScreamerFeralRadiated" prob="0.05"/>
@@ -250,17 +245,12 @@
 		<entity name="valZombieRaveReaper" prob="0.3"/>
 		<entity name="sanZombieCpl" prob="0.3"/>
 		<entity name="sanZombieBikerChick" prob="0.3"/>
-		<entity name="ZUMABuisnesswoman" />
-		<entity name="ZUMABadGirl" />
-		<entity name="ZUMADoctorMale" />
-		<entity name="ZUMADoctorFemale" />
-		<entity name="ZUMAMaleStripper" prob="0.3" />
-		<entity name="ZUMAChildMale" prob="0.3" />
-		<entity name="ZUMAChildMale2" prob="0.3" />
-		<entity name="ZUMAChildMale3" prob="0.3" />
-		<entity name="ZUMAChildFemale" prob="0.3" />
-		<entity name="ZUMAChildFemale2" prob="0.3" />
-		<entity name="ZUMABikerFemale" prob="0.3"/>
+		<entity name="zombieSurgeonMale" />
+		<entity name="zombieSurgeonFemale" />
+		<entity name="zombieLittleBoy" prob="0.3" />
+		<entity name="zombieLittleGirl" prob="0.3" />
+		<entity name="zombieTeenGirl" prob="0.3" />
+		<entity name="zombieBikerFemale" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="ZombiesExtraBosses">
 		<entity name="sanZombieBanditRaider" prob="0.3"/>
@@ -359,17 +349,12 @@
 		<entity name="sanZombieCannibalMale" prob="0.03"/>
 		<entity name="sanZombieBodyBuilder" prob="0.03"/>
 		<entity name="sanZombieCrazed" prob="0.03"/>
-		<entity name="ZUMABuisnesswoman" />
-		<entity name="ZUMABadGirl" prob="0.3" />
-		<entity name="ZUMADoctorMale" prob="0.3" />
-		<entity name="ZUMADoctorFemale" prob="0.3" />
-		<entity name="ZUMAMaleStripper" prob="0.3" />
-		<entity name="ZUMAChildMale" prob="0.3" />
-		<entity name="ZUMAChildMale2" prob="0.3" />
-		<entity name="ZUMAChildMale3" prob="0.3" />
-		<entity name="ZUMAChildFemale" prob="0.3" />
-		<entity name="ZUMAChildFemale2" prob="0.3" />
-		<entity name="ZUMABikerFemale" prob="0.3"/>
+		<entity name="zombieSurgeonMale" prob="0.3" />
+		<entity name="zombieSurgeonFemale" prob="0.3" />
+		<entity name="zombieLittleBoy" prob="0.3" />
+		<entity name="zombieLittleGirl" prob="0.3" />
+		<entity name="zombieTeenGirl" prob="0.3" />
+		<entity name="zombieBikerFemale" prob="0.3"/>
 		<entity name="GhoulMale" prob="0.2"/>
 		<entity name="GhoulMale2" prob="0.2"/>
 		<entity name="GhoulFemale" prob="0.2"/>
@@ -724,17 +709,12 @@
 		<entity name="sanZombieCannibalFemale"  prob="0.3"/>
 		<entity name="sanZombieEvilGranny"  prob="0.3"/>
 		<entity name="sanZombieVagrant"  prob="0.3"/>
-		<entity name="ZUMABuisnesswoman" />
-		<entity name="ZUMABadGirl" />
-		<entity name="ZUMADoctorMale" />
-		<entity name="ZUMADoctorFemale" />
-		<entity name="ZUMAMaleStripper" prob="0.3" />
-		<entity name="ZUMAChildMale" prob="0.3" />
-		<entity name="ZUMAChildMale2" prob="0.3" />
-		<entity name="ZUMAChildMale3" prob="0.3" />
-		<entity name="ZUMAChildFemale" prob="0.3" />
-		<entity name="ZUMAChildFemale2" prob="0.3" />
-		<entity name="ZUMABikerFemale" prob="0.3"/>
+		<entity name="zombieSurgeonMale" />
+		<entity name="zombieSurgeonFemale" />
+		<entity name="zombieLittleBoy" prob="0.3" />
+		<entity name="zombieLittleGirl" prob="0.3" />
+		<entity name="zombieTeenGirl" prob="0.3" />
+		<entity name="zombieBikerFemale" prob="0.3"/>
 		<entity name="sanZombieHunterSven"  prob="0.3"/>
 		<entity name="sanZombieInfectedLady"  prob="0.3"/>
 		<entity name="sanZombieHunterSven"  prob="0.3"/>
@@ -1077,17 +1057,12 @@
 		<entity name="zombieSpiderFeral"/>
 		<entity name="zombieNurseFeral"/>
 		<entity name="zombieFootballPlayerFeral"/>
-		<entity name="ZUMABuisnesswomanFeral" />
-		<entity name="ZUMABadGirlFeral" />
-		<entity name="ZUMADoctorMaleFeral" />
-		<entity name="ZUMADoctorFemaleFeral" />
-		<entity name="ZUMAChildFemaleFeral" />
-		<entity name="ZUMAChildFemaleFeral2" />
-		<entity name="ZUMAChildMaleFeral" />
-		<entity name="ZUMAChildMaleFeral2" />
-		<entity name="ZUMAChildMaleFeral3" />
-		<entity name="ZUMAMaleStripperFeral" />
-		<entity name="ZUMABikerFemaleFeral" />
+		<entity name="zombieSurgeonMaleFeral" />
+		<entity name="zombieSurgeonFemaleFeral" />
+		<entity name="zombieLittleGirlFeral"/>
+		<entity name="zombieTeenGirlFeral2" />
+		<entity name="zombieLittleBoyFeral" />
+		<entity name="zombieBikerFemaleFeral" />
 	</entitygroup>
 	<entitygroup name="ZombiesCave">
 		<entity name="animalBear" prob="0.1"/>
@@ -1102,7 +1077,7 @@
 		<entity name="animalDireWolf" prob="0.045" />
 		<entity name="animalBear" prob="0.045"/>
 		<entity name="animalWolf" prob="0.65" />
-	</entitygroup>	
+	</entitygroup>
 	<entitygroup name="AnimalsSmall">
 		<entity name="animalRabbit"/>
 		<entity name="animalChicken"/>
@@ -1416,6 +1391,7 @@
 		<entity name="zombieBiker" prob="3"/>
 		<entity name="zombieStripper" prob="4"/>
 		<entity name="sanZombieBikerChick" prob="2"/>
+		<entity name="zombieBikerFemale" prob="2"/>
 		<entity name="zombieUtilityWorker"/>
 		<entity name="zombieFarmer"/>
 		<entity name="zombieSkateboarder"/>
@@ -1503,14 +1479,35 @@
 		<entity name="banditPrisoner12" />
 	</entitygroup>
 	<entitygroup name="scoutGhouls">
-		<entity name="GhoulMale" prob="0.2"/>
-		<entity name="GhoulMale2" prob="0.2"/>
-		<entity name="GhoulFemale" prob="0.2"/>
-		<entity name="GhoulFemale2" prob="0.2"/>
+		<entity name="GhoulMale" />
+		<entity name="GhoulMale2" />
+		<entity name="GhoulFemale" />
+		<entity name="GhoulFemale2" />
 		<entity name="GhoulFemaleScreamer" prob="0.2"/>
-		<entity name="zombieHooker" prob="0.0039"/>	
+		<entity name="zombieHooker" prob="0.0039"/>
 	</entitygroup>
-
+	<entitygroup name="MedicalZombies">
+		<entity name="zombieNurse"/>
+		<entity name="zombieNurseFeral" prob="0.05"/>
+		<entity name="zombieHordeNurseFeral"/>
+		<entity name="zombieSurgeonMale"/>
+		<entity name="zombieSurgeonFemale"/>
+		<entity name="zombieSurgeonMaleFeral" prob="0.05"/>
+		<entity name="zombieSurgeonFemaleFeral" prob="0.05"/>
+	</entitygroup>
+	<entitygroup name="schoolChildren">
+		<entity name="zombieTeenGirlFeral2" prob="0.2"/>
+		<entity name="zombieLittleGirl" />
+		<entity name="zombieLittleGirlFeral" prob="0.2"/>
+		<entity name="zombieTeenGirl" />
+		<entity name="zombieLittleBoy" />
+		<entity name="badZombieOfficeGirl" prob="0.5"/>
+		<entity name="zombieLittleBoyFeral" prob="0.2"/>
+		<entity name="valZombieChildFemale" />
+		<entity name="valZombieChildMale" />
+		<entity name="badZombieBaby" prob="0.2"/>
+		<entity name="badZombieBabyBoomer" prob="0.0039"/>
+	</entitygroup>
 	<!-- https://7daystodie.com/forums/showthread.php?56533-Gamestage-Blood-Moon-Horde-generator -->
 	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  start: auto generated sleeper horde groups  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 	<entitygroup name="sleeperHordeStageGS1">

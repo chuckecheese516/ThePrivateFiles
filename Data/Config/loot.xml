@@ -773,6 +773,8 @@
 		<item name="qc_killingfarmers" count="1" prob="0.7"/>
 		<item name="qc_disposingoftherotters" count="1" prob="0.7"/>
 		<item name="qc_clubkilling" count="1" prob="0.7"/>
+		<item name="qc_thinkofthechildren" count="1" prob="0.7"/>
+		<item name="qc_diagnosiszombie" count="1" prob="0.7"/>
 		<item name="qc_arefreshingdrink" count="1" prob="0.7"/>
 		<item name="qc_brewingsometrouble" count="1" prob="0.7"/>
 		<item name="qc_drowningsorrows" count="1" prob="0.7"/>
@@ -1772,7 +1774,6 @@
 		<item name="orange"/>
 		<item name="lemon"/>
 		<item name="greenPepper"/>
-
 	</lootgroup>
 	<lootgroup name="farmCrops"  loot_quality_template="baseTemplate">
 		<item name="corn" prob="1"/>
@@ -2092,7 +2093,7 @@
 		<item name="woodFrameBlock" count="10,30"/>
 		<item name="rebarFrameBlock" count="10,20"/>
 		<item name="nail" count="10,40"/>
-		<item name="screws" count="10,40"/>		
+		<item name="screws" count="10,40"/>
 		<item name="wood" count="50,250"/>
 		<item name="anvil" count="1"/>
 		<item name="sledgehammer"/>
@@ -3190,7 +3191,7 @@
 		<item name="forgedIron" count="5,10" prob="2"/>
 		<item name="forgedSteel" count="3,7"/>
 		<item name="nail" count="5,15"/>
-		<item name="screws" count="5,15"/>		
+		<item name="screws" count="5,15"/>
 		<item name="wood" count="10,30" prob="2"/>
 		<item name="scrapPlastics" count="1,12"/>
 		<item name="mechanicalParts" count="1,8"/>
@@ -4394,7 +4395,7 @@
 		<item name="mechanicalParts" count="1,3" prob="0.7"/>
 		<item group="clothes" prob="0.7"/>
 		<item group="zombieFood"/>
-		<item group="zombieQuests" count="1" prob="0.05"/>		
+		<item group="zombieQuests" count="1" prob="0.05"/>
 		<item name="compoundBow" prob="0.15"/>
 		<item group="militaryArmor" prob="0.4"/>
 		<item name="ink" count="2,4"/>
@@ -4424,7 +4425,7 @@
 		<item group="ammo" prob="0.8"/>
 		<item group="weaponsBasicGuns+ammo" prob="0.35"/>
 		<item name="antibiotics" prob="0.15"/>
-		<item name="painkillers" prob="0.35"/>		
+		<item name="painkillers" prob="0.35"/>
 		<item name="paper" count="50,150"/>
 		<item name="scrapPlastics" count="5,15"/>
 		<item group="electricalDevices" prob="0.8"/>
@@ -4449,6 +4450,6 @@
 		<item group="shotgunsLoot" count="1" prob="0.5"/>
 		<item group="sniperrifleLoot" count="1" prob="0.1"/>
 		<item group="huntingrifleLoot" count="1" prob="0.3"/>
-		<item group="assaultrifleLoot" count="1" prob="0.4"/>	
+		<item group="assaultrifleLoot" count="1" prob="0.4"/>
 	</lootcontainer>
 </lootcontainers>

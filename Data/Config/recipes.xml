@@ -114,7 +114,7 @@
 	</recipe>
 	<recipe name="restingMat" count="1">
 		<ingredient name="cloth" count="10"/>
-	</recipe>	
+	</recipe>
 	<recipe name="bellows" count="1">
 		<ingredient name="wood" count="6"/>
 		<ingredient name="leather" count="20"/>
@@ -262,9 +262,6 @@
 	<recipe name="plantFiberShoes" count="1">
 		<ingredient name="yuccaFibers" count="5"/>
 	</recipe>
-
-	
-	
 	<recipe name="scrapIronSheet" count="1">
 		<ingredient name="scrapIron" count="40"/>
 	</recipe>
@@ -489,7 +486,6 @@
 	<recipe name="barricade" count="1">
 		<ingredient name="wood" count="5"/>
 	</recipe>
-
 	<!-- Ammo Conversions -->
 	<recipe name="ammoSupply9mm" count="1">
 		<ingredient name="genericAmmoBox" count="1"/>
@@ -1232,7 +1228,6 @@
 	<recipe name="rhwoodSpikesWall" count="1">
 		<ingredient name="wood" count="40"/>
 	</recipe>
-
 	<recipe name="blacksmithsForge" count="1" craft_time="60" >
 		<ingredient name="clayLump" count="150"/>
 		<ingredient name="anvil" count="1"/>
@@ -1671,7 +1666,6 @@
 		<ingredient name="unit_clay" count="2"/>
 	</recipe>
 	<!-- DECORATION STATION	 -->
-
 	<recipe name="doubleDoors01" count="1"  craft_area="decoStation">
 		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="spring" count="2"/>
@@ -2225,7 +2219,6 @@
 		<ingredient name="shortMetalPipe" count="5"/>
 		<ingredient name="plumbingKit" count="1"/>
 	</recipe>
-
 	<recipe name="painting01" count="1" craft_area="decoStation">
 		<ingredient name="woodPlanks" count="8"/>
 		<ingredient name="chrysanthemumPlant" count="1"/>
@@ -2711,7 +2704,6 @@
 		<ingredient name="shortMetalPipe" count="6"/>
 		<ingredient name="electronicParts" count="8"/>
 	</recipe>
-
 	<recipe name="roadRailing" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="15"/>
 	</recipe>
@@ -3232,49 +3224,42 @@
 	<recipe name="dismantleShotgunShells30" count="1" craft_time="5"  craft_area="ammunitionTable" craft_tool="calipers">
 		<ingredient name="shotgunShell" count="30"/>
 	</recipe>
-	
 	<recipe name="dismantlestoneArrow" count="1" craft_time="5"  craft_area="ammunitionTable">
 		<ingredient name="arrow" count="10"/>
 	</recipe>
 	<recipe name="dismantlestoneArrow30" count="1" craft_time="5"  craft_area="ammunitionTable">
 		<ingredient name="arrow" count="30"/>
 	</recipe>
-
 	<recipe name="dismantlestoneBolt" count="1" craft_time="5"  craft_area="ammunitionTable">
 		<ingredient name="stonecrossbowBolt" count="10"/>
 	</recipe>
 	<recipe name="dismantlestoneBolt30" count="1" craft_time="5"  craft_area="ammunitionTable">
 		<ingredient name="stonecrossbowBolt" count="30"/>
 	</recipe>
-
 	<recipe name="dismantleironArrow" count="1" craft_time="5"  craft_area="ammunitionTable">
 		<ingredient name="ironArrow" count="10"/>
 	</recipe>
 	<recipe name="dismantleironArrow30" count="1" craft_time="5"  craft_area="ammunitionTable">
 		<ingredient name="ironArrow" count="30"/>
 	</recipe>
-
 	<recipe name="dismantleironBolt" count="1" craft_time="5"  craft_area="ammunitionTable">
 		<ingredient name="ironCrossbowBolt" count="10"/>
 	</recipe>
 	<recipe name="dismantleironBolt30" count="1" craft_time="5"  craft_area="ammunitionTable">
 		<ingredient name="ironCrossbowBolt" count="30"/>
 	</recipe>
-
 	<recipe name="dismantlesteelArrow" count="1" craft_time="5"  craft_area="ammunitionTable">
 		<ingredient name="steelArrow" count="10"/>
 	</recipe>
 	<recipe name="dismantlesteelArrow30" count="1" craft_time="5"  craft_area="ammunitionTable">
 		<ingredient name="steelArrow" count="30"/>
 	</recipe>
-
 	<recipe name="dismantlesteelBolt" count="1" craft_time="5"  craft_area="ammunitionTable">
 		<ingredient name="steelCrossbowBolt" count="10"/>
 	</recipe>
 	<recipe name="dismantlesteelBolt30" count="1" craft_time="5"  craft_area="ammunitionTable">
 		<ingredient name="steelCrossbowBolt" count="30"/>
 	</recipe>
-
 	<recipe name="rocketGrenade" count="1" craft_time="3"  craft_area="ammunitionTable" craft_tool="toolAndDieSet">
 		<ingredient name="diyRocketTip" count="1"/>
 		<ingredient name="diyRocketCasing" count="1"/>
@@ -3486,7 +3471,6 @@
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="electricParts" count="1"/>
 	</recipe>
-
 	<recipe name="speaker" count="1"  craft_area="advancedWorkbench">
 		<ingredient name="forgedIron" count="4"/>
 		<ingredient name="electricParts" count="3"/>
@@ -3945,7 +3929,6 @@
 		<ingredient name="Twine" count="10"/>
 		<ingredient name="mechanicalParts" count="5"/>
 	</recipe>
-
 	<recipe name="smallEngine" count="1" craft_area="advancedWorkbench">
 		<ingredient name="car_parts" count="75"/>
 		<ingredient name="radiator" count="1"/>
@@ -4179,6 +4162,31 @@
 		<ingredient name="motionsensor" count="1"/>
 		<ingredient name="crossbowRepeater" count="1"/>
 		<ingredient name="mechanicalParts" count="6"/>
+	</recipe>
+	<recipe name="boltAutoTurret" count="1" craft_area="advancedWorkbench">
+		<ingredient name="motionsensor" count="1"/>
+		<ingredient name="crossbowRepeater" count="1"/>
+		<ingredient name="mechanicalParts" count="6"/>
+	</recipe>
+	<recipe name="bikeEngine" count="1" craft_area="advancedWorkbench" craft_tool="socket">
+		<ingredient name="engineBlock" count="1" />
+		<ingredient name="cylinderHead" count="2" />
+		<ingredient name="oilPan" count="1" />
+		<ingredient name="oilPump" count="1" />
+		<ingredient name="engineParts" count="1" />
+	</recipe>
+	<recipe name="ECObikeEngine" count="1" craft_area="advancedWorkbench" craft_tool="socket">
+		<ingredient name="engineBlock" count="1" />
+		<ingredient name="cylinderHead" count="4" />
+		<ingredient name="oilPan" count="1" />
+		<ingredient name="oilPump" count="1" />
+		<ingredient name="engineParts" count="2" />
+	</recipe>
+	<recipe name="engineParts" count="1" craft_area="advancedWorkbench" craft_tool="socket">
+		<ingredient name="crankShaft" count="1" />
+		<ingredient name="piston" count="8" />
+		<ingredient name="sparkPlug" count="8" />
+		<ingredient name="nutsAndBolts" count="50" />
 	</recipe>
 	<!-- DRYING RACK	 -->
 	<recipe name="dryingRack" count="1" craft_time="60">
@@ -5211,6 +5219,16 @@
 		<ingredient name="ink" count="15"/>
 		<ingredient name="paper" count="15"/>
 	</recipe>
+	<recipe name="qc_thinkofthechildren" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
+	<recipe name="qc_diagnosiszombie" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
 	<recipe name="qc_disposingoftherotters" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="15"/>
@@ -6164,7 +6182,6 @@
 		<ingredient name="nail" count="10"/>
 		<ingredient name="woodPlanks" count="20"/>
 	</recipe>
-	
 	<recipe name="cntStorageClothes" count="1" craft_area="carpentryStation">
 		<ingredient name="woodPlanks" count="10"/>
 		<ingredient name="nail" count="10"/>
@@ -6210,9 +6227,13 @@
 		<ingredient name="electricParts" count="5"/>
 		<ingredient name="wood" count="50"/>
 	</recipe>
-	
 	<recipe name="tire" count="1" craft_area="advancedWorkbench">
 		<ingredient name="scrapRubber" count="20" />
+	</recipe>
+	<recipe name="HDMinibikeWheels" count="1" craft_area="advancedWorkbench">
+		<ingredient name="minibikeRim" count="2" />
+		<ingredient name="scrapRubber" count="40" />
+		<ingredient name="forgedSteel" count="15" />
 	</recipe>
 	<recipe name="minibikeWheels" count="1" craft_area="advancedWorkbench">
 		<ingredient name="minibikeRim" count="2" />

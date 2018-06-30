@@ -780,6 +780,8 @@ Patch 4.0f Release Patch Notes          Release Date 06/26/2018
 -Added Ghouls and Prisoners as chances of wandering hordes
 
 
+Patch 4.0g Release Patch Notes          Release Date 06/28/2018
+
 
 -Added Hazmat suit pieces and Trioxin to Weapon Class Rewards
 
@@ -791,48 +793,44 @@ Patch 4.0f Release Patch Notes          Release Date 06/26/2018
 
 -Adjusted Spikey Trap Damages
 
+
+
+
+Patch 4.0 RC  Notes       6/29/2018
+
+
+-Removed a few out of place zombies
+
+-Renamed some zombies
+
+-Added 2 new Pois
+
+-Removed Solar Panel Poi
+
+-Added proper zombies to some pois (medical, bikers etc)
+
+-Added 2 new Quests
+
+-Redid the DLL to clean them up
+
+-Added engine recipe which was missing for some reason
+
+-Reordered items.xml
+
+
+
+
+
+
 KNOWN ISSUES/TO DO
 
--Convert more POIS to hives
-
--Add more quests to classes and streamline some others
 
 -Add more weapons and guns
 
 -Add some immersion models (food etc)
 
--Add more Bandits and Terrors
-
--Rebalance Rad Zone
-
--Fix categories and weights properly (Categories now are not fully done and you may see some missing recipes in things like Ammo/Weapons in Inventory)
-
--Block upgrade paths need a rework to match and make sense
-
--Some paths missing some steps like CTRPlate and Stairs 50
-
 -Rad Suit needs Re testing
 
--New Frame recipes missing icons
-
--Residual redundant recipes from path consolidation
-
 -Localization needs a complete sweep for new stations
-
--Frame Localization
-
--POIs need rebalanced
-
--Feedback on RWG look and feel
-
--Need to add head hitboxes to all custom models
-
--Some new doors hitboxes are half missing
-
--Loot Balancing
-
--All Plants and trees grow at 30 minutes a stage for testing
-
--Butchers Chainsaw has no sound.
 
 -PowerDrill is mis rotated

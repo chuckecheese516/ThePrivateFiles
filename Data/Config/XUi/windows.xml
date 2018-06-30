@@ -35,7 +35,7 @@
 	<window name="RAVENHEARST">
 		<!-- SIRILLION: JAXTELLER718, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
 		<texture name="RAVENHEARST" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\rhhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
-		<label name="SMXServerInfo1" depth="0" size="250,27" text="v4.0F" font_size="20" effect="outline" color="[white]" justify="center" pos="-610,-8" overflow="resizeheight" />
+		<label name="SMXServerInfo1" depth="0" size="250,27" text="v4.0RC" font_size="20" effect="outline" color="[white]" justify="center" pos="-610,-8" overflow="resizeheight" />
 	</window>
 	<!-- <<< LOGO & SERVER INFORMATION <<< -->
 	<!-- >>> UNIT FRAMES >>> -->
@@ -811,7 +811,7 @@
 	<!-- The following section handles: The INGAME MAIN MENU : RAVENHEARST DESIGN -->
 	<window name="RAVENHEARSTingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
 		<texture name="RAVENHEARST" depth="0" size="788,788" texture="@file:Mods\SMX\Textures\Misc\rhmenulogo.png" material="Materials/Transparent Colored" pos="-268,290" />
-		<label name="RAVENHEARSTVersion" pos="190, -5" depth="0" size="250,33" text="Exp v4.0F" font_size="38" effect="outline" color="[white]" justify="center" />
+		<label name="RAVENHEARSTVersion" pos="190, -5" depth="0" size="250,33" text="Exp v4.0RC" font_size="38" effect="outline" color="[white]" justify="center" />
 		<!-- SIRILLION: -->
 		<grid name="buttons" pos="0, -100" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
 			<simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />
