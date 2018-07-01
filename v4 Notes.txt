@@ -817,7 +817,7 @@ Patch 4.0 RC  Notes       6/29/2018
 
 -Reordered items.xml
 
-
+-Fixed broken textures in frames blocks (HUGE thank you to Makabriel for this one)
 
 
 

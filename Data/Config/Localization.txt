@@ -1595,8 +1595,8 @@ potassiumNitratePowder,items,Item,KgNone,Nitrate Powder,Poudre de nitrate,Nitrat
 potassiumNitratePowderDesc,items,Item,KgNone,Hey captain caveman! Nitrate can be used to make gunpowder and cave stalagmites are rich in it.,"Eh, capitaine caverne ! Le nitrate sert à fabriquer de la poudre à canon, et les stalagmites des grottes en sont riches.","Hey, Kapitän Höhlenmensch! Kaliumnitrat kann benutzt werden, um Schießpulver zu machen. Stalagmiten in Höhlen sind reich an Kaliumnitrat.",,"Ey, capitán troglodita! El nitrato se puede utilizar para producir pólvora. Las estalagmitas de las cuevas son ricas en nitrato."
 radiator,items,Item,KgNone,Brass Car Radiator,Radiateur de voiture en laiton,Autokühler aus Messing,,Radiador de coche de latón
 radiatorDesc,items,Item,KgNone,Brass objects can be scrapped into scrap brass in your backpack or smelted in a forge as a core resource.,"Les objets en laiton peuvent être recyclés dans votre sac à dos pour obtenir du laiton recyclé, ou fondus dans la forge pour obtenir une ressource de base.","Gegenstände aus Messing können in deinem Rucksack zerlegt werden, um Messingstücke zu erhalten. Sie können auch in der Schmiede eingeschmolzen werden, um den Rohstoff selbst zu erhalten.",,Los objetos de latón se pueden despedazar para tener chatarra de latón en tu mochila o fundir en la fragua para obtener recursos básicos.
-repairKit,items,Item,KgNone,Repair Kit,Kit de réparation,Reparaturkit,,Kit de reparación
-repairKitDesc,items,Item,KgNone,"Repair kits made from cloth, oil, duct tape and forged iron are used to repair guns, motorized tools, vehicles and more.","Les kits de réparation se fabriquent à partir de tissu, d'essence, de ruban adhésif en toile et de fer forgé. Ils servent à réparer les armes, les outils motorisés, les véhicules et bien d'autres choses.","Reparaturkits aus Stoff, Öl, Klebeband und geschmiedetem Eisen dienen dazu, Waffen, motorisierte Werkzeuge, Fahrzeuge und mehr zu reparieren.",,"Los kits de reparación elaborados a partir de tela, aceite, hierro forjado y cinta de embalar se usan para reparar pistolas, herramientas motorizadas, vehículos, etc."
+repairKit,items,Item,KgNone,Tool Repair Kit,Kit de réparation,Reparaturkit,,Kit de reparación
+repairKitDesc,items,Item,KgNone,"Tool repair kits are used to repair motorized tools, vehicles and more.","Les kits de réparation se fabriquent à partir de tissu, d'essence, de ruban adhésif en toile et de fer forgé. Ils servent à réparer les armes, les outils motorisés, les véhicules et bien d'autres choses.","Reparaturkits aus Stoff, Öl, Klebeband und geschmiedetem Eisen dienen dazu, Waffen, motorisierte Werkzeuge, Fahrzeuge und mehr zu reparieren.",,"Los kits de reparación elaborados a partir de tela, aceite, hierro forjado y cinta de embalar se usan para reparar pistolas, herramientas motorizadas, vehículos, etc."
 rockSmall,items,Item,KgNone,Small Stone,Petite pierre,Kleiner Stein,,Piedra pequeña
 rockSmallDesc,items,Item,KgNone,"Used in many recipes including stone axes, campfires & arrows. Can be thrown to distract zombies & are a core forging resource.\n  [ Crafted in [eaa1a1]Blacksmith's Forge[-]  ]","Composant courant, les petites pierres servent notamment à fabriquer des haches de pierre, des feux de camp et des flèches. Elles peuvent aussi être jetées pour distraire les zombies et représentent une ressource de base pour forger.","Wird in vielen Rezepten benutzt, darunter Steinäxte, Lagerfeuer und Pfeile. Er kann geworfen werden, um Zombies abzulenken, und ist ein Grundrohstoff beim Schmieden.\n [ Herzustellen im [eaa1a1]verbesserten Schmiedeofen[-] ]",,"Se usa en muchas recetas, como hachas de piedra, fogatas o flechas. También se pueden lanzar para distraer a los zombis y son un recurso de forja básico."
 rottingFlesh,items,Item,KgNone,Rotting Flesh,Chair pourrie,Verrottendes Fleisch,,Carne podrida
@@ -7984,6 +7984,7 @@ CZlockpick01,,,,Cheap Lock Pick,,,,
 CZlockpick02,,,,Lock Pick,,,,
 CZlockpick03,,,,Advanced Lock Pick,,,,
 CZlockpick04,,,,Master Lock Pick,,,,
+masterlocksmithDesc,,,,"Picking a lock isn't just a matter of skill, it's also a matter of having the right tools",,,,
 locksmithDesc,,,,"Becoming a Master lockpick will allow you to open doors, safes and chests of all kinds. Use your lock picks to level this skill and become a Master Lock Picker.",,,,
 unlckCommDoor,,,,Door (Unlocked),,,,
 unlckCommDoor2,,,,Door (Unlocked),,,,
@@ -8256,6 +8257,7 @@ woodFramePole,,,,Wood Pole Frame,,
 woodFramePyramid,,,,Wood Pyramid Frame,,
 woodFrameStairs25,,,,Wood Stairs Frame,,
 woodFrameWedgeTip,,,,Wood Wedge Tip Frame,,
+woodFramePlate,,,,Wood Plate Frame,,
 zombieArleneTier1,entityclasses,Entity,New,Zombie Arlene 1st Tier,,
 zombieArleneTier2,entityclasses,Entity,New,Zombie Arlene 2nd Tier,,
 zombieArleneTier3,entityclasses,Entity,New,Zombie Arlene 3rd Tier,,

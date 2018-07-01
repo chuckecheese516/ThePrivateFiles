@@ -2242,7 +2242,7 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Basics,Science"/>
 		<property name="Categories" value="Meals,Sides,Ingredients,Drinks/Stews,Farming,Resources"/>
-		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_hunger,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_hand,ui_game_symbol_resource"/>
+		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_tea,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_hand,ui_game_symbol_resource"/>
 	</block>
 	<block id="310" name="cookingPot">
 		<property name="Material" value="MmetalNoGlue"/>
@@ -13561,7 +13561,7 @@
 		<property name="EconomicValue" value="360"/>
 		<property name="Group" value="Science"/>
 		<property name="Categories" value="Meals,Sides,Ingredients,Drinks/Stews,Farming,Resources,Science,Chemicals"/>
-		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_hunger,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_hand,ui_game_symbol_resource,ui_game_symbol_science,ui_game_symbol_chemistry"/>
+		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_tea,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_hand,ui_game_symbol_resource,ui_game_symbol_science,ui_game_symbol_chemistry"/>
 		<!-- disassemble value 355 -->
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -13597,7 +13597,7 @@
 		<property name="EconomicValue" value="360"/>
 		<property name="Group" value="Science"/>
 		<property name="Categories" value="Meals,Sides,Ingredients,Drinks/Stews,Farming,Resources,Science,Chemicals"/>
-		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_hunger,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_hand,ui_game_symbol_resource,ui_game_symbol_science,ui_game_symbol_chemistry"/>
+		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_tea,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_hand,ui_game_symbol_resource,ui_game_symbol_science,ui_game_symbol_chemistry"/>
 		<!-- disassemble value 355 -->
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -14500,8 +14500,8 @@
 		<property name="DescriptionKey" value="advancedWorkbenchDesc"/>
 		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Science"/>
-		<property name="Categories" value="Tools,Minibike,Weapons,Parts,Resources,Building,Decor/Miscellaneous,Science,Chemicals,Light"/>
-		<property name="Categories_UI" value="ui_game_symbol_tool,ui_game_symbol_minibike,ui_game_symbol_pistol,ui_game_symbol_famasparts,ui_game_symbol_resource,ui_game_symbol_tool,ui_game_symbol_computer,ui_game_symbol_science,ui_game_symbol_chemistry,server_modded"/>
+		<property name="Categories" value="Tools,Minibike,Weapons,Parts,Resources,Building,Decor/Miscellaneous,Science,Light"/>
+		<property name="Categories_UI" value="ui_game_symbol_tool,ui_game_symbol_minibike,ui_game_symbol_pistol,ui_game_symbol_famasparts,ui_game_symbol_resource,ui_game_symbol_tool,ui_game_symbol_computer,ui_game_symbol_science,server_modded"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1633" name="advancedCampfire">
@@ -14523,7 +14523,7 @@
 		</property>
 		<property name="Group" value="Science"/>
 		<property name="Categories" value="Meals,Sides,Ingredients,Drinks/Stews,Resources,Science,Chemicals"/>
-		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_hunger,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_resource,ui_game_symbol_science,ui_game_symbol_chemistry"/>
+		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_tea,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_resource,ui_game_symbol_science,ui_game_symbol_chemistry"/>
 	</block>
 	<block id="1634" name="ResearchDesk">
 		<property name="Extends" value="workbench"/>
@@ -14583,7 +14583,7 @@
 		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Science"/>
 		<property name="Categories" value="Meals,Sides,Ingredients,Farming,Resources,Food/Cooking,Medicine,Science"/>
-		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_hunger,ui_game_symbol_spatula,ui_game_symbol_hand,ui_game_symbol_resource,ui_game_symbol_fork,ui_game_symbol_medical,ui_game_symbol_science"/>
+		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_tea,ui_game_symbol_spatula,ui_game_symbol_hand,ui_game_symbol_resource,ui_game_symbol_fork,ui_game_symbol_medical,ui_game_symbol_science"/>
 	</block>
 	<block id="1680" name="MotorbikeDown">
 		<!-- All 3 motorcycles are free Unity store assets,by Artistic Mechanics -->
@@ -16118,7 +16118,7 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Science"/>
 		<property name="Categories" value="Meals,Sides,Ingredients"/>
-		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_hunger,ui_game_symbol_spatula"/>
+		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_tea,ui_game_symbol_spatula"/>
 		<property name="MultiBlockDim" value="2,1,1"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 	</block>
@@ -16484,7 +16484,7 @@
 		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Science"/>
 		<property name="Categories" value="Meals,Sides,Ingredients,Drinks/Stews,Farming,Resources,Science,Chemicals"/>
-		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_hunger,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_hand,ui_game_symbol_resource,ui_game_symbol_science,ui_game_symbol_chemistry"/>
+		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_tea,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_hand,ui_game_symbol_resource,ui_game_symbol_science,ui_game_symbol_chemistry"/>
 		<!-- disassemble value 355 -->
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -16524,7 +16524,7 @@
 		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Science"/>
 		<property name="Categories" value="Meals,Sides,Ingredients,Drinks/Stews,Farming,Resources,Science,Chemicals"/>
-		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_hunger,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_hand,ui_game_symbol_resource,ui_game_symbol_science,ui_game_symbol_chemistry"/>
+		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_tea,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_hand,ui_game_symbol_resource,ui_game_symbol_science,ui_game_symbol_chemistry"/>
 		<!-- disassemble value 355 -->
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -16564,7 +16564,7 @@
 		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Science"/>
 		<property name="Categories" value="Meals,Sides,Ingredients,Drinks/Stews,Farming,Resources,Science,Chemicals"/>
-		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_hunger,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_hand,ui_game_symbol_resource,ui_game_symbol_science,ui_game_symbol_chemistry"/>
+		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_tea,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_hand,ui_game_symbol_resource,ui_game_symbol_science,ui_game_symbol_chemistry"/>
 		<!-- disassemble value 355 -->
 		<property name="SellableToTrader" value="false"/>
 	</block>
@@ -17155,7 +17155,7 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Science"/>
 		<property name="Categories" value="Meals,Sides,Ingredients,Drinks/Stews,Farming,Resources,Science,Chemicals"/>
-		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_hunger,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_hand,ui_game_symbol_resource,ui_game_symbol_science,ui_game_symbol_chemistry"/>
+		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_tea,ui_game_symbol_spatula,ui_game_symbol_coffee,ui_game_symbol_hand,ui_game_symbol_resource,ui_game_symbol_science,ui_game_symbol_chemistry"/>
 	</block>
 	<block id="1091" name="trapChest">
 		<property name="CustomIcon" value="trapChest"/>
@@ -17385,7 +17385,7 @@
 		<property name="CustomIcon" value="Cop_Generator"/>
 		<property name="DescriptionKey" value="GeneratorCopDesc"/>
 		<property name="MaxFuel" value="4000"/>
-		<property name="SlotItem" value="smallEngine,ECOSmallEngine"/>
+		<property name="SlotItem" value="smallEngine"/>
 		<property name="MultiBlockDim" value="4,2,3"/>
 		<property name="BigDecorationRadius" value="3"/>
 		<property name="IsTerrainDecoration" value="true"/>
@@ -17410,7 +17410,7 @@
 		<property name="OutputPerFuel" value="11250"/>
 		<property name="MaxPower" value="12250"/>
 		<property name="OutputPerStack" value="100"/>
-		<property name="SlotItem" value="smallEngine,ECOSmallEngine"/>
+		<property name="SlotItem" value="smallEngine"/>
 		<property name="Group" value="Science"/>
 		<property name="HeatMapStrength" value="1"/>
 		<property name="HeatMapTime" value="1200"/>
@@ -19207,7 +19207,7 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Science"/>
 		<property name="Categories" value="Meals,Sides"/>
-		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_hunger"/>
+		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_tea"/>
 	</block>
 	<block id="1895" name="bbqGrill02">
 		<property name="Class" value="Campfire"/>
@@ -19244,7 +19244,7 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Science"/>
 		<property name="Categories" value="Meals,Sides"/>
-		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_hunger"/>
+		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_tea"/>
 	</block>
 	<block id="1896" name="bbqGrill03">
 		<property name="Class" value="Campfire"/>
@@ -19281,7 +19281,7 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Science"/>
 		<property name="Categories" value="Meals,Sides"/>
-		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_hunger"/>
+		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_tea"/>
 	</block>
 	<block id="1696" name="Livewell">
 		<property name="Material" value="organic"/>
@@ -19504,7 +19504,7 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Science"/>
 		<property name="Categories" value="Meals,Sides,Drinks/Stews"/>
-		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_hunger,ui_game_symbol_coffee"/>
+		<property name="Categories_UI" value="ui_game_symbol_cookware,ui_game_symbol_tea,ui_game_symbol_coffee"/>
 		<property name="MultiBlockDim" value="2,1,1"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 	</block>
@@ -20422,8 +20422,8 @@
 		<property name="MultiBlockDim" value="5,3,1"/>
 		<property name="PlaceEverywhere" value="true"/>
 		<property name="ImposterExchange" value="imposterCTRPlate" param1="35"/>
-		<property name="OpenSound" value="open_door_metal"/>
-		<property name="CloseSound" value="close_door_metal"/>
+		<property name="OpenSound" value="open_garage_door"/>
+		<property name="CloseSound" value="close_garage_door"/>
 		<property class="RepairItems">
 			<property name="forgedSteel" value="2"/>
 		</property>
@@ -20760,44 +20760,7 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="ItemWeight" value="20" />
 	</block>
-	<block id="1716" name="gothicGate">
-		<property name="CreativeMode" value="Player"/>
-		<property name="Shape" value="ModelEntity"/>
-		<property name="Model" value="#RHDoors?gothicGate"/>
-		<property name="DescriptionKey" value="largeStorageGroupDesc"/>
-		<property name="MultiBlockDim" value="5,4,3"/>
-		<property name="Material" value="stone"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property class="RepairItems">
-			<property name="cement" value="10"/>
-		</property>
-		<drop event="Harvest" name="stick" count="2" tool_category="harvestingTools"/>
-		<drop event="Harvest" name="nail" count="5" tool_category="Disassemble"/>
-		<drop event="Destroy" name="stick" count="2" tool_category="harvestingTools"/>
-		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
-		<property name="EconomicValue" value="6"/>
-		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Doors,Building"/>
-	</block>
-	<block id="1788" name="gothicWall">
-		<property name="CreativeMode" value="Player"/>
-		<property name="Shape" value="ModelEntity"/>
-		<property name="Model" value="#RHDoors?gothicWall"/>
-		<property name="DescriptionKey" value="largeStorageGroupDesc"/>
-		<property name="MultiBlockDim" value="4,4,1"/>
-		<property name="Material" value="stone"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property class="RepairItems">
-			<property name="cement" value="10"/>
-		</property>
-		<drop event="Harvest" name="stick" count="2" tool_category="harvestingTools"/>
-		<drop event="Harvest" name="nail" count="5" tool_category="Disassemble"/>
-		<drop event="Destroy" name="stick" count="2" tool_category="harvestingTools"/>
-		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Group" value="Building"/>
-		<property name="EconomicValue" value="6"/>
-		<property name="SellableToTrader" value="false"/>
-	</block>
+
 	<block id="2039" name="animalTrapEmpty">
 		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
@@ -21264,7 +21227,7 @@
 	</block>
 	<!-- SUPPORT -->
 	<block id="1877" name="woodSupportFrame">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="woodFrameMaster"/>
 		<property name="Group" value="Building"/>
 		<property name="DescriptionKey" value="woodFrameGroupDesc"/>
 		<property name="Material" value="wood_weak"/>
@@ -21611,6 +21574,7 @@
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_frame"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
+		<property name="Texture" value="241"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="woodRamp"/>
 		</property>
@@ -24674,7 +24638,6 @@
 		<property name="CanPickup" value="true"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="pyramid"/>
-		<property name="ImposterDontBlock" value="true"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="woodPyramid"/>
 		</property>
@@ -26101,5 +26064,5 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Basics,Decor/Miscellaneous"/>
 	</block>
-	<!-- ***** Free ID Slots in the Blocks.xml *********    DEX Blocks -  1476 1489 1508 1764 2035	You cannot go further than 2047. -->
+	<!-- ***** Free ID Slots in the Blocks.xml *********    DEX Blocks -  750 1476 1489 1508 1716 1764 1788 2035	You cannot go further than 2047. -->
 </blocks>

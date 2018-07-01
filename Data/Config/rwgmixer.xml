@@ -645,7 +645,7 @@
 			<prefab name="xcostum_Stripmall(by_Guppycur)" max_count="1"/>
 			<prefab name="xcostum_townsquare(by_snake0567)" max_count="1"/>
 			<prefab name="xcostum_Warehouse(by_Illidua)" max_count="1"/>
-			<prefab name="xcostum_pistol_gunshop(by_magoli)" max_count="1"/>
+			<prefab name="xcostum_pistol_gunshop(by_magoli)" max_count="1" prob="0.2"/>
 			<prefab name="ravenhearst_xcostum_McDowell_restaurant(by_LazMan)" max_count="2"/>
 			<prefab name="ravenhearst_xcostum_seafoodshop(by_Guppycur)" max_count="2"/>
 			<prefab name="xcostum_storeset1(by_Guppycur)" max_count="2"/>

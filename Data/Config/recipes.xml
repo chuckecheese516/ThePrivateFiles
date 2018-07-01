@@ -1680,13 +1680,13 @@
 		<ingredient name="mechanicalParts" count="4"/>
 		<ingredient name="doorHinge" count="4"/>
 	</recipe>
-	<recipe name="doubleDoors04" count="1"  craft_area="decoStation">
+<!-- 	<recipe name="doubleDoors04" count="1"  craft_area="decoStation">
 		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="spring" count="4"/>
 		<ingredient name="mechanicalParts" count="4"/>
 		<ingredient name="glassCTRSheet" count="1"/>
 		<ingredient name="doorHinge" count="4"/>
-	</recipe>
+	</recipe> -->
 	<recipe name="survivalDoor01" count="1"  craft_area="decoStation">
 		<ingredient name="woodPlanks" count="5"/>
 		<ingredient name="glassCTRSheet" count="1"/>
@@ -1707,7 +1707,7 @@
 		<ingredient name="doorHinge" count="2"/>
 		<ingredient name="doorKnob" count="1"/>
 	</recipe>
-	<recipe name="metalDoor01" count="1"  craft_area="decoStation">
+<!-- 	<recipe name="metalDoor01" count="1"  craft_area="decoStation">
 		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="spring" count="2"/>
 		<ingredient name="screws" count="4"/>
@@ -1717,7 +1717,7 @@
 		<ingredient name="forgedSteel" count="50"/>
 		<ingredient name="spring" count="8"/>
 		<ingredient name="mechanicalParts" count="15"/>
-	</recipe>
+	</recipe> -->
 	<recipe name="burningbarrelplayer" count="1" craft_time="4"  craft_area="decoStation">
 		<ingredient name="scrapIronPlating" count="1"/>
 		<ingredient name="wood" count="20"/>
@@ -4163,11 +4163,7 @@
 		<ingredient name="crossbowRepeater" count="1"/>
 		<ingredient name="mechanicalParts" count="6"/>
 	</recipe>
-	<recipe name="boltAutoTurret" count="1" craft_area="advancedWorkbench">
-		<ingredient name="motionsensor" count="1"/>
-		<ingredient name="crossbowRepeater" count="1"/>
-		<ingredient name="mechanicalParts" count="6"/>
-	</recipe>
+
 	<recipe name="bikeEngine" count="1" craft_area="advancedWorkbench" craft_tool="socket">
 		<ingredient name="engineBlock" count="1" />
 		<ingredient name="cylinderHead" count="2" />
